@@ -1,0 +1,133 @@
+{
+  "name": "Brisa Lázaro",
+  "title": "Junior QA Engineer",
+  "summary": "Frontend Developer transitioning into QA with Agile experience and hands-on testing across the development cycle. My technical background helps me understand how products are built and communicate issues with precision. My growing QA focus drives me to identify risks, uncover edge cases, and advocate for quality. Currently exploring AI-assisted workflows for test design, exploratory testing, and risk analysis.",
+  "contact": {
+    "email": "brisa.lazaroc@gmail.com",
+    "phone": "+34 648 008 592",
+    "city": "Barcelona",
+    "region": "",
+    "country": "Spain",
+    "linkedin": "https://www.linkedin.com/in/brisa-lazaro/",
+    "github": "",
+    "portfolio": ""
+  },
+  "yearsOfExperience": 2,
+  "skills": {
+    "testing": [
+      "Manual Testing",
+      "Exploratory Testing",
+      "Functional Testing",
+      "Regression Testing",
+      "E2E Testing",
+      "Risk-Based Testing",
+      "API Testing",
+      "Bug Reporting",
+      "UX Validation"
+    ],
+    "tools": [
+      "Cypress",
+      "Postman",
+      "Jira",
+      "Chrome DevTools",
+      "SQL",
+      "Git",
+      "GitHub"
+    ],
+    "development": ["JavaScript", "TypeScript", "React", "Redux", "Jest"],
+    "ai": [
+      "AI-Assisted Testing",
+      "Prompt Engineering for QA",
+      "Risk Analysis with AI",
+      "AI-Based Edge Case Discovery"
+    ]
+  },
+  "experience": [
+    {
+      "role": "Frontend Developer",
+      "company": "Bikup Tech Solutions",
+      "startYear": "2022",
+      "endYear": "2024",
+      "location": "",
+      "highlights": [
+        "Participated in unit testing, E2E testing, 3 Amigos and ETS sessions in Agile teams.",
+        "Used Feature Flags to support safer releases and reduce deployment risks.",
+        "Identified defects and validated functionality throughout development."
+      ],
+      "technologies": [
+        "React",
+        "TypeScript",
+        "JavaScript",
+        "Redux",
+        "Jest",
+        "E2E Testing",
+        "Agile Methodologies"
+      ]
+    },
+    {
+      "role": "Restaurant Manager",
+      "company": "El Pulpo",
+      "startYear": "2017",
+      "endYear": "2021",
+      "location": "",
+      "highlights": [
+        "Coordinated teams and resolved operational issues in fast-paced environments.",
+        "Built skills in attention to detail, communication, and process improvement — now applied to QA."
+      ],
+      "technologies": []
+    }
+  ],
+  "education": [
+    {
+      "title": "QA Engineer",
+      "institution": "Self-Taught",
+      "year": "2025 – Present",
+      "notes": "Focused on software testing, quality assurance practices, test design, risk analysis, and modern QA methodologies."
+    },
+    {
+      "title": "Web Developer",
+      "institution": "42 Barcelona",
+      "year": "",
+      "notes": "Project-based software engineering education focused on problem-solving, collaboration, and technical excellence."
+    },
+    {
+      "title": "Business Administration",
+      "institution": "UPAEP",
+      "year": "",
+      "notes": "Foundation in management, operations, communication, and business processes."
+    }
+  ],
+  "languages": [
+    {
+      "language": "Spanish",
+      "level": "Native"
+    },
+    {
+      "language": "English",
+      "level": "Intermediate (B1)"
+    },
+    {
+      "language": "Catalan",
+      "level": "Beginner"
+    }
+  ],
+  "projects": [
+    {
+      "name": "Self-Learning & Hands-On Practice",
+      "description": "Actively building QA expertise through practical projects, testing communities, and continuous learning (2025 – Present).",
+      "highlights": [
+        "Software Testing courses, exploratory and risk-based testing, API testing.",
+        "Defect reporting, bug investigation, test design and documentation."
+      ]
+    },
+    {
+      "name": "Community Project: Neulygron",
+      "description": "Contributed from a QA perspective to improve product quality and release confidence.",
+      "highlights": [
+        "Exploratory testing, usability and functionality issues, security evaluation.",
+        "Continuous feedback and risk assessment to support release confidence.",
+        "AI-powered workflows for test ideas, edge cases, and requirement analysis."
+      ]
+    }
+  ]
+}

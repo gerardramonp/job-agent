@@ -1,0 +1,54 @@
+# What jobs to search for and how to filter them.
+# Fill in the values. Lists can have as many items as you want.
+
+roles:
+  # Titles that SHOULD match (e.g. "QA Engineer", "Tester", "QA Analyst")
+  include: ["QA Engineer", "QA Analyst", "QA Tester"]
+  # Titles to reject (e.g. "Senior", "Lead", "Manager")
+  exclude: ["Lead", "Senior"]
+
+location:
+  # Countries to search in (e.g. "Spain")
+  countries: ["Spain"]
+  # Cities you accept onsite/hybrid (e.g. "Barcelona")
+  cities: ["Barcelona"]
+  # Accepted work modes: remote | hybrid | onsite
+  workModes: ["Remote", "Hybrid"]
+  # true if you are open to relocating
+  willingToRelocate: false
+
+keywords:
+  # Skills/terms that boost a match (e.g. "Cypress", "Postman", "API testing", "Agile")
+  mustHave:
+    [
+      "Cypress",
+      "Postman",
+      "API testing",
+      "Agile",
+      "Jira",
+      "Risk-Based Testing",
+      "Exploratory Testing",
+      "Manual Testing",
+      "Functional Testing",
+      "Regression Testing",
+      "End-to-End Testing",
+    ]
+  niceToHave: []
+
+company:
+  # Companies or sectors to avoid (e.g. "betting", "unpaid internships")
+  excludeKeywords: []
+
+employment:
+  # Accepted job types: full-time | part-time | internship
+  types: ["Full-Time", "Internship"]
+  # Accepted contracts: permanent | temporary | contractor
+  contracts: ["Permanent"]
+
+application:
+  # Max applications the apply-assist bot prepares per day
+  maxPerDay: 15
+  # Required languages for the job posting (e.g. "es", "en")
+  languagesRequired: ["es", "en"]
+  # Minimum Claude fit score (0-100) for a job to enter the apply queue
+  scoreThreshold: 75
