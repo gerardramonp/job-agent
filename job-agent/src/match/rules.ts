@@ -24,6 +24,51 @@ function detectWorkMode(text: string): string | null {
   return null;
 }
 
+function looksSpanish(text: string): boolean {
+  if (!text.trim()) return false;
+
+  const normalized = text.toLowerCase();
+  const spanishMarkers = [
+    "experiencia",
+    "requisitos",
+    "incorporación",
+    "jornada",
+    "contrato",
+    "salario",
+    "empresa",
+    "candidato",
+    "conocimientos",
+    "imprescindible",
+    "deseable",
+    "trabajo",
+    "equipo",
+    "formación",
+    "años",
+    "buscamos",
+    "ofrecemos",
+    "perfil",
+    "funciones",
+    "vacante",
+    "puesto",
+    "se valorará",
+    "remoto",
+    "híbrido",
+    "presencial",
+    "jornada completa",
+    "contrato indefinido",
+    "quality assurance",
+    "pruebas",
+    "testing",
+  ];
+
+  const markerHits = spanishMarkers.filter((marker) =>
+    normalized.includes(marker),
+  ).length;
+  const hasSpanishChars = /[ñáéíóúü¿¡]/i.test(text);
+
+  return markerHits >= 2 || (markerHits >= 1 && hasSpanishChars);
+}
+
 export function applyRuleFilter(
   job: JobRecord,
   preferences: JobPreferences,
@@ -63,13 +108,27 @@ export function applyRuleFilter(
   const countryMatch = preferences.location.countries.some((country) =>
     locationText.toLowerCase().includes(country.toLowerCase()),
   );
+  const cityMatch = preferences.location.cities.some((city) =>
+    locationText.toLowerCase().includes(city.toLowerCase()),
+  );
   const remoteMatch =
     detectWorkMode(`${job.remote ?? ""} ${locationText}`) === "remote" ||
     locationText.toLowerCase().includes("remote") ||
     locationText.toLowerCase().includes("remoto");
+  const spanishMatch = looksSpanish(haystack);
 
-  if (!countryMatch && !remoteMatch && !preferences.location.willingToRelocate) {
-    return { pass: false, reason: "Location/country does not match preferences" };
+  if (
+    !countryMatch &&
+    !cityMatch &&
+    !remoteMatch &&
+    !spanishMatch &&
+    !preferences.location.willingToRelocate
+  ) {
+    return {
+      pass: false,
+      reason:
+        "Location does not match (not Spain/Barcelona, remote, or Spanish posting)",
+    };
   }
 
   const detectedMode = detectWorkMode(`${job.remote ?? ""} ${locationText}`);

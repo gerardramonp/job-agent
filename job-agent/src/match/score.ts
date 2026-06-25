@@ -6,6 +6,7 @@ import type {
 } from "../config/schemas.js";
 import { requireAnthropicApiKey } from "../config/load.js";
 import type { JobRecord } from "../db/repo.js";
+import { getAnthropicModel } from "../llm/model.js";
 import { applyRuleFilter } from "./rules.js";
 
 export type FitScoreResult = {
@@ -66,7 +67,7 @@ export class JobMatcher {
     }
 
     const response = await this.client.messages.create({
-      model: "claude-sonnet-4-20250514",
+      model: getAnthropicModel(),
       max_tokens: 1024,
       messages: [
         {

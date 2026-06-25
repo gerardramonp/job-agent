@@ -53,23 +53,96 @@ export class JobRepository {
     this.db.exec(CREATE_JOBS_TABLE);
   }
 
-  insertJob(job: NewJobInput): "inserted" | "duplicate" {
+  insertJob(job: NewJobInput): "inserted" | "duplicate" | "updated" {
     const existing = this.db
       .prepare(
-        `SELECT id FROM jobs WHERE source = ? AND external_id = ? OR url = ?`,
+        `SELECT id, description, company, location, remote FROM jobs
+         WHERE (source = ? AND external_id = ?) OR url = ?`,
       )
-      .get(job.source, job.externalId, job.url) as { id: number } | undefined;
+      .get(job.source, job.externalId, job.url) as
+      | {
+          id: number;
+          description: string | null;
+          company: string | null;
+          location: string | null;
+          remote: string | null;
+        }
+      | undefined;
 
-    if (existing) return "duplicate";
+    if (existing) {
+      const needsUpdate =
+        (!existing.description && job.description) ||
+        (!existing.company && job.company) ||
+        (!existing.location && job.location) ||
+        (!existing.remote && job.remote);
+
+      if (needsUpdate) {
+        this.db
+          .prepare(
+            `UPDATE jobs SET
+              description = COALESCE(?, description),
+              company = COALESCE(?, company),
+              location = COALESCE(?, location),
+              remote = COALESCE(?, remote)
+             WHERE id = ?`,
+          )
+          .run(
+            job.description ?? null,
+            job.company ?? null,
+            job.location ?? null,
+            job.remote ?? null,
+            existing.id,
+          );
+        return "updated";
+      }
+
+      return "duplicate";
+    }
 
     const fuzzy = this.db
       .prepare(
-        `SELECT id FROM jobs
+        `SELECT id, description, company, location, remote FROM jobs
          WHERE lower(title) = lower(?) AND lower(company) = lower(?)`,
       )
-      .get(job.title, job.company ?? "") as { id: number } | undefined;
+      .get(job.title, job.company ?? "") as
+      | {
+          id: number;
+          description: string | null;
+          company: string | null;
+          location: string | null;
+          remote: string | null;
+        }
+      | undefined;
 
-    if (fuzzy) return "duplicate";
+    if (fuzzy) {
+      const needsUpdate =
+        (!fuzzy.description && job.description) ||
+        (!fuzzy.company && job.company) ||
+        (!fuzzy.location && job.location) ||
+        (!fuzzy.remote && job.remote);
+
+      if (needsUpdate) {
+        this.db
+          .prepare(
+            `UPDATE jobs SET
+              description = COALESCE(?, description),
+              company = COALESCE(?, company),
+              location = COALESCE(?, location),
+              remote = COALESCE(?, remote)
+             WHERE id = ?`,
+          )
+          .run(
+            job.description ?? null,
+            job.company ?? null,
+            job.location ?? null,
+            job.remote ?? null,
+            fuzzy.id,
+          );
+        return "updated";
+      }
+
+      return "duplicate";
+    }
 
     this.db
       .prepare(

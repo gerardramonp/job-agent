@@ -16,6 +16,7 @@ location:
   workModes: ["Remote", "Hybrid"]
   # true if you are open to relocating
   willingToRelocate: false
+  # Spanish-language postings pass the location filter even without Spain/Barcelona
 
 keywords:
   # Skills/terms that boost a match (e.g. "Cypress", "Postman", "API testing", "Agile")

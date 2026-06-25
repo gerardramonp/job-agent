@@ -50,6 +50,7 @@ program
 
     let inserted = 0;
     let duplicates = 0;
+    let updated = 0;
 
     for (const source of sources) {
       console.log(`Discovering from ${source.name}...`);
@@ -71,13 +72,16 @@ program
           description: job.description,
         });
         if (result === "inserted") inserted += 1;
+        else if (result === "updated") updated += 1;
         else duplicates += 1;
       }
 
       console.log(`  Found ${jobs.length} job(s) from ${source.name}`);
     }
 
-    console.log(`Done. Inserted: ${inserted}, duplicates skipped: ${duplicates}`);
+    console.log(
+      `Done. Inserted: ${inserted}, updated: ${updated}, duplicates skipped: ${duplicates}`,
+    );
     repo.close();
   });
 

@@ -2,6 +2,7 @@ import Anthropic from "@anthropic-ai/sdk";
 import { requireAnthropicApiKey } from "../config/load.js";
 import type { AppConfig } from "../config/schemas.js";
 import type { JobRecord } from "../db/repo.js";
+import { getAnthropicModel } from "./model.js";
 
 export class AnswerDrafter {
   private client: Anthropic;
@@ -12,7 +13,7 @@ export class AnswerDrafter {
 
   async draftCoverLetter(job: JobRecord, config: AppConfig): Promise<string> {
     const response = await this.client.messages.create({
-      model: "claude-sonnet-4-20250514",
+      model: getAnthropicModel(),
       max_tokens: 800,
       messages: [
         {
@@ -53,7 +54,7 @@ ${job.suggested_angle ?? config.answers.coverLetter.shortPitch}`,
     config: AppConfig,
   ): Promise<string> {
     const response = await this.client.messages.create({
-      model: "claude-sonnet-4-20250514",
+      model: getAnthropicModel(),
       max_tokens: 400,
       messages: [
         {
