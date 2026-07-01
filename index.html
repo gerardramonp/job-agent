@@ -437,7 +437,7 @@
     }
     .hero--before .hero-overlap { opacity: 1; transform: translateX(-60px); }
 
-    /* ── Hero risk register ── */
+    /* ── Hero risk matrix ── */
     .hero-risks { align-self: start; }
 
     .risk-card {
@@ -461,46 +461,69 @@
     }
     .risk-card__title::before {
       content: ""; width: 0.55rem; height: 0.55rem; border-radius: 50%;
-      background: var(--danger); transition: background 0.4s ease;
+      background: var(--accent);
     }
-    .hero--after .risk-card__title::before { background: var(--success); }
+    .risk-card__tag {
+      font-size: 0.66rem; font-weight: 700; letter-spacing: 0.04em;
+      padding: 0.2rem 0.55rem; border-radius: 999px;
+      background: var(--card); border: 1px solid var(--border); color: var(--text-muted);
+    }
 
-    .risk-card__count {
-      font-size: 0.68rem; font-weight: 700; padding: 0.22rem 0.6rem; border-radius: 999px;
-      white-space: nowrap;
+    /* Matrix layout: rotated Y axis label + grid */
+    .risk-matrix {
+      display: grid;
+      grid-template-columns: 1.1rem 1fr;
+      align-items: center; gap: 0.5rem;
+      padding: 0.9rem 1rem 1rem;
     }
-    .risk-count-before { background: var(--danger-bg); color: var(--danger); }
-    .risk-count-after { background: var(--success-bg); color: var(--success); }
+    .rm-axis-x {
+      grid-column: 2;
+      font-size: 0.62rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.07em;
+      color: var(--text-soft); text-align: center; margin-bottom: 0.35rem;
+    }
+    .rm-axis-y {
+      grid-column: 1; grid-row: 2;
+      font-size: 0.62rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.07em;
+      color: var(--text-soft);
+      writing-mode: vertical-rl; transform: rotate(180deg); text-align: center;
+      align-self: stretch; justify-self: center; display: flex; align-items: center;
+    }
+    .rm-grid {
+      grid-column: 2; grid-row: 2;
+      display: grid;
+      grid-template-columns: repeat(5, 1fr);
+      gap: 4px;
+    }
+    .rm-h, .rm-rh {
+      font-size: 0.6rem; font-weight: 700; color: var(--text-soft);
+      display: flex; align-items: center; justify-content: center; text-align: center;
+    }
+    .rm-cell {
+      aspect-ratio: 1 / 1;
+      display: flex; align-items: center; justify-content: center;
+      border-radius: 7px;
+      font-size: 0.78rem; font-weight: 700; line-height: 1;
+      color: #fff; cursor: default;
+      transition: transform 0.12s ease, box-shadow 0.12s ease;
+    }
+    .rm-cell:hover { transform: scale(1.08); box-shadow: var(--shadow-md); z-index: 1; }
 
-    .risk-table { width: 100%; border-collapse: collapse; }
-    .risk-table th {
-      text-align: left; font-size: 0.6rem; text-transform: uppercase; letter-spacing: 0.07em;
-      color: var(--text-soft); font-weight: 700; padding: 0.65rem 1rem 0.45rem;
-    }
-    .risk-table th:last-child { text-align: right; }
-    .risk-table td {
-      font-size: 0.82rem; color: var(--text-muted);
-      padding: 0.5rem 1rem; border-top: 1px solid var(--border); vertical-align: middle;
-    }
-    .risk-table td strong { color: var(--text); font-weight: 600; }
-    .risk-table .risk-area { font-size: 0.66rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--text-soft); }
-    .risk-table .risk-status { text-align: right; white-space: nowrap; }
-    .risk-table .severity { display: inline-block; width: auto; margin-top: 0; }
-    .severity--resolved { background: var(--success-bg); color: var(--success); }
+    .rm--vlow    { background: #4fae6b; }
+    .rm--low     { background: #86c34f; color: #1f3d0e; }
+    .rm--med     { background: #f2c744; color: #4a3906; }
+    .rm--high    { background: #ef8f3c; }
+    .rm--vhigh   { background: #e5484d; }
+    .rm--extreme { background: #b0272c; }
 
     .risk-card__foot {
-      font-family: "SF Mono", "Fira Code", "Consolas", monospace;
-      font-size: 0.7rem; font-weight: 600;
+      display: flex; flex-wrap: wrap; gap: 0.4rem 0.75rem;
       padding: 0.7rem 1rem; border-top: 1px solid var(--border); background: var(--card-alt);
     }
-    .risk-card__foot .risk-before { color: var(--danger); }
-    .risk-card__foot .risk-after { color: var(--success); }
-
-    /* Toggle risk states with the hero mode (default = after) */
-    .risk-after, .risk-count-after { display: none; }
-    .risk-before, .risk-count-before { display: inline-block; }
-    .hero--after .risk-before, .hero--after .risk-count-before { display: none; }
-    .hero--after .risk-after, .hero--after .risk-count-after { display: inline-block; }
+    .rm-legend {
+      display: inline-flex; align-items: center; gap: 0.35rem;
+      font-size: 0.65rem; font-weight: 600; color: var(--text-muted);
+    }
+    .rm-legend .dot { width: 0.6rem; height: 0.6rem; border-radius: 3px; flex-shrink: 0; }
 
     @media (min-width: 861px) {
       .hero-inner { display: grid; grid-template-columns: minmax(0, 1fr) 360px; gap: 3rem; align-items: start; }
@@ -769,54 +792,52 @@
 
           </div><!-- /.hero-main -->
 
-          <aside class="hero-risks" aria-label="Risk register">
+          <aside class="hero-risks" aria-label="5 by 5 risk matrix">
             <div class="risk-card">
               <div class="risk-card__head">
-                <span class="risk-card__title">risk-register.log</span>
-                <span class="risk-card__count risk-count-before">4 open</span>
-                <span class="risk-card__count risk-count-after">0 open</span>
+                <span class="risk-card__title">risk-matrix</span>
+                <span class="risk-card__tag">5 × 5</span>
               </div>
-              <table class="risk-table">
-                <thead>
-                  <tr>
-                    <th scope="col">Risk</th>
-                    <th scope="col">Status</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <td><span class="risk-area">Checkout</span><br><strong>Payment double-charge</strong></td>
-                    <td class="risk-status">
-                      <span class="severity severity--critical risk-before">Critical</span>
-                      <span class="severity severity--resolved risk-after">Fixed</span>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td><span class="risk-area">Auth</span><br><strong>Session never expires</strong></td>
-                    <td class="risk-status">
-                      <span class="severity severity--high risk-before">High</span>
-                      <span class="severity severity--resolved risk-after">Fixed</span>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td><span class="risk-area">Signup</span><br><strong>No input validation</strong></td>
-                    <td class="risk-status">
-                      <span class="severity severity--medium risk-before">Medium</span>
-                      <span class="severity severity--resolved risk-after">Fixed</span>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td><span class="risk-area">Mobile</span><br><strong>Layout overflow</strong></td>
-                    <td class="risk-status">
-                      <span class="severity severity--low risk-before">Low</span>
-                      <span class="severity severity--resolved risk-after">Fixed</span>
-                    </td>
-                  </tr>
-                </tbody>
-              </table>
+              <div class="risk-matrix">
+                <div class="rm-axis-x">Impact →</div>
+                <div class="rm-axis-y">Probability →</div>
+                <div class="rm-grid" role="img" aria-label="5 by 5 probability and impact risk matrix">
+                  <div class="rm-cell rm--med"     title="Almost Certain × Insignificant — Medium">5</div>
+                  <div class="rm-cell rm--high"    title="Almost Certain × Minor — High">10</div>
+                  <div class="rm-cell rm--vhigh"   title="Almost Certain × Significant — Very high">15</div>
+                  <div class="rm-cell rm--extreme" title="Almost Certain × Major — Extreme">20</div>
+                  <div class="rm-cell rm--extreme" title="Almost Certain × Severe — Extreme">25</div>
+
+                  <div class="rm-cell rm--med"     title="Likely × Insignificant — Medium">4</div>
+                  <div class="rm-cell rm--med"     title="Likely × Minor — Medium">8</div>
+                  <div class="rm-cell rm--high"    title="Likely × Significant — High">12</div>
+                  <div class="rm-cell rm--vhigh"   title="Likely × Major — Very high">16</div>
+                  <div class="rm-cell rm--extreme" title="Likely × Severe — Extreme">20</div>
+
+                  <div class="rm-cell rm--low"     title="Moderate × Insignificant — Low">3</div>
+                  <div class="rm-cell rm--med"     title="Moderate × Minor — Medium">6</div>
+                  <div class="rm-cell rm--med"     title="Moderate × Significant — Medium">9</div>
+                  <div class="rm-cell rm--high"    title="Moderate × Major — High">12</div>
+                  <div class="rm-cell rm--vhigh"   title="Moderate × Severe — Very high">15</div>
+
+                  <div class="rm-cell rm--vlow"    title="Unlikely × Insignificant — Very low">2</div>
+                  <div class="rm-cell rm--low"     title="Unlikely × Minor — Low">4</div>
+                  <div class="rm-cell rm--med"     title="Unlikely × Significant — Medium">6</div>
+                  <div class="rm-cell rm--med"     title="Unlikely × Major — Medium">8</div>
+                  <div class="rm-cell rm--high"    title="Unlikely × Severe — High">10</div>
+
+                  <div class="rm-cell rm--vlow"    title="Rare × Insignificant — Very low">1</div>
+                  <div class="rm-cell rm--vlow"    title="Rare × Minor — Very low">2</div>
+                  <div class="rm-cell rm--low"     title="Rare × Significant — Low">3</div>
+                  <div class="rm-cell rm--med"     title="Rare × Major — Medium">4</div>
+                  <div class="rm-cell rm--med"     title="Rare × Severe — Medium">5</div>
+                </div>
+              </div>
               <div class="risk-card__foot">
-                <span class="risk-before">⚠ 4 risks awaiting QA</span>
-                <span class="risk-after">✓ All risks mitigated</span>
+                <span class="rm-legend"><span class="dot rm--low"></span> Low</span>
+                <span class="rm-legend"><span class="dot rm--med"></span> Medium</span>
+                <span class="rm-legend"><span class="dot rm--high"></span> High</span>
+                <span class="rm-legend"><span class="dot rm--extreme"></span> Extreme</span>
               </div>
             </div>
           </aside>
