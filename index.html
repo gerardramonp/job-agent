@@ -21,6 +21,10 @@
   <meta name="twitter:description" content="Junior QA Engineer with a frontend background. Portfolio of projects and bugs found.">
   <meta name="twitter:image" content="https://gerardramonp.github.io/job-agent/og-image.png">
 
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -40,25 +44,28 @@
 
   <style>
     :root {
-      --text: #1a1a1a;
-      --text-muted: #555;
-      --accent: #2c5282;
-      --accent-dark: #1e3a5f;
-      --border: #e2e8f0;
-      --bg: #f8fafc;
+      --text: #18181b;
+      --text-muted: #6b6b72;
+      --text-soft: #9a9aa2;
+      --accent: #d6336c;
+      --accent-dark: #b02a5b;
+      --border: #e9e8e4;
+      --bg: #f4f3f0;
       --card: #ffffff;
-      --success: #276749;
-      --success-bg: #f0fff4;
-      --danger: #c53030;
-      --danger-bg: #fff5f5;
-      --warning: #c05621;
-      --warning-bg: #fffaf0;
-      --info: #2b6cb0;
-      --info-bg: #ebf8ff;
-      --radius: 8px;
-      --shadow: 0 1px 3px rgba(0, 0, 0, 0.06);
-      --shadow-lg: 0 4px 20px rgba(0, 0, 0, 0.08);
-      --nav-h: 3.5rem;
+      --card-alt: #fafaf8;
+      --success: #16a34a;
+      --success-bg: #ecfdf3;
+      --danger: #e5484d;
+      --danger-bg: #fff0f0;
+      --warning: #d97706;
+      --warning-bg: #fff7ed;
+      --info: #2563eb;
+      --info-bg: #eef4ff;
+      --radius: 20px;
+      --radius-lg: 28px;
+      --shadow: 0 1px 2px rgba(24, 24, 27, 0.04);
+      --shadow-md: 0 6px 24px rgba(24, 24, 27, 0.06);
+      --nav-h: 4rem;
     }
 
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
@@ -78,21 +85,22 @@
     }
 
     body {
-      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+      font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
       font-size: 16px;
       line-height: 1.6;
       color: var(--text);
       background: var(--bg);
       -webkit-font-smoothing: antialiased;
+      letter-spacing: -0.01em;
     }
 
     a { color: var(--accent); }
     a:hover { color: var(--accent-dark); }
 
     .container {
-      max-width: 960px;
+      max-width: 1080px;
       margin: 0 auto;
-      padding: 0 1.25rem;
+      padding: 0 1.5rem;
     }
 
     /* ── Nav ── */
@@ -103,10 +111,13 @@
       height: var(--nav-h);
       display: flex;
       align-items: center;
-      background: rgba(248, 250, 252, 0.92);
-      backdrop-filter: blur(10px);
-      border-bottom: 1px solid var(--border);
+      background: rgba(244, 243, 240, 0.8);
+      backdrop-filter: blur(12px);
+      border-bottom: 1px solid transparent;
+      transition: border-color 0.2s;
     }
+
+    .nav.scrolled { border-bottom-color: var(--border); }
 
     .nav .container {
       display: flex;
@@ -116,6 +127,9 @@
     }
 
     .nav-logo {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
       font-weight: 700;
       font-size: 1rem;
       color: var(--text);
@@ -123,181 +137,253 @@
       letter-spacing: -0.02em;
     }
 
-    .nav-logo:hover { color: var(--accent); }
+    .nav-logo .dot {
+      width: 0.6rem;
+      height: 0.6rem;
+      border-radius: 50%;
+      background: var(--accent);
+    }
 
     .nav-links {
       display: flex;
       align-items: center;
-      gap: 1.25rem;
+      gap: 1.75rem;
       list-style: none;
     }
 
     .nav-links a:not(.btn) {
-      font-size: 0.875rem;
+      font-size: 0.9rem;
+      font-weight: 500;
       color: var(--text-muted);
       text-decoration: none;
       transition: color 0.15s;
     }
 
-    .nav-links a:not(.btn):hover { color: var(--accent); }
+    .nav-links a:not(.btn):hover { color: var(--text); }
 
     .btn {
       display: inline-flex;
       align-items: center;
-      gap: 0.35rem;
+      justify-content: center;
+      gap: 0.4rem;
       font: inherit;
-      font-size: 0.875rem;
-      font-weight: 500;
+      font-size: 0.9rem;
+      font-weight: 600;
       text-decoration: none;
-      border-radius: 6px;
-      padding: 0.5rem 1.1rem;
+      border-radius: 999px;
+      padding: 0.6rem 1.3rem;
       cursor: pointer;
-      border: none;
-      transition: background 0.15s, transform 0.15s, box-shadow 0.15s;
+      border: 1px solid transparent;
+      transition: background 0.18s, transform 0.18s, box-shadow 0.18s, border-color 0.18s, color 0.18s;
     }
 
-    .btn-primary {
-      color: #fff;
-      background: var(--accent);
-    }
+    .btn-primary { color: #fff; background: var(--text); }
+    .btn-primary:hover { color: #fff; transform: translateY(-1px); box-shadow: 0 6px 18px rgba(24,24,27,0.18); }
 
-    .btn-primary:hover {
-      background: var(--accent-dark);
-      color: #fff;
-    }
+    .btn-accent { color: #fff; background: var(--accent); }
+    .btn-accent:hover { color: #fff; background: var(--accent-dark); transform: translateY(-1px); }
 
     .btn-outline {
-      color: var(--accent);
-      background: transparent;
-      border: 1px solid var(--accent);
+      color: var(--text);
+      background: var(--card);
+      border-color: var(--border);
     }
-
-    .btn-outline:hover {
-      background: var(--accent);
-      color: #fff;
-    }
+    .btn-outline:hover { color: var(--text); border-color: var(--text-soft); transform: translateY(-1px); }
 
     .btn-bug {
-      color: #fff;
-      background: #e53e3e;
-      font-size: 0.8rem;
+      color: var(--danger);
+      background: var(--danger-bg);
+      border-color: #f6cdcd;
+      font-size: 0.85rem;
     }
-
-    .btn-bug:hover {
-      background: #c53030;
-      color: #fff;
-    }
+    .btn-bug:hover { color: #fff; background: var(--danger); border-color: var(--danger); }
 
     .nav-toggle {
       display: none;
-      background: none;
-      border: none;
-      font-size: 1.4rem;
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 50%;
+      width: 2.5rem;
+      height: 2.5rem;
+      font-size: 1.1rem;
       cursor: pointer;
       color: var(--text);
-      padding: 0.25rem;
     }
 
     /* ── Sections ── */
-    section {
-      padding: 4rem 0;
-    }
-
-    section:nth-child(even) {
-      background: var(--card);
-      border-top: 1px solid var(--border);
-      border-bottom: 1px solid var(--border);
-    }
+    section { padding: 4rem 0; }
 
     .section-title {
-      font-size: 0.7rem;
-      font-weight: 700;
+      font-size: 0.78rem;
+      font-weight: 600;
       text-transform: uppercase;
-      letter-spacing: 0.1em;
+      letter-spacing: 0.08em;
       color: var(--accent);
-      margin-bottom: 1.5rem;
+      margin-bottom: 0.75rem;
     }
 
     .section-heading {
-      font-size: 1.75rem;
+      font-size: 1.65rem;
       font-weight: 700;
-      letter-spacing: -0.02em;
-      margin-bottom: 1.5rem;
+      letter-spacing: -0.03em;
+      margin-bottom: 1.75rem;
+    }
+
+    /* ── Card ── */
+    .card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      box-shadow: var(--shadow);
     }
 
     /* ── Reveal animation ── */
     .reveal {
       opacity: 0;
-      transform: translateY(20px);
+      transform: translateY(18px);
       transition: opacity 0.6s ease, transform 0.6s ease;
     }
-
-    .reveal.visible {
-      opacity: 1;
-      transform: translateY(0);
-    }
+    .reveal.visible { opacity: 1; transform: translateY(0); }
 
     /* ── Hero ── */
-    .hero {
-      padding: 5rem 0 4rem;
-      background: linear-gradient(160deg, #edf2f7 0%, var(--bg) 60%);
-      position: relative;
-      overflow: hidden;
+    .hero { padding: 4.5rem 0 3.5rem; }
+
+    .hero-inner { position: relative; transition: all 0.4s ease; }
+
+    .status-pill {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      font-size: 0.85rem;
+      font-weight: 600;
+      color: var(--text);
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 999px;
+      padding: 0.4rem 0.9rem;
+      margin-bottom: 1.5rem;
+      box-shadow: var(--shadow);
     }
 
-    .hero-inner {
+    .status-pill .live-dot {
       position: relative;
-      transition: all 0.4s ease;
+      width: 0.55rem;
+      height: 0.55rem;
+      border-radius: 50%;
+      background: var(--success);
+    }
+    .status-pill .live-dot::after {
+      content: "";
+      position: absolute;
+      inset: -4px;
+      border-radius: 50%;
+      background: var(--success);
+      opacity: 0.35;
+      animation: pulse 2s ease-out infinite;
+    }
+    @keyframes pulse {
+      0% { transform: scale(0.6); opacity: 0.5; }
+      100% { transform: scale(1.6); opacity: 0; }
     }
 
     .hero h1 {
-      font-size: clamp(2rem, 5vw, 3rem);
+      font-size: clamp(2.4rem, 6vw, 4rem);
       font-weight: 800;
-      letter-spacing: -0.03em;
-      line-height: 1.15;
-      margin-bottom: 0.5rem;
+      letter-spacing: -0.04em;
+      line-height: 1.08;
+      margin-bottom: 0.35rem;
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 0.5rem 0.75rem;
       transition: letter-spacing 0.4s ease, color 0.4s ease;
     }
 
+    .hero h1 .avatar {
+      position: relative;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 1em;
+      height: 1em;
+      border-radius: 50%;
+      background: linear-gradient(135deg, var(--accent), #ff9ec4);
+      color: #fff;
+      font-size: 0.62em;
+      font-weight: 700;
+      letter-spacing: 0;
+      flex-shrink: 0;
+      overflow: hidden;
+      box-shadow: 0 4px 14px rgba(214, 51, 108, 0.3);
+    }
+    .hero h1 .avatar .avatar-initials { position: relative; z-index: 0; }
+    .hero h1 .avatar .avatar-photo {
+      position: absolute; inset: 0; width: 100%; height: 100%;
+      object-fit: cover; border-radius: 50%; z-index: 1;
+    }
+    .hero h1 .avatar .avatar-photo.is-missing { display: none; }
+    .hero h1 .avatar .avatar-broken {
+      position: absolute; inset: 0; width: 100%; height: 100%;
+      object-fit: contain; display: none; z-index: 2;
+    }
+    /* Before QA: the avatar itself is a broken image */
+    .hero--before h1 .avatar {
+      background: var(--danger-bg);
+      border: 1px dashed var(--danger);
+      box-shadow: none;
+      overflow: visible;
+    }
+    .hero--before h1 .avatar .avatar-initials,
+    .hero--before h1 .avatar .avatar-photo { display: none; }
+    .hero--before h1 .avatar .avatar-broken { display: block; }
+
+    .hero h1 .accent { color: var(--accent); }
+
     .hero .subtitle {
-      font-size: 1.15rem;
-      font-weight: 500;
-      color: var(--accent);
-      margin-bottom: 1rem;
+      font-size: clamp(1.5rem, 3.5vw, 2.1rem);
+      font-weight: 700;
+      letter-spacing: -0.03em;
+      color: var(--text-soft);
+      margin-bottom: 1.5rem;
       transition: color 0.4s ease;
     }
+    .hero .subtitle strong { color: var(--text); font-weight: 800; }
 
     .hero .pitch {
-      font-size: 1.05rem;
+      position: relative;
+      font-size: 1.1rem;
       color: var(--text-muted);
-      max-width: 540px;
-      margin-bottom: 1.5rem;
+      max-width: 560px;
+      margin-bottom: 1.75rem;
       transition: color 0.4s ease, opacity 0.4s ease;
     }
 
-    .hero .pitch .typo-text::after {
-      content: "lorem ipsun dolor sit amet.";
-      transition: content 0.3s;
-    }
-
-    .hero--after .pitch .typo-text::after {
-      content: "I find bugs before your users do.";
-    }
+    .hero .pitch .typo-text::after { content: "lorem ipsun dolor sit amet."; }
+    .hero--after .pitch .typo-text::after { content: "I find bugs before your users do."; }
 
     .hero-contacts {
       display: flex;
       flex-wrap: wrap;
-      gap: 0.5rem 1.25rem;
-      font-size: 0.875rem;
+      gap: 0.5rem;
+      font-size: 0.85rem;
       margin-bottom: 1.75rem;
       transition: opacity 0.4s ease;
     }
 
     .hero-contacts a {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.4rem;
       text-decoration: none;
+      font-weight: 500;
+      color: var(--text-muted);
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 999px;
+      padding: 0.35rem 0.85rem;
+      transition: color 0.15s, border-color 0.15s;
     }
-
-    .hero-contacts a:hover { text-decoration: underline; }
+    .hero-contacts a:hover { color: var(--text); border-color: var(--text-soft); }
 
     .hero-actions {
       display: flex;
@@ -305,29 +391,13 @@
       gap: 0.75rem;
       align-items: center;
       position: relative;
-      transition: all 0.4s ease;
     }
 
-    .hero-actions .btn-cta {
-      transition: transform 0.4s ease, margin 0.4s ease;
-    }
-
-    .hero--before .hero-actions .btn-cta {
-      transform: rotate(-3deg) translateY(6px);
-      margin-left: 12px;
-    }
-
-    .hero--before .hero-contacts {
-      opacity: 0.35;
-    }
-
-    .hero--before .pitch {
-      color: #aaa;
-    }
-
-    .hero--before .hero h1 {
-      letter-spacing: 0.08em;
-    }
+    .hero-actions .btn-cta { transition: transform 0.4s ease, margin 0.4s ease; }
+    .hero--before .hero-actions .btn-cta { transform: rotate(-3deg) translateY(6px); margin-left: 12px; }
+    .hero--before .hero-contacts { opacity: 0.35; }
+    .hero--before .pitch { color: #c2c2c8; }
+    .hero--before h1 { letter-spacing: 0.04em; }
 
     /* QA toggle */
     .qa-toggle {
@@ -338,134 +408,252 @@
       background: var(--card);
       box-shadow: var(--shadow);
       margin-bottom: 1.5rem;
+      padding: 0.2rem;
+      gap: 0.2rem;
     }
 
     .qa-toggle button {
       font: inherit;
-      font-size: 0.8rem;
-      font-weight: 500;
+      font-size: 0.82rem;
+      font-weight: 600;
       padding: 0.4rem 0.9rem;
       border: none;
+      border-radius: 999px;
       background: transparent;
       cursor: pointer;
       color: var(--text-muted);
       transition: background 0.2s, color 0.2s;
     }
 
-    .qa-toggle button.active {
-      background: var(--accent);
-      color: #fff;
-    }
-
-    .qa-toggle button[data-mode="before"].active {
-      background: var(--danger);
-    }
+    .qa-toggle button.active { background: var(--text); color: #fff; }
+    .qa-toggle button[data-mode="before"].active { background: var(--danger); color: #fff; }
 
     /* Bug banners */
     .bug-banner {
       display: none;
       font-family: "SF Mono", "Fira Code", "Consolas", monospace;
       font-size: 0.78rem;
-      padding: 0.5rem 0.85rem;
-      border-radius: 6px;
+      padding: 0.55rem 0.9rem;
+      border-radius: 12px;
       margin-bottom: 1rem;
-      max-width: 400px;
-      transition: opacity 0.4s ease;
+      max-width: 420px;
     }
-
-    .bug-banner--error {
-      background: var(--danger-bg);
-      color: var(--danger);
-      border: 1px solid #feb2b2;
-    }
-
-    .bug-banner--success {
-      background: var(--success-bg);
-      color: var(--success);
-      border: 1px solid #9ae6b4;
-    }
-
+    .bug-banner--error { background: var(--danger-bg); color: var(--danger); border: 1px solid #f6cdcd; }
+    .bug-banner--success { background: var(--success-bg); color: var(--success); border: 1px solid #b7e9c9; }
     .hero--before .bug-banner--error { display: block; }
     .hero--after .bug-banner--success { display: block; }
 
-    /* Broken image easter egg */
-    .hero-broken-img {
-      position: absolute;
-      right: 0;
-      top: 0;
-      width: 80px;
-      height: 80px;
-      opacity: 0;
-      transition: opacity 0.4s ease, transform 0.4s ease;
-      pointer-events: none;
-    }
-
-    .hero--before .hero-broken-img {
-      opacity: 1;
-      transform: rotate(12deg) translate(-20px, 30px);
-    }
-
-    /* Overlap element */
+    /* Overlap element — sits on top of the placeholder pitch text */
     .hero-overlap {
-      position: absolute;
-      right: 10%;
-      top: 40%;
-      background: #fed7d7;
-      color: var(--danger);
-      font-size: 0.7rem;
-      font-weight: 600;
-      padding: 0.25rem 0.6rem;
-      border-radius: 4px;
-      opacity: 0;
-      transform: translateX(0);
-      transition: opacity 0.4s ease, transform 0.4s ease;
-      pointer-events: none;
-      white-space: nowrap;
+      position: absolute; left: -0.4rem; top: 50%;
+      transform: translateY(-50%) rotate(-4deg);
+      background: var(--danger-bg); color: var(--danger);
+      border: 1px solid #f6cdcd;
+      font-family: "SF Mono", "Fira Code", "Consolas", monospace;
+      font-size: 0.7rem; font-weight: 700; padding: 0.25rem 0.6rem; border-radius: 6px;
+      opacity: 0; transition: opacity 0.4s ease;
+      pointer-events: none; white-space: nowrap;
+    }
+    .hero--before .hero-overlap { opacity: 1; }
+
+    /* ── Hero risk matrix ── */
+    .hero-risks { align-self: start; }
+
+    .risk-card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      box-shadow: var(--shadow-md);
+      overflow: visible;
     }
 
-    .hero--before .hero-overlap {
-      opacity: 1;
-      transform: translateX(-60px);
+    .risk-card__head {
+      display: flex; align-items: center; justify-content: space-between; gap: 0.75rem;
+      padding: 0.8rem 1rem;
+      background: var(--card-alt);
+      border-bottom: 1px solid var(--border);
+      border-radius: var(--radius) var(--radius) 0 0;
+    }
+    .risk-card__title {
+      font-family: "SF Mono", "Fira Code", "Consolas", monospace;
+      font-size: 0.78rem; font-weight: 700; color: var(--text);
+      display: inline-flex; align-items: center; gap: 0.5rem;
+    }
+    .risk-card__title::before {
+      content: ""; width: 0.55rem; height: 0.55rem; border-radius: 50%;
+      background: var(--accent); transition: background 0.3s ease;
+    }
+    .hero--before .risk-card__title::before { background: var(--danger); }
+    .hero--after .risk-card__title::before { background: var(--success); }
+    .risk-card__tag {
+      font-size: 0.66rem; font-weight: 700; letter-spacing: 0.04em;
+      padding: 0.2rem 0.55rem; border-radius: 999px;
+      background: var(--card); border: 1px solid var(--border); color: var(--text-muted);
+    }
+    /* Bug-count tag toggles with the hero mode (default = after) */
+    .rm-count-before, .rm-count-after { display: none; }
+    .hero--before .rm-count-before { display: inline-block; }
+    .hero--after .rm-count-after { display: inline-block; }
+    .rm-count-before { background: var(--danger-bg); color: var(--danger); border-color: #f6cdcd; }
+    .rm-count-after { background: var(--success-bg); color: var(--success); border-color: #b7e9c9; }
+
+    /* Matrix layout: rotated Y axis label + grid */
+    .risk-matrix {
+      display: grid;
+      grid-template-columns: 1.1rem 1fr;
+      align-items: center; gap: 0.5rem;
+      padding: 0.9rem 1rem 1rem;
+    }
+    .rm-axis-x {
+      grid-column: 2;
+      font-size: 0.62rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.07em;
+      color: var(--text-soft); text-align: center; margin-bottom: 0.35rem;
+    }
+    .rm-axis-y {
+      grid-column: 1; grid-row: 2;
+      font-size: 0.62rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.07em;
+      color: var(--text-soft);
+      writing-mode: vertical-rl; transform: rotate(180deg); text-align: center;
+      align-self: stretch; justify-self: center; display: flex; align-items: center;
+    }
+    .rm-grid {
+      grid-column: 2; grid-row: 2;
+      display: grid;
+      grid-template-columns: repeat(5, 1fr);
+      gap: 4px;
+    }
+    .rm-h, .rm-rh {
+      font-size: 0.6rem; font-weight: 700; color: var(--text-soft);
+      display: flex; align-items: center; justify-content: center; text-align: center;
+    }
+    .rm-cell {
+      position: relative;
+      aspect-ratio: 1 / 1;
+      display: flex; align-items: center; justify-content: center;
+      border-radius: 7px;
+      font-size: 0.78rem; font-weight: 700; line-height: 1;
+      color: #fff; cursor: default;
+      transition: transform 0.12s ease, box-shadow 0.12s ease;
+    }
+    .rm-cell:hover, .rm-cell:focus-within { transform: scale(1.08); box-shadow: var(--shadow-md); z-index: 20; }
+
+    /* Numbered bug markers — only in Before QA mode */
+    .rm-bug {
+      position: absolute; top: 3px; right: 3px;
+      width: 1.05rem; height: 1.05rem; border-radius: 50%;
+      background: var(--text); color: #fff;
+      border: 2px solid var(--card);
+      display: none; align-items: center; justify-content: center;
+      font-size: 0.6rem; font-weight: 800; line-height: 1;
+      font-family: "SF Mono", "Fira Code", "Consolas", monospace;
+      cursor: help; z-index: 4;
+      box-shadow: 0 2px 6px rgba(24, 24, 27, 0.3);
+    }
+    .hero--before .rm-bug { display: inline-flex; }
+    .rm-bug:hover, .rm-bug:focus-visible { transform: scale(1.15); outline: none; }
+
+    .rm-tip {
+      position: absolute; bottom: calc(100% + 9px); left: 50%;
+      transform: translateX(-50%) translateY(4px);
+      background: var(--text); color: #fff;
+      font-size: 0.68rem; font-weight: 600; line-height: 1.3;
+      padding: 0.4rem 0.6rem; border-radius: 8px;
+      width: max-content; max-width: 170px; text-align: center;
+      opacity: 0; pointer-events: none; z-index: 30;
+      transition: opacity 0.15s ease, transform 0.15s ease;
+      box-shadow: var(--shadow-md);
+    }
+    .rm-tip::after {
+      content: ""; position: absolute; top: 100%; left: 50%; transform: translateX(-50%);
+      border: 5px solid transparent; border-top-color: var(--text);
+    }
+    .rm-bug:hover .rm-tip, .rm-bug:focus .rm-tip { opacity: 1; transform: translateX(-50%) translateY(0); }
+
+    .rm--vlow    { background: #4fae6b; }
+    .rm--low     { background: #86c34f; color: #1f3d0e; }
+    .rm--med     { background: #f2c744; color: #4a3906; }
+    .rm--high    { background: #ef8f3c; }
+    .rm--vhigh   { background: #e5484d; }
+    .rm--extreme { background: #b0272c; }
+
+    .risk-card__foot {
+      display: flex; flex-wrap: wrap; gap: 0.4rem 0.75rem;
+      padding: 0.7rem 1rem; border-top: 1px solid var(--border); background: var(--card-alt);
+      border-radius: 0 0 var(--radius) var(--radius);
+    }
+    .rm-legend {
+      display: inline-flex; align-items: center; gap: 0.35rem;
+      font-size: 0.65rem; font-weight: 600; color: var(--text-muted);
+    }
+    .rm-legend .dot { width: 0.6rem; height: 0.6rem; border-radius: 3px; flex-shrink: 0; }
+
+    @media (min-width: 861px) {
+      .hero-inner { display: grid; grid-template-columns: minmax(0, 1fr) 360px; gap: 3rem; align-items: start; }
+      .hero-risks { position: sticky; top: calc(var(--nav-h) + 1.5rem); }
+    }
+    @media (max-width: 860px) {
+      .hero-risks { margin-top: 2.5rem; max-width: 460px; }
+    }
+
+    /* ── Bento grid ── */
+    .bento {
+      display: grid;
+      grid-template-columns: repeat(6, 1fr);
+      gap: 1.25rem;
+    }
+
+    .bento > .card { padding: 1.75rem; }
+
+    .bento .col-6 { grid-column: span 6; }
+    .bento .col-4 { grid-column: span 4; }
+    .bento .col-3 { grid-column: span 3; }
+    .bento .col-2 { grid-column: span 2; }
+
+    .card-label {
+      font-size: 0.72rem;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.07em;
+      color: var(--text-soft);
+      margin-bottom: 1rem;
+    }
+
+    @media (max-width: 860px) {
+      .bento { grid-template-columns: repeat(2, 1fr); }
+      .bento .col-6, .bento .col-4, .bento .col-3, .bento .col-2 { grid-column: span 2; }
     }
 
     /* ── About ── */
     .about-text p + p { margin-top: 1rem; }
-    .about-text { color: var(--text-muted); max-width: 680px; }
+    .about-text { color: var(--text-muted); font-size: 1.05rem; max-width: 720px; }
+    .about-text strong { color: var(--text); font-weight: 600; }
 
     /* ── Skills ── */
-    .skills-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-      gap: 1.25rem;
-    }
+    .skill-group + .skill-group { margin-top: 1.5rem; }
 
     .skill-group h3 {
-      font-size: 0.85rem;
+      font-size: 0.8rem;
       font-weight: 600;
-      margin-bottom: 0.6rem;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      color: var(--text-soft);
+      margin-bottom: 0.7rem;
     }
 
-    .skill-tags {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 0.4rem;
-      list-style: none;
-    }
+    .skill-tags { display: flex; flex-wrap: wrap; gap: 0.45rem; list-style: none; }
 
     .skill-tags li {
-      font-size: 0.78rem;
-      background: var(--bg);
+      font-size: 0.82rem;
+      font-weight: 500;
+      background: var(--card-alt);
       border: 1px solid var(--border);
       border-radius: 999px;
-      padding: 0.25rem 0.65rem;
+      padding: 0.3rem 0.75rem;
       color: var(--text-muted);
-      transition: background 0.15s, border-color 0.15s;
+      transition: background 0.15s, border-color 0.15s, color 0.15s, transform 0.15s;
     }
-
     .skill-tags li:hover {
-      background: #ebf4ff;
-      border-color: #bee3f8;
-      color: var(--accent);
+      background: #fff; border-color: var(--accent); color: var(--accent); transform: translateY(-1px);
     }
 
     /* ── Experience ── */
@@ -474,263 +662,140 @@
     .timeline-item {
       padding-left: 1.5rem;
       border-left: 2px solid var(--border);
-      padding-bottom: 2rem;
+      padding-bottom: 1.75rem;
       position: relative;
     }
-
     .timeline-item:last-child { padding-bottom: 0; }
 
     .timeline-item::before {
-      content: "";
-      position: absolute;
-      left: -6px;
-      top: 4px;
-      width: 10px;
-      height: 10px;
-      border-radius: 50%;
-      background: var(--accent);
-      border: 2px solid var(--card);
+      content: ""; position: absolute; left: -7px; top: 4px;
+      width: 12px; height: 12px; border-radius: 50%;
+      background: var(--accent); border: 3px solid var(--card);
     }
 
-    .timeline-item h3 {
-      font-size: 1rem;
-      font-weight: 600;
-      margin-bottom: 0.15rem;
-    }
+    .timeline-item h3 { font-size: 1.05rem; font-weight: 700; margin-bottom: 0.15rem; }
 
-    .timeline-meta {
-      font-size: 0.85rem;
-      color: var(--accent);
-      margin-bottom: 0.5rem;
-    }
+    .timeline-meta { font-size: 0.85rem; font-weight: 500; color: var(--text-soft); margin-bottom: 0.6rem; }
 
-    .timeline-item ul {
-      margin-left: 1.1rem;
-      font-size: 0.9rem;
-      color: var(--text-muted);
-    }
-
-    .timeline-item ul li { margin-bottom: 0.2rem; }
+    .timeline-item ul { margin-left: 1.1rem; font-size: 0.92rem; color: var(--text-muted); }
+    .timeline-item ul li { margin-bottom: 0.25rem; }
 
     /* ── Education & Languages ── */
-    .edu-lang-grid {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      gap: 2rem;
-    }
-
     .edu-list, .lang-list { list-style: none; }
 
     .edu-list li, .lang-list li {
-      margin-bottom: 0.75rem;
-      font-size: 0.9rem;
-      color: var(--text-muted);
+      display: flex; justify-content: space-between; align-items: baseline; gap: 1rem;
+      padding: 0.65rem 0; font-size: 0.9rem; color: var(--text-muted);
+      border-bottom: 1px solid var(--border);
     }
-
-    .edu-list strong, .lang-list strong {
-      display: block;
-      color: var(--text);
-      font-size: 0.95rem;
-    }
+    .edu-list li:last-child, .lang-list li:last-child { border-bottom: none; padding-bottom: 0; }
+    .edu-list li:first-child, .lang-list li:first-child { padding-top: 0; }
+    .edu-list strong, .lang-list strong { color: var(--text); font-weight: 600; font-size: 0.95rem; }
 
     /* ── Portfolio ── */
-    .portfolio-grid {
-      display: grid;
-      grid-template-columns: 1fr;
-      gap: 1.5rem;
-    }
+    .portfolio-grid { display: grid; grid-template-columns: 1fr; gap: 1.25rem; }
 
     @media (min-width: 721px) {
-      .portfolio-grid {
-        grid-template-columns: repeat(2, 1fr);
-        gap: 2rem;
-      }
+      .portfolio-grid { grid-template-columns: repeat(2, 1fr); gap: 1.5rem; }
     }
 
     .project-card {
       background: var(--card);
       border: 1px solid var(--border);
       border-radius: var(--radius);
-      padding: 1.75rem 2rem;
+      padding: 1.75rem;
       box-shadow: var(--shadow);
-      transition: box-shadow 0.2s, transform 0.2s;
+      transition: box-shadow 0.2s, transform 0.2s, border-color 0.2s;
     }
+    .project-card:hover { box-shadow: var(--shadow-md); transform: translateY(-3px); border-color: #dcdbd6; }
 
-    .project-card:hover {
-      box-shadow: var(--shadow-lg);
-      transform: translateY(-2px);
-    }
+    .project-card h3 { font-size: 1.2rem; font-weight: 700; margin-bottom: 0.2rem; }
+    .project-role { font-size: 0.82rem; font-weight: 500; color: var(--accent); margin-bottom: 0.85rem; }
 
-    .project-card h3 {
-      font-size: 1.15rem;
-      font-weight: 600;
-      margin-bottom: 0.2rem;
-    }
-
-    .project-role {
-      font-size: 0.8rem;
-      color: var(--accent);
-      margin-bottom: 0.75rem;
-    }
-
-    .project-stack {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 0.35rem;
-      list-style: none;
-      margin-bottom: 0.75rem;
-    }
-
+    .project-stack { display: flex; flex-wrap: wrap; gap: 0.4rem; list-style: none; margin-bottom: 0.85rem; }
     .project-stack li {
-      font-size: 0.72rem;
-      background: var(--bg);
-      border: 1px solid var(--border);
-      border-radius: 4px;
-      padding: 0.15rem 0.45rem;
-      color: var(--text-muted);
+      font-size: 0.72rem; font-weight: 500; background: var(--card-alt);
+      border: 1px solid var(--border); border-radius: 6px; padding: 0.18rem 0.5rem; color: var(--text-muted);
     }
 
-    .project-summary {
-      font-size: 0.9rem;
-      color: var(--text-muted);
-      margin-bottom: 1rem;
-      line-height: 1.55;
-    }
+    .project-summary { font-size: 0.92rem; color: var(--text-muted); margin-bottom: 1rem; line-height: 1.55; }
 
-    .project-link {
-      font-size: 0.8rem;
-      text-decoration: none;
-      font-weight: 500;
-    }
-
+    .project-link { font-size: 0.85rem; text-decoration: none; font-weight: 600; }
     .project-link:hover { text-decoration: underline; }
 
     .bugs-title {
-      font-size: 0.75rem;
-      font-weight: 700;
-      text-transform: uppercase;
-      letter-spacing: 0.06em;
-      color: var(--text-muted);
-      margin: 1rem 0 0.5rem;
-      padding-top: 0.75rem;
-      border-top: 1px solid var(--border);
+      font-size: 0.72rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.06em;
+      color: var(--text-soft); margin: 1.1rem 0 0.6rem; padding-top: 0.85rem; border-top: 1px solid var(--border);
     }
 
     .bug-list { list-style: none; }
-
     .bug-item {
-      display: grid;
-      grid-template-columns: 4.75rem 1fr;
-      gap: 0.5rem 0.75rem;
-      align-items: start;
-      font-size: 0.85rem;
-      color: var(--text-muted);
-      margin-bottom: 0.65rem;
-      line-height: 1.45;
+      display: grid; grid-template-columns: 4.75rem 1fr; gap: 0.5rem 0.75rem; align-items: start;
+      font-size: 0.85rem; color: var(--text-muted); margin-bottom: 0.65rem; line-height: 1.45;
     }
 
     .severity {
-      width: 4.75rem;
-      text-align: center;
-      font-size: 0.65rem;
-      font-weight: 700;
-      text-transform: uppercase;
-      letter-spacing: 0.04em;
-      padding: 0.2rem 0.35rem;
-      border-radius: 3px;
-      margin-top: 1px;
+      width: 4.75rem; text-align: center; font-size: 0.65rem; font-weight: 700;
+      text-transform: uppercase; letter-spacing: 0.04em; padding: 0.22rem 0.35rem; border-radius: 6px; margin-top: 1px;
     }
-
     .severity--critical { background: var(--danger-bg); color: var(--danger); }
     .severity--high { background: var(--warning-bg); color: var(--warning); }
     .severity--medium { background: var(--info-bg); color: var(--info); }
-    .severity--low { background: #f7fafc; color: #718096; border: 1px solid var(--border); }
-
+    .severity--low { background: var(--card-alt); color: var(--text-soft); border: 1px solid var(--border); }
     .bug-item strong { color: var(--text); }
-
-    .placeholder-note {
-      font-size: 0.8rem;
-      color: var(--text-muted);
-      font-style: italic;
-      margin-top: 1rem;
-    }
 
     /* ── Strengths ── */
     .strengths-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-      gap: 1.25rem;
+      display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 1.25rem;
     }
 
     .strength-card {
-      background: var(--bg);
-      border: 1px solid var(--border);
-      border-radius: var(--radius);
-      padding: 1.25rem;
-      transition: border-color 0.2s;
+      background: var(--card); border: 1px solid var(--border); border-radius: var(--radius);
+      padding: 1.5rem; box-shadow: var(--shadow); transition: border-color 0.2s, transform 0.2s;
     }
+    .strength-card:hover { border-color: var(--accent); transform: translateY(-2px); }
 
-    .strength-card:hover { border-color: var(--accent); }
-
-    .strength-card h3 {
-      font-size: 0.9rem;
-      font-weight: 600;
-      margin-bottom: 0.35rem;
+    .strength-card .icon {
+      display: inline-flex; align-items: center; justify-content: center;
+      width: 2.5rem; height: 2.5rem; border-radius: 12px;
+      background: var(--card-alt); font-size: 1.2rem; margin-bottom: 0.85rem;
     }
-
-    .strength-card p {
-      font-size: 0.85rem;
-      color: var(--text-muted);
-      line-height: 1.45;
-    }
+    .strength-card h3 { font-size: 0.98rem; font-weight: 700; margin-bottom: 0.35rem; }
+    .strength-card p { font-size: 0.88rem; color: var(--text-muted); line-height: 1.5; }
 
     /* ── Footer ── */
-    .footer {
-      padding: 2.5rem 0;
+    .footer-cta {
       text-align: center;
-      font-size: 0.85rem;
-      color: var(--text-muted);
+      padding: 3rem 2rem;
+      margin-bottom: 2.5rem;
     }
+    .footer-cta h2 { font-size: clamp(1.8rem, 4vw, 2.6rem); font-weight: 800; letter-spacing: -0.03em; margin-bottom: 0.75rem; }
+    .footer-cta p { color: var(--text-muted); font-size: 1.05rem; max-width: 480px; margin: 0 auto 1.75rem; }
+
+    .footer { padding: 0 0 2.5rem; text-align: center; font-size: 0.85rem; color: var(--text-soft); }
 
     .footer-contacts {
-      display: flex;
-      justify-content: center;
-      flex-wrap: wrap;
-      gap: 0.5rem 1.5rem;
-      margin-bottom: 1rem;
+      display: flex; justify-content: center; flex-wrap: wrap; gap: 0.6rem; margin-bottom: 1.25rem;
     }
-
-    .footer-contacts a { text-decoration: none; }
-    .footer-contacts a:hover { text-decoration: underline; }
-
-    .footer-actions {
-      display: flex;
-      justify-content: center;
-      gap: 0.75rem;
-      margin-bottom: 1rem;
-      flex-wrap: wrap;
+    .footer-contacts a {
+      text-decoration: none; font-weight: 500; color: var(--text-muted);
+      background: var(--card); border: 1px solid var(--border); border-radius: 999px; padding: 0.35rem 0.85rem;
     }
+    .footer-contacts a:hover { color: var(--text); border-color: var(--text-soft); }
+
+    .footer-actions { display: flex; justify-content: center; gap: 0.75rem; margin-bottom: 1.5rem; flex-wrap: wrap; }
 
     /* ── Responsive ── */
     @media (max-width: 720px) {
-      .nav-toggle { display: block; }
+      .nav-toggle { display: flex; align-items: center; justify-content: center; }
 
       .nav-links {
-        display: none;
-        position: absolute;
-        top: var(--nav-h);
-        left: 0;
-        right: 0;
-        flex-direction: column;
-        background: var(--card);
-        border-bottom: 1px solid var(--border);
-        padding: 1rem 1.25rem;
-        gap: 0.75rem;
+        display: none; position: absolute; top: var(--nav-h); left: 0; right: 0;
+        flex-direction: column; align-items: flex-start;
+        background: var(--card); border-bottom: 1px solid var(--border);
+        padding: 1.25rem 1.5rem; gap: 1rem;
       }
-
       .nav-links.open { display: flex; }
-
-      .edu-lang-grid { grid-template-columns: 1fr; }
 
       section { padding: 3rem 0; }
     }
@@ -738,9 +803,9 @@
 </head>
 <body>
 
-  <header class="nav" role="banner">
+  <header class="nav" id="nav" role="banner">
     <div class="container">
-      <a href="#" class="nav-logo" aria-label="Brisa Lázaro — home">Brisa Lázaro</a>
+      <a href="#" class="nav-logo" aria-label="Brisa Lázaro — home"><span class="dot"></span>Brisa Lázaro</a>
       <button class="nav-toggle" id="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
       <ul class="nav-links" id="nav-links" role="navigation" aria-label="Main navigation">
         <li><a href="#about">About</a></li>
@@ -748,7 +813,7 @@
         <li><a href="#experience">Experience</a></li>
         <li><a href="#portfolio">Portfolio</a></li>
         <li><a href="#contact">Contact</a></li>
-        <li><a href="cv.html" class="btn btn-primary" style="padding: 0.35rem 0.85rem;">View CV</a></li>
+        <li><a href="cv.html" class="btn btn-primary" style="padding: 0.45rem 1rem;">View CV</a></li>
       </ul>
     </div>
   </header>
@@ -760,6 +825,10 @@
       <div class="container">
         <div class="hero-inner hero--after" id="hero-inner">
 
+          <div class="hero-main">
+
+          <span class="status-pill"><span class="live-dot"></span> Open to work</span>
+
           <div class="qa-toggle" role="group" aria-label="Before and after QA toggle">
             <button type="button" data-mode="before" aria-pressed="false">🐛 Before QA</button>
             <button type="button" data-mode="after" class="active" aria-pressed="true">✅ After QA</button>
@@ -768,14 +837,14 @@
           <div class="bug-banner bug-banner--error" role="status">⚠ Console: 3 bugs detected in hero section</div>
           <div class="bug-banner bug-banner--success" role="status">✓ 0 bugs · all tests passing</div>
 
-          <h1>Brisa Lázaro</h1>
-          <p class="subtitle">Junior QA Engineer</p>
-          <p class="pitch"><span class="typo-text"></span></p>
+          <h1>Hi, I'm Brisa <span class="accent">Lázaro</span> <span class="avatar" aria-hidden="true"><span class="avatar-initials">BL</span><img class="avatar-photo" src="brisaimg.webp" alt="" onerror="this.classList.add('is-missing')"><img class="avatar-broken" src="broken-image-does-not-exist.png" alt="[broken image]"></span> </h1>
+          <p class="subtitle">I'm a <strong>Junior QA Engineer</strong></p>
+          <p class="pitch"><span class="typo-text"></span><span class="hero-overlap">ERROR: element overlap</span></p>
 
           <div class="hero-contacts">
-            <a href="mailto:brisa.lazaroc@gmail.com">brisa.lazaroc@gmail.com</a>
-            <a href="tel:+34648008592">+34 648 008 592</a>
-            <a href="https://www.linkedin.com/in/brisa-lazaro/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+            <a href="mailto:brisa.lazaroc@gmail.com">✉ brisa.lazaroc@gmail.com</a>
+            <a href="tel:+34648008592">📞 +34 648 008 592</a>
+            <a href="https://www.linkedin.com/in/brisa-lazaro/" target="_blank" rel="noopener noreferrer">in LinkedIn</a>
           </div>
 
           <div class="hero-actions">
@@ -783,8 +852,59 @@
             <a href="cv.html" class="btn btn-outline">Download CV</a>
           </div>
 
-          <img class="hero-broken-img" src="broken-image-does-not-exist.png" alt="[broken image]" width="80" height="80">
-          <span class="hero-overlap">ERROR: element overlap</span>
+          </div><!-- /.hero-main -->
+
+          <aside class="hero-risks" aria-label="5 by 5 risk matrix">
+            <div class="risk-card">
+              <div class="risk-card__head">
+                <span class="risk-card__title">risk-matrix</span>
+                <span class="risk-card__tag rm-count-before">⚠ 6 bugs</span>
+                <span class="risk-card__tag rm-count-after">✓ 0 bugs</span>
+              </div>
+              <div class="risk-matrix">
+                <div class="rm-axis-x">Impact →</div>
+                <div class="rm-axis-y">Probability →</div>
+                <div class="rm-grid" role="img" aria-label="5 by 5 probability and impact risk matrix">
+                  <div class="rm-cell rm--med"     title="Almost Certain × Insignificant — Medium">5</div>
+                  <div class="rm-cell rm--high">10<span class="rm-bug" tabindex="0">3<span class="rm-tip">Placeholder copy shipped (“lorem ipsun”)</span></span></div>
+                  <div class="rm-cell rm--vhigh">15<span class="rm-bug" tabindex="0">2<span class="rm-tip">Profile photo fails to load</span></span></div>
+                  <div class="rm-cell rm--extreme" title="Almost Certain × Major — Extreme">20</div>
+                  <div class="rm-cell rm--extreme" title="Almost Certain × Severe — Extreme">25</div>
+
+                  <div class="rm-cell rm--med"     title="Likely × Insignificant — Medium">4</div>
+                  <div class="rm-cell rm--med"     title="Likely × Minor — Medium">8</div>
+                  <div class="rm-cell rm--high"    title="Likely × Significant — High">12</div>
+                  <div class="rm-cell rm--vhigh"   title="Likely × Major — Very high">16</div>
+                  <div class="rm-cell rm--extreme">20<span class="rm-bug" tabindex="0">1<span class="rm-tip">Console: 3 unhandled errors</span></span></div>
+
+                  <div class="rm-cell rm--low"     title="Moderate × Insignificant — Low">3</div>
+                  <div class="rm-cell rm--med"     title="Moderate × Minor — Medium">6</div>
+                  <div class="rm-cell rm--med">9<span class="rm-bug" tabindex="0">4<span class="rm-tip">Overlapping elements in hero</span></span></div>
+                  <div class="rm-cell rm--high"    title="Moderate × Major — High">12</div>
+                  <div class="rm-cell rm--vhigh"   title="Moderate × Severe — Very high">15</div>
+
+                  <div class="rm-cell rm--vlow"    title="Unlikely × Insignificant — Very low">2</div>
+                  <div class="rm-cell rm--low">4<span class="rm-bug" tabindex="0">6<span class="rm-tip">CTA button misaligned</span></span></div>
+                  <div class="rm-cell rm--med">6<span class="rm-bug" tabindex="0">5<span class="rm-tip">Contact links fail color contrast</span></span></div>
+                  <div class="rm-cell rm--med"     title="Unlikely × Major — Medium">8</div>
+                  <div class="rm-cell rm--high"    title="Unlikely × Severe — High">10</div>
+
+                  <div class="rm-cell rm--vlow"    title="Rare × Insignificant — Very low">1</div>
+                  <div class="rm-cell rm--vlow"    title="Rare × Minor — Very low">2</div>
+                  <div class="rm-cell rm--low"     title="Rare × Significant — Low">3</div>
+                  <div class="rm-cell rm--med"     title="Rare × Major — Medium">4</div>
+                  <div class="rm-cell rm--med"     title="Rare × Severe — Medium">5</div>
+                </div>
+              </div>
+              <div class="risk-card__foot">
+                <span class="rm-legend"><span class="dot rm--low"></span> Low</span>
+                <span class="rm-legend"><span class="dot rm--med"></span> Medium</span>
+                <span class="rm-legend"><span class="dot rm--high"></span> High</span>
+                <span class="rm-legend"><span class="dot rm--extreme"></span> Extreme</span>
+              </div>
+            </div>
+          </aside>
+
         </div>
       </div>
     </section>
@@ -793,10 +913,13 @@
     <section id="about" aria-labelledby="about-heading">
       <div class="container reveal">
         <h2 class="section-title" id="about-heading">About</h2>
-        <div class="about-text">
-          <p>Frontend Developer transitioning into QA with Agile experience and hands-on testing across the development cycle.</p>
-          <p>My technical background helps me understand how products are built and communicate issues with precision. My growing QA focus drives me to identify risks, uncover edge cases, and advocate for quality.</p>
-          <p>Currently exploring AI-assisted workflows for test design, exploratory testing, and risk analysis.</p>
+        <p class="section-heading">A little about me</p>
+        <div class="card" style="padding: 2rem;">
+          <div class="about-text">
+            <p><strong>Frontend Developer transitioning into QA</strong> with Agile experience and hands-on testing across the development cycle.</p>
+            <p>My technical background helps me understand how products are built and communicate issues with precision. My growing QA focus drives me to identify risks, uncover edge cases, and advocate for quality.</p>
+            <p>Currently exploring AI-assisted workflows for test design, exploratory testing, and risk analysis.</p>
+          </div>
         </div>
       </div>
     </section>
@@ -805,109 +928,115 @@
     <section id="skills" aria-labelledby="skills-heading">
       <div class="container reveal">
         <h2 class="section-title" id="skills-heading">Skills</h2>
-        <div class="skills-grid">
-          <div class="skill-group">
-            <h3>Testing</h3>
-            <ul class="skill-tags">
-              <li>Manual Testing</li>
-              <li>Exploratory Testing</li>
-              <li>Functional Testing</li>
-              <li>Regression Testing</li>
-              <li>E2E Testing</li>
-              <li>Risk-Based Testing</li>
-              <li>API Testing</li>
-              <li>Bug Reporting</li>
-              <li>UX Validation</li>
-            </ul>
+        <p class="section-heading">What I work with</p>
+        <div class="bento">
+          <div class="card col-3">
+            <div class="skill-group">
+              <h3>Testing</h3>
+              <ul class="skill-tags">
+                <li>Manual Testing</li>
+                <li>Exploratory Testing</li>
+                <li>Functional Testing</li>
+                <li>Regression Testing</li>
+                <li>E2E Testing</li>
+                <li>Risk-Based Testing</li>
+                <li>API Testing</li>
+                <li>Bug Reporting</li>
+                <li>UX Validation</li>
+              </ul>
+            </div>
           </div>
-          <div class="skill-group">
-            <h3>Tools</h3>
-            <ul class="skill-tags">
-              <li>Cypress</li>
-              <li>Postman</li>
-              <li>Jira</li>
-              <li>Chrome DevTools</li>
-              <li>SQL</li>
-              <li>Git</li>
-              <li>GitHub</li>
-            </ul>
+          <div class="card col-3">
+            <div class="skill-group">
+              <h3>Tools</h3>
+              <ul class="skill-tags">
+                <li>Cypress</li>
+                <li>Postman</li>
+                <li>Jira</li>
+                <li>Chrome DevTools</li>
+                <li>SQL</li>
+                <li>Git</li>
+                <li>GitHub</li>
+              </ul>
+            </div>
           </div>
-          <div class="skill-group">
-            <h3>Development</h3>
-            <ul class="skill-tags">
-              <li>JavaScript</li>
-              <li>TypeScript</li>
-              <li>React</li>
-              <li>Redux</li>
-              <li>Jest</li>
-            </ul>
+          <div class="card col-3">
+            <div class="skill-group">
+              <h3>Development</h3>
+              <ul class="skill-tags">
+                <li>JavaScript</li>
+                <li>TypeScript</li>
+                <li>React</li>
+                <li>Redux</li>
+                <li>Jest</li>
+              </ul>
+            </div>
           </div>
-          <div class="skill-group">
-            <h3>AI &amp; Modern QA</h3>
-            <ul class="skill-tags">
-              <li>AI-Assisted Testing</li>
-              <li>Prompt Engineering</li>
-              <li>Risk Analysis with AI</li>
-              <li>Edge Case Discovery</li>
-            </ul>
+          <div class="card col-3">
+            <div class="skill-group">
+              <h3>AI &amp; Modern QA</h3>
+              <ul class="skill-tags">
+                <li>AI-Assisted Testing</li>
+                <li>Prompt Engineering</li>
+                <li>Risk Analysis with AI</li>
+                <li>Edge Case Discovery</li>
+              </ul>
+            </div>
           </div>
         </div>
       </div>
     </section>
 
-    <!-- Experience -->
+    <!-- Experience + Education/Languages -->
     <section id="experience" aria-labelledby="experience-heading">
       <div class="container reveal">
         <h2 class="section-title" id="experience-heading">Experience</h2>
-        <ul class="timeline">
-          <li class="timeline-item">
-            <h3>Frontend Developer</h3>
-            <p class="timeline-meta">Bikup Tech Solutions · 2022 – 2024</p>
-            <ul>
-              <li>Participated in unit testing, E2E testing, 3 Amigos and ETS sessions in Agile teams.</li>
-              <li>Used Feature Flags to support safer releases and reduce deployment risks.</li>
-              <li>Identified defects and validated functionality throughout development.</li>
-            </ul>
-          </li>
-          <li class="timeline-item">
-            <h3>Restaurant Manager</h3>
-            <p class="timeline-meta">El Pulpo · 2017 – 2021</p>
-            <ul>
-              <li>Coordinated teams and resolved operational issues in fast-paced environments.</li>
-              <li>Built skills in attention to detail, communication, and process improvement — now applied to QA.</li>
-            </ul>
-          </li>
-          <li class="timeline-item">
-            <h3>Self-Learning &amp; Hands-On Practice</h3>
-            <p class="timeline-meta">2025 – Present</p>
-            <ul>
-              <li>Software Testing courses, exploratory and risk-based testing, API testing.</li>
-              <li>Defect reporting, bug investigation, test design and documentation.</li>
-            </ul>
-          </li>
-        </ul>
-      </div>
-    </section>
-
-    <!-- Education & Languages -->
-    <section id="education" aria-labelledby="education-heading">
-      <div class="container reveal">
-        <h2 class="section-title" id="education-heading">Education &amp; Languages</h2>
-        <div class="edu-lang-grid">
-          <div>
-            <h3 class="section-heading" style="font-size:1.1rem; margin-bottom:0.75rem;">Education</h3>
-            <ul class="edu-list">
-              <li><strong>QA Engineer</strong>Self-Taught</li>
-              <li><strong>Web Developer</strong>42 Barcelona</li>
-              <li><strong>Business Administration</strong>UPAEP</li>
+        <p class="section-heading">Where I've been</p>
+        <div class="bento">
+          <div class="card col-4">
+            <p class="card-label">Work &amp; Learning</p>
+            <ul class="timeline">
+              <li class="timeline-item">
+                <h3>Self-Learning &amp; Hands-On Practice</h3>
+                <p class="timeline-meta">2025 – Present</p>
+                <ul>
+                  <li>Software Testing courses, exploratory and risk-based testing, API testing.</li>
+                  <li>Defect reporting, bug investigation, test design and documentation.</li>
+                </ul>
+              </li>
+              <li class="timeline-item">
+                <h3>Frontend Developer</h3>
+                <p class="timeline-meta">Bikup Tech Solutions · 2022 – 2024</p>
+                <ul>
+                  <li>Participated in unit testing, E2E testing, 3 Amigos and ETS sessions in Agile teams.</li>
+                  <li>Used Feature Flags to support safer releases and reduce deployment risks.</li>
+                  <li>Identified defects and validated functionality throughout development.</li>
+                </ul>
+              </li>
+              <li class="timeline-item">
+                <h3>Restaurant Manager</h3>
+                <p class="timeline-meta">El Pulpo · 2017 – 2021</p>
+                <ul>
+                  <li>Coordinated teams and resolved operational issues in fast-paced environments.</li>
+                  <li>Built skills in attention to detail, communication, and process improvement — now applied to QA.</li>
+                </ul>
+              </li>
             </ul>
           </div>
-          <div>
-            <h3 class="section-heading" style="font-size:1.1rem; margin-bottom:0.75rem;">Languages</h3>
+
+          <div class="card col-2">
+            <p class="card-label">Education</p>
+            <ul class="edu-list">
+              <li><strong>QA Engineer</strong><span>Self-Taught</span></li>
+              <li><strong>Web Developer</strong><span>42 Barcelona</span></li>
+              <li><strong>Business Admin</strong><span>UPAEP</span></li>
+            </ul>
+
+            <p class="card-label" style="margin-top: 1.75rem;">Languages</p>
             <ul class="lang-list">
-              <li><strong>Spanish</strong>Native</li>
-              <li><strong>English</strong>Intermediate (B1)</li>
-              <li><strong>Catalan</strong>Beginner</li>
+              <li><strong>Spanish</strong><span>Native</span></li>
+              <li><strong>English</strong><span>Intermediate (B1)</span></li>
+              <li><strong>Catalan</strong><span>Beginner</span></li>
             </ul>
           </div>
         </div>
@@ -918,7 +1047,7 @@
     <section id="portfolio" aria-labelledby="portfolio-heading">
       <div class="container reveal">
         <h2 class="section-title" id="portfolio-heading">Portfolio</h2>
-        <p class="section-heading" style="font-size:1.25rem; margin-top:-1rem; margin-bottom:1.5rem;">Projects &amp; bugs found</p>
+        <p class="section-heading">Projects &amp; bugs found</p>
 
         <div class="portfolio-grid">
 
@@ -1025,20 +1154,25 @@
     <section id="strengths" aria-labelledby="strengths-heading">
       <div class="container reveal">
         <h2 class="section-title" id="strengths-heading">What I Bring</h2>
+        <p class="section-heading">Why teams like working with me</p>
         <div class="strengths-grid">
           <div class="strength-card">
+            <span class="icon" aria-hidden="true">🧠</span>
             <h3>Quality Mindset</h3>
             <p>Question assumptions and identify risks before they reach users.</p>
           </div>
           <div class="strength-card">
+            <span class="icon" aria-hidden="true">⚙️</span>
             <h3>Technical Background</h3>
             <p>Frontend experience to collaborate with engineers and report issues precisely.</p>
           </div>
           <div class="strength-card">
+            <span class="icon" aria-hidden="true">🤖</span>
             <h3>AI-Augmented Testing</h3>
             <p>Using AI tools to improve test design, discover scenarios, and speed up investigation.</p>
           </div>
           <div class="strength-card">
+            <span class="icon" aria-hidden="true">🌱</span>
             <h3>Continuous Learning</h3>
             <p>Hands-on practice, community projects, and real-world experimentation.</p>
           </div>
@@ -1050,14 +1184,20 @@
 
   <footer class="footer" id="contact" role="contentinfo">
     <div class="container">
-      <div class="footer-contacts">
-        <a href="mailto:brisa.lazaroc@gmail.com">brisa.lazaroc@gmail.com</a>
-        <a href="tel:+34648008592">+34 648 008 592</a>
-        <a href="https://www.linkedin.com/in/brisa-lazaro/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+      <div class="card footer-cta">
+        <h2>Let's build something reliable</h2>
+        <p>Open to QA roles. Feel free to explore my work and reach out — I'd love to connect!</p>
+        <div class="footer-actions">
+          <a href="mailto:brisa.lazaroc@gmail.com" class="btn btn-accent">Get in touch</a>
+          <a href="cv.html" class="btn btn-outline">View / Download CV</a>
+        </div>
       </div>
-      <div class="footer-actions">
-        <a href="cv.html" class="btn btn-outline">View / Download CV</a>
-        <a href="mailto:brisa.lazaroc@gmail.com?subject=Bug%20Report%20—%20Portfolio%20Site&amp;body=Steps%20to%20reproduce%3A%0A1.%20%0A%0AExpected%20result%3A%0A%0AActual%20result%3A%0A%0ASeverity%3A%20%5BLow%20%2F%20Medium%20%2F%20High%20%2F%20Critical%5D%0AEnvironment%3A%20%5Bbrowser%20%2B%20OS%5D" class="btn btn-bug">🐛 Report a bug</a>
+
+      <div class="footer-contacts">
+        <a href="mailto:brisa.lazaroc@gmail.com">✉ brisa.lazaroc@gmail.com</a>
+        <a href="tel:+34648008592">📞 +34 648 008 592</a>
+        <a href="https://www.linkedin.com/in/brisa-lazaro/" target="_blank" rel="noopener noreferrer">in LinkedIn</a>
+        <a href="mailto:brisa.lazaroc@gmail.com?subject=Bug%20Report%20—%20Portfolio%20Site&amp;body=Steps%20to%20reproduce%3A%0A1.%20%0A%0AExpected%20result%3A%0A%0AActual%20result%3A%0A%0ASeverity%3A%20%5BLow%20%2F%20Medium%20%2F%20High%20%2F%20Critical%5D%0AEnvironment%3A%20%5Bbrowser%20%2B%20OS%5D" class="btn btn-bug" style="padding: 0.35rem 0.85rem;">🐛 Report a bug</a>
       </div>
       <p>&copy; 2026 Brisa Lázaro. Built with HTML, CSS, and a healthy distrust of &ldquo;it works on my machine.&rdquo;</p>
     </div>
@@ -1079,6 +1219,12 @@
         navToggle.setAttribute('aria-expanded', 'false');
       });
     });
+
+    // ── Nav border on scroll ──
+    const nav = document.getElementById('nav');
+    const onScroll = () => nav.classList.toggle('scrolled', window.scrollY > 8);
+    onScroll();
+    window.addEventListener('scroll', onScroll, { passive: true });
 
     // ── Scroll reveal ──
     const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
@@ -1117,11 +1263,11 @@
     // ── Console easter egg ──
     console.log(
       '%c🔍 QA Easter Egg unlocked!',
-      'color: #2c5282; font-size: 14px; font-weight: bold;'
+      'color: #d6336c; font-size: 14px; font-weight: bold;'
     );
     console.log(
       '%cYou opened DevTools — spoken like a true tester. Nothing to see here… except maybe a few bugs in "Before QA" mode. 😉',
-      'color: #555; font-size: 12px;'
+      'color: #6b6b72; font-size: 12px;'
     );
   </script>
 
