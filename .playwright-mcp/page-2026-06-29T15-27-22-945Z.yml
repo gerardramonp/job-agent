@@ -1,0 +1,216 @@
+- generic [ref=e2]:
+  - heading "0 notifications" [level=2] [ref=e3]
+  - generic [ref=e4]:
+    - generic:
+      - generic "Skip navigation menu":
+        - button "Close jump menu" [ref=e6] [cursor=pointer]
+    - generic [ref=e9]:
+      - banner [ref=e11]:
+        - generic [ref=e14]:
+          - button [ref=e15] [cursor=pointer]
+          - generic [ref=e18]:
+            - navigation [ref=e22]:
+              - list [ref=e23]:
+                - listitem [ref=e24]:
+                  - button "Home, 1 new notification" [ref=e25] [cursor=pointer]:
+                    - img [ref=e27]
+                    - generic [ref=e30]: Home
+                - listitem [ref=e31]:
+                  - link "My Network, 0 new notifications" [ref=e32] [cursor=pointer]:
+                    - /url: https://www.linkedin.com/mynetwork
+                    - img [ref=e34]
+                    - generic [ref=e37]: My Network
+                - listitem [ref=e38]:
+                  - link "Jobs, 0 new notifications" [ref=e39] [cursor=pointer]:
+                    - /url: https://www.linkedin.com/jobs/
+                    - img [ref=e41]
+                    - generic [ref=e44]: Jobs
+                - listitem [ref=e45]:
+                  - link "Messaging, 0 new notifications" [ref=e46] [cursor=pointer]:
+                    - /url: https://www.linkedin.com/messaging/
+                    - img [ref=e48]
+                    - generic [ref=e51]: Messaging
+                - listitem [ref=e52]:
+                  - link "Notifications, 0 new notifications" [ref=e53] [cursor=pointer]:
+                    - /url: https://www.linkedin.com/notifications/
+                    - img [ref=e55]
+                    - generic [ref=e58]: Notifications
+                - listitem [ref=e59]:
+                  - button "Me" [ref=e60] [cursor=pointer]:
+                    - figure [ref=e62]
+                    - generic [ref=e64]: Me
+            - generic [ref=e67]:
+              - navigation [ref=e68]:
+                - list [ref=e69]:
+                  - listitem [ref=e70]:
+                    - button "For Business" [ref=e71] [cursor=pointer]:
+                      - img [ref=e73]
+                      - generic [ref=e76]: For Business
+              - link "Get hired for €0" [ref=e79] [cursor=pointer]:
+                - /url: https://www.linkedin.com/
+                - paragraph [ref=e83]: Get hired for €0
+      - main [ref=e86]:
+        - generic [ref=e88]:
+          - complementary "Sidebar" [ref=e89]:
+            - generic [ref=e92]:
+              - generic [ref=e96]:
+                - link [ref=e97] [cursor=pointer]:
+                  - /url: https://www.linkedin.com/in/brisa-lazaro/
+                  - generic [ref=e98]:
+                    - figure [ref=e100]
+                    - figure [ref=e102]
+                - link "Brisa Elvira Lazaro Campos Frontend Developer → QA Engineer | Test Automation | Quality Enthusiast Granollers, Catalonia" [ref=e104] [cursor=pointer]:
+                  - /url: https://www.linkedin.com/in/brisa-lazaro/
+                  - generic [ref=e105]:
+                    - paragraph [ref=e108]: Brisa Elvira Lazaro Campos
+                    - paragraph [ref=e110]: Frontend Developer → QA Engineer | Test Automation | Quality Enthusiast
+                    - paragraph [ref=e111]: Granollers, Catalonia
+              - link "Apply to jobs personalized for you with Premium" [ref=e116] [cursor=pointer]:
+                - /url: https://www.linkedin.com/premium/products/?upsellOrderOrigin=Tracking%3Av1%3Apremium_homepage_identity_upsell%3ANav%3AIn-Product&utype=job&referenceId=dLFiF80ySuGOaL0RXvg7YA%3D%3D&isSS=true&upsellSlotId=IDENTITY_MODULE
+                - paragraph [ref=e118]: Apply to jobs personalized for you with Premium
+              - menu [ref=e124]:
+                - link "Profile viewers 22" [ref=e126] [cursor=pointer]:
+                  - /url: https://www.linkedin.com/me/profile-views/
+                  - generic "Profile viewers 22" [ref=e127]:
+                    - paragraph [ref=e129]: Profile viewers
+                    - paragraph [ref=e130]: "22"
+                - link "View all analytics 0" [ref=e132] [cursor=pointer]:
+                  - /url: https://www.linkedin.com/analytics/creator/content/
+                  - generic "View all analytics 0" [ref=e133]:
+                    - paragraph [ref=e135]: View all analytics
+              - menu [ref=e138]:
+                - link "Saved items" [ref=e139] [cursor=pointer]:
+                  - /url: https://www.linkedin.com/my-items/saved-posts/
+                  - paragraph [ref=e142]: Saved items
+                - link "Groups" [ref=e143] [cursor=pointer]:
+                  - /url: https://www.linkedin.com/groups/
+                  - paragraph [ref=e146]: Groups
+                - link "Newsletters" [ref=e147] [cursor=pointer]:
+                  - /url: https://www.linkedin.com/mynetwork/network-manager/newsletters/
+                  - paragraph [ref=e150]: Newsletters
+                - link "Events" [ref=e151] [cursor=pointer]:
+                  - /url: https://www.linkedin.com/events/
+                  - paragraph [ref=e154]: Events
+          - region "Primary content" [ref=e155]:
+            - list [ref=e156]:
+              - generic [ref=e158]:
+                - generic [ref=e159]:
+                  - link [ref=e161] [cursor=pointer]:
+                    - /url: https://www.linkedin.com/in/brisa-lazaro/
+                    - figure [ref=e162]
+                  - button "Start a post" [ref=e164] [cursor=pointer]:
+                    - generic "Start a post" [ref=e165]:
+                      - generic [ref=e167]:
+                        - paragraph [ref=e168]: Start a post
+                        - generic:
+                          - paragraph
+                - generic [ref=e169]:
+                  - button "Video" [ref=e170] [cursor=pointer]:
+                    - paragraph [ref=e173]: Video
+                  - button "Photo" [ref=e174] [cursor=pointer]:
+                    - paragraph [ref=e177]: Photo
+                  - button "Write article" [ref=e178] [cursor=pointer]:
+                    - paragraph [ref=e181]: Write article
+              - progressbar "In progress" [ref=e185]
+          - complementary "Aside" [ref=e186]:
+            - generic [ref=e187]:
+              - generic [ref=e188]:
+                - generic [ref=e191]:
+                  - paragraph [ref=e192]: Today’s puzzles
+                  - generic [ref=e193]:
+                    - link "Play Wend" [ref=e195] [cursor=pointer]:
+                      - /url: https://www.linkedin.com/games/wend/
+                      - generic "Play Wend" [ref=e196]:
+                        - generic [ref=e197]:
+                          - figure [ref=e198]
+                          - generic [ref=e199]:
+                            - paragraph [ref=e200]:
+                              - strong [ref=e201]: Wend
+                              - text: "#21"
+                            - paragraph [ref=e202]: 4 connections played
+                    - link "Play Patches" [ref=e205] [cursor=pointer]:
+                      - /url: https://www.linkedin.com/games/patches/
+                      - generic "Play Patches" [ref=e206]:
+                        - generic [ref=e207]:
+                          - figure [ref=e208]
+                          - generic [ref=e209]:
+                            - paragraph [ref=e210]:
+                              - strong [ref=e211]: Patches
+                              - text: "#104"
+                            - paragraph [ref=e212]: 13 connections played
+                    - link "Play Zip" [ref=e215] [cursor=pointer]:
+                      - /url: https://www.linkedin.com/games/zip/
+                      - generic "Play Zip" [ref=e216]:
+                        - generic [ref=e217]:
+                          - figure [ref=e218]
+                          - generic [ref=e219]:
+                            - paragraph [ref=e220]:
+                              - strong [ref=e221]: Zip
+                              - text: "#469"
+                            - paragraph [ref=e222]: 14 connections played
+                    - link "Play MiniSudoku" [ref=e225] [cursor=pointer]:
+                      - /url: /games/mini-sudoku/
+                      - generic "Play MiniSudoku" [ref=e226]:
+                        - generic [ref=e227]:
+                          - figure [ref=e228]
+                          - generic [ref=e229]:
+                            - paragraph [ref=e230]:
+                              - strong [ref=e231]: Mini Sudoku
+                              - text: "#322"
+                            - paragraph [ref=e232]: 7 connections played
+                - generic [ref=e235]:
+                  - paragraph [ref=e236]: Add to your feed
+                  - link "Cristina Majado Pardo IT Recruiter en NTT DATA Europe & LATAM" [ref=e237] [cursor=pointer]:
+                    - /url: https://www.linkedin.com/in/cristina-majado-pardo-a84143172/
+                    - generic [ref=e238]:
+                      - figure [ref=e239]
+                      - generic [ref=e240]:
+                        - paragraph [ref=e243]: Cristina Majado Pardo
+                        - paragraph [ref=e245]: IT Recruiter en NTT DATA Europe & LATAM
+                  - link "SARA Rodríguez T LION IT Talent Acquisition Leader | Hiring Strategy & AI-Enabled Operations | Helping teams hire smarter, faster" [ref=e246] [cursor=pointer]:
+                    - /url: https://www.linkedin.com/in/sararodr%C3%ADgueztoledo/
+                    - generic [ref=e247]:
+                      - figure [ref=e248]
+                      - generic [ref=e249]:
+                        - paragraph [ref=e252]: SARA Rodríguez T LION
+                        - paragraph [ref=e254]: IT Talent Acquisition Leader | Hiring Strategy & AI-Enabled Operations | Helping teams hire smarter, faster
+                  - link "Factorial Company" [ref=e255] [cursor=pointer]:
+                    - /url: https://www.linkedin.com/company/factorialhr/
+                    - generic [ref=e256]:
+                      - figure [ref=e257]
+                      - generic [ref=e258]:
+                        - paragraph [ref=e261]: Factorial
+                        - paragraph [ref=e263]: Company
+                  - link "View all recommendations" [ref=e264] [cursor=pointer]:
+                    - /url: /mynetwork/discover-hub/
+                    - generic [ref=e267]: View all recommendations
+              - generic [ref=e269]:
+                - iframe [ref=e272]
+                - generic [ref=e273]:
+                  - generic [ref=e274]:
+                    - link "About" [ref=e275] [cursor=pointer]:
+                      - /url: https://about.linkedin.com/
+                      - paragraph [ref=e276]: About
+                    - link "Accessibility" [ref=e277] [cursor=pointer]:
+                      - /url: https://www.linkedin.com/accessibility/
+                      - paragraph [ref=e278]: Accessibility
+                    - link "Help Center" [ref=e279] [cursor=pointer]:
+                      - /url: https://www.linkedin.com/help/linkedin/
+                      - paragraph [ref=e280]: Help Center
+                    - button "Privacy & Terms" [ref=e281] [cursor=pointer]:
+                      - paragraph [ref=e283]: Privacy & Terms
+                    - link "Ad Choices" [ref=e285] [cursor=pointer]:
+                      - /url: https://www.linkedin.com/help/linkedin/answer/62931/
+                      - paragraph [ref=e286]: Ad Choices
+                    - link "Advertising" [ref=e287] [cursor=pointer]:
+                      - /url: https://www.linkedin.com/ad/start/?trk=n_nav_ads_rr
+                      - paragraph [ref=e288]: Advertising
+                    - button "Business Services" [ref=e289] [cursor=pointer]:
+                      - paragraph [ref=e291]: Business Services
+                    - link "Get the LinkedIn app" [ref=e293] [cursor=pointer]:
+                      - /url: https://www.linkedin.com/mobile/
+                      - paragraph [ref=e294]: Get the LinkedIn app
+                    - link "More" [ref=e295] [cursor=pointer]:
+                      - /url: https://www.linkedin.com/
+                      - paragraph [ref=e296]: More
+                  - paragraph [ref=e299]: LinkedIn Corporation © 2026

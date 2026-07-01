@@ -3,595 +3,1126 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Brisa Lázaro — CV</title>
+  <title>Brisa Lázaro — Junior QA Engineer</title>
+  <meta name="description" content="Junior QA Engineer with a frontend background. Manual &amp; exploratory testing, API testing, Cypress, and AI-assisted workflows. Portfolio of projects and bugs found.">
+  <link rel="canonical" href="https://gerardramonp.github.io/job-agent/">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Brisa Lázaro — Junior QA Engineer">
+  <meta property="og:description" content="Junior QA Engineer with a frontend background. Portfolio of projects and bugs found.">
+  <meta property="og:url" content="https://gerardramonp.github.io/job-agent/">
+  <meta property="og:image" content="https://gerardramonp.github.io/job-agent/og-image.png">
+  <meta property="og:locale" content="en_US">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Brisa Lázaro — Junior QA Engineer">
+  <meta name="twitter:description" content="Junior QA Engineer with a frontend background. Portfolio of projects and bugs found.">
+  <meta name="twitter:image" content="https://gerardramonp.github.io/job-agent/og-image.png">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Brisa Lázaro",
+    "jobTitle": "Junior QA Engineer",
+    "email": "brisa.lazaroc@gmail.com",
+    "url": "https://gerardramonp.github.io/job-agent/",
+    "sameAs": ["https://www.linkedin.com/in/brisa-lazaro/"],
+    "knowsAbout": [
+      "Manual Testing", "Exploratory Testing", "API Testing",
+      "Cypress", "Postman", "Jira", "JavaScript", "TypeScript",
+      "AI-Assisted Testing", "Risk-Based Testing"
+    ]
+  }
+  </script>
+
   <style>
     :root {
       --text: #1a1a1a;
       --text-muted: #555;
       --accent: #2c5282;
+      --accent-dark: #1e3a5f;
       --border: #e2e8f0;
       --bg: #f8fafc;
       --card: #ffffff;
+      --success: #276749;
+      --success-bg: #f0fff4;
+      --danger: #c53030;
+      --danger-bg: #fff5f5;
+      --warning: #c05621;
+      --warning-bg: #fffaf0;
+      --info: #2b6cb0;
+      --info-bg: #ebf8ff;
+      --radius: 8px;
+      --shadow: 0 1px 3px rgba(0, 0, 0, 0.06);
+      --shadow-lg: 0 4px 20px rgba(0, 0, 0, 0.08);
+      --nav-h: 3.5rem;
     }
 
-    * {
-      box-sizing: border-box;
-      margin: 0;
-      padding: 0;
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    html {
+      scroll-behavior: smooth;
+      scroll-padding-top: calc(var(--nav-h) + 1rem);
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      html { scroll-behavior: auto; }
+      *, *::before, *::after {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+      }
     }
 
     body {
       font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-      font-size: 15px;
-      line-height: 1.55;
+      font-size: 16px;
+      line-height: 1.6;
       color: var(--text);
       background: var(--bg);
       -webkit-font-smoothing: antialiased;
     }
 
-    .toolbar {
+    a { color: var(--accent); }
+    a:hover { color: var(--accent-dark); }
+
+    .container {
+      max-width: 960px;
+      margin: 0 auto;
+      padding: 0 1.25rem;
+    }
+
+    /* ── Nav ── */
+    .nav {
       position: sticky;
       top: 0;
-      z-index: 10;
+      z-index: 100;
+      height: var(--nav-h);
       display: flex;
-      flex-direction: column;
       align-items: center;
-      padding: 0.75rem 1rem 0;
-      background: rgba(248, 250, 252, 0.9);
-      backdrop-filter: blur(8px);
+      background: rgba(248, 250, 252, 0.92);
+      backdrop-filter: blur(10px);
       border-bottom: 1px solid var(--border);
     }
 
-    .btn-pdf {
+    .nav .container {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      width: 100%;
+    }
+
+    .nav-logo {
+      font-weight: 700;
+      font-size: 1rem;
+      color: var(--text);
+      text-decoration: none;
+      letter-spacing: -0.02em;
+    }
+
+    .nav-logo:hover { color: var(--accent); }
+
+    .nav-links {
+      display: flex;
+      align-items: center;
+      gap: 1.25rem;
+      list-style: none;
+    }
+
+    .nav-links a:not(.btn) {
+      font-size: 0.875rem;
+      color: var(--text-muted);
+      text-decoration: none;
+      transition: color 0.15s;
+    }
+
+    .nav-links a:not(.btn):hover { color: var(--accent); }
+
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.35rem;
       font: inherit;
       font-size: 0.875rem;
       font-weight: 500;
+      text-decoration: none;
+      border-radius: 6px;
+      padding: 0.5rem 1.1rem;
+      cursor: pointer;
+      border: none;
+      transition: background 0.15s, transform 0.15s, box-shadow 0.15s;
+    }
+
+    .btn-primary {
       color: #fff;
       background: var(--accent);
+    }
+
+    .btn-primary:hover {
+      background: var(--accent-dark);
+      color: #fff;
+    }
+
+    .btn-outline {
+      color: var(--accent);
+      background: transparent;
+      border: 1px solid var(--accent);
+    }
+
+    .btn-outline:hover {
+      background: var(--accent);
+      color: #fff;
+    }
+
+    .btn-bug {
+      color: #fff;
+      background: #e53e3e;
+      font-size: 0.8rem;
+    }
+
+    .btn-bug:hover {
+      background: #c53030;
+      color: #fff;
+    }
+
+    .nav-toggle {
+      display: none;
+      background: none;
       border: none;
-      border-radius: 6px;
-      padding: 0.5rem 1.25rem;
+      font-size: 1.4rem;
       cursor: pointer;
-      transition: background 0.15s;
-    }
-
-    .btn-pdf:hover {
-      background: #1e3a5f;
-    }
-
-    .btn-pdf:disabled {
-      opacity: 0.7;
-      cursor: wait;
-    }
-
-    .print-hint {
-      text-align: center;
-      font-size: 0.75rem;
-      color: var(--text-muted);
-      padding: 0 1rem 0.75rem;
-    }
-
-    .cv {
-      max-width: 900px;
-      margin: 2rem auto;
-      padding: 2.5rem 2.75rem;
-      background: var(--card);
-      border: 1px solid var(--border);
-      border-radius: 8px;
-      box-shadow: 0 1px 3px rgba(0, 0, 0, 0.06);
-    }
-
-    /* Header */
-    .header {
-      margin-bottom: 1.25rem;
-      padding-bottom: 0.85rem;
-      border-bottom: 2px solid var(--accent);
-    }
-
-    .header h1 {
-      font-size: 2rem;
-      font-weight: 700;
-      letter-spacing: -0.02em;
       color: var(--text);
+      padding: 0.25rem;
     }
 
-    .header .title {
-      font-size: 1.05rem;
-      font-weight: 500;
-      color: var(--accent);
-      margin-top: 0.25rem;
+    /* ── Sections ── */
+    section {
+      padding: 4rem 0;
     }
 
-    .contact {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 0.5rem 1.25rem;
-      margin-top: 0.75rem;
-      font-size: 0.875rem;
-      color: var(--text-muted);
+    section:nth-child(even) {
+      background: var(--card);
+      border-top: 1px solid var(--border);
+      border-bottom: 1px solid var(--border);
     }
 
-    .contact a {
-      color: var(--accent);
-      text-decoration: none;
-    }
-
-    .contact a:hover {
-      text-decoration: underline;
-    }
-
-    /* Section headings */
     .section-title {
       font-size: 0.7rem;
       font-weight: 700;
       text-transform: uppercase;
-      letter-spacing: 0.08em;
+      letter-spacing: 0.1em;
       color: var(--accent);
+      margin-bottom: 1.5rem;
+    }
+
+    .section-heading {
+      font-size: 1.75rem;
+      font-weight: 700;
+      letter-spacing: -0.02em;
+      margin-bottom: 1.5rem;
+    }
+
+    /* ── Reveal animation ── */
+    .reveal {
+      opacity: 0;
+      transform: translateY(20px);
+      transition: opacity 0.6s ease, transform 0.6s ease;
+    }
+
+    .reveal.visible {
+      opacity: 1;
+      transform: translateY(0);
+    }
+
+    /* ── Hero ── */
+    .hero {
+      padding: 5rem 0 4rem;
+      background: linear-gradient(160deg, #edf2f7 0%, var(--bg) 60%);
+      position: relative;
+      overflow: hidden;
+    }
+
+    .hero-inner {
+      position: relative;
+      transition: all 0.4s ease;
+    }
+
+    .hero h1 {
+      font-size: clamp(2rem, 5vw, 3rem);
+      font-weight: 800;
+      letter-spacing: -0.03em;
+      line-height: 1.15;
       margin-bottom: 0.5rem;
-      padding-bottom: 0.25rem;
-      border-bottom: 1px solid var(--border);
+      transition: letter-spacing 0.4s ease, color 0.4s ease;
     }
 
-    /* What I Bring */
-    .strengths {
-      display: grid;
-      grid-template-columns: repeat(4, 1fr);
-      gap: 0.75rem;
-      margin-top: 1.25rem;
-      padding-top: 0.85rem;
-      border-top: 1px solid var(--border);
-    }
-
-    .strength h3 {
-      font-size: 0.75rem;
-      font-weight: 600;
-      margin-bottom: 0.2rem;
-      color: var(--text);
-    }
-
-    .strength p {
-      font-size: 0.75rem;
-      color: var(--text-muted);
-      line-height: 1.35;
-    }
-
-    /* Two-column layout */
-    .columns {
-      display: grid;
-      grid-template-columns: 240px 1fr;
-      gap: 2rem;
-    }
-
-    .sidebar .subsection {
-      margin-bottom: 1.1rem;
-    }
-
-    .sidebar .subsection:last-child {
-      margin-bottom: 0;
-    }
-
-    .subsection h3 {
-      font-size: 0.75rem;
-      font-weight: 600;
-      color: var(--text);
-      margin-bottom: 0.4rem;
-    }
-
-    .skill-list,
-    .lang-list {
-      list-style: none;
-      font-size: 0.8rem;
-      color: var(--text-muted);
-      line-height: 1.5;
-    }
-
-    .skill-list li::before {
-      content: "·";
-      margin-right: 0.35rem;
+    .hero .subtitle {
+      font-size: 1.15rem;
+      font-weight: 500;
       color: var(--accent);
+      margin-bottom: 1rem;
+      transition: color 0.4s ease;
     }
 
-    .edu-item {
+    .hero .pitch {
+      font-size: 1.05rem;
+      color: var(--text-muted);
+      max-width: 540px;
+      margin-bottom: 1.5rem;
+      transition: color 0.4s ease, opacity 0.4s ease;
+    }
+
+    .hero .pitch .typo-text::after {
+      content: "lorem ipsun dolor sit amet.";
+      transition: content 0.3s;
+    }
+
+    .hero--after .pitch .typo-text::after {
+      content: "I find bugs before your users do.";
+    }
+
+    .hero-contacts {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem 1.25rem;
+      font-size: 0.875rem;
+      margin-bottom: 1.75rem;
+      transition: opacity 0.4s ease;
+    }
+
+    .hero-contacts a {
+      text-decoration: none;
+    }
+
+    .hero-contacts a:hover { text-decoration: underline; }
+
+    .hero-actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.75rem;
+      align-items: center;
+      position: relative;
+      transition: all 0.4s ease;
+    }
+
+    .hero-actions .btn-cta {
+      transition: transform 0.4s ease, margin 0.4s ease;
+    }
+
+    .hero--before .hero-actions .btn-cta {
+      transform: rotate(-3deg) translateY(6px);
+      margin-left: 12px;
+    }
+
+    .hero--before .hero-contacts {
+      opacity: 0.35;
+    }
+
+    .hero--before .pitch {
+      color: #aaa;
+    }
+
+    .hero--before .hero h1 {
+      letter-spacing: 0.08em;
+    }
+
+    /* QA toggle */
+    .qa-toggle {
+      display: inline-flex;
+      border: 1px solid var(--border);
+      border-radius: 999px;
+      overflow: hidden;
+      background: var(--card);
+      box-shadow: var(--shadow);
+      margin-bottom: 1.5rem;
+    }
+
+    .qa-toggle button {
+      font: inherit;
+      font-size: 0.8rem;
+      font-weight: 500;
+      padding: 0.4rem 0.9rem;
+      border: none;
+      background: transparent;
+      cursor: pointer;
+      color: var(--text-muted);
+      transition: background 0.2s, color 0.2s;
+    }
+
+    .qa-toggle button.active {
+      background: var(--accent);
+      color: #fff;
+    }
+
+    .qa-toggle button[data-mode="before"].active {
+      background: var(--danger);
+    }
+
+    /* Bug banners */
+    .bug-banner {
+      display: none;
+      font-family: "SF Mono", "Fira Code", "Consolas", monospace;
+      font-size: 0.78rem;
+      padding: 0.5rem 0.85rem;
+      border-radius: 6px;
+      margin-bottom: 1rem;
+      max-width: 400px;
+      transition: opacity 0.4s ease;
+    }
+
+    .bug-banner--error {
+      background: var(--danger-bg);
+      color: var(--danger);
+      border: 1px solid #feb2b2;
+    }
+
+    .bug-banner--success {
+      background: var(--success-bg);
+      color: var(--success);
+      border: 1px solid #9ae6b4;
+    }
+
+    .hero--before .bug-banner--error { display: block; }
+    .hero--after .bug-banner--success { display: block; }
+
+    /* Broken image easter egg */
+    .hero-broken-img {
+      position: absolute;
+      right: 0;
+      top: 0;
+      width: 80px;
+      height: 80px;
+      opacity: 0;
+      transition: opacity 0.4s ease, transform 0.4s ease;
+      pointer-events: none;
+    }
+
+    .hero--before .hero-broken-img {
+      opacity: 1;
+      transform: rotate(12deg) translate(-20px, 30px);
+    }
+
+    /* Overlap element */
+    .hero-overlap {
+      position: absolute;
+      right: 10%;
+      top: 40%;
+      background: #fed7d7;
+      color: var(--danger);
+      font-size: 0.7rem;
+      font-weight: 600;
+      padding: 0.25rem 0.6rem;
+      border-radius: 4px;
+      opacity: 0;
+      transform: translateX(0);
+      transition: opacity 0.4s ease, transform 0.4s ease;
+      pointer-events: none;
+      white-space: nowrap;
+    }
+
+    .hero--before .hero-overlap {
+      opacity: 1;
+      transform: translateX(-60px);
+    }
+
+    /* ── About ── */
+    .about-text p + p { margin-top: 1rem; }
+    .about-text { color: var(--text-muted); max-width: 680px; }
+
+    /* ── Skills ── */
+    .skills-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 1.25rem;
+    }
+
+    .skill-group h3 {
+      font-size: 0.85rem;
+      font-weight: 600;
       margin-bottom: 0.6rem;
     }
 
-    .edu-item:last-child {
-      margin-bottom: 0;
-    }
-
-    .edu-item h4 {
-      font-size: 0.8rem;
-      font-weight: 600;
-    }
-
-    .edu-item .institution {
-      font-size: 0.78rem;
-      color: var(--accent);
-    }
-
-    .edu-item p {
-      font-size: 0.72rem;
-      color: var(--text-muted);
-      margin-top: 0.1rem;
-      line-height: 1.3;
-    }
-
-    /* Main column */
-    .profile {
-      font-size: 0.85rem;
-      color: var(--text-muted);
-      margin-bottom: 0;
-      line-height: 1.5;
-    }
-
-    .profile p + p {
-      margin-top: 0.65rem;
-    }
-
-    .job {
-      margin-bottom: 0.9rem;
-    }
-
-    .job:last-child {
-      margin-bottom: 0;
-    }
-
-    .job-header {
+    .skill-tags {
       display: flex;
-      justify-content: space-between;
-      align-items: baseline;
       flex-wrap: wrap;
-      gap: 0.25rem 1rem;
-      margin-bottom: 0.25rem;
+      gap: 0.4rem;
+      list-style: none;
     }
 
-    .job h3 {
-      font-size: 0.95rem;
-      font-weight: 600;
-    }
-
-    .job .meta {
-      font-size: 0.8rem;
-      color: var(--text-muted);
-    }
-
-    .job .meta strong {
-      color: var(--accent);
-      font-weight: 500;
-    }
-
-    .job > p {
-      font-size: 0.825rem;
-      color: var(--text-muted);
-      margin-bottom: 0.4rem;
-    }
-
-    .job ul {
-      margin: 0.35rem 0 0.35rem 1rem;
-      font-size: 0.8rem;
-      color: var(--text-muted);
-    }
-
-    .job ul li {
-      margin-bottom: 0.08rem;
-    }
-
-    .job .tech {
-      font-size: 0.75rem;
-      color: var(--text-muted);
-      font-style: italic;
-      margin-top: 0.35rem;
-    }
-
-    .job .note {
+    .skill-tags li {
       font-size: 0.78rem;
+      background: var(--bg);
+      border: 1px solid var(--border);
+      border-radius: 999px;
+      padding: 0.25rem 0.65rem;
       color: var(--text-muted);
-      margin-top: 0.35rem;
-      font-style: italic;
+      transition: background 0.15s, border-color 0.15s;
     }
 
-    .qa-block {
-      margin-bottom: 0.75rem;
+    .skill-tags li:hover {
+      background: #ebf4ff;
+      border-color: #bee3f8;
+      color: var(--accent);
     }
 
-    .qa-block:last-of-type {
-      margin-bottom: 0;
+    /* ── Experience ── */
+    .timeline { list-style: none; }
+
+    .timeline-item {
+      padding-left: 1.5rem;
+      border-left: 2px solid var(--border);
+      padding-bottom: 2rem;
+      position: relative;
     }
 
-    .qa-block h3 {
-      font-size: 0.9rem;
+    .timeline-item:last-child { padding-bottom: 0; }
+
+    .timeline-item::before {
+      content: "";
+      position: absolute;
+      left: -6px;
+      top: 4px;
+      width: 10px;
+      height: 10px;
+      border-radius: 50%;
+      background: var(--accent);
+      border: 2px solid var(--card);
+    }
+
+    .timeline-item h3 {
+      font-size: 1rem;
       font-weight: 600;
       margin-bottom: 0.15rem;
     }
 
-    .qa-block .period {
-      font-size: 0.78rem;
+    .timeline-meta {
+      font-size: 0.85rem;
       color: var(--accent);
-      margin-bottom: 0.35rem;
+      margin-bottom: 0.5rem;
     }
 
-    .qa-block > p {
-      font-size: 0.825rem;
-      color: var(--text-muted);
-      margin-bottom: 0.35rem;
-    }
-
-    .qa-block ul {
-      margin: 0.25rem 0 0.25rem 1rem;
-      font-size: 0.8rem;
+    .timeline-item ul {
+      margin-left: 1.1rem;
+      font-size: 0.9rem;
       color: var(--text-muted);
     }
 
-    .qa-block ul li {
-      margin-bottom: 0.06rem;
+    .timeline-item ul li { margin-bottom: 0.2rem; }
+
+    /* ── Education & Languages ── */
+    .edu-lang-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 2rem;
     }
 
-    .qa-block .sub-label {
-      font-size: 0.78rem;
-      font-weight: 600;
+    .edu-list, .lang-list { list-style: none; }
+
+    .edu-list li, .lang-list li {
+      margin-bottom: 0.75rem;
+      font-size: 0.9rem;
+      color: var(--text-muted);
+    }
+
+    .edu-list strong, .lang-list strong {
+      display: block;
       color: var(--text);
-      margin-top: 0.5rem;
+      font-size: 0.95rem;
+    }
+
+    /* ── Portfolio ── */
+    .portfolio-grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 1.5rem;
+    }
+
+    @media (min-width: 721px) {
+      .portfolio-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 2rem;
+      }
+    }
+
+    .project-card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 1.75rem 2rem;
+      box-shadow: var(--shadow);
+      transition: box-shadow 0.2s, transform 0.2s;
+    }
+
+    .project-card:hover {
+      box-shadow: var(--shadow-lg);
+      transform: translateY(-2px);
+    }
+
+    .project-card h3 {
+      font-size: 1.15rem;
+      font-weight: 600;
       margin-bottom: 0.2rem;
     }
 
-    .main-section {
+    .project-role {
+      font-size: 0.8rem;
+      color: var(--accent);
+      margin-bottom: 0.75rem;
+    }
+
+    .project-stack {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.35rem;
+      list-style: none;
+      margin-bottom: 0.75rem;
+    }
+
+    .project-stack li {
+      font-size: 0.72rem;
+      background: var(--bg);
+      border: 1px solid var(--border);
+      border-radius: 4px;
+      padding: 0.15rem 0.45rem;
+      color: var(--text-muted);
+    }
+
+    .project-summary {
+      font-size: 0.9rem;
+      color: var(--text-muted);
+      margin-bottom: 1rem;
+      line-height: 1.55;
+    }
+
+    .project-link {
+      font-size: 0.8rem;
+      text-decoration: none;
+      font-weight: 500;
+    }
+
+    .project-link:hover { text-decoration: underline; }
+
+    .bugs-title {
+      font-size: 0.75rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      color: var(--text-muted);
+      margin: 1rem 0 0.5rem;
+      padding-top: 0.75rem;
+      border-top: 1px solid var(--border);
+    }
+
+    .bug-list { list-style: none; }
+
+    .bug-item {
+      display: grid;
+      grid-template-columns: 4.75rem 1fr;
+      gap: 0.5rem 0.75rem;
+      align-items: start;
+      font-size: 0.85rem;
+      color: var(--text-muted);
+      margin-bottom: 0.65rem;
+      line-height: 1.45;
+    }
+
+    .severity {
+      width: 4.75rem;
+      text-align: center;
+      font-size: 0.65rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+      padding: 0.2rem 0.35rem;
+      border-radius: 3px;
+      margin-top: 1px;
+    }
+
+    .severity--critical { background: var(--danger-bg); color: var(--danger); }
+    .severity--high { background: var(--warning-bg); color: var(--warning); }
+    .severity--medium { background: var(--info-bg); color: var(--info); }
+    .severity--low { background: #f7fafc; color: #718096; border: 1px solid var(--border); }
+
+    .bug-item strong { color: var(--text); }
+
+    .placeholder-note {
+      font-size: 0.8rem;
+      color: var(--text-muted);
+      font-style: italic;
+      margin-top: 1rem;
+    }
+
+    /* ── Strengths ── */
+    .strengths-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 1.25rem;
+    }
+
+    .strength-card {
+      background: var(--bg);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 1.25rem;
+      transition: border-color 0.2s;
+    }
+
+    .strength-card:hover { border-color: var(--accent); }
+
+    .strength-card h3 {
+      font-size: 0.9rem;
+      font-weight: 600;
+      margin-bottom: 0.35rem;
+    }
+
+    .strength-card p {
+      font-size: 0.85rem;
+      color: var(--text-muted);
+      line-height: 1.45;
+    }
+
+    /* ── Footer ── */
+    .footer {
+      padding: 2.5rem 0;
+      text-align: center;
+      font-size: 0.85rem;
+      color: var(--text-muted);
+    }
+
+    .footer-contacts {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 0.5rem 1.5rem;
       margin-bottom: 1rem;
     }
 
-    .main-section:last-child {
-      margin-bottom: 0;
+    .footer-contacts a { text-decoration: none; }
+    .footer-contacts a:hover { text-decoration: underline; }
+
+    .footer-actions {
+      display: flex;
+      justify-content: center;
+      gap: 0.75rem;
+      margin-bottom: 1rem;
+      flex-wrap: wrap;
     }
 
-    /* Responsive */
+    /* ── Responsive ── */
     @media (max-width: 720px) {
-      .cv {
-        margin: 1rem;
-        padding: 1.5rem;
+      .nav-toggle { display: block; }
+
+      .nav-links {
+        display: none;
+        position: absolute;
+        top: var(--nav-h);
+        left: 0;
+        right: 0;
+        flex-direction: column;
+        background: var(--card);
+        border-bottom: 1px solid var(--border);
+        padding: 1rem 1.25rem;
+        gap: 0.75rem;
       }
 
-      .strengths {
-        grid-template-columns: 1fr 1fr;
-      }
+      .nav-links.open { display: flex; }
 
-      .columns {
-        grid-template-columns: 1fr;
-        gap: 1.5rem;
-      }
-    }
+      .edu-lang-grid { grid-template-columns: 1fr; }
 
-    /* Print / PDF — keeps the same layout and typography as on screen */
-    @media print {
-      @page {
-        size: A4;
-        margin: 12mm 14mm;
-      }
-
-      body {
-        background: #fff;
-        -webkit-print-color-adjust: exact;
-        print-color-adjust: exact;
-      }
-
-      .toolbar,
-      .print-hint {
-        display: none !important;
-      }
-
-      .cv {
-        max-width: none;
-        width: 100%;
-        margin: 0;
-        padding: 0;
-        border: none;
-        border-radius: 0;
-        box-shadow: none;
-        background: #fff;
-      }
-
-      .columns {
-        display: grid !important;
-        grid-template-columns: 240px 1fr !important;
-        gap: 2rem;
-      }
-
-      .strengths {
-        display: grid !important;
-        grid-template-columns: repeat(4, 1fr) !important;
-      }
-
-      .contact a {
-        color: var(--accent);
-        text-decoration: none;
-      }
-
-      .header,
-      .strengths,
-      .job,
-      .qa-block {
-        break-inside: avoid;
-      }
+      section { padding: 3rem 0; }
     }
   </style>
 </head>
 <body>
 
-  <div class="toolbar">
-    <button class="btn-pdf" id="pdf-btn" type="button">Download PDF</button>
-    <p class="print-hint">In the print dialog, turn off <strong>Headers and footers</strong>, then choose Save as PDF.</p>
-  </div>
+  <header class="nav" role="banner">
+    <div class="container">
+      <a href="#" class="nav-logo" aria-label="Brisa Lázaro — home">Brisa Lázaro</a>
+      <button class="nav-toggle" id="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+      <ul class="nav-links" id="nav-links" role="navigation" aria-label="Main navigation">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="cv.html" class="btn btn-primary" style="padding: 0.35rem 0.85rem;">View CV</a></li>
+      </ul>
+    </div>
+  </header>
 
-  <main class="cv">
+  <main>
 
-    <header class="header">
-      <h1>Brisa Lázaro</h1>
-      <p class="title">Junior QA Engineer</p>
-      <div class="contact">
-        <a href="mailto:brisa.lazaroc@gmail.com">brisa.lazaroc@gmail.com</a>
-        <a href="tel:+34648008592">+34 648 008 592</a>
-        <a href="https://www.linkedin.com/in/brisa-lazaro/">linkedin.com/in/brisa-lazaro</a>
+    <!-- Hero -->
+    <section class="hero" id="hero" aria-label="Introduction">
+      <div class="container">
+        <div class="hero-inner hero--after" id="hero-inner">
+
+          <div class="qa-toggle" role="group" aria-label="Before and after QA toggle">
+            <button type="button" data-mode="before" aria-pressed="false">🐛 Before QA</button>
+            <button type="button" data-mode="after" class="active" aria-pressed="true">✅ After QA</button>
+          </div>
+
+          <div class="bug-banner bug-banner--error" role="status">⚠ Console: 3 bugs detected in hero section</div>
+          <div class="bug-banner bug-banner--success" role="status">✓ 0 bugs · all tests passing</div>
+
+          <h1>Brisa Lázaro</h1>
+          <p class="subtitle">Junior QA Engineer</p>
+          <p class="pitch"><span class="typo-text"></span></p>
+
+          <div class="hero-contacts">
+            <a href="mailto:brisa.lazaroc@gmail.com">brisa.lazaroc@gmail.com</a>
+            <a href="tel:+34648008592">+34 648 008 592</a>
+            <a href="https://www.linkedin.com/in/brisa-lazaro/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+          </div>
+
+          <div class="hero-actions">
+            <a href="#portfolio" class="btn btn-primary btn-cta">See my work</a>
+            <a href="cv.html" class="btn btn-outline">Download CV</a>
+          </div>
+
+          <img class="hero-broken-img" src="broken-image-does-not-exist.png" alt="[broken image]" width="80" height="80">
+          <span class="hero-overlap">ERROR: element overlap</span>
+        </div>
       </div>
-    </header>
+    </section>
 
-    <div class="columns">
+    <!-- About -->
+    <section id="about" aria-labelledby="about-heading">
+      <div class="container reveal">
+        <h2 class="section-title" id="about-heading">About</h2>
+        <div class="about-text">
+          <p>Frontend Developer transitioning into QA with Agile experience and hands-on testing across the development cycle.</p>
+          <p>My technical background helps me understand how products are built and communicate issues with precision. My growing QA focus drives me to identify risks, uncover edge cases, and advocate for quality.</p>
+          <p>Currently exploring AI-assisted workflows for test design, exploratory testing, and risk analysis.</p>
+        </div>
+      </div>
+    </section>
 
-      <aside class="sidebar">
-        <section class="subsection">
-          <h2 class="section-title">Skills</h2>
-
-          <h3>Testing</h3>
-          <ul class="skill-list">
-            <li>Manual, Exploratory &amp; Functional Testing</li>
-            <li>Regression, E2E &amp; Risk-Based Testing</li>
-            <li>API Testing, Bug Reporting &amp; UX Validation</li>
-          </ul>
-
-          <h3 style="margin-top: 0.75rem;">Tools</h3>
-          <ul class="skill-list">
-            <li>Cypress · Postman · Jira</li>
-            <li>Chrome DevTools · SQL</li>
-            <li>Git · GitHub</li>
-          </ul>
-
-          <h3 style="margin-top: 0.75rem;">Development</h3>
-          <ul class="skill-list">
-            <li>JavaScript · TypeScript</li>
-            <li>React · Redux · Jest</li>
-          </ul>
-
-          <h3 style="margin-top: 0.75rem;">AI &amp; Modern QA</h3>
-          <ul class="skill-list">
-            <li>AI-Assisted Testing</li>
-            <li>Prompt Engineering for QA</li>
-            <li>Risk Analysis with AI</li>
-            <li>AI-Based Edge Case Discovery</li>
-          </ul>
-        </section>
-
-        <section class="subsection">
-          <h2 class="section-title">Languages</h2>
-          <ul class="lang-list">
-            <li>Spanish — Native</li>
-            <li>English — Intermediate (B1)</li>
-            <li>Catalan — Beginner</li>
-          </ul>
-        </section>
-
-        <section class="subsection">
-          <h2 class="section-title">Education</h2>
-          <div class="edu-item">
-            <h4>QA Engineer</h4>
-            <div class="institution">Self-Taught</div>
-          </div>
-          <div class="edu-item">
-            <h4>Web Developer</h4>
-            <div class="institution">42 Barcelona</div>
-          </div>
-          <div class="edu-item">
-            <h4>Business Administration</h4>
-            <div class="institution">UPAEP</div>
-          </div>
-        </section>
-      </aside>
-
-      <div class="main">
-
-        <section class="main-section">
-          <h2 class="section-title">Profile</h2>
-          <div class="profile">
-            <p>Frontend Developer transitioning into QA with Agile experience and hands-on testing across the development cycle.</p>
-            <p>My technical background helps me understand how products are built and communicate issues with precision. My growing QA focus drives me to identify risks, uncover edge cases, and advocate for quality.</p>
-            <p>Currently exploring AI-assisted workflows for test design, exploratory testing, and risk analysis.</p>
-          </div>
-        </section>
-
-        <section class="main-section">
-          <h2 class="section-title">QA Learning &amp; Community Projects</h2>
-
-          <div class="qa-block">
-            <h3>Self-Learning &amp; Hands-On Practice</h3>
-            <p class="period">2025 – Present</p>
-            <ul>
-              <li>Software Testing courses, exploratory and risk-based testing, API testing.</li>
-              <li>Defect reporting, bug investigation, test design and documentation.</li>
+    <!-- Skills -->
+    <section id="skills" aria-labelledby="skills-heading">
+      <div class="container reveal">
+        <h2 class="section-title" id="skills-heading">Skills</h2>
+        <div class="skills-grid">
+          <div class="skill-group">
+            <h3>Testing</h3>
+            <ul class="skill-tags">
+              <li>Manual Testing</li>
+              <li>Exploratory Testing</li>
+              <li>Functional Testing</li>
+              <li>Regression Testing</li>
+              <li>E2E Testing</li>
+              <li>Risk-Based Testing</li>
+              <li>API Testing</li>
+              <li>Bug Reporting</li>
+              <li>UX Validation</li>
             </ul>
           </div>
-
-          <div class="qa-block">
-            <h3>Community Project: Neulygron</h3>
-            <ul>
-              <li>Exploratory testing, usability and functionality issues, security evaluation.</li>
-              <li>Continuous feedback and risk assessment to support release confidence.</li>
-              <li>AI-powered workflows for test ideas, edge cases, and requirement analysis.</li>
+          <div class="skill-group">
+            <h3>Tools</h3>
+            <ul class="skill-tags">
+              <li>Cypress</li>
+              <li>Postman</li>
+              <li>Jira</li>
+              <li>Chrome DevTools</li>
+              <li>SQL</li>
+              <li>Git</li>
+              <li>GitHub</li>
             </ul>
           </div>
-        </section>
+          <div class="skill-group">
+            <h3>Development</h3>
+            <ul class="skill-tags">
+              <li>JavaScript</li>
+              <li>TypeScript</li>
+              <li>React</li>
+              <li>Redux</li>
+              <li>Jest</li>
+            </ul>
+          </div>
+          <div class="skill-group">
+            <h3>AI &amp; Modern QA</h3>
+            <ul class="skill-tags">
+              <li>AI-Assisted Testing</li>
+              <li>Prompt Engineering</li>
+              <li>Risk Analysis with AI</li>
+              <li>Edge Case Discovery</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
 
-        <section class="main-section">
-          <h2 class="section-title">Professional Experience</h2>
-
-          <article class="job">
-            <div class="job-header">
-              <h3>Frontend Developer</h3>
-              <span class="meta"><strong>Bikup Tech Solutions</strong> · 2022 – 2024</span>
-            </div>
+    <!-- Experience -->
+    <section id="experience" aria-labelledby="experience-heading">
+      <div class="container reveal">
+        <h2 class="section-title" id="experience-heading">Experience</h2>
+        <ul class="timeline">
+          <li class="timeline-item">
+            <h3>Frontend Developer</h3>
+            <p class="timeline-meta">Bikup Tech Solutions · 2022 – 2024</p>
             <ul>
               <li>Participated in unit testing, E2E testing, 3 Amigos and ETS sessions in Agile teams.</li>
               <li>Used Feature Flags to support safer releases and reduce deployment risks.</li>
               <li>Identified defects and validated functionality throughout development.</li>
             </ul>
-          </article>
-
-          <article class="job">
-            <div class="job-header">
-              <h3>Restaurant Manager</h3>
-              <span class="meta"><strong>El Pulpo</strong> · 2017 – 2021</span>
-            </div>
+          </li>
+          <li class="timeline-item">
+            <h3>Restaurant Manager</h3>
+            <p class="timeline-meta">El Pulpo · 2017 – 2021</p>
             <ul>
               <li>Coordinated teams and resolved operational issues in fast-paced environments.</li>
               <li>Built skills in attention to detail, communication, and process improvement — now applied to QA.</li>
             </ul>
+          </li>
+          <li class="timeline-item">
+            <h3>Self-Learning &amp; Hands-On Practice</h3>
+            <p class="timeline-meta">2025 – Present</p>
+            <ul>
+              <li>Software Testing courses, exploratory and risk-based testing, API testing.</li>
+              <li>Defect reporting, bug investigation, test design and documentation.</li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Education & Languages -->
+    <section id="education" aria-labelledby="education-heading">
+      <div class="container reveal">
+        <h2 class="section-title" id="education-heading">Education &amp; Languages</h2>
+        <div class="edu-lang-grid">
+          <div>
+            <h3 class="section-heading" style="font-size:1.1rem; margin-bottom:0.75rem;">Education</h3>
+            <ul class="edu-list">
+              <li><strong>QA Engineer</strong>Self-Taught</li>
+              <li><strong>Web Developer</strong>42 Barcelona</li>
+              <li><strong>Business Administration</strong>UPAEP</li>
+            </ul>
+          </div>
+          <div>
+            <h3 class="section-heading" style="font-size:1.1rem; margin-bottom:0.75rem;">Languages</h3>
+            <ul class="lang-list">
+              <li><strong>Spanish</strong>Native</li>
+              <li><strong>English</strong>Intermediate (B1)</li>
+              <li><strong>Catalan</strong>Beginner</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Portfolio -->
+    <section id="portfolio" aria-labelledby="portfolio-heading">
+      <div class="container reveal">
+        <h2 class="section-title" id="portfolio-heading">Portfolio</h2>
+        <p class="section-heading" style="font-size:1.25rem; margin-top:-1rem; margin-bottom:1.5rem;">Projects &amp; bugs found</p>
+
+        <div class="portfolio-grid">
+
+          <!-- Neulygron (filled example) -->
+          <article class="project-card">
+            <h3>Neulygron</h3>
+            <p class="project-role">QA Tester · Community Project</p>
+            <ul class="project-stack">
+              <li>Exploratory Testing</li>
+              <li>Usability</li>
+              <li>Security</li>
+            </ul>
+            <p class="project-summary">Community project where I performed exploratory testing, usability and functionality evaluation, security checks, and continuous feedback to support release confidence.</p>
+            <a href="#" class="project-link" aria-label="Neulygron project link (add URL)">View project →</a>
+            <p class="bugs-title">Bugs found</p>
+            <ul class="bug-list">
+              <li class="bug-item">
+                <span class="severity severity--high">High</span>
+                <span><strong>Session not invalidated on logout</strong> — User could access protected routes after logging out via browser back button.</span>
+              </li>
+              <li class="bug-item">
+                <span class="severity severity--medium">Medium</span>
+                <span><strong>Form accepts empty required fields</strong> — Submit button enabled without client-side validation on registration form.</span>
+              </li>
+              <li class="bug-item">
+                <span class="severity severity--low">Low</span>
+                <span><strong>Button label truncated on mobile</strong> — CTA text cut off on screens narrower than 360px.</span>
+              </li>
+            </ul>
           </article>
-        </section>
+
+          <!-- Placeholder project 1 -->
+          <article class="project-card">
+            <h3>Project Name</h3>
+            <p class="project-role">QA Tester · [Company / Type]</p>
+            <ul class="project-stack">
+              <li>Cypress</li>
+              <li>API Testing</li>
+              <li>Jira</li>
+            </ul>
+            <p class="project-summary">Short description of the project and your QA role. Replace this text with a real summary.</p>
+            <a href="#" class="project-link">View project →</a>
+            <p class="bugs-title">Bugs found</p>
+            <ul class="bug-list">
+              <li class="bug-item">
+                <span class="severity severity--critical">Critical</span>
+                <span><strong>Bug title here</strong> — One-line description of the bug and its impact.</span>
+              </li>
+              <li class="bug-item">
+                <span class="severity severity--medium">Medium</span>
+                <span><strong>Another bug title</strong> — Brief description of what went wrong.</span>
+              </li>
+            </ul>
+          </article>
+
+          <!-- Placeholder project 2 -->
+          <article class="project-card">
+            <h3>Another Project</h3>
+            <p class="project-role">QA Tester · [Company / Type]</p>
+            <ul class="project-stack">
+              <li>Postman</li>
+              <li>Manual Testing</li>
+            </ul>
+            <p class="project-summary">Another placeholder card. Copy this block to add more projects to your portfolio.</p>
+            <a href="#" class="project-link">View project →</a>
+            <p class="bugs-title">Bugs found</p>
+            <ul class="bug-list">
+              <li class="bug-item">
+                <span class="severity severity--high">High</span>
+                <span><strong>Bug title here</strong> — One-line description.</span>
+              </li>
+            </ul>
+          </article>
+
+          <!--
+          ═══ TEMPLATE: copy this block to add a new project ═══
+          <article class="project-card">
+            <h3>Project Name</h3>
+            <p class="project-role">QA Tester · Company</p>
+            <ul class="project-stack">
+              <li>Tool 1</li>
+              <li>Tool 2</li>
+            </ul>
+            <p class="project-summary">Project summary here.</p>
+            <a href="https://example.com" class="project-link" target="_blank" rel="noopener noreferrer">View project →</a>
+            <p class="bugs-title">Bugs found</p>
+            <ul class="bug-list">
+              <li class="bug-item">
+                <span class="severity severity--critical">Critical</span>
+                <span><strong>Bug title</strong> — Description.</span>
+              </li>
+            </ul>
+          </article>
+          Severity classes: severity--critical | severity--high | severity--medium | severity--low
+          ═══ END TEMPLATE ═══
+          -->
+
+        </div>
 
       </div>
-    </div>
+    </section>
 
-    <section class="strengths" aria-label="What I Bring">
-      <h2 class="section-title" style="grid-column: 1 / -1; margin-bottom: 0.35rem;">What I Bring</h2>
-      <div class="strength">
-        <h3>Quality Mindset</h3>
-        <p>Question assumptions and identify risks before they reach users.</p>
-      </div>
-      <div class="strength">
-        <h3>Technical Background</h3>
-        <p>Frontend experience to collaborate with engineers and report issues precisely.</p>
-      </div>
-      <div class="strength">
-        <h3>AI-Augmented Testing</h3>
-        <p>Using AI tools to improve test design, discover scenarios, and speed up investigation.</p>
-      </div>
-      <div class="strength">
-        <h3>Continuous Learning</h3>
-        <p>Hands-on practice, community projects, and real-world experimentation.</p>
+    <!-- Strengths -->
+    <section id="strengths" aria-labelledby="strengths-heading">
+      <div class="container reveal">
+        <h2 class="section-title" id="strengths-heading">What I Bring</h2>
+        <div class="strengths-grid">
+          <div class="strength-card">
+            <h3>Quality Mindset</h3>
+            <p>Question assumptions and identify risks before they reach users.</p>
+          </div>
+          <div class="strength-card">
+            <h3>Technical Background</h3>
+            <p>Frontend experience to collaborate with engineers and report issues precisely.</p>
+          </div>
+          <div class="strength-card">
+            <h3>AI-Augmented Testing</h3>
+            <p>Using AI tools to improve test design, discover scenarios, and speed up investigation.</p>
+          </div>
+          <div class="strength-card">
+            <h3>Continuous Learning</h3>
+            <p>Hands-on practice, community projects, and real-world experimentation.</p>
+          </div>
+        </div>
       </div>
     </section>
 
   </main>
 
+  <footer class="footer" id="contact" role="contentinfo">
+    <div class="container">
+      <div class="footer-contacts">
+        <a href="mailto:brisa.lazaroc@gmail.com">brisa.lazaroc@gmail.com</a>
+        <a href="tel:+34648008592">+34 648 008 592</a>
+        <a href="https://www.linkedin.com/in/brisa-lazaro/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+      </div>
+      <div class="footer-actions">
+        <a href="cv.html" class="btn btn-outline">View / Download CV</a>
+        <a href="mailto:brisa.lazaroc@gmail.com?subject=Bug%20Report%20—%20Portfolio%20Site&amp;body=Steps%20to%20reproduce%3A%0A1.%20%0A%0AExpected%20result%3A%0A%0AActual%20result%3A%0A%0ASeverity%3A%20%5BLow%20%2F%20Medium%20%2F%20High%20%2F%20Critical%5D%0AEnvironment%3A%20%5Bbrowser%20%2B%20OS%5D" class="btn btn-bug">🐛 Report a bug</a>
+      </div>
+      <p>&copy; 2026 Brisa Lázaro. Built with HTML, CSS, and a healthy distrust of &ldquo;it works on my machine.&rdquo;</p>
+    </div>
+  </footer>
+
   <script>
-    const pageTitle = document.title;
+    // ── Mobile nav toggle ──
+    const navToggle = document.getElementById('nav-toggle');
+    const navLinks = document.getElementById('nav-links');
 
-    document.getElementById('pdf-btn').addEventListener('click', () => {
-      window.print();
+    navToggle.addEventListener('click', () => {
+      const open = navLinks.classList.toggle('open');
+      navToggle.setAttribute('aria-expanded', open);
     });
 
-    window.addEventListener('beforeprint', () => {
-      document.title = ' ';
+    navLinks.querySelectorAll('a').forEach(link => {
+      link.addEventListener('click', () => {
+        navLinks.classList.remove('open');
+        navToggle.setAttribute('aria-expanded', 'false');
+      });
     });
 
-    window.addEventListener('afterprint', () => {
-      document.title = pageTitle;
+    // ── Scroll reveal ──
+    const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+    if (!prefersReducedMotion && 'IntersectionObserver' in window) {
+      const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add('visible');
+            observer.unobserve(entry.target);
+          }
+        });
+      }, { threshold: 0.12 });
+
+      document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
+    } else {
+      document.querySelectorAll('.reveal').forEach(el => el.classList.add('visible'));
+    }
+
+    // ── Hero Before/After QA toggle ──
+    const heroInner = document.getElementById('hero-inner');
+    const qaButtons = document.querySelectorAll('.qa-toggle button');
+
+    qaButtons.forEach(btn => {
+      btn.addEventListener('click', () => {
+        const mode = btn.dataset.mode;
+        heroInner.className = 'hero-inner hero--' + mode;
+        qaButtons.forEach(b => {
+          const active = b === btn;
+          b.classList.toggle('active', active);
+          b.setAttribute('aria-pressed', active);
+        });
+      });
     });
+
+    // ── Console easter egg ──
+    console.log(
+      '%c🔍 QA Easter Egg unlocked!',
+      'color: #2c5282; font-size: 14px; font-weight: bold;'
+    );
+    console.log(
+      '%cYou opened DevTools — spoken like a true tester. Nothing to see here… except maybe a few bugs in "Before QA" mode. 😉',
+      'color: #555; font-size: 12px;'
+    );
   </script>
 
 </body>

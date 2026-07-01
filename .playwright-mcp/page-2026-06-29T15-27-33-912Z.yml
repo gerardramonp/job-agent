@@ -1,0 +1,249 @@
+- generic [active] [ref=e1]:
+  - generic:
+    - region "Toast message":
+      - heading "0 notifications total" [level=2] [ref=e3]
+      - alert
+  - generic [ref=e4]:
+    - generic [ref=e6]:
+      - button "Skip to search" [ref=e7] [cursor=pointer]:
+        - generic [ref=e8]: Skip to search
+      - button "Skip to main content" [ref=e9] [cursor=pointer]:
+        - generic [ref=e10]: Skip to main content
+      - button "Keyboard shortcuts" [ref=e11] [cursor=pointer]:
+        - generic [ref=e12]: Keyboard shortcuts
+      - button "Close jump menu" [ref=e13] [cursor=pointer]:
+        - img [ref=e14]
+        - generic [ref=e16]: Close jump menu
+    - banner "Global Navigation" [ref=e17]:
+      - generic [ref=e18]:
+        - link "LinkedIn" [ref=e19] [cursor=pointer]:
+          - /url: https://www.linkedin.com/feed/?nis=true
+          - img "LinkedIn" [ref=e22]:
+            - img [ref=e23]
+        - generic [ref=e27]:
+          - generic [ref=e30]:
+            - generic [ref=e31]:
+              - generic [ref=e32]: Search by title, skill, or company
+              - img [ref=e33]
+            - combobox "Search by title, skill, or company" [ref=e35]: QA Engineer
+            - textbox [disabled]
+          - generic [ref=e38]:
+            - generic [ref=e39]:
+              - generic [ref=e40]: City, state, or zip code
+              - img [ref=e41]
+            - combobox "City, state, or zip code" [ref=e43]: Barcelona, Catalonia, Spain
+            - textbox [disabled]
+          - button "Search" [ref=e44] [cursor=pointer]
+        - navigation "Primary Navigation" [ref=e45]:
+          - list [ref=e46]:
+            - listitem [ref=e47]:
+              - link "new feed updates notifications Home" [ref=e48] [cursor=pointer]:
+                - /url: https://www.linkedin.com/feed/?nis=true&
+                - generic [ref=e49]:
+                  - generic [ref=e52]: new feed updates notifications
+                  - img [ref=e56]
+                - generic "Home" [ref=e58]
+            - listitem [ref=e59]:
+              - link "My Network" [ref=e60] [cursor=pointer]:
+                - /url: https://www.linkedin.com/mynetwork/?
+                - img [ref=e64]
+                - generic "My Network" [ref=e66]
+            - listitem [ref=e67]:
+              - link "Jobs" [ref=e68] [cursor=pointer]:
+                - /url: https://www.linkedin.com/jobs/?
+                - img [ref=e72]
+                - generic "Jobs" [ref=e74]
+            - listitem [ref=e75]:
+              - link "Messaging" [ref=e76] [cursor=pointer]:
+                - /url: https://www.linkedin.com/messaging/?
+                - img [ref=e80]
+                - generic "Messaging" [ref=e82]
+            - listitem [ref=e83]:
+              - link "Notifications" [ref=e84] [cursor=pointer]:
+                - /url: https://www.linkedin.com/notifications/?
+                - img [ref=e88]
+                - generic "Notifications" [ref=e90]
+            - listitem [ref=e91]:
+              - button "Brisa Elvira Lazaro Campos Me" [ref=e93] [cursor=pointer]:
+                - img "Brisa Elvira Lazaro Campos" [ref=e94]
+                - generic [ref=e95]:
+                  - text: Me
+                  - img [ref=e96]
+            - listitem [ref=e98]:
+              - button "For Business" [ref=e100] [cursor=pointer]:
+                - img [ref=e104]
+                - generic "For Business" [ref=e106]:
+                  - text: For Business
+                  - img [ref=e107]
+            - listitem [ref=e109]:
+              - link "Get hired for €0" [ref=e111] [cursor=pointer]:
+                - /url: javascript:void(0)
+                - generic [ref=e112]:
+                  - img [ref=e113]
+                  - generic [ref=e115]: Get hired for €0
+    - generic [ref=e117]:
+      - region "search filters" [ref=e120]:
+        - heading "Jobs search" [level=2] [ref=e121]
+      - main [ref=e132]:
+        - generic [ref=e134]:
+          - generic [ref=e135]:
+            - generic [ref=e136]:
+              - generic [ref=e137]:
+                - generic "QA Engineer in Barcelona, Catalonia, Spain" [ref=e138]
+                - generic [ref=e141]: 100+ results
+              - generic [ref=e144] [cursor=pointer]:
+                - generic [ref=e145]: Set alert
+                - generic [ref=e146]: Set job alert for QA Engineer in Barcelona, Catalonia, Spain
+                - switch "Set job alert for QA Engineer in Barcelona, Catalonia, Spain"
+            - generic [ref=e147]:
+              - button "Jump to active job details":
+                - generic [ref=e148] [cursor=pointer]: Jump to active job details
+              - button "Jump to active search result":
+                - generic [ref=e149] [cursor=pointer]: Jump to active search result
+              - list [ref=e150]:
+                - listitem [ref=e151]:
+                  - generic [ref=e154] [cursor=pointer]:
+                    - generic [ref=e155]:
+                      - img "83zero logo" [ref=e159]
+                      - generic [ref=e160]:
+                        - link "Queue Lead" [ref=e162]:
+                          - /url: /jobs/view/4431522281/?trk=flagship3_search_srp_jobs
+                          - strong [ref=e164]: Queue Lead
+                        - generic [ref=e166]: 83zero
+                        - list [ref=e168]:
+                          - listitem [ref=e169]:
+                            - generic [ref=e170]: Spain (Remote)
+                    - list [ref=e172]:
+                      - listitem [ref=e173]
+                - listitem [ref=e175]:
+                  - generic [ref=e178] [cursor=pointer]:
+                    - generic [ref=e179]:
+                      - img "Jobgether logo" [ref=e183]
+                      - generic [ref=e184]:
+                        - link "Backend Software Engineer" [ref=e186]:
+                          - /url: /jobs/view/4434109880/?trk=flagship3_search_srp_jobs
+                          - strong [ref=e188]: Backend Software Engineer
+                        - generic [ref=e190]: Jobgether
+                        - list [ref=e192]:
+                          - listitem [ref=e193]:
+                            - generic [ref=e194]: Spain (Remote)
+                    - list [ref=e196]:
+                      - listitem [ref=e197]
+                - listitem [ref=e199]:
+                  - generic [ref=e202] [cursor=pointer]:
+                    - generic [ref=e203]:
+                      - img "Optimissa logo" [ref=e207]
+                      - generic [ref=e208]:
+                        - link "Desarrollador Mid Full Stack (Node.js) with verification" [ref=e210]:
+                          - /url: /jobs/view/4431057945/?trk=flagship3_search_srp_jobs
+                          - generic [ref=e211]:
+                            - strong [ref=e212]: Desarrollador Mid Full Stack (Node.js)
+                            - img [ref=e214]
+                        - generic [ref=e217]: Optimissa
+                        - list [ref=e219]:
+                          - listitem [ref=e220]:
+                            - generic [ref=e221]: Greater Barcelona Metropolitan Area (Hybrid)
+                    - list [ref=e223]:
+                      - listitem [ref=e224]
+                - listitem [ref=e226]:
+                  - generic [ref=e229] [cursor=pointer]:
+                    - generic [ref=e230]:
+                      - img "Randstad Digital España logo" [ref=e234]
+                      - generic [ref=e235]:
+                        - link "It support" [ref=e237]:
+                          - /url: /jobs/view/4434496404/?trk=flagship3_search_srp_jobs
+                          - strong [ref=e239]: It support
+                        - generic [ref=e241]: Randstad Digital España
+                        - list [ref=e243]:
+                          - listitem [ref=e244]:
+                            - generic [ref=e245]: Barcelona, Catalonia, Spain (Hybrid)
+                    - list [ref=e247]:
+                      - listitem [ref=e248]
+                - listitem [ref=e250]:
+                  - generic [ref=e253] [cursor=pointer]:
+                    - generic [ref=e254]:
+                      - img "Set2Recruit logo" [ref=e258]
+                      - generic [ref=e259]:
+                        - link "Software Developer Simulation" [ref=e261]:
+                          - /url: /jobs/view/4431523180/?trk=flagship3_search_srp_jobs
+                          - strong [ref=e263]: Software Developer Simulation
+                        - generic [ref=e265]: Set2Recruit
+                        - list [ref=e267]:
+                          - listitem [ref=e268]:
+                            - generic [ref=e269]: European Union (Remote)
+                    - list [ref=e271]:
+                      - listitem [ref=e272]
+                - listitem [ref=e274]:
+                  - generic [ref=e277] [cursor=pointer]:
+                    - generic [ref=e278]:
+                      - img "Paradigma Digital logo" [ref=e282]
+                      - generic [ref=e283]:
+                        - link "Senior Data Engineer with verification" [ref=e285]:
+                          - /url: /jobs/view/4434495450/?trk=flagship3_search_srp_jobs
+                          - generic [ref=e286]:
+                            - strong [ref=e287]: Senior Data Engineer
+                            - img [ref=e289]
+                        - generic [ref=e292]: Paradigma Digital
+                        - list [ref=e294]:
+                          - listitem [ref=e295]:
+                            - generic [ref=e296]: Spain (Remote)
+                    - list [ref=e298]:
+                      - listitem [ref=e299]
+                - listitem [ref=e301]:
+                  - generic [ref=e304] [cursor=pointer]:
+                    - generic [ref=e305]:
+                      - img "Neuron IP logo" [ref=e309]
+                      - generic [ref=e310]:
+                        - link "Digital ASIC Engineer (Design, Verif, PNR, FW)" [ref=e312]:
+                          - /url: /jobs/view/4434125440/?trk=flagship3_search_srp_jobs
+                          - strong [ref=e314]: Digital ASIC Engineer (Design, Verif, PNR, FW)
+                        - generic [ref=e316]: Neuron IP
+                        - list [ref=e318]:
+                          - listitem [ref=e319]:
+                            - generic [ref=e320]: Barcelona, Catalonia, Spain (Hybrid)
+                    - list [ref=e322]:
+                      - listitem [ref=e323]
+              - generic [ref=e325]:
+                - list [ref=e328]:
+                  - listitem [ref=e329]:
+                    - button "Page 1" [ref=e330] [cursor=pointer]: "1"
+                - generic "LinkedIn Footer Content" [ref=e332]
+          - generic "Queue Lead" [ref=e336]:
+            - generic [ref=e340]:
+              - generic [ref=e344]:
+                - generic [ref=e347]:
+                  - button "Share" [ref=e350] [cursor=pointer]:
+                    - img [ref=e351]
+                    - generic [ref=e353]: Share
+                  - button "Show more options" [ref=e355] [cursor=pointer]:
+                    - img [ref=e356]
+                    - generic [ref=e358]: Show more options
+                - heading "Queue Lead" [level=1] [ref=e361]:
+                  - link "Queue Lead" [ref=e362] [cursor=pointer]:
+                    - /url: /jobs/view/4431522281/?alternateChannel=search&refId=NotAvailable&trackingId=eIPsDyVaR5unEaMjhsUNdw%3D%3D&trk=d_flagship3_search_srp_jobs
+                - generic:
+                  - list
+              - article [ref=e375]:
+                - heading "About the job" [level=2] [ref=e378]
+              - alert [ref=e413]: Loading job details
+    - generic:
+      - generic:
+        - complementary:
+          - generic [ref=e427]:
+            - generic [ref=e429] [cursor=pointer]:
+              - img "Brisa Elvira Lazaro Campos" [ref=e431]
+              - button "You are on the messaging overlay. Press enter to open the list of conversations." [ref=e432]:
+                - generic [ref=e433]:
+                  - generic [ref=e434]: Messaging
+                  - generic [ref=e435]: You are on the messaging overlay. Press enter to open the list of conversations.
+            - generic [ref=e436]:
+              - button "Open messenger dropdown menu" [ref=e438] [cursor=pointer]:
+                - img "Open messenger dropdown menu" [ref=e439]
+              - button "Compose message" [ref=e442] [cursor=pointer]:
+                - img [ref=e443]
+                - generic [ref=e445]: Compose message
+              - button "You are on the messaging overlay. Press enter to open the list of conversations." [ref=e446] [cursor=pointer]:
+                - img [ref=e447]
+                - generic [ref=e449]: You are on the messaging overlay. Press enter to open the list of conversations.
+        - complementary "AI-powered assistant to get help with your career, jobs etc"
+  - region [ref=e450]

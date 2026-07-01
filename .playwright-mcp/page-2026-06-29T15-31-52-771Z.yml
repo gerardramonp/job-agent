@@ -1,0 +1,788 @@
+- generic [ref=e2]:
+  - heading "0 notifications" [level=2] [ref=e164]
+  - generic [ref=e165]:
+    - generic:
+      - generic "Skip navigation menu":
+        - generic [ref=e166]:
+          - button "Skip to search" [ref=e167] [cursor=pointer]:
+            - generic [ref=e169]: Skip to search
+          - button "Skip to main content" [ref=e170] [cursor=pointer]:
+            - generic [ref=e172]: Skip to main content
+          - button "Skip to primary content" [ref=e173] [cursor=pointer]:
+            - generic [ref=e175]: Skip to primary content
+          - button "Skip to aside" [ref=e176] [cursor=pointer]:
+            - generic [ref=e178]: Skip to aside
+          - button "Skip to footer" [ref=e179] [cursor=pointer]:
+            - generic [ref=e181]: Skip to footer
+          - button "Close jump menu" [ref=e183] [cursor=pointer]:
+            - img [ref=e185]
+    - generic [ref=e187]:
+      - banner [ref=e189]:
+        - generic [ref=e192]:
+          - button "LinkedIn" [ref=e193] [cursor=pointer]:
+            - img "LinkedIn" [ref=e194]
+          - generic [ref=e196]:
+            - status [ref=e197]
+            - search [ref=e198]:
+              - generic [ref=e199]:
+                - img [ref=e201]
+                - textbox "Search" [ref=e203]
+          - generic [ref=e205]:
+            - generic [ref=e209]:
+              - figure [ref=e210]
+              - figure [ref=e211]
+              - figure [ref=e212]
+            - navigation [ref=e216]:
+              - list [ref=e217]:
+                - listitem [ref=e218]:
+                  - button "Home, 1 new notification" [ref=e219] [cursor=pointer]:
+                    - img [ref=e221]
+                    - generic [ref=e225]: Home
+                - listitem [ref=e226]:
+                  - link "My Network, 0 new notifications" [ref=e227] [cursor=pointer]:
+                    - /url: https://www.linkedin.com/mynetwork
+                    - img [ref=e229]
+                    - generic [ref=e232]: My Network
+                - listitem [ref=e233]:
+                  - link "Jobs, 0 new notifications" [ref=e234] [cursor=pointer]:
+                    - /url: https://www.linkedin.com/jobs/
+                    - img [ref=e236]
+                    - generic [ref=e239]: Jobs
+                - listitem [ref=e240]:
+                  - link "Messaging, 0 new notifications" [ref=e241] [cursor=pointer]:
+                    - /url: https://www.linkedin.com/messaging/
+                    - img [ref=e243]
+                    - generic [ref=e246]: Messaging
+                - listitem [ref=e247]:
+                  - link "Notifications, 0 new notifications" [ref=e248] [cursor=pointer]:
+                    - /url: https://www.linkedin.com/notifications/
+                    - img [ref=e250]
+                    - generic [ref=e253]: Notifications
+                - listitem [ref=e254]:
+                  - button "Me" [ref=e255] [cursor=pointer]:
+                    - figure [ref=e257]
+                    - generic [ref=e259]:
+                      - text: Me
+                      - img [ref=e260]
+            - generic [ref=e263]:
+              - navigation [ref=e264]:
+                - list [ref=e265]:
+                  - listitem [ref=e266]:
+                    - button "For Business" [ref=e267] [cursor=pointer]:
+                      - img [ref=e269]
+                      - generic [ref=e272]:
+                        - text: For Business
+                        - img [ref=e273]
+              - link "Get hired for €0" [ref=e276] [cursor=pointer]:
+                - /url: https://www.linkedin.com/jobs/view/4434478985/
+                - generic [ref=e277]:
+                  - img [ref=e278]
+                  - paragraph [ref=e282]: Get hired for €0
+      - generic [ref=e284]:
+        - toolbar
+        - main [ref=e285]:
+          - generic [ref=e287]:
+            - region "Primary content" [ref=e288]:
+              - generic [ref=e291]:
+                - generic [ref=e296]:
+                  - generic [ref=e297]:
+                    - generic [ref=e298]:
+                      - link "Company, On Rent Sustainable Rent." [ref=e300] [cursor=pointer]:
+                        - /url: https://www.linkedin.com/company/on-rent/life/
+                        - generic "Company, On Rent Sustainable Rent." [ref=e301]:
+                          - figure [ref=e302]:
+                            - img "Company logo for, On Rent Sustainable Rent." [ref=e303]
+                          - paragraph [ref=e304]:
+                            - link "On Rent Sustainable Rent" [ref=e305]:
+                              - /url: https://www.linkedin.com/company/on-rent/life/
+                      - button "More options" [ref=e306] [cursor=pointer]:
+                        - img [ref=e308]
+                    - paragraph [ref=e311]: Técnico/a de calidad (junior)
+                    - paragraph [ref=e312]:
+                      - text: Madrid, Community of Madrid, Spain ·
+                      - strong [ref=e314]: 1 hour ago
+                      - text: · 5 applicants
+                    - paragraph [ref=e316]: Company review time is typically 1 week
+                  - generic [ref=e317]:
+                    - link "Hybrid" [ref=e319] [cursor=pointer]:
+                      - /url: https://www.linkedin.com/jobs/view/4434478985/
+                      - generic [ref=e321]: Hybrid
+                    - link "Full-time" [ref=e323] [cursor=pointer]:
+                      - /url: https://www.linkedin.com/jobs/view/4434478985/
+                      - generic [ref=e325]: Full-time
+                  - generic [ref=e330]:
+                    - button "Easy Apply to this job" [ref=e332] [cursor=pointer]:
+                      - generic [ref=e333]:
+                        - img [ref=e334]
+                        - generic [ref=e336]: Easy Apply
+                    - button "Save the job" [ref=e338] [cursor=pointer]:
+                      - generic [ref=e340]: Save
+                - generic [ref=e341]:
+                  - generic [ref=e342]:
+                    - generic [ref=e346]:
+                      - heading "Use AI to assess how you fit" [level=2] [ref=e348]
+                      - paragraph [ref=e351]:
+                        - text: Get AI-powered advice on this job and more exclusive features with Premium.
+                        - link "Try Premium for €0" [ref=e352] [cursor=pointer]:
+                          - /url: https://www.linkedin.com/premium/products/?upsellOrderOrigin=Tracking%3Av1%3Apremium_job_details_how_you_fit_upsell%3AJob+Seeker%3AIn-Product&utype=coach_job&referenceId=B17JuV8XTRO0UVUOP%2Fws%2Bw%3D%3D&isSS=false&upsellSlotId=JOB_DETAILS_HOW_YOU_FIT
+                      - list [ref=e359]:
+                        - listitem [ref=e360]:
+                          - link "Show match details" [ref=e362] [cursor=pointer]:
+                            - /url: /preload/guideOverlay/?interop=guideOverlay&query=Show+match+details&originalThreadMailbox=urn%3Ali%3AguideJobs%3AACoAAEo7I2ABT_Se46rUSdxcqR1AMTM1Pt5FOZA&conversationUrn=urn%3Ali%3Afsu_guideConversationV2%3Aurn%3Ali%3Aguide%3A1cb11b8d9c73642236e0696f0de0d5af09b39468ee6bb2cb542e4ef6d00d19ae%7Eurn%3Ali%3AguideJobs%3AACoAAEo7I2ABT_Se46rUSdxcqR1AMTM1Pt5FOZA&contextUrns=urn%3Ali%3Aguide%3A1cb11b8d9c73642236e0696f0de0d5af09b39468ee6bb2cb542e4ef6d00d19ae&intent=GuideIntent_JOB_SEEKING_AGENT&originalIntent=GuideIntent_JOB_SEEKING_AGENT&trackingId=1N0oANGCR2qcDKUpf5ZkKA%3D%3D&customContext=subIntent%7E%3AJobSeekerAgentIntent_JOB_FIT_EXPLANATION%2CjobPostingId%7E%3A4434478985%2ChasHistory%7E%3Afalse&isZeroState=true&pageContextJobPostingUrns=urn%3Ali%3Afsd_jobPosting%3A4434478985
+                            - generic [ref=e363]:
+                              - img [ref=e364]
+                              - paragraph [ref=e366]: Show match details
+                        - listitem [ref=e367]:
+                          - link "Tailor my resume" [ref=e369] [cursor=pointer]:
+                            - /url: /preload/guideOverlay/?interop=guideOverlay&query=Tailor+my+resume&originalThreadMailbox=urn%3Ali%3AguideJobs%3AACoAAEo7I2ABT_Se46rUSdxcqR1AMTM1Pt5FOZA&conversationUrn=urn%3Ali%3Afsu_guideConversationV2%3Aurn%3Ali%3Aguide%3A1cb11b8d9c73642236e0696f0de0d5af09b39468ee6bb2cb542e4ef6d00d19ae%7Eurn%3Ali%3AguideJobs%3AACoAAEo7I2ABT_Se46rUSdxcqR1AMTM1Pt5FOZA&contextUrns=urn%3Ali%3Aguide%3A1cb11b8d9c73642236e0696f0de0d5af09b39468ee6bb2cb542e4ef6d00d19ae&intent=GuideIntent_JOB_SEEKING_AGENT&originalIntent=GuideIntent_JOB_SEEKING_AGENT&trackingId=78alYIsmS9a5hjfN4ohrDA%3D%3D&customContext=subIntent%7E%3AJobSeekerAgentIntent_RESUME_ASSISTANCE%2CjobPostingId%7E%3A4434478985%2ChasHistory%7E%3Afalse&isZeroState=true&pageContextJobPostingUrns=urn%3Ali%3Afsd_jobPosting%3A4434478985
+                            - generic [ref=e370]:
+                              - img [ref=e371]
+                              - paragraph [ref=e373]: Tailor my resume
+                        - listitem [ref=e374]:
+                          - link "Help me stand out" [ref=e376] [cursor=pointer]:
+                            - /url: /preload/guideOverlay/?interop=guideOverlay&query=Help+me+stand+out&originalThreadMailbox=urn%3Ali%3AguideJobs%3AACoAAEo7I2ABT_Se46rUSdxcqR1AMTM1Pt5FOZA&conversationUrn=urn%3Ali%3Afsu_guideConversationV2%3Aurn%3Ali%3Aguide%3A1cb11b8d9c73642236e0696f0de0d5af09b39468ee6bb2cb542e4ef6d00d19ae%7Eurn%3Ali%3AguideJobs%3AACoAAEo7I2ABT_Se46rUSdxcqR1AMTM1Pt5FOZA&contextUrns=urn%3Ali%3Aguide%3A1cb11b8d9c73642236e0696f0de0d5af09b39468ee6bb2cb542e4ef6d00d19ae&intent=GuideIntent_JOB_SEEKING_AGENT&originalIntent=GuideIntent_JOB_SEEKING_AGENT&trackingId=NpDI9VydTquFtUBGcWIiqg%3D%3D&customContext=subIntent%7E%3AJobSeekerAgentIntent_JOB_RECOMMENDED_ACTIONS%2CjobPostingId%7E%3A4434478985%2ChasHistory%7E%3Afalse&isZeroState=true&pageContextJobPostingUrns=urn%3Ali%3Afsd_jobPosting%3A4434478985
+                            - generic [ref=e377]:
+                              - img [ref=e378]
+                              - paragraph [ref=e380]: Help me stand out
+                    - generic [ref=e385]:
+                      - paragraph [ref=e386]: See how you compare to 5 applicants
+                      - paragraph [ref=e387]: Access exclusive applicant insights, see jobs where you have the highest chance of hearing back, and more.
+                      - link "Try Premium for €0" [ref=e388] [cursor=pointer]:
+                        - /url: https://www.linkedin.com/premium/products/?upsellOrderOrigin=Tracking%3Av1%3Apremium_job_details_summary_card%3AJob+Seeker%3AIn-Product&utype=job&referenceId=v%2B1NDuNjQ7CJKKzhm8tNVQ%3D%3D&isSS=false&upsellSlotId=JOB_DETAILS_SUMMARY_CARD
+                        - generic [ref=e389]:
+                          - img [ref=e390]
+                          - paragraph [ref=e393]: Try Premium for €0
+                  - generic [ref=e399]:
+                    - heading "About the job" [level=2] [ref=e401]
+                    - paragraph [ref=e402]:
+                      - generic [ref=e403]:
+                        - paragraph [ref=e404]: On Rent es una empresa líder en el sector de renting flexible, proporcionando soluciones de transporte eficientes, flexibles y a medida para empresas de diferentes sectores. Con una flota de 5.000 vehículos, hemos crecido para convertirnos en un referente en el mercado, ofreciendo una flota moderna y diversa, así como un servicio al cliente excepcional.
+                        - paragraph [ref=e405]: Nos especializamos en el alquiler de vehículos industriales para empresas que buscan optimizar sus operaciones logísticas sin comprometer la calidad o la rentabilidad. Nuestro enfoque está basado en la innovación, la sostenibilidad y la adaptabilidad, brindando a nuestros clientes las herramientas que necesitan para maximizar su eficiencia operativa.
+                        - paragraph [ref=e406]
+                        - paragraph [ref=e407]: Actualmente nos encontramos en búsqueda de un Técnico/a de Calidad y Sistema Integrado de Gestión junior.
+                        - paragraph [ref=e408]
+                        - paragraph [ref=e409]: "Tus principales funciones serán:"
+                        - paragraph [ref=e410]
+                        - paragraph [ref=e411]: · Definición, desarrollo e implantación del Sistema Integrado de Gestión de la compañía (calidad, medio ambiente, seguridad y otros estándares aplicables).
+                        - paragraph [ref=e412]: · Diseñar y estructurar los procesos operativos y de soporte, asegurando su alineación con el modelo de negocio de Onrent.
+                        - paragraph [ref=e413]: · Elaborar, actualizar y mantener la documentación del sistema (procedimientos, políticas, instrucciones, etc.).
+                        - paragraph [ref=e414]: · Definir y hacer seguimiento de los KPIs operativos y de calidad, impulsando la toma de decisiones basada en datos.
+                        - paragraph [ref=e415]: · Coordinar y ejecutar auditorías internas y dar soporte en auditorías externas (ISO u otros estándares).
+                        - paragraph [ref=e416]: · Asegurar el cumplimiento de requisitos normativos, contractuales y de cliente.
+                        - paragraph [ref=e417]: · Actuar como nexo entre áreas (operaciones, comercial, financiera, etc.) para garantizar la coherencia del modelo de gestión.
+                        - paragraph [ref=e418]: · Participar en proyectos transversales de transformación y crecimiento de la compañía.
+                        - paragraph [ref=e419]
+                        - paragraph [ref=e420]
+                        - paragraph [ref=e421]: "Requisitos:"
+                        - paragraph [ref=e422]: · Experiencia en calidad y sistemas de gestión, preferiblemente en entornos de servicios, renting, movilidad o sectores afines de al menos 1 año
+                        - paragraph [ref=e423]: · Experiencia previa en implantación o gestión de sistemas integrados (ISO 9001, ISO 14001, ISO 45001 u otros).
+                        - paragraph [ref=e424]: · Valorable experiencia en compañías de renting, movilidad o servicios operativos.
+                        - paragraph [ref=e425]: · Capacidad para estructurar procesos desde cero y llevarlos a operación real.
+                        - paragraph [ref=e426]: · Perfil con visión transversal, capaz de interactuar con múltiples áreas de la compañía.
+                        - paragraph [ref=e427]: · Alta capacidad analítica y orientación a datos e indicadores.
+                        - paragraph [ref=e428]: · Dominio de herramientas ofimáticas (especialmente Excel).
+                        - paragraph [ref=e429]: · Orientación a resultados, autonomía y capacidad de ejecución.
+                        - paragraph [ref=e430]: · Mentalidad de mejora continua y resolución de problemas.
+                        - paragraph [ref=e431]
+                        - paragraph [ref=e432]: ¿Qué te ofrecemos en Onrent?
+                        - paragraph [ref=e433]: "· Proyecto en crecimiento: formarás parte de una compañía en fase de desarrollo, con impacto directo en el modelo de negocio."
+                        - paragraph [ref=e434]: "· Rol estratégico y transversal: no es un puesto operativo, es un rol de construcción y transformación."
+                        - paragraph [ref=e435]: "· Autonomía y responsabilidad: tendrás capacidad real de definir e implementar."
+                        - paragraph [ref=e436]: "· Entorno dinámico: trabajarás con distintos equipos y áreas, con visión global del negocio."
+                        - paragraph [ref=e437]: "· Desarrollo profesional: crecimiento ligado a la evolución del área y de la compañía."
+                        - paragraph [ref=e438]
+                        - paragraph [ref=e439]: ¡Te estamos esperando!
+                        - paragraph [ref=e440]
+                        - button:
+                          - generic [ref=e442] [cursor=pointer]: … more
+                  - generic [ref=e447]:
+                    - heading "Set alert for similar jobs" [level=2] [ref=e448]
+                    - generic [ref=e449]:
+                      - paragraph [ref=e450]: Quality Technician, Madrid, Community of Madrid, Spain
+                      - switch "Tap to toggle setting" [ref=e451] [cursor=pointer]:
+                        - generic [ref=e452]:
+                          - generic:
+                            - paragraph
+                          - generic [ref=e453]:
+                            - generic [ref=e454]: "Off"
+                            - generic [ref=e455]:
+                              - switch
+                  - generic [ref=e465]:
+                    - paragraph [ref=e467]: Job search faster with Premium
+                    - paragraph [ref=e468]: Access company insights like strategic priorities, headcount trends, and more
+                    - generic [ref=e469]:
+                      - figure [ref=e470]
+                      - figure [ref=e471]
+                      - figure [ref=e472]
+                      - paragraph [ref=e473]: Francisco and millions of other members use Premium
+                    - link "Try Premium for €0" [ref=e474] [cursor=pointer]:
+                      - /url: https://www.linkedin.com/premium/products/?upsellOrderOrigin=Tracking%3Av1%3Ajdp_aiq_company_insights_static%3AJob+Seeker%3AIn-Product&utype=job&referenceId=g%2BCbSWc9T4WHG0M2ZnEidQ%3D%3D&isSS=false&upsellSlotId=JDP_AIQ_COMPANY_INSIGHTS_STATIC
+                      - generic [ref=e476]: Try Premium for €0
+                    - paragraph [ref=e477]: 1-month free trial. Easy to cancel. We’ll remind you 7 days before your trial ends.
+                  - generic [ref=e480]:
+                    - heading "More jobs" [level=2] [ref=e481]
+                    - generic [ref=e482]:
+                      - link "More options Imperia SCM Valencia (Hybrid) Actively reviewing applicants Promoted · Posted 3 weeks ago · Easy Apply" [ref=e484] [cursor=pointer]:
+                        - /url: https://www.linkedin.com/jobs/collections/similar-jobs/?referenceJobId=4434478985&trackingId=c6XGE%2BJ3lgGo%2FzFeeM%2BFsw%3D%3D&currentJobId=4418779288&refId=JptgUnOHlzbFRZFn491j3A%3D%3D&eBP=CwEAAAGfFAH98nhIGLBD2S-0zzDW8pniK_9UOMyXa7nWk2qQ81kN7zb1y1Vfr4ICQsKimjkJU5FudmBRG9LWSe46Ea84HqvQ8Lx_c9FL9O4b1qA7Tl8LWhszLybjnw_4Q131CYHFPqEw8pO2wpXO0_2mhW_oQSvIs2ERFJi3fzRiuVXgvf4MnaGpyz-Yk5kU1-Rf9kHIPrBRo5Hgk-iEHAMMd3oQfhqr5nm2FC532R8qIppkIRgcbwf85Y2Kq6wHeAfcfMs9ca1R2eyYrXsWLo0VsgjdPnqfOyz2mmsH5vRRKLTKYsnuPozHmRvT0jwIpgkDrfLNP6OO64pUON7d3w7JaZ_dqCqMIQaVjb6veHjVYYkn2VZTUoNV4LoZjW7jOEaxlHIn1Kqp0kZvVlw9b1jg6xvTpwDBNTuelalFjsZdm-iXKl0adS752PYPbDBrmkDvsSORUCeoP1c2CUJUEWI0anJS-P19sXZFSkibX6w&originToLandingJobPostings=4418779288
+                        - generic [ref=e485]:
+                          - generic [ref=e486]:
+                            - generic [ref=e487]:
+                              - figure [ref=e488]
+                              - button "More options" [ref=e490]:
+                                - img [ref=e492]
+                            - generic [ref=e494]:
+                              - generic [ref=e497]:
+                                - paragraph [ref=e500]:
+                                  - generic [ref=e501]: QA Tester (Manual)
+                                - paragraph [ref=e504]: Imperia SCM
+                                - paragraph [ref=e506]: Valencia (Hybrid)
+                              - generic [ref=e508]:
+                                - img [ref=e509]
+                                - paragraph [ref=e513]: Actively reviewing applicants
+                          - generic [ref=e514]:
+                            - paragraph [ref=e515]: Promoted
+                            - paragraph [ref=e516]: ·
+                            - paragraph [ref=e517]:
+                              - generic [ref=e518]: Posted 3 weeks ago
+                              - text: 3 weeks ago
+                            - paragraph [ref=e519]: ·
+                            - paragraph [ref=e520]:
+                              - img [ref=e522]
+                              - text: Easy Apply
+                      - 'link "More options Clínicas CITA: centro de desintoxicación Dosrius (On-site) Actively reviewing applicants Promoted · Posted 1 month ago · Easy Apply" [ref=e525] [cursor=pointer]':
+                        - /url: https://www.linkedin.com/jobs/collections/similar-jobs/?referenceJobId=4434478985&trackingId=MMfRXTq3mGFv2e1H8dOvXg%3D%3D&currentJobId=4415348995&refId=JptgUnOHlzbFRZFn491j3A%3D%3D&eBP=CwEAAAGfFAH98z3vktGnAz2S6ieVIOKxUB9O4ixzzYX53JOsolGm__fjDP3xtLW2-zwZmjmXi6aJlJxbuMX95Nq8Aobhkn4O0OmXL6R0lTDV46d24l8MbgP-Ldb6_SDAwQxc_w6Y-ZFT07UUU0H58Jxn9dmLSrv4g56zVJDFzU-3zeEMCGGzdVGsiHMII7fFagD3_0rWfUHYyLwaCo6bcqAsp7Gl8b-7Ts-2Wy3DRWU4-jntKig6spMGBdqg88LSw90hEHW4pvqwLy8GN1DYgw8friHiuh_m4Xrlo2Yc87Jbt-G36VnAoSs34MMnNd7PNbVCVbqlu3XGR2DyUbA4om5etjJWsT28P7Zis2x5aeV-i1jPWh-j4Xu8ik0rZFi0v2k4nYG3b7dhZnoLuYgQ3z4lbcRsaCAR-iqwm1FRTjHOd7-fY_GqIBT3JLLK0svEi6khHgm7nW0-0skWtd9Qfi3DKZ1k7Q&originToLandingJobPostings=4415348995
+                        - generic [ref=e526]:
+                          - generic [ref=e527]:
+                            - generic [ref=e528]:
+                              - figure [ref=e529]
+                              - button "More options" [ref=e531]:
+                                - img [ref=e533]
+                            - generic [ref=e535]:
+                              - generic [ref=e538]:
+                                - paragraph [ref=e541]:
+                                  - generic [ref=e542]: Médico Especialista en Adicciones
+                                - paragraph [ref=e545]: "Clínicas CITA: centro de desintoxicación"
+                                - paragraph [ref=e547]: Dosrius (On-site)
+                              - generic [ref=e549]:
+                                - img [ref=e550]
+                                - paragraph [ref=e554]: Actively reviewing applicants
+                          - generic [ref=e555]:
+                            - paragraph [ref=e556]: Promoted
+                            - paragraph [ref=e557]: ·
+                            - paragraph [ref=e558]:
+                              - generic [ref=e559]: Posted 1 month ago
+                              - text: 1 month ago
+                            - paragraph [ref=e560]: ·
+                            - paragraph [ref=e561]:
+                              - img [ref=e563]
+                              - text: Easy Apply
+                      - link "More options VVO CONSTRUCCIONES Y PROYECTOS, S.A. Las Palmas de Gran Canaria (On-site) Actively reviewing applicants Promoted · Posted 1 month ago · Easy Apply" [ref=e566] [cursor=pointer]:
+                        - /url: https://www.linkedin.com/jobs/collections/similar-jobs/?referenceJobId=4434478985&trackingId=As7FpHLsB2rvACWENZbApA%3D%3D&currentJobId=4411858780&refId=JptgUnOHlzbFRZFn491j3A%3D%3D&eBP=CwEAAAGfFAH986MCZyhHGFp-wC2uKjibPaA5j2xDYcecRkOLWe6_KqCfh7jF6z7ehNcHQTyHPSb6Rbs5DAorVaZh2nf7BKbYC8UyYd5q2wJ2jTIIfJY3z9F1PNvL5l-BxpMBZnCLlVhaD_Jc-VREaXBqbeID5mqneeiX9I31GvFaQXXJHHmV3FavWmBqOLVe0fPUwbFo3RVKQaTCE2u1DqqUSP_YADy1mrm4h_wPGB2kI__vjkLYvoL2tGysh-AZBGtHcInxrrq73bzNf-940jfsGKoNY-3oHN3eLfGvMWNIQBBcbu5wUFDOBDwC_lVMd_PpnLJdHMHgPkyyxgECb_hqZ0s1QPMOhk5DZRyxaaQ_pvVEnvX0bgP3-cwqzQeY8KqF1-A5BlWRQ03lNV7o0fv3Z6tnP4EJeXR7xgkQIDpnPRTkO79w4rTAEdvtPCTXdv02ojmm1LN9D1zfKj1n4QANsrpgqA&originToLandingJobPostings=4411858780
+                        - generic [ref=e567]:
+                          - generic [ref=e568]:
+                            - generic [ref=e569]:
+                              - figure [ref=e570]
+                              - button "More options" [ref=e572]:
+                                - img [ref=e574]
+                            - generic [ref=e576]:
+                              - generic [ref=e579]:
+                                - paragraph [ref=e582]:
+                                  - generic [ref=e583]: Jefe/a de Instalaciones
+                                - paragraph [ref=e586]: VVO CONSTRUCCIONES Y PROYECTOS, S.A.
+                                - paragraph [ref=e588]: Las Palmas de Gran Canaria (On-site)
+                              - generic [ref=e590]:
+                                - img [ref=e591]
+                                - paragraph [ref=e595]: Actively reviewing applicants
+                          - generic [ref=e596]:
+                            - paragraph [ref=e597]: Promoted
+                            - paragraph [ref=e598]: ·
+                            - paragraph [ref=e599]:
+                              - generic [ref=e600]: Posted 1 month ago
+                              - text: 1 month ago
+                            - paragraph [ref=e601]: ·
+                            - paragraph [ref=e602]:
+                              - img [ref=e604]
+                              - text: Easy Apply
+                      - link "More options SII Group Spain Greater Barcelona Metropolitan Area (Hybrid) Actively reviewing applicants Promoted · Posted 2 weeks ago · Easy Apply" [ref=e607] [cursor=pointer]:
+                        - /url: https://www.linkedin.com/jobs/collections/similar-jobs/?referenceJobId=4434478985&trackingId=ph4cfw%2BONZo%2FiDUonsPTDw%3D%3D&currentJobId=4428640656&refId=JptgUnOHlzbFRZFn491j3A%3D%3D&eBP=CwEAAAGfFAH986t1EKQnZP6Cbmk6NAPLbg_zDGMZYtfCKwGpLv2M3ZI8ISBG3YXxuzH3q9cyAgUdBzODgi7KFBmjm8-evl3WWz4GSWsVyzKxXC36wqPXfSYmAtdaeg27gSLtxWUWSUBxAmr1CpkPxkLtNkKAskxr_LK5UY-s11oJo1_UWe1Q6a3eFZG7QyJKRvcYZ0R7K48ZSY8-ltrv6tuSr1GbzWjxpypmz6_LIE7nBDggsMDNxfvLbH0Cyss7RXPmnHUc7oSK1HFFDelQpD1xv5VBKpDqNap72Xd78LnTfl3cBar3Y5ZnNjLSN3XbaqYplTi5a5I7YyBx90XhEWevGWlWsgCNTHWuB9SnzzNDwGCnajZLS32NlfRQzPRDuqL7bdHg4xp35vSvCB2ip1d29K9TN8fuAf8TOCe7mj980PIZ9URxsVmpAXM17mlGg3Od2g8n7i0TmUn8W_KELXBsfg6GFVHBVE2ElWcs-WshAg&originToLandingJobPostings=4428640656
+                        - generic [ref=e608]:
+                          - generic [ref=e609]:
+                            - generic [ref=e610]:
+                              - figure [ref=e611]
+                              - button "More options" [ref=e613]:
+                                - img [ref=e615]
+                            - generic [ref=e617]:
+                              - generic [ref=e620]:
+                                - paragraph [ref=e623]:
+                                  - generic [ref=e624]: QA Engineer
+                                - paragraph [ref=e627]: SII Group Spain
+                                - paragraph [ref=e629]: Greater Barcelona Metropolitan Area (Hybrid)
+                              - generic [ref=e631]:
+                                - img [ref=e632]
+                                - paragraph [ref=e636]: Actively reviewing applicants
+                          - generic [ref=e637]:
+                            - paragraph [ref=e638]: Promoted
+                            - paragraph [ref=e639]: ·
+                            - paragraph [ref=e640]:
+                              - generic [ref=e641]: Posted 2 weeks ago
+                              - text: 2 weeks ago
+                            - paragraph [ref=e642]: ·
+                            - paragraph [ref=e643]:
+                              - img [ref=e645]
+                              - text: Easy Apply
+                      - link "More options WIRIS Barcelona (On-site) Promoted · Posted 1 week ago" [ref=e648] [cursor=pointer]:
+                        - /url: https://www.linkedin.com/jobs/collections/similar-jobs/?referenceJobId=4434478985&trackingId=QSgWexCYJe3LSIC8FJvHHQ%3D%3D&currentJobId=4428949469&refId=JptgUnOHlzbFRZFn491j3A%3D%3D&eBP=CwEAAAGfFAH980qFCTF2snWBisSapu_Ay7qXlKbqXHoLLyf-Tm4NK9Lpn3aDopRZ55Q__cBVoQwL4CAVUlCL4PKmi4ep5eZS_cY2oCA2CIp5gKXLdS_W0EQvBY5Dx2B_4Dmk_mEllV4utRXsfBqYc7El2AR-PowxSwgfluAMjKKs0a9O0TM61gKKoHfagMIYKiQASOfCRJ7ueTw8h4BwvAqeFlpLSHGjd3Jnehjf8BXWWzZi9gBeZbuQp_KRCeVz0h1p7FG5gC8EPMSq1PdO17jpP-sg8cwtBLMiLk8_XgL1rC8bdmlXYeAvPE6z89E8XoGIRoaU6EKTZvHNpXH9ruM9cpk1S6yUBUtPjhEaBmmTusjtfhkfwbFU7b_jLr6o6VXLu3LJg0NZeS1-8al3QCIabI592q-DrXoBAGuEvlqWa4C8l_PlquEzMfHHqIWubxH_6fk3NFRg9tAMpFEbd-gpno2IU6K7k5idj3dJbnDRnAWm2Mw&originToLandingJobPostings=4428949469
+                        - generic [ref=e649]:
+                          - generic [ref=e650]:
+                            - generic [ref=e651]:
+                              - figure [ref=e652]
+                              - button "More options" [ref=e654]:
+                                - img [ref=e656]
+                            - generic [ref=e661]:
+                              - paragraph [ref=e664]:
+                                - generic [ref=e665]: Junior QA Engineer
+                              - paragraph [ref=e668]: WIRIS
+                              - paragraph [ref=e670]: Barcelona (On-site)
+                          - generic [ref=e672]:
+                            - paragraph [ref=e673]: Promoted
+                            - paragraph [ref=e674]: ·
+                            - paragraph [ref=e675]:
+                              - generic [ref=e676]: Posted 1 week ago
+                              - text: 1 week ago
+                      - link "More options Linkener Valencia (On-site) Actively reviewing applicants Promoted · Posted 1 week ago · Easy Apply" [ref=e678] [cursor=pointer]:
+                        - /url: https://www.linkedin.com/jobs/collections/similar-jobs/?referenceJobId=4434478985&trackingId=7HehpTKhi%2BHxSh0aBS1feg%3D%3D&currentJobId=4430359986&refId=JptgUnOHlzbFRZFn491j3A%3D%3D&eBP=CwEAAAGfFAH9844IDIATcD4VSDpHjG4IKxEuhA2ZfXE-Md2obQARLuM9tatXjMbCs5-xZIlq8wm4HGKJdk8zmTNyofM43gx7k0thW2dzuFIOyprOWnEpm2EBRRgoBTYgBjfSe6LhHfWdu7vSGSto0V6KOUaDC2i9fI1P0RsODrAogGcTil39VHpUx2u8WHRNPHBxhXFkXh8kn9NZBR9v4VfgKt7zcY2klauz06tN0ddPmsoQmby78KXTpGt6ndkBmOhkAHcF0xc8Z5XrgvTb5VOtXnp8uURGkPp13Cm-sz2SWQbDd8cn7N-z1h-5YXqyo0xtfRg92TW4x0HVZ4K-Uwts1U0_mx7aIhG_wFWQUTslq3TJMTNH0K6HNGXd2Z9z_6ZwvvBaB-CON6_5fssQTBvpU0en0uMemVDYKeXrn98oMmp7hkp50aI_fEc5vF-SRctxoIhVXs3PvTySCaRieFh7gSZXuoMvRG0RS-QjZAne_B2Y&originToLandingJobPostings=4430359986
+                        - generic [ref=e679]:
+                          - generic [ref=e680]:
+                            - generic [ref=e681]:
+                              - figure [ref=e682]
+                              - button "More options" [ref=e684]:
+                                - img [ref=e686]
+                            - generic [ref=e688]:
+                              - generic [ref=e691]:
+                                - paragraph [ref=e694]:
+                                  - generic [ref=e697]:
+                                    - text: QA
+                                    - img [ref=e699]
+                                - paragraph [ref=e702]: Linkener
+                                - paragraph [ref=e704]: Valencia (On-site)
+                              - generic [ref=e706]:
+                                - img [ref=e707]
+                                - paragraph [ref=e711]: Actively reviewing applicants
+                          - generic [ref=e712]:
+                            - paragraph [ref=e713]: Promoted
+                            - paragraph [ref=e714]: ·
+                            - paragraph [ref=e715]:
+                              - generic [ref=e716]: Posted 1 week ago
+                              - text: 1 week ago
+                            - paragraph [ref=e717]: ·
+                            - paragraph [ref=e718]:
+                              - img [ref=e720]
+                              - text: Easy Apply
+                      - link "More options Barcelona Technical Center Martorell (On-site) Actively reviewing applicants Promoted · Posted 2 days ago · Easy Apply" [ref=e723] [cursor=pointer]:
+                        - /url: https://www.linkedin.com/jobs/collections/similar-jobs/?referenceJobId=4434478985&trackingId=qX670mCHf55if5331B%2F5Pw%3D%3D&currentJobId=4430633335&refId=JptgUnOHlzbFRZFn491j3A%3D%3D&eBP=CwEAAAGfFAH98-tAUvolbO0UruUrulWZRBfT9dNJLdvvOmayGGhOKdy4I2opVVqYTIkT2_urG9kVd3P8gG5_6j0iLpWCotCNr1H-FQHaZkSuIM8pugpIdOpkDl28S9LoZloP_SUTVARi_z1qk-7XOVYlKfzXu87uXUVK_3n85uqpHyP-5n36HCUNguZj6Dl-Xz6IHbuHHqzYVQVa5DSNvOT6YV52Z7Axzy5FwsswYllqzOLECLQLJN1rL8GKvYEkMit8CKM8Ltum2T58bTm2w9_AslX_E_ITDFog0cSt-p3W4h0UNBa3zhFxMnukXbkzRt8DJgrQlsdXJYFbYKc0lppctVMIDxzhl3ruNASHp4Kjm_KJc-VVIvAv8_I0188WrO88lSAgOZNsgQwe21_fqytdaTeJPB4whITorUUHFcOXCBS5rVQ3qlljxjYWH1U2E8IhE2-e5rIHyGWf_B8O2rl6JgmWsMUv0CqPF0yMpksEO5iuBlk&originToLandingJobPostings=4430633335
+                        - generic [ref=e724]:
+                          - generic [ref=e725]:
+                            - generic [ref=e726]:
+                              - figure [ref=e727]
+                              - button "More options" [ref=e729]:
+                                - img [ref=e731]
+                            - generic [ref=e733]:
+                              - generic [ref=e736]:
+                                - paragraph [ref=e739]:
+                                  - generic [ref=e740]: Quality Assurance Technician
+                                - paragraph [ref=e743]: Barcelona Technical Center
+                                - paragraph [ref=e745]: Martorell (On-site)
+                              - generic [ref=e747]:
+                                - img [ref=e748]
+                                - paragraph [ref=e752]: Actively reviewing applicants
+                          - generic [ref=e753]:
+                            - paragraph [ref=e754]: Promoted
+                            - paragraph [ref=e755]: ·
+                            - paragraph [ref=e756]:
+                              - generic [ref=e757]: Posted 2 days ago
+                              - text: 2 days ago
+                            - paragraph [ref=e758]: ·
+                            - paragraph [ref=e759]:
+                              - img [ref=e761]
+                              - text: Easy Apply
+                      - link "More options LIMPIEZA LAS NIEVES Granada (On-site) Actively reviewing applicants Promoted · Posted 29 minutes ago · Easy Apply" [ref=e764] [cursor=pointer]:
+                        - /url: https://www.linkedin.com/jobs/collections/similar-jobs/?referenceJobId=4434478985&trackingId=yYsPjyXBcnTU1fUZLkYiGA%3D%3D&currentJobId=4434472041&refId=JptgUnOHlzbFRZFn491j3A%3D%3D&eBP=CwEAAAGfFAH98_1FI9uOqIws3cbNFeUKatWBw_YXFbez0ZJ79JUwD1g8iamQiSZ4bJKv7NgMVE0j5P0FEg_pzFXtdw6dkgGVhy1lzwhvrulpWiF-MRzEXKTQGbALynCU7B0bUussSwjd-bD8TCEB7b7jIDoVHmfYko6MEub3R9al90gOsfcDp5_qDiw3qoAjPdXfaj-_rOHdrPPPYOmN04WTBMpIlUtw7PZiYg79mla8g4VZRGvIdR4e1nHPlHnfx9LKB3D6MYquuxBuTGzZRCSCgunrrKCjbZrDVJRqJtecNKQ1M9x8I4zjBg87wE-rdmaVM9DswusZsbq7XoR6y5_veEflxVQIG4OcVBew3dWBx4-qQfjsS1wVLRiBXye-Q9nDka3FsQ9mWoLgFL6kCV7W8FxyAArlxAzgfVulX29DPXFsgTXChmw0tpXOwsAuWXwxnSjKhrmTV41_7bvhXfyKbBBWFnh8BZQNBxUiu9xxpywKcqrN07c_i_2-lV739cWbMw&originToLandingJobPostings=4434472041
+                        - generic [ref=e765]:
+                          - generic [ref=e766]:
+                            - generic [ref=e767]:
+                              - figure [ref=e768]
+                              - button "More options" [ref=e770]:
+                                - img [ref=e772]
+                            - generic [ref=e774]:
+                              - generic [ref=e777]:
+                                - paragraph [ref=e780]:
+                                  - generic [ref=e781]: Técnico/a comercial
+                                - paragraph [ref=e784]: LIMPIEZA LAS NIEVES
+                                - paragraph [ref=e786]: Granada (On-site)
+                              - generic [ref=e788]:
+                                - img [ref=e789]
+                                - paragraph [ref=e793]: Actively reviewing applicants
+                          - generic [ref=e794]:
+                            - paragraph [ref=e795]: Promoted
+                            - paragraph [ref=e796]: ·
+                            - paragraph [ref=e797]:
+                              - generic [ref=e798]: Posted 29 minutes ago
+                              - text: 29 minutes ago
+                            - paragraph [ref=e799]: ·
+                            - paragraph [ref=e800]:
+                              - img [ref=e802]
+                              - text: Easy Apply
+                      - link "More options Open Assessment Technologies Spain (Remote) Actively reviewing applicants Promoted · Posted 1 week ago · Easy Apply" [ref=e805] [cursor=pointer]:
+                        - /url: https://www.linkedin.com/jobs/collections/similar-jobs/?referenceJobId=4434478985&trackingId=wMbY0NwTOEmmfwumrgBgZQ%3D%3D&currentJobId=4427842107&refId=JptgUnOHlzbFRZFn491j3A%3D%3D&eBP=CwEAAAGfFAH9849oUgjJRY7CUa8CAFSojRmzu4vxl-v516hjdE9ID61tI8E6kkk4nR3DmKr-cDMfM9WgpaTGds469HQaCF1mWVkCd4tGjyB0bJ4Su0AZrIubbclFgceLs_eN16EvelaYTJVU4K5Cni4L5JQhBoZVkuaz7KA8EJzsZLE8t2tYVpXMzwwbCCzfBgW1Yk8f_Hzp2ExW-mMMbpP4r1N0cUY2BfueS8vwI_EJQEYmE0uf5y_99iq2eemsjMUDUmlbXGATy2rG_2I-qAGmLMhR86vfmPKm4n_ehX75ZAIeTIhfzCp10D6x0_2sTQL0BzyFiiH3ATHLXmXNkHhKfvaG7HXr1_8mgELlcDWL_InaRPYEBKYaU4hxdGwC7pEmmnAJm4RA3jA5eehgaxYgdas1z1w-gyttYf5mzPSdocXV9OSSndDPTlLw_ZdMiH-FsHdbbf_m-zC5Npb_5_0YqHx_XAKPglYjfDQ_XJrNj0YfBclfaGdH3H4W0LilbPZa8UM&originToLandingJobPostings=4427842107
+                        - generic [ref=e806]:
+                          - generic [ref=e807]:
+                            - generic [ref=e808]:
+                              - figure [ref=e809]
+                              - button "More options" [ref=e811]:
+                                - img [ref=e813]
+                            - generic [ref=e815]:
+                              - generic [ref=e818]:
+                                - paragraph [ref=e821]:
+                                  - generic [ref=e822]: QA Manual
+                                - paragraph [ref=e825]: Open Assessment Technologies
+                                - paragraph [ref=e827]: Spain (Remote)
+                              - generic [ref=e829]:
+                                - img [ref=e830]
+                                - paragraph [ref=e834]: Actively reviewing applicants
+                          - generic [ref=e835]:
+                            - paragraph [ref=e836]: Promoted
+                            - paragraph [ref=e837]: ·
+                            - paragraph [ref=e838]:
+                              - generic [ref=e839]: Posted 1 week ago
+                              - text: 1 week ago
+                            - paragraph [ref=e840]: ·
+                            - paragraph [ref=e841]:
+                              - img [ref=e843]
+                              - text: Easy Apply
+                      - link "More options Dogfy Diet Parets del Vallès (On-site) Actively reviewing applicants Promoted · Posted 1 week ago · Easy Apply" [ref=e846] [cursor=pointer]:
+                        - /url: https://www.linkedin.com/jobs/collections/similar-jobs/?referenceJobId=4434478985&trackingId=fjhQZV9ApOzFx7VcYeKriw%3D%3D&currentJobId=4431726470&refId=JptgUnOHlzbFRZFn491j3A%3D%3D&eBP=CwEAAAGfFAH98wctLq_jXYbazXqiT_qciIJQK-V1nLr0JWJbsJNRVXTgP-Pz5SJLQ2YN0O9dCH3RrWN5E8NwDBI3EVMU0bpfVuE_WIHZQTPZAoXQkJfHLkAtHSeddoYzWPzsgTfDt8sTBduxe9iK9xZukpF4bL4cmJnp8rBWryQp9il5IOwcB5CSpMKOZwvJi8CD9WRlir--LEd3WKDRYs2KjrTkNoMUkeoVipOXBKrzRzVnsm7k77vH6Qxzo9xGT_nwaKXVH2YXFqOVGNhY5iPSImIGTJwXZAUSUOmNnTJQKyp8EuDRv1hl8wRaL6YDTRh4i_d5bz0MOYbMafgW1V0NWcIZ2zYxDdG4kM75jXAnngIjOnbGpHB9ycnDtCryQxmFICIK62l10NmKkfMOhmGuWHlwn6fE-_9iAI2iiioGXpIJR9MN0N24Y_HO-mJUl4cNK4N8WlU6GrtY&originToLandingJobPostings=4431726470
+                        - generic [ref=e847]:
+                          - generic [ref=e848]:
+                            - generic [ref=e849]:
+                              - figure [ref=e850]
+                              - button "More options" [ref=e852]:
+                                - img [ref=e854]
+                            - generic [ref=e856]:
+                              - generic [ref=e859]:
+                                - paragraph [ref=e862]:
+                                  - generic [ref=e863]: Técnico de control de calidad - Turno noche
+                                - paragraph [ref=e866]: Dogfy Diet
+                                - paragraph [ref=e868]: Parets del Vallès (On-site)
+                              - generic [ref=e870]:
+                                - img [ref=e871]
+                                - paragraph [ref=e875]: Actively reviewing applicants
+                          - generic [ref=e876]:
+                            - paragraph [ref=e877]: Promoted
+                            - paragraph [ref=e878]: ·
+                            - paragraph [ref=e879]:
+                              - generic [ref=e880]: Posted 1 week ago
+                              - text: 1 week ago
+                            - paragraph [ref=e881]: ·
+                            - paragraph [ref=e882]:
+                              - img [ref=e884]
+                              - text: Easy Apply
+                      - link "More options Indra Group Aranjuez (On-site) Actively reviewing applicants Promoted · Posted 3 days ago · Easy Apply" [ref=e887] [cursor=pointer]:
+                        - /url: https://www.linkedin.com/jobs/collections/similar-jobs/?referenceJobId=4434478985&trackingId=NQJkvOy0H2MOoyD5TfbSew%3D%3D&currentJobId=4430288853&refId=JptgUnOHlzbFRZFn491j3A%3D%3D&eBP=CwEAAAGfFAH989UYr2ZXbGCqVmdGomVWGPyYIOi2CV_UqPeaUaBAKeKYQUJcanq-NS8MlyXeckBnDmKCKuyLYa9mYa67yVUXdkpne09DSfHboXhEdCfpGt6yzjE08p70BSzknfXIVDeQuB-BXcu579Sd3eUkQpi037HvW6OS8AHV7C6zCy9HNiUD_FY6NXyOhBjW4nF0Keb6jOPqyqmM64WQkPBW_K0DdOLoz3NwyfL6hpMXo7fsUd4nAtTaLecyynNzVxDk8QKUltEO_r4Cqlsgj6bZMytRs_Qkf9xeITa2qNePDKQy4aPC-GOsMWXkeG77xwEo6nF6Qx-8hq4FAkx5FaoeUca7KkF_h3Tx_ruzAbo8nJQCd9Fcp_e3R5yAsh4-nlQIW9PdX4Qy8i67HL-dHxbIY5eZmvKoo78NPj6dNvBGh90hvNBlwJfz_jja9hsF3XkB_1u6XwynYTwWHIFbxO_NqKy3ktLyOkkqzE3Oeg&originToLandingJobPostings=4430288853
+                        - generic [ref=e888]:
+                          - generic [ref=e889]:
+                            - generic [ref=e890]:
+                              - figure [ref=e891]
+                              - button "More options" [ref=e893]:
+                                - img [ref=e895]
+                            - generic [ref=e897]:
+                              - generic [ref=e900]:
+                                - paragraph [ref=e903]:
+                                  - generic [ref=e906]:
+                                    - text: Inspector/a de aseguramiento de la calidad
+                                    - img [ref=e908]
+                                - paragraph [ref=e911]: Indra Group
+                                - paragraph [ref=e913]: Aranjuez (On-site)
+                              - generic [ref=e915]:
+                                - img [ref=e916]
+                                - paragraph [ref=e920]: Actively reviewing applicants
+                          - generic [ref=e921]:
+                            - paragraph [ref=e922]: Promoted
+                            - paragraph [ref=e923]: ·
+                            - paragraph [ref=e924]:
+                              - generic [ref=e925]: Posted 3 days ago
+                              - text: 3 days ago
+                            - paragraph [ref=e926]: ·
+                            - paragraph [ref=e927]:
+                              - img [ref=e929]
+                              - text: Easy Apply
+                      - link "More options Valid Madrid (Hybrid) Actively reviewing applicants Promoted · Posted 1 week ago · Easy Apply" [ref=e932] [cursor=pointer]:
+                        - /url: https://www.linkedin.com/jobs/collections/similar-jobs/?referenceJobId=4434478985&trackingId=5MWH9dDai%2F2JQ21gJdqH%2Bg%3D%3D&currentJobId=4431671082&refId=JptgUnOHlzbFRZFn491j3A%3D%3D&eBP=CwEAAAGfFAH9837gUySW-tgOKh_l3GJMoj33Ce2UuMhymilo8FjdJbfGqSJptqKnRQuvR9Gm9XkB5D8Y_sDtxSZElWekiHJmajwYdVfjTQ7QbuSbHWb9WeT40HfosYE27FiZkuoMG10gz8G8Nb-Pc6XE9pw771JJctCKzgoj-6XB-Q7vEDs1Mc5XDqvl6UEc8a31wVukHAOQu0_jWEi-De-bL_IFtpZSpN74DLsaYiYruoXEojKeBWvKbAP-2z1-PJIhq_RVwFQilcR4dmNCnXB3SKAfRXRE1SJO3IkCb_SSLBsXnX8s_6wVeHXJnFBN3XrL3T7xHFKLRppvscPX1xX__2sMewQLYIGAMNS2q9jf-cYkDeNAkoS7MxOuUUkDg7C8oylt7EbtVuQnCjmOV-xejMpH6gZ0waNqphA9HDMF4mK4zitLHAX4DXQPAPEgif2pgKHEnMqbo-bl&originToLandingJobPostings=4431671082
+                        - generic [ref=e933]:
+                          - generic [ref=e934]:
+                            - generic [ref=e935]:
+                              - figure [ref=e936]
+                              - button "More options" [ref=e938]:
+                                - img [ref=e940]
+                            - generic [ref=e942]:
+                              - generic [ref=e945]:
+                                - paragraph [ref=e948]:
+                                  - generic [ref=e951]:
+                                    - text: Junior QA Engineer
+                                    - img [ref=e953]
+                                - paragraph [ref=e956]: Valid
+                                - paragraph [ref=e958]: Madrid (Hybrid)
+                              - generic [ref=e960]:
+                                - img [ref=e961]
+                                - paragraph [ref=e965]: Actively reviewing applicants
+                          - generic [ref=e966]:
+                            - paragraph [ref=e967]: Promoted
+                            - paragraph [ref=e968]: ·
+                            - paragraph [ref=e969]:
+                              - generic [ref=e970]: Posted 1 week ago
+                              - text: 1 week ago
+                            - paragraph [ref=e971]: ·
+                            - paragraph [ref=e972]:
+                              - img [ref=e974]
+                              - text: Easy Apply
+                    - link "See more jobs like this" [ref=e976] [cursor=pointer]:
+                      - /url: https://www.linkedin.com/jobs/collections/similar-jobs/?referenceJobId=4434478985&currentJobId=4434478985
+                      - generic [ref=e977]:
+                        - img [ref=e978]
+                        - generic [ref=e980]: See more jobs like this
+            - complementary "Aside" [ref=e981]:
+              - generic [ref=e984]:
+                - paragraph [ref=e985]: Looking for talent?
+                - link "Post a job" [ref=e986] [cursor=pointer]:
+                  - /url: https://www.linkedin.com/talent/job-posting-redirect/?trk=flagship3_job_detail
+                  - generic [ref=e988]: Post a job
+            - generic "Footer" [ref=e989]:
+              - generic [ref=e993]:
+                - generic [ref=e994]:
+                  - navigation [ref=e995]:
+                    - link "About" [ref=e996] [cursor=pointer]:
+                      - /url: https://about.linkedin.com/
+                      - paragraph [ref=e997]: About
+                    - link "Accessibility" [ref=e998] [cursor=pointer]:
+                      - /url: https://www.linkedin.com/accessibility/
+                      - paragraph [ref=e999]: Accessibility
+                    - link "Talent Solutions" [ref=e1000] [cursor=pointer]:
+                      - /url: https://business.linkedin.com/talent-solutions?trk=flagship_nav&veh=li-footer-lts-control&src=li-footer
+                      - paragraph [ref=e1001]: Talent Solutions
+                    - link "Community Guidelines" [ref=e1002] [cursor=pointer]:
+                      - /url: https://www.linkedin.com/legal/professional-community-policies/
+                      - paragraph [ref=e1003]: Community Guidelines
+                    - link "Careers" [ref=e1004] [cursor=pointer]:
+                      - /url: https://careers.linkedin.com/
+                      - paragraph [ref=e1005]: Careers
+                    - link "Marketing Solutions" [ref=e1006] [cursor=pointer]:
+                      - /url: https://business.linkedin.com/advertise?trk=n_nav_lms_f&src=li-footer
+                      - paragraph [ref=e1007]: Marketing Solutions
+                    - button "Privacy & Terms" [ref=e1008] [cursor=pointer]:
+                      - generic [ref=e1009]:
+                        - paragraph [ref=e1010]: Privacy & Terms
+                        - img [ref=e1011]
+                    - link "Ad Choices" [ref=e1013] [cursor=pointer]:
+                      - /url: https://www.linkedin.com/help/linkedin/answer/62931/
+                      - paragraph [ref=e1014]: Ad Choices
+                    - link "Advertising" [ref=e1015] [cursor=pointer]:
+                      - /url: https://www.linkedin.com/ad/start/?trk=n_nav_ads_rr
+                      - paragraph [ref=e1016]: Advertising
+                    - link "Sales Solutions" [ref=e1017] [cursor=pointer]:
+                      - /url: https://business.linkedin.com/sales-solutions?trk=flagship_nav&veh=li-footer-lss-control&src=li-footer
+                      - paragraph [ref=e1018]: Sales Solutions
+                    - link "Mobile" [ref=e1019] [cursor=pointer]:
+                      - /url: https://mobile.linkedin.com/
+                      - paragraph [ref=e1020]: Mobile
+                    - link "Small Business" [ref=e1021] [cursor=pointer]:
+                      - /url: https://business.linkedin.com/grow?src=li-footer
+                      - paragraph [ref=e1022]: Small Business
+                    - link "Safety Center" [ref=e1023] [cursor=pointer]:
+                      - /url: https://safety.linkedin.com/
+                      - paragraph [ref=e1024]: Safety Center
+                  - paragraph [ref=e1026]: LinkedIn Corporation © 2026
+                - generic [ref=e1027]:
+                  - list [ref=e1028]:
+                    - listitem [ref=e1029]:
+                      - generic [ref=e1030]:
+                        - img [ref=e1031]
+                        - generic [ref=e1033]:
+                          - link "Questions?" [ref=e1034] [cursor=pointer]:
+                            - /url: https://www.linkedin.com/help/linkedin/
+                            - paragraph [ref=e1035]: Questions?
+                          - paragraph [ref=e1036]: Visit our Help Center.
+                    - listitem [ref=e1037]:
+                      - generic [ref=e1038]:
+                        - img [ref=e1039]
+                        - generic [ref=e1041]:
+                          - link "Manage your account and privacy" [ref=e1042] [cursor=pointer]:
+                            - /url: https://www.linkedin.com/mypreferences/d/
+                            - paragraph [ref=e1043]: Manage your account and privacy
+                          - paragraph [ref=e1044]: Go to your Settings.
+                    - listitem [ref=e1045]:
+                      - generic [ref=e1046]:
+                        - img [ref=e1047]
+                        - generic [ref=e1049]:
+                          - link "Recommendation transparency" [ref=e1050] [cursor=pointer]:
+                            - /url: https://www.linkedin.com/help/linkedin/answer/a1339724/
+                            - paragraph [ref=e1051]: Recommendation transparency
+                          - paragraph [ref=e1052]: Learn more about Recommended Content.
+                  - generic [ref=e1054]:
+                    - paragraph [ref=e1056]: Select language
+                    - generic [ref=e1057]:
+                      - combobox "Select language" [ref=e1058] [cursor=pointer]:
+                        - option "العربية (Arabic)"
+                        - option "বাংলা (Bangla)"
+                        - option "Čeština (Czech)"
+                        - option "Dansk (Danish)"
+                        - option "Deutsch (German)"
+                        - option "Ελληνικά (Greek)"
+                        - option "English (English)" [selected]
+                        - option "Español (Spanish)"
+                        - option "فارسی (Persian)"
+                        - option "Suomi (Finnish)"
+                        - option "Français (French)"
+                        - option "हिंदी (Hindi)"
+                        - option "Magyar (Hungarian)"
+                        - option "Bahasa Indonesia (Indonesian)"
+                        - option "Italiano (Italian)"
+                        - option "עברית (Hebrew)"
+                        - option "日本語 (Japanese)"
+                        - option "한국어 (Korean)"
+                        - option "मराठी (Marathi)"
+                        - option "Bahasa Malaysia (Malay)"
+                        - option "Nederlands (Dutch)"
+                        - option "Norsk (Norwegian)"
+                        - option "ਪੰਜਾਬੀ (Punjabi)"
+                        - option "Polski (Polish)"
+                        - option "Português (Portuguese)"
+                        - option "Română (Romanian)"
+                        - option "Русский (Russian)"
+                        - option "Svenska (Swedish)"
+                        - option "తెలుగు (Telugu)"
+                        - option "ภาษาไทย (Thai)"
+                        - option "Tagalog (Tagalog)"
+                        - option "Türkçe (Turkish)"
+                        - option "Українська (Ukrainian)"
+                        - option "Tiếng Việt (Vietnamese)"
+                        - option "简体中文 (Chinese (Simplified))"
+                        - option "正體中文 (Chinese (Traditional))"
+                      - img
+  - generic:
+    - generic:
+      - generic:
+        - generic:
+          - complementary:
+            - generic [ref=e1060]:
+              - generic [ref=e1062] [cursor=pointer]:
+                - generic [ref=e1063]:
+                  - img "Brisa Elvira Lazaro Campos" [ref=e1064]
+                  - generic [ref=e1066]: Status is online
+                - button "You are on the messaging overlay. Press enter to open the list of conversations." [ref=e1067]:
+                  - generic [ref=e1068]:
+                    - generic [ref=e1069]: Messaging
+                    - generic [ref=e1070]: You are on the messaging overlay. Press enter to open the list of conversations.
+              - generic [ref=e1071]:
+                - button "Open messenger dropdown menu" [ref=e1073] [cursor=pointer]:
+                  - img "Open messenger dropdown menu" [ref=e1074]
+                - button "Compose message" [ref=e1077] [cursor=pointer]:
+                  - img [ref=e1078]
+                  - generic [ref=e1080]: Compose message
+                - button "You are on the messaging overlay. Press enter to open the list of conversations." [ref=e1081] [cursor=pointer]:
+                  - img [ref=e1082]
+                  - generic [ref=e1084]: You are on the messaging overlay. Press enter to open the list of conversations.
+          - complementary "AI-powered assistant to get help with your career, jobs etc"
+  - iframe [ref=e1085]:
+    - generic [active] [ref=f263e1]:
+      - generic:
+        - region "Toast message":
+          - heading "0 notifications total" [level=2] [ref=f263e3]
+          - alert
+      - region [ref=f263e4]
+      - generic [ref=f263e7]:
+        - img [ref=f263e9]
+        - generic [ref=f263e11]:
+          - heading "LinkedIn respects your privacy" [level=1] [ref=f263e12]
+          - generic [ref=f263e13]:
+            - paragraph [ref=f263e14]:
+              - text: LinkedIn and 3rd parties use essential and non-essential cookies to provide, secure, analyze and improve our Services, and to show you relevant ads (including professional and job ads) on and off LinkedIn. Learn more in our
+              - link "Cookie Policy" [ref=f263e15] [cursor=pointer]:
+                - /url: https://www.linkedin.com/legal/cookie-policy
+              - text: .
+            - paragraph [ref=f263e16]:
+              - text: Select Accept to consent or Reject to decline non-essential cookies for this use. You can update your choices at any time in your
+              - link "settings" [ref=f263e17] [cursor=pointer]:
+                - /url: https://www.linkedin.com/settings/member-cookies
+              - text: .
+          - generic [ref=f263e18]:
+            - button "Accept" [ref=f263e19] [cursor=pointer]:
+              - generic [ref=f263e20]: Accept
+            - button "Reject" [ref=f263e21] [cursor=pointer]:
+              - generic [ref=f263e22]: Reject
+      - generic [ref=f263e23]:
+        - generic [ref=f263e25]:
+          - button "Skip to search" [ref=f263e26] [cursor=pointer]:
+            - generic [ref=f263e27]: Skip to search
+          - button "Skip to main content" [ref=f263e28] [cursor=pointer]:
+            - generic [ref=f263e29]: Skip to main content
+          - button "Keyboard shortcuts" [ref=f263e30] [cursor=pointer]:
+            - generic [ref=f263e31]: Keyboard shortcuts
+          - button "Close jump menu" [ref=f263e32] [cursor=pointer]:
+            - img [ref=f263e33]
+            - generic [ref=f263e35]: Close jump menu
+        - banner "Global Navigation" [ref=f263e36]:
+          - generic [ref=f263e37]:
+            - link "LinkedIn" [ref=f263e38] [cursor=pointer]:
+              - /url: https://www.linkedin.com/feed/
+              - img "LinkedIn" [ref=f263e41]:
+                - img [ref=f263e42]
+            - generic [ref=f263e46]:
+              - combobox "Search" [ref=f263e47]
+              - generic:
+                - img
+            - navigation "Primary Navigation" [ref=f263e48]:
+              - list [ref=f263e49]:
+                - listitem [ref=f263e50]:
+                  - link "new feed updates notifications Home" [ref=f263e51] [cursor=pointer]:
+                    - /url: https://www.linkedin.com/feed/
+                    - generic [ref=f263e52]:
+                      - generic [ref=f263e55]: new feed updates notifications
+                      - img [ref=f263e59]
+                    - generic "Home" [ref=f263e61]
+                - listitem [ref=f263e62]:
+                  - link "My Network" [ref=f263e63] [cursor=pointer]:
+                    - /url: https://www.linkedin.com/mynetwork/?
+                    - img [ref=f263e67]
+                    - generic "My Network" [ref=f263e69]
+                - listitem [ref=f263e70]:
+                  - link "Jobs" [ref=f263e71] [cursor=pointer]:
+                    - /url: https://www.linkedin.com/jobs/?
+                    - img [ref=f263e75]
+                    - generic "Jobs" [ref=f263e77]
+                - listitem [ref=f263e78]:
+                  - link "Messaging" [ref=f263e79] [cursor=pointer]:
+                    - /url: https://www.linkedin.com/messaging/?
+                    - img [ref=f263e83]
+                    - generic "Messaging" [ref=f263e85]
+                - listitem [ref=f263e86]:
+                  - link "Notifications" [ref=f263e87] [cursor=pointer]:
+                    - /url: https://www.linkedin.com/notifications/?
+                    - img [ref=f263e91]
+                    - generic "Notifications" [ref=f263e93]
+                - listitem [ref=f263e94]:
+                  - button "Brisa Elvira Lazaro Campos Me" [ref=f263e96] [cursor=pointer]:
+                    - img "Brisa Elvira Lazaro Campos" [ref=f263e97]
+                    - generic [ref=f263e98]:
+                      - text: Me
+                      - img [ref=f263e99]
+                - listitem [ref=f263e101]:
+                  - button "For Business" [ref=f263e103] [cursor=pointer]:
+                    - img [ref=f263e107]
+                    - generic "For Business" [ref=f263e109]:
+                      - text: For Business
+                      - img [ref=f263e110]
+                - listitem [ref=f263e112]:
+                  - link "Get hired for €0" [ref=f263e114] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                    - generic [ref=f263e115]:
+                      - img [ref=f263e116]
+                      - generic [ref=f263e118]: Get hired for €0

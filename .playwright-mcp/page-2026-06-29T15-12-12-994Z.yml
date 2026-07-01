@@ -1,0 +1,490 @@
+- generic [ref=e2]:
+  - heading "0 notificaciones" [level=2] [ref=e3]
+  - generic [ref=e4]:
+    - generic:
+      - generic "Omitir el menú de navegación":
+        - button "Cerrar menú de omisión" [ref=e6] [cursor=pointer]
+    - generic [ref=e9]:
+      - banner [ref=e11]:
+        - generic [ref=e15]:
+          - button [ref=e16] [cursor=pointer]
+          - generic [ref=e18]:
+            - status [ref=e19]
+            - search [ref=e20]:
+              - textbox "Buscar" [ref=e24]
+      - main [ref=e27]:
+        - generic [ref=e29]:
+          - complementary "Barra lateral" [ref=e30]:
+            - generic [ref=e33]:
+              - generic [ref=e38]:
+                - generic [ref=e39]:
+                  - figure [ref=e41]
+                  - link "Añadir foto del perfil" [ref=e43] [cursor=pointer]:
+                    - /url: https://www.linkedin.com/
+                    - generic [ref=e44]:
+                      - figure [ref=e45]
+                      - button "Añadir foto del perfil" [ref=e47]
+                - generic [ref=e50]:
+                  - link "gerard ramonlol3 Desarrollador de front-end en BikUP App Granollers, Cataluña" [ref=e51] [cursor=pointer]:
+                    - /url: https://www.linkedin.com/in/gerard-ramonlol3-366472419/
+                    - generic [ref=e52]:
+                      - paragraph [ref=e55]: gerard ramonlol3
+                      - paragraph [ref=e57]: Desarrollador de front-end en BikUP App
+                      - paragraph [ref=e58]: Granollers, Cataluña
+                  - link "BikUP App" [ref=e59] [cursor=pointer]:
+                    - /url: https://www.linkedin.com/in/gerard-ramonlol3-366472419/
+                    - generic [ref=e60]:
+                      - figure [ref=e61]
+                      - paragraph [ref=e62]: BikUP App
+              - generic [ref=e65]:
+                - link "Análisis" [ref=e67] [cursor=pointer]:
+                  - /url: https://www.linkedin.com/dashboard/
+                  - generic "Análisis" [ref=e68]:
+                    - paragraph [ref=e69]: Análisis
+                - link "Contactos 0 Amplía tu red" [ref=e73] [cursor=pointer]:
+                  - /url: https://www.linkedin.com/mynetwork/invite-connect/connections/
+                  - generic "Contactos 0 Amplía tu red" [ref=e74]:
+                    - generic [ref=e75]:
+                      - generic [ref=e76]:
+                        - paragraph [ref=e77]: Contactos
+                        - paragraph [ref=e78]: Amplía tu red
+                      - paragraph [ref=e79]: "0"
+              - link "Accede a información y herramientas exclusivas Probar Premium por 0 €" [ref=e84] [cursor=pointer]:
+                - /url: https://www.linkedin.com/premium/products/?upsellOrderOrigin=Tracking%3Av1%3Apremium_homepage_identity_upsell%3ANav%3AIn-Product&referenceId=GYCxA6hnRO2G54RuiRHBTQ%3D%3D&isSS=true&upsellSlotId=IDENTITY_MODULE
+                - generic [ref=e85]:
+                  - paragraph [ref=e86]: Accede a información y herramientas exclusivas
+                  - paragraph [ref=e91]: Probar Premium por 0 €
+          - region "Contenido principal" [ref=e92]:
+            - list [ref=e93]:
+              - generic [ref=e97]:
+                - generic [ref=e98]:
+                  - generic [ref=e99]:
+                    - paragraph [ref=e100]: Te damos la bienvenida a LinkedIn
+                    - button "Descartar" [ref=e101] [cursor=pointer]
+                  - generic [ref=e104]:
+                    - progressbar "0 porcentaje completado" [ref=e106]
+                    - paragraph [ref=e107]: "Completado: 0/3"
+                - generic [ref=e110]:
+                  - generic [ref=e111]:
+                    - list [ref=e113]:
+                      - listitem [ref=e114]:
+                        - generic [ref=e117]:
+                          - figure [ref=e118]
+                          - generic [ref=e119]:
+                            - paragraph [ref=e120]: Añade tu experiencia laboral y tus aptitudes para que los técnicos de selección se fijen en ti.
+                            - link "Actualizar perfil" [ref=e121] [cursor=pointer]:
+                              - /url: https://www.linkedin.com/feed/?legoTrackingToken=3gZpnFFkTBxr71PqmgCc2UMfmlOrSdjtOoZsC5gr6litOoZp6Zdr6litOoVejAVejRApnhPpnlNpl9JtmUCjAZ9l4BjjR0Zuk9OpmhOjThBpShFtOpBr6BCrT9MnSlQomhMtlYOtChxs6xzrDlxr3RAinhBpShFtOoMfmVLqnhFsSZgt6lDp6BT9z0Kc3RBsCZzkT9D9zROol1Ipl9OpOoZp6Zdr6lisCsCc3RKrSBQqndLk71RrT9D9zgZp6lQsSlRsmlirnles7lLsCsCsSVLqnhzojRAin1RrT9D9AVfilh9kQZgfnB2sClAsCYCt6NRompBp3RAinhKpmRDpncCsClHpmlPoCZGpnpFsTdxs3RAinhLr7cCt6NRompBp3RAinhRrTBxr2oOtChxs6xzrDlxr3RBrm5epmtxs2pEt7tLsCsZp4BMs64CdPsTej8Pfmh9rCZFsT9BtyoQejwSdPsPe3sNfmh9tioTdm8VdPgRoPkOcCcJd69yoiRAoj8QbjgVdP4JdCcTp30PpCgZp4BQu6lQrCZz&showCareersModal=updateProfile&modalContext=PASSIVE_JOB_SEEKER
+                              - generic [ref=e123]: Actualizar perfil
+                      - listitem [ref=e124]:
+                        - generic [ref=e127]:
+                          - figure [ref=e128]
+                          - generic [ref=e129]:
+                            - paragraph [ref=e130]: Sigue a las empresas que te interesan para enterarte de nuevas oportunidades.
+                            - link "Empezar a seguir" [ref=e131] [cursor=pointer]:
+                              - /url: https://www.linkedin.com/mynetwork/discover-hub/?useCase=LAUNCHPAD_FOLLOW_COMPANY_RECOMMENDATION
+                              - generic [ref=e133]: Empezar a seguir
+                      - listitem [ref=e134]:
+                        - generic [ref=e137]:
+                          - figure [ref=e138]
+                          - generic [ref=e139]:
+                            - paragraph [ref=e140]: Conecta con personas que conoces para ampliar tu red y tus oportunidades.
+                            - link "Añadir contactos" [ref=e141] [cursor=pointer]:
+                              - /url: https://www.linkedin.com/feed/?legoTrackingToken=d3RBuCBjum5Is7dFp2oMbz0Zpn9LoRdT9zROol1Ipl9T9zRArQRIpl9T9zAVejAVfmhBt7dBtn5BkCRRrypejQBkildfk3RVgD9Bp79ft6lDp6BT9DdKrSBQoSlKrCZznShAolYOtChxs6xzrDlxr3RAinhBpShFtOoOfmVLqnhFsSZgt6lDp6BT9z0Kc3RBsCZzkT9D9zROol1Ipl9OpOoZp6Zdr6lisCsCc3RKrSBQqndLk71RrT9D9zgZp6lQsSlRsmlirnles7lLsCsCsSVLqnhzojRAin1RrT9D9AVfilh9kQZgfnB2sClAsCYCt6NRompBp3RAinhKpmRDpncCsClHpmlPoCZGpnpFsTdxs3RAinhLr7cCt6NRompBp3RAinhRrTBxr2oOtChxs6xzrDlxr3RBrm5epmtxs2pEt7tLsCsZp4BMs64CdPsTej8Pfmh9rCZFsT9BtyoQejwSdPsPe3sNfmh9tioTdm8VdPgRoPkOcCcJd69yoiRAoj8QbjgVdP4JdCcTp30PpCgZp4BQu6lQrCZz&showCareersModal=addConnections&modalContext=PASSIVE_JOB_SEEKER
+                              - generic [ref=e143]: Añadir contactos
+                    - button "Siguiente" [ref=e144] [cursor=pointer]
+                  - list [ref=e148]:
+                    - listitem [ref=e149]:
+                      - button "Página 1" [ref=e150] [cursor=pointer]
+                    - listitem [ref=e151]:
+                      - button "Página 2" [ref=e152] [cursor=pointer]
+                    - listitem [ref=e153]:
+                      - button "Página 3" [ref=e154] [cursor=pointer]
+              - generic [ref=e157]:
+                - generic [ref=e158]:
+                  - link [ref=e160] [cursor=pointer]:
+                    - /url: https://www.linkedin.com/in/gerard-ramonlol3-366472419/
+                    - figure [ref=e161]
+                  - link "Crear publicación" [ref=e163] [cursor=pointer]:
+                    - /url: /preload/sharebox/
+                    - generic "Crear publicación" [ref=e164]:
+                      - generic [ref=e166]:
+                        - paragraph [ref=e167]: Crear publicación
+                        - generic:
+                          - paragraph
+                - generic [ref=e168]:
+                  - link "Vídeo" [ref=e169] [cursor=pointer]:
+                    - /url: /preload/sharebox/?detourType=VIDEO
+                    - paragraph [ref=e172]: Vídeo
+                  - link "Foto" [ref=e173] [cursor=pointer]:
+                    - /url: /preload/sharebox/?detourType=IMAGE
+                    - paragraph [ref=e176]: Foto
+                  - link "Escribir artículo" [ref=e177] [cursor=pointer]:
+                    - /url: /article/new/
+                    - paragraph [ref=e180]: Escribir artículo
+              - listitem [ref=e185]:
+                - generic [ref=e187]:
+                  - heading "Publicación en el feed" [level=2]:
+                    - generic [ref=e188]: Publicación en el feed
+                  - generic [ref=e189]:
+                    - paragraph [ref=e193]: Te recomendamos
+                    - link "Miguel Ángel Durán García Executive Top Voice Inteligencia Artificial + Programación + Tecnología. Reconocido Google Developer Expert, Microsoft MVP y GitHub Star. Los profesionales del sector de Desarrollo de software también siguen a estas personas Seguir a Miguel Ángel Durán García" [ref=e194] [cursor=pointer]:
+                      - /url: https://www.linkedin.com/in/midudev/
+                      - listitem [ref=e195]:
+                        - generic [ref=e196]:
+                          - figure [ref=e197]
+                          - generic [ref=e198]:
+                            - paragraph [ref=e201]:
+                              - generic [ref=e202]:
+                                - text: Miguel Ángel Durán García
+                                - img "Executive Top Voice" [ref=e203]
+                            - paragraph [ref=e206]: Inteligencia Artificial + Programación + Tecnología. Reconocido Google Developer Expert, Microsoft MVP y GitHub Star.
+                            - paragraph [ref=e210]: Los profesionales del sector de Desarrollo de software también siguen a estas personas
+                        - button "Seguir a Miguel Ángel Durán García" [ref=e212]:
+                          - generic [ref=e216]: Seguir
+                    - link "Marcelo Vázquez (Aka. S4vitar) Verificado CEO Hack4u | Founder @ Qubit Technologies | +100.000 alumnos Popular en LinkedIn Seguir a Marcelo Vázquez (Aka. S4vitar)" [ref=e217] [cursor=pointer]:
+                      - /url: https://www.linkedin.com/in/s4vitar/
+                      - listitem [ref=e218]:
+                        - generic [ref=e219]:
+                          - figure [ref=e220]
+                          - generic [ref=e221]:
+                            - paragraph [ref=e224]:
+                              - generic [ref=e225]:
+                                - text: Marcelo Vázquez (Aka. S4vitar)
+                                - img "Verificado" [ref=e226]
+                            - paragraph [ref=e229]: CEO Hack4u | Founder @ Qubit Technologies | +100.000 alumnos
+                            - paragraph [ref=e233]: Popular en LinkedIn
+                        - button "Seguir a Marcelo Vázquez (Aka. S4vitar)" [ref=e235]:
+                          - generic [ref=e239]: Seguir
+                    - link "Cristina Majado Pardo Premium IT Recruiter en NTT DATA Europe & LATAM Los profesionales del sector de Desarrollo de software también siguen a estas personas Seguir a Cristina Majado Pardo" [ref=e240] [cursor=pointer]:
+                      - /url: https://www.linkedin.com/in/cristina-majado-pardo-a84143172/
+                      - listitem [ref=e241]:
+                        - generic [ref=e242]:
+                          - figure [ref=e243]
+                          - generic [ref=e244]:
+                            - paragraph [ref=e247]:
+                              - generic [ref=e248]:
+                                - text: Cristina Majado Pardo
+                                - img "Premium" [ref=e249]
+                            - paragraph [ref=e252]: IT Recruiter en NTT DATA Europe & LATAM
+                            - paragraph [ref=e256]: Los profesionales del sector de Desarrollo de software también siguen a estas personas
+                        - button "Seguir a Cristina Majado Pardo" [ref=e258]:
+                          - generic [ref=e262]: Seguir
+                    - link "Mostrar más" [ref=e263] [cursor=pointer]:
+                      - /url: /mynetwork/discover-hub/
+                      - generic [ref=e266]: Mostrar más
+              - listitem [ref=e271]:
+                - generic [ref=e273]:
+                  - heading "Publicación en el feed" [level=2]:
+                    - generic [ref=e274]: Publicación en el feed
+                  - generic [ref=e276]:
+                    - generic [ref=e277]:
+                      - generic [ref=e278]:
+                        - paragraph [ref=e280]: gerard, ¿quieres recibir aún más actualizaciones?
+                        - paragraph [ref=e282]: Añade a estas personas que podrías conocer a tu red y verás sus actualizaciones en tu feed.
+                      - generic [ref=e283]:
+                        - listitem [ref=e285]:
+                          - generic [ref=e287]:
+                            - link "Adrian Arco Gonzalez Fullstack Developer" [ref=e288] [cursor=pointer]:
+                              - /url: https://www.linkedin.com/in/adrian-arco-gonzalez/
+                              - generic [ref=e289]:
+                                - generic [ref=e290]:
+                                  - figure [ref=e291]
+                                  - figure [ref=e292]
+                                - generic [ref=e293]:
+                                  - paragraph [ref=e295]: Adrian Arco Gonzalez
+                                  - paragraph [ref=e297]: Fullstack Developer
+                            - generic [ref=e298]:
+                              - paragraph [ref=e301]: En función de tu perfil
+                              - link "Invita a Adrian Arco Gonzalez a conectar" [ref=e303] [cursor=pointer]:
+                                - /url: /preload/custom-invite/?vanityName=adrian-arco-gonzalez
+                                - generic [ref=e307]: Conectar
+                        - listitem [ref=e309]:
+                          - generic [ref=e311]:
+                            - link "Brisa Elvira Lazaro Campos Frontend Developer → QA Engineer | Test Automation | Quality Enthusiast" [ref=e312] [cursor=pointer]:
+                              - /url: https://www.linkedin.com/in/brisa-lazaro/
+                              - generic [ref=e313]:
+                                - generic [ref=e314]:
+                                  - figure [ref=e315]
+                                  - figure [ref=e316]
+                                - generic [ref=e317]:
+                                  - paragraph [ref=e319]: Brisa Elvira Lazaro Campos
+                                  - paragraph [ref=e321]: Frontend Developer → QA Engineer | Test Automation | Quality Enthusiast
+                            - generic [ref=e322]:
+                              - paragraph [ref=e325]: En función de tu perfil
+                              - link "Invita a Brisa Elvira Lazaro Campos a conectar" [ref=e327] [cursor=pointer]:
+                                - /url: /preload/custom-invite/?vanityName=brisa-lazaro
+                                - generic [ref=e331]: Conectar
+                        - listitem [ref=e333]:
+                          - generic [ref=e335]:
+                            - link "Ivan Castaño Carrillo Verificado Estudiante de Ingeniería informática y Desarrollador de Software en Triskel Telecom S.L" [ref=e336] [cursor=pointer]:
+                              - /url: https://www.linkedin.com/in/ivancastanocarrillo/
+                              - generic [ref=e337]:
+                                - generic [ref=e338]:
+                                  - figure [ref=e339]
+                                  - figure [ref=e340]
+                                - generic [ref=e341]:
+                                  - paragraph [ref=e343]:
+                                    - generic [ref=e344]:
+                                      - text: Ivan Castaño Carrillo
+                                      - img "Verificado" [ref=e345]
+                                  - paragraph [ref=e348]: Estudiante de Ingeniería informática y Desarrollador de Software en Triskel Telecom S.L
+                            - generic [ref=e349]:
+                              - paragraph [ref=e353]: Activo recientemente en el feed
+                              - link "Invita a Ivan Castaño Carrillo a conectar" [ref=e355] [cursor=pointer]:
+                                - /url: /preload/custom-invite/?vanityName=ivancastanocarrillo
+                                - generic [ref=e359]: Conectar
+                        - listitem [ref=e361]:
+                          - generic [ref=e363]:
+                            - link "Rinah Colomer Ayllón Marketing Digital i audiovisuals" [ref=e364] [cursor=pointer]:
+                              - /url: https://www.linkedin.com/in/rinah-colomer-ayll%C3%B3n/
+                              - generic [ref=e365]:
+                                - generic [ref=e366]:
+                                  - figure [ref=e367]
+                                  - figure [ref=e368]
+                                - generic [ref=e369]:
+                                  - paragraph [ref=e371]: Rinah Colomer Ayllón
+                                  - paragraph [ref=e373]: Marketing Digital i audiovisuals
+                            - generic [ref=e374]:
+                              - paragraph [ref=e378]: Activo recientemente en el feed
+                              - link "Invita a Rinah Colomer Ayllón a conectar" [ref=e380] [cursor=pointer]:
+                                - /url: /preload/custom-invite/?vanityName=rinah-colomer-ayllón
+                                - generic [ref=e384]: Conectar
+                        - listitem [ref=e386]:
+                          - generic [ref=e388]:
+                            - link "Guillem Ribó Junior frontend developer | Laravel fullstack developer" [ref=e389] [cursor=pointer]:
+                              - /url: https://www.linkedin.com/in/guillem-ribo/
+                              - generic [ref=e390]:
+                                - generic [ref=e391]:
+                                  - figure [ref=e392]
+                                  - figure [ref=e393]
+                                - generic [ref=e394]:
+                                  - paragraph [ref=e396]: Guillem Ribó
+                                  - paragraph [ref=e398]: Junior frontend developer | Laravel fullstack developer
+                            - generic [ref=e399]:
+                              - paragraph [ref=e402]: En función de tu perfil
+                              - link "Invita a Guillem Ribó a conectar" [ref=e404] [cursor=pointer]:
+                                - /url: /preload/custom-invite/?vanityName=guillem-ribo
+                                - generic [ref=e408]: Conectar
+                        - listitem [ref=e410]:
+                          - generic [ref=e412]:
+                            - link "Marc Capella Gimenez Verificado --" [ref=e413] [cursor=pointer]:
+                              - /url: https://www.linkedin.com/in/marc-capella-gimenez-09b36b242/
+                              - generic [ref=e414]:
+                                - generic [ref=e415]:
+                                  - figure [ref=e416]
+                                  - figure [ref=e417]
+                                - generic [ref=e418]:
+                                  - paragraph [ref=e420]:
+                                    - generic [ref=e421]:
+                                      - text: Marc Capella Gimenez
+                                      - img "Verificado" [ref=e422]
+                                  - paragraph [ref=e425]: "--"
+                            - generic [ref=e426]:
+                              - paragraph [ref=e429]: En función de tu perfil
+                              - link "Invita a Marc Capella Gimenez a conectar" [ref=e431] [cursor=pointer]:
+                                - /url: /preload/custom-invite/?vanityName=marc-capella-gimenez-09b36b242
+                                - generic [ref=e435]: Conectar
+                    - link "Ver más" [ref=e436] [cursor=pointer]:
+                      - /url: https://www.linkedin.com/
+                      - generic [ref=e438]: Ver más
+              - listitem [ref=e443]:
+                - generic [ref=e445]:
+                  - heading "Publicación en el feed" [level=2]:
+                    - generic [ref=e446]: Publicación en el feed
+                  - generic [ref=e447]:
+                    - paragraph [ref=e450]: Sugerencias
+                    - button "Abrir el menú de controles para la publicación de David Martínez Estébanez" [ref=e451] [cursor=pointer]
+                    - button "Ocultar la publicación de David Martínez Estébanez" [ref=e454] [cursor=pointer]
+                  - generic [ref=e457]:
+                    - link [ref=e458] [cursor=pointer]:
+                      - /url: https://www.linkedin.com/in/davidmartinezestebanez/
+                      - figure [ref=e459]
+                    - generic [ref=e461]:
+                      - link "David Martínez Estébanez perfil Verificado 3er y demás" [ref=e464] [cursor=pointer]:
+                        - /url: https://www.linkedin.com/in/davidmartinezestebanez/
+                        - generic "David Martínez Estébanez perfil Verificado 3er y demás" [ref=e466]:
+                          - paragraph [ref=e469]: David Martínez Estébanez
+                          - paragraph [ref=e471]:
+                            - generic [ref=e472]: • 3er+
+                      - paragraph [ref=e476]: Fullstack & Cloud Developer | Azure · Power Platform · AWS · Oracle Database & APEX | C# · .NET · JS · SQL
+                      - paragraph [ref=e478]:
+                        - generic [ref=e479]: 5 días • Editado •
+                      - link:
+                        - /url: https://www.linkedin.com/in/davidmartinezestebanez/
+                    - button "Seguir a David Martínez Estébanez" [ref=e484] [cursor=pointer]:
+                      - generic [ref=e488]: Seguir
+                  - paragraph [ref=e489]:
+                    - generic [ref=e490]:
+                      - text: "Cuando empiezas con SQL, tu objetivo suele ser simple:"
+                      - text: que la query funcione y no dé error. 😅
+                      - text: Pero con el tiempo aprendes que una consulta que funciona no siempre escala.
+                      - text: "Estos son 3 vicios rápidos que intento evitar:"
+                      - text: 🚨 SELECT *
+                      - text: 🩹 DISTINCT como tirita
+                      - text: 🐌 LIMIT / OFFSET para paginar
+                      - text: El cambio grande está en pasar de “que devuelva datos” a “que lo haga bien cuando la tabla crezca”.
+                      - text: ¿Cuál de estos habéis visto más en código ajeno?
+                      - text: O hecho vosotros mismos, que aquí todos hemos pecado. 😈
+                      - link "#SQL" [ref=e492] [cursor=pointer]:
+                        - /url: https://www.linkedin.com/search/results/all/?keywords=%23sql&origin=HASH_TAG_FROM_FEED
+                        - strong [ref=e494]: "#SQL"
+                      - link "#BasesDeDatos" [ref=e495] [cursor=pointer]:
+                        - /url: https://www.linkedin.com/search/results/all/?keywords=%23basesdedatos&origin=HASH_TAG_FROM_FEED
+                        - strong [ref=e497]: "#BasesDeDatos"
+                      - link "#DesarrolloWeb" [ref=e498] [cursor=pointer]:
+                        - /url: https://www.linkedin.com/search/results/all/?keywords=%23desarrolloweb&origin=HASH_TAG_FROM_FEED
+                        - strong [ref=e500]: "#DesarrolloWeb"
+                      - link "#Backend" [ref=e501] [cursor=pointer]:
+                        - /url: https://www.linkedin.com/search/results/all/?keywords=%23backend&origin=HASH_TAG_FROM_FEED
+                        - strong [ref=e503]: "#Backend"
+                      - link "#DotNet" [ref=e504] [cursor=pointer]:
+                        - /url: https://www.linkedin.com/search/results/all/?keywords=%23dotnet&origin=HASH_TAG_FROM_FEED
+                        - strong [ref=e506]: "#DotNet"
+                  - generic [ref=e507]:
+                    - link [ref=e508] [cursor=pointer]:
+                      - /url: https://www.linkedin.com/
+                      - figure [ref=e509]:
+                        - 'img "Infografía en blanco y negro sobre 3 vicios comunes en SQL: usar SELECT *, usar DISTINCT para tapar duplicados y paginar con OFFSET. Muestra mejores alternativas para escribir queries más eficientes." [ref=e510]'
+                    - button "Esta imagen tiene credenciales." [ref=e511] [cursor=pointer]:
+                      - figure [ref=e513]
+                  - generic [ref=e514]:
+                    - generic [ref=e515]:
+                      - 'button "Estado del botón de reacción: ninguna reacción" [ref=e518] [cursor=pointer]':
+                        - generic [ref=e521]: "453"
+                      - button "Abrir el menú de reacciones"
+                    - button "Comentar" [ref=e522] [cursor=pointer]:
+                      - generic [ref=e525]: "15"
+                    - button "Compartir" [ref=e526] [cursor=pointer]:
+                      - generic [ref=e529]: "50"
+                    - link "Enviar" [ref=e530] [cursor=pointer]:
+                      - /url: https://www.linkedin.com/
+                    - link [ref=e533] [cursor=pointer]:
+                      - /url: https://www.linkedin.com/
+                      - generic "453 reacciones" [ref=e534]
+              - progressbar "En curso" [ref=e541]
+          - complementary "Al margen" [ref=e542]:
+            - generic [ref=e543]:
+              - generic [ref=e546]:
+                - generic [ref=e548]:
+                  - generic [ref=e549]:
+                    - paragraph [ref=e550]: LinkedIn Noticias
+                    - button "Descripción emergente de la información" [ref=e551] [cursor=pointer]
+                  - paragraph [ref=e554]: Historias destacadas
+                  - generic [ref=e555]:
+                    - 'link "Fútbol y poder: ¿dónde están las mujeres? Hace 6 horas • 2090 lectores" [ref=e557] [cursor=pointer]':
+                      - /url: https://www.linkedin.com/news/story/fútbol-y-poder-¿dónde-están-las-mujeres-7369004/
+                      - generic [ref=e559]:
+                        - paragraph [ref=e561]: "Fútbol y poder: ¿dónde están las mujeres?"
+                        - generic [ref=e562]:
+                          - paragraph [ref=e563]: Hace 6 horas
+                          - paragraph [ref=e564]: •
+                          - paragraph [ref=e565]: 2090 lectores
+                    - 'link "Doble terremoto en Venezuela: últimas noticias Hace 8 horas • 1431 lectores" [ref=e567] [cursor=pointer]':
+                      - /url: https://www.linkedin.com/news/story/doble-terremoto-en-venezuela-últimas-noticias-7381508/
+                      - generic [ref=e569]:
+                        - paragraph [ref=e571]: "Doble terremoto en Venezuela: últimas noticias"
+                        - generic [ref=e572]:
+                          - paragraph [ref=e573]: Hace 8 horas
+                          - paragraph [ref=e574]: •
+                          - paragraph [ref=e575]: 1431 lectores
+                    - link "Cada vez más jóvenes consumen psicofármacos Hace 4 horas • 3021 lectores" [ref=e577] [cursor=pointer]:
+                      - /url: https://www.linkedin.com/news/story/cada-vez-más-jóvenes-consumen-psicofármacos-8309409/
+                      - generic [ref=e579]:
+                        - paragraph [ref=e581]: Cada vez más jóvenes consumen psicofármacos
+                        - generic [ref=e582]:
+                          - paragraph [ref=e583]: Hace 4 horas
+                          - paragraph [ref=e584]: •
+                          - paragraph [ref=e585]: 3021 lectores
+                    - link "Así queda el escudo anticrisis Hace 51 minutos • 2044 lectores" [ref=e587] [cursor=pointer]:
+                      - /url: https://www.linkedin.com/news/story/así-queda-el-escudo-anticrisis-7389276/
+                      - generic [ref=e589]:
+                        - paragraph [ref=e591]: Así queda el escudo anticrisis
+                        - generic [ref=e592]:
+                          - paragraph [ref=e593]: Hace 51 minutos
+                          - paragraph [ref=e594]: •
+                          - paragraph [ref=e595]: 2044 lectores
+                    - link "La inflación se estabiliza en junio en el 3,2% Hace 6 horas • 1286 lectores" [ref=e597] [cursor=pointer]:
+                      - /url: https://www.linkedin.com/news/story/la-inflación-se-estabiliza-en-junio-en-el-32-7389268/
+                      - generic [ref=e599]:
+                        - paragraph [ref=e601]: La inflación se estabiliza en junio en el 3,2%
+                        - generic [ref=e602]:
+                          - paragraph [ref=e603]: Hace 6 horas
+                          - paragraph [ref=e604]: •
+                          - paragraph [ref=e605]: 1286 lectores
+                    - button "Mostrar más noticias" [ref=e606] [cursor=pointer]:
+                      - generic [ref=e609]: Mostrar más noticias
+                - generic [ref=e611]:
+                  - paragraph [ref=e612]: Partidas de hoy
+                  - generic [ref=e613]:
+                    - link "Jugar a Patches" [ref=e615] [cursor=pointer]:
+                      - /url: https://www.linkedin.com/games/patches/
+                      - generic "Jugar a Patches" [ref=e616]:
+                        - generic [ref=e617]:
+                          - figure [ref=e618]
+                          - generic [ref=e619]:
+                            - paragraph [ref=e620]:
+                              - strong [ref=e621]: Patches
+                              - text: n.º 104
+                            - paragraph [ref=e622]: ¡A darle forma!
+                    - link "Jugar a Zip" [ref=e625] [cursor=pointer]:
+                      - /url: https://www.linkedin.com/games/zip/
+                      - generic "Jugar a Zip" [ref=e626]:
+                        - generic [ref=e627]:
+                          - figure [ref=e628]
+                          - generic [ref=e629]:
+                            - paragraph [ref=e630]:
+                              - strong [ref=e631]: Zip
+                              - text: n.º 469
+                            - paragraph [ref=e632]: Ábrete camino.
+                    - link "Jugar a MiniSudoku" [ref=e635] [cursor=pointer]:
+                      - /url: /games/mini-sudoku/
+                      - generic "Jugar a MiniSudoku" [ref=e636]:
+                        - generic [ref=e637]:
+                          - figure [ref=e638]
+                          - generic [ref=e639]:
+                            - paragraph [ref=e640]:
+                              - strong [ref=e641]: Mini Sudoku
+                              - text: n.º 322
+                            - paragraph [ref=e642]: El clásico juego, en versión mini.
+                    - link "Jugar a Tango" [ref=e645] [cursor=pointer]:
+                      - /url: https://www.linkedin.com/games/tango/
+                      - generic "Jugar a Tango" [ref=e646]:
+                        - generic [ref=e647]:
+                          - figure [ref=e648]
+                          - generic [ref=e649]:
+                            - paragraph [ref=e650]:
+                              - strong [ref=e651]: Tango
+                              - text: n.º 630
+                            - paragraph [ref=e652]: Todo cuadra.
+                    - button "Mostrar más" [ref=e655] [cursor=pointer]:
+                      - generic [ref=e658]: Mostrar más
+              - generic [ref=e660]:
+                - iframe [ref=e663]
+                - generic [ref=e664]:
+                  - generic [ref=e665]:
+                    - link "Acerca de" [ref=e666] [cursor=pointer]:
+                      - /url: https://about.linkedin.com/
+                      - paragraph [ref=e667]: Acerca de
+                    - link "Accesibilidad" [ref=e668] [cursor=pointer]:
+                      - /url: https://www.linkedin.com/accessibility/
+                      - paragraph [ref=e669]: Accesibilidad
+                    - link "Centro de ayuda" [ref=e670] [cursor=pointer]:
+                      - /url: https://www.linkedin.com/help/linkedin/
+                      - paragraph [ref=e671]: Centro de ayuda
+                    - button "Privacidad y condiciones" [ref=e672] [cursor=pointer]:
+                      - paragraph [ref=e674]: Privacidad y condiciones
+                    - link "Opciones de publicidad" [ref=e676] [cursor=pointer]:
+                      - /url: https://www.linkedin.com/help/linkedin/answer/62931/
+                      - paragraph [ref=e677]: Opciones de publicidad
+                    - link "Publicidad" [ref=e678] [cursor=pointer]:
+                      - /url: https://www.linkedin.com/ad/start/?trk=n_nav_ads_rr
+                      - paragraph [ref=e679]: Publicidad
+                    - button "Servicios empresariales" [ref=e680] [cursor=pointer]:
+                      - paragraph [ref=e682]: Servicios empresariales
+                    - link "Descargar la aplicación de LinkedIn" [ref=e684] [cursor=pointer]:
+                      - /url: https://www.linkedin.com/mobile/
+                      - paragraph [ref=e685]: Descargar la aplicación de LinkedIn
+                    - link "Más" [ref=e686] [cursor=pointer]:
+                      - /url: https://www.linkedin.com/
+                      - paragraph [ref=e687]: Más
+                  - paragraph [ref=e690]: LinkedIn Corporation © 2026

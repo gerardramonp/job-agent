@@ -1,0 +1,253 @@
+- generic [active] [ref=e1]:
+  - generic:
+    - region "Toast message":
+      - heading "0 notifications total" [level=2] [ref=e3]
+      - alert
+  - generic [ref=e4]:
+    - generic [ref=e6]:
+      - button "Skip to search" [ref=e7] [cursor=pointer]:
+        - generic [ref=e8]: Skip to search
+      - button "Skip to main content" [ref=e9] [cursor=pointer]:
+        - generic [ref=e10]: Skip to main content
+      - button "Keyboard shortcuts" [ref=e11] [cursor=pointer]:
+        - generic [ref=e12]: Keyboard shortcuts
+      - button "Close jump menu" [ref=e13] [cursor=pointer]:
+        - img [ref=e14]
+        - generic [ref=e16]: Close jump menu
+    - banner "Global Navigation" [ref=e17]:
+      - generic [ref=e18]:
+        - link "LinkedIn" [ref=e19] [cursor=pointer]:
+          - /url: https://www.linkedin.com/feed/?nis=true
+          - img "LinkedIn" [ref=e22]:
+            - img [ref=e23]
+        - generic [ref=e27]:
+          - generic [ref=e30]:
+            - generic [ref=e31]:
+              - generic [ref=e32]: Search by title, skill, or company
+              - img [ref=e33]
+            - combobox "Search by title, skill, or company" [ref=e35]: QA Analyst
+            - textbox [disabled]
+          - generic [ref=e38]:
+            - generic [ref=e39]:
+              - generic [ref=e40]: City, state, or zip code
+              - img [ref=e41]
+            - combobox "City, state, or zip code" [ref=e43]: Spain
+            - textbox [disabled]
+          - button "Search" [ref=e44] [cursor=pointer]
+        - navigation "Primary Navigation" [ref=e45]:
+          - list [ref=e46]:
+            - listitem [ref=e47]:
+              - link "new feed updates notifications Home" [ref=e48] [cursor=pointer]:
+                - /url: https://www.linkedin.com/feed/?nis=true&
+                - generic [ref=e49]:
+                  - generic [ref=e52]: new feed updates notifications
+                  - img [ref=e56]
+                - generic "Home" [ref=e58]
+            - listitem [ref=e59]:
+              - link "My Network" [ref=e60] [cursor=pointer]:
+                - /url: https://www.linkedin.com/mynetwork/?
+                - img [ref=e64]
+                - generic "My Network" [ref=e66]
+            - listitem [ref=e67]:
+              - link "Jobs" [ref=e68] [cursor=pointer]:
+                - /url: https://www.linkedin.com/jobs/?
+                - img [ref=e72]
+                - generic "Jobs" [ref=e74]
+            - listitem [ref=e75]:
+              - link "Messaging" [ref=e76] [cursor=pointer]:
+                - /url: https://www.linkedin.com/messaging/?
+                - img [ref=e80]
+                - generic "Messaging" [ref=e82]
+            - listitem [ref=e83]:
+              - link "Notifications" [ref=e84] [cursor=pointer]:
+                - /url: https://www.linkedin.com/notifications/?
+                - img [ref=e88]
+                - generic "Notifications" [ref=e90]
+            - listitem [ref=e91]:
+              - button "Brisa Elvira Lazaro Campos Me" [ref=e93] [cursor=pointer]:
+                - img "Brisa Elvira Lazaro Campos" [ref=e94]
+                - generic [ref=e95]:
+                  - text: Me
+                  - img [ref=e96]
+            - listitem [ref=e98]:
+              - button "For Business" [ref=e100] [cursor=pointer]:
+                - img [ref=e104]
+                - generic "For Business" [ref=e106]:
+                  - text: For Business
+                  - img [ref=e107]
+            - listitem [ref=e109]:
+              - link "Get hired for €0" [ref=e111] [cursor=pointer]:
+                - /url: javascript:void(0)
+                - generic [ref=e112]:
+                  - img [ref=e113]
+                  - generic [ref=e115]: Get hired for €0
+    - generic [ref=e117]:
+      - region "search filters" [ref=e120]:
+        - heading "Jobs search" [level=2] [ref=e121]
+      - main [ref=e132]:
+        - generic [ref=e134]:
+          - generic [ref=e135]:
+            - generic [ref=e136]:
+              - generic [ref=e137]:
+                - generic "QA Analyst in Spain" [ref=e138]
+                - generic [ref=e141]: 500+ results
+              - generic [ref=e144] [cursor=pointer]:
+                - generic [ref=e145]: Set alert
+                - generic [ref=e146]: Set job alert for QA Analyst in Spain
+                - switch "Set job alert for QA Analyst in Spain"
+            - generic [ref=e147]:
+              - button "Jump to active job details":
+                - generic [ref=e148] [cursor=pointer]: Jump to active job details
+              - button "Jump to active search result":
+                - generic [ref=e149] [cursor=pointer]: Jump to active search result
+              - list [ref=e150]:
+                - listitem [ref=e151]:
+                  - generic [ref=e154] [cursor=pointer]:
+                    - generic [ref=e155]:
+                      - img "Neotalent Conclusion logo" [ref=e159]
+                      - generic [ref=e160]:
+                        - link "Ingeniero de Core with verification" [ref=e162]:
+                          - /url: /jobs/view/4429534851/?trk=flagship3_search_srp_jobs
+                          - generic [ref=e163]:
+                            - strong [ref=e164]: Ingeniero de Core
+                            - img [ref=e166]
+                        - generic [ref=e169]: Neotalent Conclusion
+                        - list [ref=e171]:
+                          - listitem [ref=e172]:
+                            - generic [ref=e173]: Madrid, Community of Madrid, Spain (Hybrid)
+                    - list [ref=e175]:
+                      - listitem [ref=e176]
+                - listitem [ref=e178]:
+                  - generic [ref=e181] [cursor=pointer]:
+                    - generic [ref=e182]:
+                      - img "Experis logo" [ref=e186]
+                      - generic [ref=e187]:
+                        - link "Consultor Técnico / Funcional Java Remoto (H/M/X) with verification" [ref=e189]:
+                          - /url: /jobs/view/4431507607/?trk=flagship3_search_srp_jobs
+                          - generic [ref=e190]:
+                            - strong [ref=e191]: Consultor Técnico / Funcional Java Remoto (H/M/X)
+                            - img [ref=e193]
+                        - generic [ref=e196]: Experis
+                        - list [ref=e198]:
+                          - listitem [ref=e199]:
+                            - generic [ref=e200]: Spain (Remote)
+                    - list [ref=e202]:
+                      - listitem [ref=e203]
+                - listitem [ref=e205]:
+                  - generic [ref=e208] [cursor=pointer]:
+                    - generic [ref=e209]:
+                      - img "ALTEN Spain logo" [ref=e213]
+                      - generic [ref=e214]:
+                        - link "Ingeniero/a QA with verification" [ref=e216]:
+                          - /url: /jobs/view/4431510553/?trk=flagship3_search_srp_jobs
+                          - generic [ref=e217]:
+                            - strong [ref=e218]: Ingeniero/a QA
+                            - img [ref=e220]
+                        - generic [ref=e223]: ALTEN Spain
+                        - list [ref=e225]:
+                          - listitem [ref=e226]:
+                            - generic [ref=e227]: Spain (Remote)
+                    - list [ref=e229]:
+                      - listitem [ref=e230]
+                - listitem [ref=e232]:
+                  - generic [ref=e235] [cursor=pointer]:
+                    - generic [ref=e236]:
+                      - img "GarantíaYa España logo" [ref=e240]
+                      - generic [ref=e241]:
+                        - link "Analista de Renovaciones Temporal" [ref=e243]:
+                          - /url: /jobs/view/4430221834/?trk=flagship3_search_srp_jobs
+                          - strong [ref=e245]: Analista de Renovaciones Temporal
+                        - generic [ref=e247]: GarantíaYa España
+                        - list [ref=e249]:
+                          - listitem [ref=e250]:
+                            - generic [ref=e251]: Greater Madrid Metropolitan Area (Remote)
+                    - list [ref=e253]:
+                      - listitem [ref=e254]
+                - listitem [ref=e256]:
+                  - generic [ref=e259] [cursor=pointer]:
+                    - generic [ref=e260]:
+                      - img "PrimeIT España logo" [ref=e264]
+                      - generic [ref=e265]:
+                        - link "Técnico/a de sistemas" [ref=e267]:
+                          - /url: /jobs/view/4434706274/?trk=flagship3_search_srp_jobs
+                          - strong [ref=e269]: Técnico/a de sistemas
+                        - generic [ref=e271]: PrimeIT España
+                        - list [ref=e273]:
+                          - listitem [ref=e274]:
+                            - generic [ref=e275]: Madrid, Community of Madrid, Spain (Hybrid)
+                    - list [ref=e277]:
+                      - listitem [ref=e278]
+                - listitem [ref=e280]:
+                  - generic [ref=e283] [cursor=pointer]:
+                    - generic [ref=e284]:
+                      - img "HR Motor logo" [ref=e288]
+                      - generic [ref=e289]:
+                        - link "Desarrollador/a de Salesforce - Zaragoza (Plaza)" [ref=e291]:
+                          - /url: /jobs/view/4431523291/?trk=flagship3_search_srp_jobs
+                          - strong [ref=e293]: Desarrollador/a de Salesforce - Zaragoza (Plaza)
+                        - generic [ref=e295]: HR Motor
+                        - list [ref=e297]:
+                          - listitem [ref=e298]:
+                            - generic [ref=e299]: Zaragoza, Aragon, Spain (On-site)
+                    - list [ref=e301]:
+                      - listitem [ref=e302]
+                - listitem [ref=e304]:
+                  - generic [ref=e307] [cursor=pointer]:
+                    - generic [ref=e308]:
+                      - img "Paradigma Digital logo" [ref=e312]
+                      - generic [ref=e313]:
+                        - link "Prompt Engineer with verification" [ref=e315]:
+                          - /url: /jobs/view/4434708065/?trk=flagship3_search_srp_jobs
+                          - generic [ref=e316]:
+                            - strong [ref=e317]: Prompt Engineer
+                            - img [ref=e319]
+                        - generic [ref=e322]: Paradigma Digital
+                        - list [ref=e324]:
+                          - listitem [ref=e325]:
+                            - generic [ref=e326]: Spain (Remote)
+                    - list [ref=e328]:
+                      - listitem [ref=e329]
+              - generic [ref=e331]:
+                - list [ref=e334]:
+                  - listitem [ref=e335]:
+                    - button "Page 1" [ref=e336] [cursor=pointer]: "1"
+                - generic "LinkedIn Footer Content" [ref=e338]
+          - generic "Ingeniero de Core" [ref=e342]:
+            - generic [ref=e346]:
+              - generic [ref=e350]:
+                - generic [ref=e353]:
+                  - button "Share" [ref=e356] [cursor=pointer]:
+                    - img [ref=e357]
+                    - generic [ref=e359]: Share
+                  - button "Show more options" [ref=e361] [cursor=pointer]:
+                    - img [ref=e362]
+                    - generic [ref=e364]: Show more options
+                - heading "Ingeniero de Core" [level=1] [ref=e367]:
+                  - link "Ingeniero de Core" [ref=e368] [cursor=pointer]:
+                    - /url: /jobs/view/4429534851/?alternateChannel=search&refId=NotAvailable&trackingId=aLpVZ475QF%2Bfkkk%2FmZL1Gw%3D%3D&trk=d_flagship3_search_srp_jobs
+                - generic:
+                  - list
+              - article [ref=e381]:
+                - heading "About the job" [level=2] [ref=e384]
+              - alert [ref=e419]: Loading job details
+    - generic:
+      - generic:
+        - complementary:
+          - generic [ref=e433]:
+            - generic [ref=e435] [cursor=pointer]:
+              - img "Brisa Elvira Lazaro Campos" [ref=e437]
+              - button "You are on the messaging overlay. Press enter to open the list of conversations." [ref=e438]:
+                - generic [ref=e439]:
+                  - generic [ref=e440]: Messaging
+                  - generic [ref=e441]: You are on the messaging overlay. Press enter to open the list of conversations.
+            - generic [ref=e442]:
+              - button "Open messenger dropdown menu" [ref=e444] [cursor=pointer]:
+                - img "Open messenger dropdown menu" [ref=e445]
+              - button "Compose message" [ref=e448] [cursor=pointer]:
+                - img [ref=e449]
+                - generic [ref=e451]: Compose message
+              - button "You are on the messaging overlay. Press enter to open the list of conversations." [ref=e452] [cursor=pointer]:
+                - img [ref=e453]
+                - generic [ref=e455]: You are on the messaging overlay. Press enter to open the list of conversations.
+        - complementary "AI-powered assistant to get help with your career, jobs etc"
+  - region [ref=e456]

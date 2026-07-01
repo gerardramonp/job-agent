@@ -1,0 +1,212 @@
+- generic [active] [ref=e1]:
+  - generic:
+    - region "Mensaje del sistema":
+      - heading "0 notificaciones en total" [level=2] [ref=e3]
+      - alert
+  - generic [ref=e4]:
+    - generic [ref=e6]:
+      - button "Pasar a la búsqueda" [ref=e7] [cursor=pointer]:
+        - generic [ref=e8]: Pasar a la búsqueda
+      - button "Pasar al contenido principal" [ref=e9] [cursor=pointer]:
+        - generic [ref=e10]: Pasar al contenido principal
+      - button "Atajos de teclado" [ref=e11] [cursor=pointer]:
+        - generic [ref=e12]: Atajos de teclado
+      - button "Cerrar menú de saltar" [ref=e13] [cursor=pointer]:
+        - img [ref=e14]
+        - generic [ref=e16]: Cerrar menú de saltar
+    - banner "Navegación global" [ref=e17]:
+      - generic [ref=e18]:
+        - link "LinkedIn" [ref=e20] [cursor=pointer]:
+          - /url: https://www.linkedin.com/feed/?nis=true
+          - img "LinkedIn" [ref=e23]:
+            - img [ref=e24]
+        - navigation "Navegación principal" [ref=e26]:
+          - list [ref=e27]:
+            - listitem [ref=e28]:
+              - link "actualizaciones del feed notificaciones nuevas Inicio" [ref=e29] [cursor=pointer]:
+                - /url: https://www.linkedin.com/feed/?nis=true&
+                - generic [ref=e30]:
+                  - generic [ref=e33]: actualizaciones del feed notificaciones nuevas
+                  - img [ref=e37]
+                - generic "Inicio" [ref=e39]
+            - listitem [ref=e40]:
+              - link "Mi red" [ref=e41] [cursor=pointer]:
+                - /url: https://www.linkedin.com/mynetwork/?
+                - img [ref=e45]
+                - generic "Mi red" [ref=e47]
+            - listitem [ref=e48]:
+              - link "Empleos" [ref=e49] [cursor=pointer]:
+                - /url: https://www.linkedin.com/jobs/?
+                - img [ref=e53]
+                - generic "Empleos" [ref=e55]
+            - listitem [ref=e56]:
+              - link "Mensajes" [ref=e57] [cursor=pointer]:
+                - /url: https://www.linkedin.com/messaging/?
+                - img [ref=e61]
+                - generic "Mensajes" [ref=e63]
+            - listitem [ref=e64]:
+              - link "2 notificaciones nuevas Notificaciones" [ref=e65] [cursor=pointer]:
+                - /url: https://www.linkedin.com/notifications/?
+                - generic [ref=e66]:
+                  - generic [ref=e67]:
+                    - generic [ref=e68]: "2"
+                    - generic [ref=e69]: 2 notificaciones nuevas
+                  - img [ref=e73]
+                - generic "Notificaciones" [ref=e75]
+            - listitem [ref=e76]:
+              - button "Más" [ref=e78] [cursor=pointer]:
+                - img [ref=e79]
+                - generic [ref=e81]:
+                  - text: Más
+                  - img [ref=e82]
+        - navigation [ref=e84]:
+          - list [ref=e85]:
+            - button "gerard ramonlol3 Yo" [ref=e87] [cursor=pointer]:
+              - img "gerard ramonlol3" [ref=e88]
+              - generic [ref=e89]:
+                - text: Yo
+                - img [ref=e90]
+            - separator [ref=e92]
+            - button "Para negocios" [ref=e94] [cursor=pointer]:
+              - img [ref=e98]
+              - generic "Para negocios" [ref=e100]:
+                - text: Para negocios
+                - img [ref=e101]
+            - listitem [ref=e103]:
+              - link "Probar Premium por 0 €" [ref=e105] [cursor=pointer]:
+                - /url: javascript:void(0)
+                - generic [ref=e107]: Probar Premium por 0 €
+    - generic [ref=e109]:
+      - region "filtros de búsqueda" [ref=e112]:
+        - heading "Búsqueda de empleo" [level=2] [ref=e113]
+      - main [ref=e124]:
+        - generic [ref=e127]:
+          - generic [ref=e128]:
+            - generic [ref=e129]:
+              - generic "QA Engineer en Barcelona, Cataluña, España" [ref=e130]
+              - generic [ref=e133]: 12 resultados
+            - generic [ref=e136] [cursor=pointer]:
+              - generic [ref=e137]: Crear alerta
+              - generic [ref=e138]: Crear alerta de empleo para QA Engineer en Barcelona, Spain
+              - switch "Crear alerta de empleo para QA Engineer en Barcelona, Spain"
+          - generic [ref=e139]:
+            - button "Saltar para activar los detalles del empleo":
+              - generic [ref=e140] [cursor=pointer]: Saltar para activar los detalles del empleo
+            - button "Ir al resultado de búsqueda":
+              - generic [ref=e141] [cursor=pointer]: Ir al resultado de búsqueda
+            - list [ref=e142]:
+              - listitem [ref=e143]:
+                - generic [ref=e146] [cursor=pointer]:
+                  - generic [ref=e147]:
+                    - img "Logotipo de BIGZON" [ref=e151]
+                    - generic [ref=e152]:
+                      - link "QA Automation Engineer (M/F/X) – Java_Camunda – Teletrabajo - Hasta 35K" [ref=e154]:
+                        - /url: /jobs/view/4434457775/?trk=flagship3_search_srp_jobs
+                        - strong [ref=e156]: QA Automation Engineer (M/F/X) – Java_Camunda – Teletrabajo - Hasta 35K
+                      - generic [ref=e158]: BIGZON
+                      - list [ref=e160]:
+                        - listitem [ref=e161]:
+                          - generic [ref=e162]: España (En remoto)
+                  - list [ref=e164]:
+                    - listitem [ref=e165]
+              - listitem [ref=e167]:
+                - generic [ref=e170] [cursor=pointer]:
+                  - generic [ref=e171]:
+                    - img "Logotipo de PIXIE" [ref=e175]
+                    - generic [ref=e176]:
+                      - link "GCP Engineer - Remoto (FREELANCE) with verification" [ref=e178]:
+                        - /url: /jobs/view/4432946929/?trk=flagship3_search_srp_jobs
+                        - generic [ref=e179]:
+                          - strong [ref=e180]: GCP Engineer - Remoto (FREELANCE)
+                          - img [ref=e182]
+                      - generic [ref=e185]: PIXIE
+                      - list [ref=e187]:
+                        - listitem [ref=e188]:
+                          - generic [ref=e189]: España (En remoto)
+                  - list [ref=e191]:
+                    - listitem [ref=e192]
+              - listitem [ref=e194]:
+                - generic [ref=e197] [cursor=pointer]:
+                  - generic [ref=e198]:
+                    - img "Logotipo de Capitole" [ref=e202]
+                    - generic [ref=e203]:
+                      - link "QA Engineer | Data Platforms | Databricks, Azure Data Factory & Power BI 🚀 with verification" [ref=e205]:
+                        - /url: /jobs/view/4430602550/?trk=flagship3_search_srp_jobs
+                        - generic [ref=e206]:
+                          - strong [ref=e207]: QA Engineer | Data Platforms | Databricks, Azure Data Factory & Power BI 🚀
+                          - img [ref=e209]
+                      - generic [ref=e212]: Capitole
+                      - list [ref=e214]:
+                        - listitem [ref=e215]:
+                          - generic [ref=e216]: España (En remoto)
+                  - list [ref=e218]:
+                    - listitem [ref=e219]
+              - listitem [ref=e221]:
+                - generic [ref=e224] [cursor=pointer]:
+                  - generic [ref=e225]:
+                    - img "Logotipo de Itequia" [ref=e229]
+                    - generic [ref=e230]:
+                      - link "QA Engineer with verification" [ref=e232]:
+                        - /url: /jobs/view/4432949698/?trk=flagship3_search_srp_jobs
+                        - generic [ref=e233]:
+                          - strong [ref=e234]: QA Engineer
+                          - img [ref=e236]
+                      - generic [ref=e239]: Itequia
+                      - list [ref=e241]:
+                        - listitem [ref=e242]:
+                          - generic [ref=e243]: Barcelona y alrededores (Híbrido)
+                  - list [ref=e245]:
+                    - listitem [ref=e246]
+              - listitem [ref=e248]:
+                - generic [ref=e251] [cursor=pointer]:
+                  - generic [ref=e252]:
+                    - img "Logotipo de Userlytics" [ref=e256]
+                    - generic [ref=e257]:
+                      - link "QA Engineer with verification" [ref=e259]:
+                        - /url: /jobs/view/4433060825/?trk=flagship3_search_srp_jobs
+                        - generic [ref=e260]:
+                          - strong [ref=e261]: QA Engineer
+                          - img [ref=e263]
+                      - generic [ref=e266]: Userlytics
+                      - list [ref=e268]:
+                        - listitem [ref=e269]:
+                          - generic [ref=e270]: España (En remoto)
+                  - list [ref=e272]:
+                    - listitem [ref=e273]
+              - listitem [ref=e275]:
+                - generic [ref=e278] [cursor=pointer]:
+                  - generic [ref=e279]:
+                    - img "Logotipo de Jobgether" [ref=e283]
+                    - generic [ref=e284]:
+                      - link "QA Engineer" [ref=e286]:
+                        - /url: /jobs/view/4433046048/?trk=flagship3_search_srp_jobs
+                        - strong [ref=e288]: QA Engineer
+                      - generic [ref=e290]: Jobgether
+                      - list [ref=e292]:
+                        - listitem [ref=e293]:
+                          - generic [ref=e294]: España (En remoto)
+                  - list [ref=e296]:
+                    - listitem [ref=e297]
+              - listitem [ref=e299]:
+                - generic [ref=e302] [cursor=pointer]:
+                  - generic [ref=e303]:
+                    - img "Logotipo de act digital EMEA - Alter Solutions" [ref=e307]
+                    - generic [ref=e308]:
+                      - link "QA Automation Engineer" [ref=e310]:
+                        - /url: /jobs/view/4431486219/?trk=flagship3_search_srp_jobs
+                        - strong [ref=e312]: QA Automation Engineer
+                      - generic [ref=e314]: act digital EMEA - Alter Solutions
+                      - list [ref=e316]:
+                        - listitem [ref=e317]:
+                          - generic [ref=e318]: España (En remoto)
+                  - list [ref=e320]:
+                    - listitem [ref=e321]
+            - generic [ref=e323]:
+              - list [ref=e326]:
+                - listitem [ref=e327]:
+                  - button "Página 1" [ref=e328] [cursor=pointer]: "1"
+              - generic "Contenido del pie de página de LinkedIn" [ref=e330]
+    - generic:
+      - generic:
+        - complementary "Asistente de IA que te ayuda con tu desarrollo profesional, empleos, etc."
+  - region [ref=e348]

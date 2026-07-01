@@ -1,0 +1,664 @@
+- generic [ref=e1]:
+  - generic:
+    - region "Toast message":
+      - heading "0 notifications total" [level=2] [ref=e3]
+      - alert
+  - dialog "Application sent" [active] [ref=e1836]:
+    - generic [ref=e1837]: Dialog content start.
+    - button "Dismiss" [ref=e1838] [cursor=pointer]:
+      - img [ref=e1839]
+    - heading "Application sent" [level=2] [ref=e1843]
+    - generic [ref=e1844]:
+      - img [ref=e1846]:
+        - img [ref=e1847]
+      - heading "Your application was sent to ALTEN Spain!" [level=3] [ref=e1849]
+      - paragraph [ref=e1850]: You can keep track of your application in the "Applied" tab of My Jobs
+    - button "Done" [ref=e1852] [cursor=pointer]:
+      - generic [ref=e1853]: Done
+    - generic [ref=e1854]: Dialog content end.
+  - generic [ref=e4]:
+    - generic [ref=e6]:
+      - button [ref=e1547] [cursor=pointer]:
+        - generic [ref=e8]: Skip to search
+      - button [ref=e1548] [cursor=pointer]:
+        - generic [ref=e10]: Skip to main content
+      - button [ref=e1549] [cursor=pointer]:
+        - generic [ref=e12]: Keyboard shortcuts
+      - button [ref=e1550] [cursor=pointer]:
+        - img [ref=e14]
+        - generic [ref=e16]: Close jump menu
+    - banner [ref=e1551]:
+      - generic [ref=e18]:
+        - link [ref=e1552] [cursor=pointer]:
+          - /url: https://www.linkedin.com/feed/?nis=true
+          - img [ref=e1553]:
+            - img [ref=e23]
+        - generic [ref=e27]:
+          - generic [ref=e30]:
+            - generic [ref=e31]:
+              - generic [ref=e32]: Search by title, skill, or company
+              - img [ref=e33]
+            - combobox [ref=e1554]: QA Engineer
+            - textbox [disabled]
+          - generic [ref=e38]:
+            - generic [ref=e39]:
+              - generic [ref=e40]: City, state, or zip code
+              - img [ref=e41]
+            - combobox [ref=e1555]: Spain
+            - textbox [disabled]
+          - button [ref=e1556] [cursor=pointer]: Search
+        - navigation [ref=e1557]:
+          - list [ref=e46]:
+            - listitem [ref=e47]:
+              - link [ref=e1558] [cursor=pointer]:
+                - /url: https://www.linkedin.com/feed/?nis=true&
+                - generic [ref=e49]:
+                  - generic [ref=e52]: new feed updates notifications
+                  - img [ref=e1856]
+                - generic [ref=e1559]: Home
+            - listitem [ref=e59]:
+              - link [ref=e1560] [cursor=pointer]:
+                - /url: https://www.linkedin.com/mynetwork/?
+                - img [ref=e1859]
+                - generic [ref=e1561]: My Network
+            - listitem [ref=e67]:
+              - link [ref=e1562] [cursor=pointer]:
+                - /url: https://www.linkedin.com/jobs/?
+                - img [ref=e1862]
+                - generic [ref=e1563]: Jobs
+            - listitem [ref=e75]:
+              - link [ref=e1564] [cursor=pointer]:
+                - /url: https://www.linkedin.com/messaging/?
+                - img [ref=e1865]
+                - generic [ref=e1565]: Messaging
+            - listitem [ref=e83]:
+              - link [ref=e1566] [cursor=pointer]:
+                - /url: https://www.linkedin.com/notifications/?
+                - img [ref=e1868]
+                - generic [ref=e1567]: Notifications
+            - listitem [ref=e91]:
+              - button [ref=e1568] [cursor=pointer]:
+                - img [ref=e1569]
+                - generic [ref=e95]:
+                  - text: Me
+                  - img [ref=e96]
+            - listitem [ref=e98]:
+              - button [ref=e1570] [cursor=pointer]:
+                - img [ref=e104]
+                - generic [ref=e1571]:
+                  - text: For Business
+                  - img [ref=e107]
+            - listitem [ref=e109]:
+              - link [ref=e1572] [cursor=pointer]:
+                - /url: javascript:void(0)
+                - generic [ref=e112]:
+                  - img [ref=e113]
+                  - generic [ref=e115]: Get hired for €0
+    - generic [ref=e117]:
+      - region [ref=e1573]:
+        - heading [level=2] [ref=e1574]: Jobs search
+        - generic [ref=e123]:
+          - generic [ref=e490]:
+            - list [ref=e491]:
+              - listitem [ref=e1148]:
+                - button [ref=e1575] [cursor=pointer]:
+                  - text: Jobs
+                  - img [ref=e1151]
+              - listitem [ref=e1153]
+              - listitem [ref=e1154]:
+                - button [ref=e1576] [cursor=pointer]:
+                  - text: Most recent
+                  - img [ref=e1158]
+              - listitem [ref=e1160]:
+                - button [ref=e1577] [cursor=pointer]:
+                  - text: Past week
+                  - img [ref=e1164]
+              - listitem [ref=e1166]:
+                - radio [checked] [ref=e1578] [cursor=pointer]: Easy Apply
+              - listitem [ref=e1169]:
+                - button [ref=e1579] [cursor=pointer]:
+                  - text: Experience level
+                  - img [ref=e1173]
+            - generic [ref=e519]:
+              - button [ref=e1580] [cursor=pointer]: All filters
+              - button [ref=e1581] [cursor=pointer]:
+                - generic [ref=e524]: Reset
+          - button [ref=e1582] [cursor=pointer]:
+            - img [ref=e526]
+            - generic [ref=e528]: Try AI job search
+      - main [ref=e132]:
+        - generic [ref=e134]:
+          - generic [ref=e135]:
+            - generic [ref=e136]:
+              - generic [ref=e137]:
+                - generic [ref=e1583]: QA Engineer in Spain
+                - generic [ref=e141]: 400+ results
+              - generic [ref=e144] [cursor=pointer]:
+                - generic [ref=e145]: Set alert
+                - generic [ref=e146]: Set job alert for QA Engineer in Spain
+                - switch
+            - generic [ref=e147]:
+              - generic [ref=e148] [cursor=pointer]: Jump to active job details
+              - generic [ref=e149] [cursor=pointer]: Jump to active search result
+              - list [ref=e150]:
+                - listitem [ref=e529]:
+                  - generic [ref=e531] [cursor=pointer]:
+                    - generic [ref=e532]:
+                      - generic [ref=e533]:
+                        - img [ref=e1584]
+                        - generic [ref=e538]:
+                          - link [ref=e1585]:
+                            - /url: /jobs/view/4431507607/?eBP=NON_CHARGEABLE_CHANNEL&refId=IhbmRBWIANV8IDt4ErEyjg%3D%3D&trackingId=VZG%2FxROQjGVxo3gb4%2BJM9Q%3D%3D&trk=flagship3_search_srp_jobs
+                            - generic [ref=e541]:
+                              - strong [ref=e542]: Consultor Técnico / Funcional Java Remoto (H/M/X)
+                              - img [ref=e544]
+                          - generic [ref=e547]: Experis
+                          - list [ref=e549]:
+                            - listitem [ref=e550]:
+                              - generic [ref=e551]: Spain (Remote)
+                      - generic [ref=e553]:
+                        - img [ref=e1586]
+                        - generic [ref=e559]: Company review time is typically 1 week
+                      - list [ref=e560]:
+                        - listitem [ref=e561]: Viewed
+                        - listitem [ref=e562]:
+                          - img [ref=e563]:
+                            - img [ref=e564]
+                          - generic [ref=e566]: Easy Apply
+                    - button [ref=e1587]:
+                      - img [ref=e572]
+                - listitem [ref=e575]:
+                  - generic [ref=e577] [cursor=pointer]:
+                    - generic [ref=e578]:
+                      - generic [ref=e579]:
+                        - img [ref=e1588]
+                        - generic [ref=e584]:
+                          - link [ref=e1589]:
+                            - /url: /jobs/view/4431510553/?eBP=NON_CHARGEABLE_CHANNEL&refId=IhbmRBWIANV8IDt4ErEyjg%3D%3D&trackingId=30NDWI0KGkjjj2vB6JXILw%3D%3D&trk=flagship3_search_srp_jobs
+                            - generic [ref=e587]:
+                              - strong [ref=e588]: Ingeniero/a QA
+                              - img [ref=e590]
+                          - generic [ref=e593]: ALTEN Spain
+                          - list [ref=e595]:
+                            - listitem [ref=e596]:
+                              - generic [ref=e597]: Spain (Remote)
+                      - generic [ref=e599]:
+                        - img [ref=e1590]
+                        - generic [ref=e605]: Company review time is typically 1 week
+                      - list [ref=e606]:
+                        - listitem [ref=e1870]: Applied
+                    - button [ref=e1591]:
+                      - img [ref=e620]
+                - listitem [ref=e623]:
+                  - generic [ref=e625] [cursor=pointer]:
+                    - generic [ref=e626]:
+                      - generic [ref=e627]:
+                        - img [ref=e1592]
+                        - generic [ref=e632]:
+                          - link [ref=e1593]:
+                            - /url: /jobs/view/4434706274/?eBP=NON_CHARGEABLE_CHANNEL&refId=IhbmRBWIANV8IDt4ErEyjg%3D%3D&trackingId=sl6Iwc7keuPGYL5BrO0Z4Q%3D%3D&trk=flagship3_search_srp_jobs
+                            - strong [ref=e636]: Técnico/a de sistemas
+                          - generic [ref=e638]: PrimeIT España
+                          - list [ref=e640]:
+                            - listitem [ref=e641]:
+                              - generic [ref=e642]: Madrid, Community of Madrid, Spain (Hybrid)
+                      - generic [ref=e644]:
+                        - img [ref=e1594]
+                        - generic [ref=e650]: Company review time is typically 1 week
+                      - list [ref=e651]:
+                        - listitem [ref=e652]:
+                          - time [ref=e653]:
+                            - text: 3 minutes ago
+                            - generic [ref=e654]: Within the past 24 hours
+                        - listitem [ref=e655]:
+                          - img [ref=e656]:
+                            - img [ref=e657]
+                          - generic [ref=e659]: Easy Apply
+                    - button [ref=e1595]:
+                      - img [ref=e665]
+                - listitem [ref=e668]:
+                  - generic [ref=e670] [cursor=pointer]:
+                    - generic [ref=e671]:
+                      - generic [ref=e672]:
+                        - img [ref=e1596]
+                        - generic [ref=e677]:
+                          - link [ref=e1597]:
+                            - /url: /jobs/view/4431515422/?eBP=NON_CHARGEABLE_CHANNEL&refId=IhbmRBWIANV8IDt4ErEyjg%3D%3D&trackingId=kYOdHzef0r47wlCFRg9zsw%3D%3D&trk=flagship3_search_srp_jobs
+                            - generic [ref=e680]:
+                              - strong [ref=e681]: Site Quality Manager / Responsable QA/QC en Obra – Burgos
+                              - img [ref=e683]
+                          - generic [ref=e686]: Exceltic
+                          - list [ref=e688]:
+                            - listitem [ref=e689]:
+                              - generic [ref=e690]: Burgos, Castilla and Leon, Spain (On-site)
+                      - generic [ref=e692]:
+                        - img [ref=e1598]
+                        - generic [ref=e698]: Company review time is typically 1 week
+                      - list [ref=e699]:
+                        - listitem [ref=e700]:
+                          - time [ref=e701]:
+                            - text: 4 minutes ago
+                            - generic [ref=e702]: Within the past 24 hours
+                        - listitem [ref=e703]:
+                          - img [ref=e704]:
+                            - img [ref=e705]
+                          - generic [ref=e707]: Easy Apply
+                    - button [ref=e1599]:
+                      - img [ref=e713]
+                - listitem [ref=e716]:
+                  - generic [ref=e718] [cursor=pointer]:
+                    - generic [ref=e719]:
+                      - generic [ref=e720]:
+                        - img [ref=e1600]
+                        - generic [ref=e725]:
+                          - link [ref=e1601]:
+                            - /url: /jobs/view/4431523291/?eBP=NON_CHARGEABLE_CHANNEL&refId=IhbmRBWIANV8IDt4ErEyjg%3D%3D&trackingId=kZyXDiUDAwTkjalGIsJPkg%3D%3D&trk=flagship3_search_srp_jobs
+                            - strong [ref=e729]: Desarrollador/a de Salesforce - Zaragoza (Plaza)
+                          - generic [ref=e731]: HR Motor
+                          - list [ref=e733]:
+                            - listitem [ref=e734]:
+                              - generic [ref=e735]: Zaragoza, Aragon, Spain (On-site)
+                      - list [ref=e736]:
+                        - listitem [ref=e737]:
+                          - time [ref=e738]:
+                            - text: 5 minutes ago
+                            - generic [ref=e739]: Within the past 24 hours
+                        - listitem [ref=e740]:
+                          - img [ref=e741]:
+                            - img [ref=e742]
+                          - generic [ref=e744]: Easy Apply
+                    - button [ref=e1602]:
+                      - img [ref=e750]
+                - listitem [ref=e753]:
+                  - generic [ref=e755] [cursor=pointer]:
+                    - generic [ref=e756]:
+                      - generic [ref=e757]:
+                        - img [ref=e1603]
+                        - generic [ref=e762]:
+                          - link [ref=e1604]:
+                            - /url: /jobs/view/4434708065/?eBP=NON_CHARGEABLE_CHANNEL&refId=IhbmRBWIANV8IDt4ErEyjg%3D%3D&trackingId=h7kWVN187mm6NFM9iduh2A%3D%3D&trk=flagship3_search_srp_jobs
+                            - generic [ref=e765]:
+                              - strong [ref=e766]: Prompt Engineer
+                              - img [ref=e768]
+                          - generic [ref=e771]: Paradigma Digital
+                          - list [ref=e773]:
+                            - listitem [ref=e774]:
+                              - generic [ref=e775]: Spain (Remote)
+                      - generic [ref=e782]: 4 school alumni work here
+                      - list [ref=e783]:
+                        - listitem [ref=e784]:
+                          - time [ref=e785]:
+                            - text: 7 minutes ago
+                            - generic [ref=e786]: Within the past 24 hours
+                        - listitem [ref=e787]:
+                          - img [ref=e788]:
+                            - img [ref=e789]
+                          - generic [ref=e791]: Easy Apply
+                    - button [ref=e1605]:
+                      - img [ref=e797]
+                - listitem [ref=e800]:
+                  - generic [ref=e802] [cursor=pointer]:
+                    - generic [ref=e803]:
+                      - generic [ref=e804]:
+                        - img [ref=e1606]
+                        - generic [ref=e809]:
+                          - link [ref=e1607]:
+                            - /url: /jobs/view/4434124680/?eBP=NON_CHARGEABLE_CHANNEL&refId=IhbmRBWIANV8IDt4ErEyjg%3D%3D&trackingId=UzO6LMYfvZM4pJo3Dnd16Q%3D%3D&trk=flagship3_search_srp_jobs
+                            - strong [ref=e813]: Software Engineer
+                          - generic [ref=e815]: NRF Thermal Engineering Solutions
+                          - list [ref=e817]:
+                            - listitem [ref=e818]:
+                              - generic [ref=e819]: Valencian Community, Spain (Hybrid)
+                      - generic [ref=e821]:
+                        - img [ref=e1608]
+                        - generic [ref=e827]: Company review time is typically 1 week
+                      - list [ref=e828]:
+                        - listitem [ref=e829]:
+                          - time [ref=e830]:
+                            - text: 13 minutes ago
+                            - generic [ref=e831]: Within the past 24 hours
+                        - listitem [ref=e832]:
+                          - img [ref=e833]:
+                            - img [ref=e834]
+                          - generic [ref=e836]: Easy Apply
+                    - button [ref=e1609]:
+                      - img [ref=e842]
+                - listitem [ref=e845]
+                - listitem [ref=e846]
+                - listitem [ref=e847]
+                - listitem [ref=e848]
+                - listitem [ref=e849]
+                - listitem [ref=e850]
+                - listitem [ref=e851]
+                - listitem [ref=e852]
+                - listitem [ref=e853]
+                - listitem [ref=e854]
+                - listitem [ref=e855]
+                - listitem [ref=e856]
+                - listitem [ref=e857]
+                - listitem [ref=e858]
+                - listitem [ref=e859]
+                - listitem [ref=e860]
+                - listitem [ref=e861]
+                - listitem [ref=e862]
+              - generic [ref=e332]:
+                - list [ref=e334]:
+                  - listitem [ref=e878]:
+                    - button [ref=e1613] [cursor=pointer]: "1"
+                  - listitem [ref=e880]:
+                    - button [ref=e1614] [cursor=pointer]: "2"
+                  - listitem [ref=e882]:
+                    - button [ref=e1615] [cursor=pointer]: "3"
+                  - listitem [ref=e884]:
+                    - button [ref=e1616] [cursor=pointer]: …
+                - button [ref=e1617] [cursor=pointer]:
+                  - img [ref=e887]
+                  - generic [ref=e889]: Next
+          - generic [ref=e346]:
+            - generic [ref=e347]:
+              - generic [ref=e350]:
+                - generic [ref=e351]:
+                  - generic [ref=e352]:
+                    - link [ref=e1620] [cursor=pointer]:
+                      - /url: https://www.linkedin.com/company/alten-spain/life
+                      - img [ref=e1621]
+                    - link [ref=e2180] [cursor=pointer]:
+                      - /url: https://www.linkedin.com/company/alten-spain/life
+                      - text: ALTEN Spain
+                  - generic [ref=e353]:
+                    - button [ref=e1623] [cursor=pointer]:
+                      - img [ref=e357]
+                      - generic [ref=e358]: Share
+                    - button [ref=e1624] [cursor=pointer]:
+                      - img [ref=e361]
+                      - generic [ref=e363]: Show more options
+                - generic [ref=e365]:
+                  - heading [level=1] [ref=e1625]:
+                    - link [ref=e1626] [cursor=pointer]:
+                      - /url: /jobs/view/4431510553/?alternateChannel=search&eBP=NON_CHARGEABLE_CHANNEL&refId=IhbmRBWIANV8IDt4ErEyjg%3D%3D&trackingId=30NDWI0KGkjjj2vB6JXILw%3D%3D&trk=d_flagship3_search_srp_jobs
+                      - text: Ingeniero/a QA
+                  - button [ref=e1627] [cursor=pointer]:
+                    - img [ref=e900]
+                - generic [ref=e903]:
+                  - generic [ref=e2181]: Spain
+                  - generic [ref=e2182]: ·
+                  - strong [ref=e2184]:
+                    - generic [ref=e2185]: 5 minutes ago
+                  - generic [ref=e2186]: ·
+                  - generic [ref=e2187]: 1 applicant
+                  - paragraph [ref=e2188]:
+                    - generic [ref=e2189]: Promoted by hirer
+                    - generic [ref=e2190]: ·
+                    - strong [ref=e2192]: Company review time is typically 1 week
+                - generic [ref=e916]:
+                  - button [ref=e2193] [cursor=pointer]:
+                    - strong [ref=e2195]: Remote
+                  - button [ref=e2196] [cursor=pointer]:
+                    - strong [ref=e2198]: Full-time
+                - generic [ref=e931]:
+                  - alert [ref=e1890]:
+                    - img [ref=e1892]
+                    - generic [ref=e1894]: Applied just now
+                  - link [ref=e1895] [cursor=pointer]:
+                    - /url: /jobs-tracker?stage=applied
+                    - text: See application
+                    - generic [ref=e1896]: Applied just now for Ingeniero/a QA
+                    - img [ref=e1897]
+              - separator [ref=e1899]
+            - generic [ref=e1904]:
+              - heading [level=3] [ref=e1905]: See recent hiring trends for ALTEN Spain
+              - paragraph [ref=e1906]: Access exclusive applicant insights, see jobs where you have the highest chance of hearing back, and more.
+              - link [ref=e1907] [cursor=pointer]:
+                - /url: http://www.linkedin.com/premium/products/?upsellOrderOrigin=Tracking%3Av1%3Apremium_job_details_summary_card%3AJob+Seeker%3AIn-Product&utype=job&referenceId=4BCNTfMxQTOzi4L%2BKMioJw%3D%3D&isSS=false&upsellSlotId=JOB_DETAILS_SUMMARY_CARD&destRedirectURL=https%3A%2F%2Fwww.linkedin.com%2Fjobs%2Fsearch%2Fpost-apply%2Fdefault%2F%3FcurrentJobId%3D4431510553%26f_AL%3Dtrue%26f_TPR%3Dr604800%26keywords%3DQA%2520Engineer%26location%3DSpain%26postApplyJobId%3D4431510553%26sortBy%3DDD
+                - generic [ref=e1908]:
+                  - img [ref=e1909]
+                  - generic [ref=e1911]: Try Premium for €0
+            - generic [ref=e370]:
+              - heading [level=2] [ref=e1912]: People you can reach out to
+              - generic [ref=e1916]:
+                - link [ref=e1918] [cursor=pointer]:
+                  - /url: https://www.linkedin.com/in/ernestovenencio
+                  - generic [ref=e1919]:
+                    - list [ref=e1920]:
+                      - listitem [ref=e1921]:
+                        - img [ref=e1923]
+                    - generic [ref=e1924]: Ernesto Fabian profile photo
+                - link [ref=e1926] [cursor=pointer]:
+                  - /url: https://www.linkedin.com/in/ernestovenencio
+                  - generic [ref=e1928]:
+                    - strong [ref=e1929]: Ernesto Fabian Venencio
+                    - img [ref=e1931]
+                  - generic [ref=e1934]: · 3rd
+                  - generic [ref=e1935]: Technical Lead Software Engineer @ Alten | I’m passionate about solving problems through technology.
+                  - generic [ref=e1937]: School alum from freeCodeCamp
+                - button [ref=e1940] [cursor=pointer]:
+                  - generic [ref=e1941]: Message
+              - generic [ref=e1942]:
+                - heading [level=2] [ref=e1943]: Meet the hiring team
+                - generic [ref=e1945]:
+                  - link [ref=e1946] [cursor=pointer]:
+                    - /url: https://www.linkedin.com/in/anaasuavazquez
+                    - img [ref=e1949]
+                  - generic [ref=e1950]:
+                    - link [ref=e1951] [cursor=pointer]:
+                      - /url: https://www.linkedin.com/in/anaasuavazquez
+                      - generic [ref=e1952]:
+                        - strong [ref=e1953]: Ana Asúa Vázquez
+                        - img [ref=e1955]
+                    - generic [ref=e1959]: 2nd
+                    - generic [ref=e1960]:
+                      - generic [ref=e1961]: Talent Acquisition Partner | IT Specialist
+                      - generic [ref=e1962]: Job poster · 1 mutual connection
+                  - button [ref=e1964] [cursor=pointer]:
+                    - img [ref=e1965]
+                    - generic [ref=e1967]: Message
+            - article [ref=e380]:
+              - generic [ref=e382]:
+                - heading [level=2] [ref=e1664]: About the job
+                - paragraph [ref=e991]:
+                  - paragraph [ref=e1969]:
+                    - strong [ref=e1971]: ¿Eres QA con experiencia en automatización? Únete a ALTEN Spain y lleva la calidad del software al siguiente nivel.
+                  - paragraph [ref=e1973]
+                  - paragraph [ref=e1975]:
+                    - text: En
+                    - strong [ref=e1977]: ALTEN
+                    - text: tenemos claro que el éxito de nuestros proyectos se debe a las personas que forman nuestro equipo. Por eso, si tienes experiencia como
+                    - strong [ref=e1979]: QA Automation
+                    - text: ", te animamos a empezar una nueva etapa laboral y formes parte de nuestro equipo."
+                    - strong [ref=e1981]: ¿Quieres construir hoy el mundo de mañana?
+                    - text: ¡Sigue leyendo!
+                  - paragraph [ref=e1983]
+                  - paragraph [ref=e1985]:
+                    - strong [ref=e1987]: "Responsabilidades del puesto:"
+                  - list [ref=e1989]:
+                    - listitem [ref=e1990]:
+                      - text: Diseñar y ejecutar
+                      - strong [ref=e1992]: pruebas funcionales
+                      - text: sobre aplicaciones de Payments, Collections, Agencias y Frontales.
+                    - listitem [ref=e1993]: Validar historias de usuario y criterios de aceptación en entornos Ágile.
+                    - listitem [ref=e1994]:
+                      - text: Ejecutar pruebas de
+                      - strong [ref=e1996]: regresión, integración, smoke y pruebas E2E
+                      - text: .
+                    - listitem [ref=e1997]:
+                      - text: Diseñar y mantener
+                      - strong [ref=e1999]: pruebas automatizadas
+                      - text: para aplicaciones web y APIs.
+                    - listitem [ref=e2000]:
+                      - text: Realizar pruebas de servicios REST mediante
+                      - strong [ref=e2002]: Postman
+                      - text: u otras herramientas similares.
+                    - listitem [ref=e2003]:
+                      - text: Registrar, analizar y realizar seguimiento de incidencias utilizando
+                      - strong [ref=e2005]: Jira/Xray
+                      - text: .
+                    - listitem [ref=e2006]: Colaborar con equipos de desarrollo, analistas y Product Owners para garantizar la calidad de las entregas.
+                    - listitem [ref=e2007]: Adquirir conocimiento funcional de los procesos de cobros y pagos para dar soporte transversal a varios sistemas.
+                  - paragraph [ref=e2009]
+                  - paragraph [ref=e2011]:
+                    - strong [ref=e2013]: Requisitos
+                  - list [ref=e2015]:
+                    - listitem [ref=e2016]:
+                      - strong [ref=e2018]: "Experiencia:"
+                      - text: Mínimo 2 años como QA, con experiencia en testing funcional y automatización de pruebas.
+                    - listitem [ref=e2019]:
+                      - strong [ref=e2021]: "Conocimientos:"
+                      - text: Automatización de pruebas con
+                      - strong [ref=e2023]: Playwright, Cypress o Selenium
+                      - text: y pruebas de APIs REST.
+                    - listitem [ref=e2024]:
+                      - strong [ref=e2026]: "Entornos Ágile:"
+                      - text: Experiencia en metodologías como Scrum o Kanban.
+                    - listitem [ref=e2027]:
+                      - strong [ref=e2029]: "Java/React:"
+                      - text: Conocimientos básicos de Java y comprensión de aplicaciones React.
+                    - listitem [ref=e2030]:
+                      - strong [ref=e2032]: "Herramientas:"
+                      - text: Uso de Jira, Xray y Confluence.
+                    - listitem [ref=e2033]:
+                      - strong [ref=e2035]: "Capacidad analítica:"
+                      - text: Para identificar, analizar y reportar incidencias de manera efectiva.
+                    - listitem [ref=e2036]:
+                      - strong [ref=e2038]: "Perfil transversal:"
+                      - text: Capacidad para trabajar simultáneamente sobre distintos productos y procesos de negocio.
+                  - paragraph [ref=e2040]
+                  - paragraph [ref=e2042]:
+                    - strong [ref=e2044]: "Ofrecemos:"
+                  - list [ref=e2046]:
+                    - listitem [ref=e2047]:
+                      - strong [ref=e2049]: "Crecimiento profesional:"
+                      - text: Oportunidades de desarrollo en un entorno dinámico y colaborativo.
+                    - listitem [ref=e2050]:
+                      - strong [ref=e2052]: Modalidad 100% remota.
+                    - listitem [ref=e2053]:
+                      - strong [ref=e2055]: "Beneficios sociales:"
+                      - text: Seguro médico privado y otros beneficios.
+                    - listitem [ref=e2056]:
+                      - strong [ref=e2058]: "Formación:"
+                      - text: Acceso a cursos y certificaciones para mantenerte actualizado.
+                    - listitem [ref=e2059]:
+                      - strong [ref=e2061]: "Equipo multicultural:"
+                      - text: Trabajar en un entorno internacional y diverso.
+                  - paragraph [ref=e2063]
+                  - paragraph [ref=e2065]:
+                    - strong [ref=e2067]: ¿Quiénes somos?
+                  - paragraph [ref=e2069]:
+                    - strong [ref=e2071]: ALTEN Spain
+                    - text: es una consultora líder en tecnología e ingeniería, con más de
+                    - strong [ref=e2073]: 5.500 profesionales en España
+                    - text: . Nos especializamos en ofrecer soluciones innovadoras en diversos sectores, impulsando el talento y la excelencia técnica.
+                  - paragraph [ref=e2075]:
+                    - text: En
+                    - strong [ref=e2077]: ALTEN
+                    - text: ", nos enorgullece ofrecer"
+                    - strong [ref=e2079]: igualdad de oportunidades
+                    - text: ", sin importar género, edad, diversidad o país de origen."
+                    - strong [ref=e2081]: Nuestro compromiso es contigo y con tu desarrollo profesional
+                    - text: .
+                  - paragraph [ref=e2083]
+                  - paragraph [ref=e2085]:
+                    - strong [ref=e2087]: ¿Te interesa?
+                  - paragraph [ref=e2089]:
+                    - text: Si cumples con los requisitos y quieres formar parte de un equipo en constante crecimiento,
+                    - strong [ref=e2091]: ¡envíanos tu CV y únete a ALTEN Spain!
+            - generic [ref=e2097]:
+              - heading [level=3] [ref=e2098]: Job search faster with Premium
+              - paragraph [ref=e2099]: Access company insights like strategic priorities, headcount trends, and more
+              - generic [ref=e2100]:
+                - list [ref=e2102]:
+                  - listitem [ref=e2103]
+                  - listitem [ref=e2105]
+                  - listitem [ref=e2107]
+                - paragraph [ref=e2109]: Carlos Sneyder and millions of other members use Premium
+              - link [ref=e2110] [cursor=pointer]:
+                - /url: http://www.linkedin.com/premium/products/?upsellOrderOrigin=Tracking%3Av1%3Apremium_job_details_how_you_match_upsell%3AJob+Seeker%3AIn-Product&utype=job&referenceId=BUn2HyfkQkmNtKv8sv4GvQ%3D%3D&isSS=false&upsellSlotId=JOB_DETAILS_HOW_YOU_MATCH&destRedirectURL=https%3A%2F%2Fwww.linkedin.com%2Fjobs%2Fsearch%2Fpost-apply%2Fdefault%2F%3FcurrentJobId%3D4431510553%26f_AL%3Dtrue%26f_TPR%3Dr604800%26keywords%3DQA%2520Engineer%26location%3DSpain%26postApplyJobId%3D4431510553%26sortBy%3DDD
+                - text: Try Premium for €0
+              - paragraph [ref=e2111]: 1-month free trial. Easy to cancel. We’ll remind you 7 days before your trial ends.
+            - generic [ref=e2113]:
+              - generic [ref=e2114]:
+                - heading [level=2] [ref=e2115]: About the company
+                - generic [ref=e2116]:
+                  - generic [ref=e2117]:
+                    - link [ref=e2119] [cursor=pointer]:
+                      - /url: /company/alten-spain/life/
+                      - img [ref=e2120]
+                    - generic [ref=e2121]:
+                      - link [ref=e2123] [cursor=pointer]:
+                        - /url: /company/alten-spain/life/
+                        - text: ALTEN Spain
+                      - generic [ref=e2124]: 297,960 followers
+                  - button [pressed] [ref=e2125] [cursor=pointer]:
+                    - img [ref=e2126]
+                    - generic [ref=e2128]: Following
+                - generic [ref=e2129]:
+                  - text: IT Services and IT Consulting
+                  - generic [ref=e2130]: • 1,001-5,000 employees
+                  - generic [ref=e2131]: • 2,208 on LinkedIn
+                - paragraph [ref=e2132]:
+                  - generic [ref=e2133]:
+                    - text: ALTEN es una multinacional europea especializada en proporcionar servicios de consultoría, tecnologías de la información y servicios de ingeniería a las principales compañías del mercado español.
+                    - text: "Con una cifra de negocio a nivel mundial de 4.100 millones de euros, cuenta con una plantilla de 57.700 profesionales y está presente en más de 30 países. Nuestra capacidad para desarrollar y adaptarnos a los requisitos del mercado facilita nuestra presencia en diferentes sectores de la economía y la industria. En ALTEN nos especializamos en la prestación de servicios para crear soluciones de negocios con tecnologías estándar, desde la conceptualización y el diseño inicial hasta la implementación o el mantenimiento final. Ofrecemos a nuestros clientes una cobertura geográfica total, gracias a nuestras ocho sedes: Madrid, Barcelona, Valladolid, Pamplona, Cádiz, Sevilla, Murcia, Málaga y Vigo. La gama de servicios de ALTEN se basa en un concepto fundamental, su capacidad para satisfacer las necesidades operativas a través de la tecnología más adecuada para cada caso. El equipo de ALTEN en España, con más de 5.500 profesionales, ofrece la experiencia de miles de horas de investigación tecnológica tanto en ingeniería como en IT. Utilizamos las últimas tecnologías en una cultura corporativa de excelencia, ofreciendo una cobertura total a nuestros clientes."
+                    - generic [ref=e2135]:
+                      - generic [ref=e2136]: …
+                      - button [ref=e2137] [cursor=pointer]: show more
+                - generic [ref=e2138]:
+                  - generic [ref=e2139]:
+                    - heading [level=3] [ref=e2140]: Commitments
+                    - button [ref=e2142] [cursor=pointer]:
+                      - img [ref=e2143]
+                  - generic [ref=e2146]:
+                    - heading [level=4] [ref=e2148]: Career growth and learning
+                    - generic [ref=e2149]:
+                      - text: Desde el momento en que te incorporas a ALTEN, cuentas con el apoyo de nuestro equipo para ayudarte a desarrollar tus competencias y lograr los objetivos que fijes en tu carrera profesional.
+                      - generic [ref=e2150]:
+                        - generic [ref=e2151]: …
+                        - button [ref=e2152] [cursor=pointer]: Show more
+                    - heading [level=4] [ref=e2154]: Diversity, equity, and inclusion
+                    - generic [ref=e2155]:
+                      - text: Las mujeres y los hombres que componen el Grupo ALTEN son el motor de nuestra actividad. Llevamos muchos años con el compromiso de contribuir a la promoción de la mujer en profesiones técnicas y científicas.
+                      - generic [ref=e2156]:
+                        - generic [ref=e2157]: …
+                        - button [ref=e2158] [cursor=pointer]: Show more
+                    - heading [level=4] [ref=e2160]: Environmental sustainability
+                    - generic [ref=e2161]:
+                      - text: Desde 2010, ALTEN se rige por los diez principios del Pacto Mundial. Entre esos ellos, destacan el medio ambiente y el desarrollo de la innovación en sostenibilidad.
+                      - generic [ref=e2162]:
+                        - generic [ref=e2163]: …
+                        - button [ref=e2164] [cursor=pointer]: Show more
+                    - heading [level=4] [ref=e2166]: Social impact
+                    - generic [ref=e2167]:
+                      - text: "Nuestros principales compromisos sociales, arraigados en el ADN de ALTEN, provienen de nuestra de cultura de ingeniería y el empeño por desarrollar el capital humano: inclusión de personas con discapacidad, promoción de la mujer en el sector de la ingeniería e impulso de las profesiones técnicas y científicas entre los jóvenes."
+                      - generic [ref=e2168]:
+                        - generic [ref=e2169]: …
+                        - button [ref=e2170] [cursor=pointer]: Show more
+                    - heading [level=4] [ref=e2172]: Work-life balance
+                    - generic [ref=e2173]:
+                      - text: El Grupo ALTEN se preocupa por el bienestar y la conciliación de la vida laboral y familiar. Además de nuestros programas internos, cada mes celebramos una jornada transversal sobre calidad de vida en el trabajo.
+                      - generic [ref=e2174]:
+                        - generic [ref=e2175]: …
+                        - button [ref=e2176] [cursor=pointer]: Show more
+                  - link [ref=e2177] [cursor=pointer]:
+                    - /url: /company/alten-spain/about/?scrollTo=commitments
+                    - text: Learn more
+              - link [ref=e2179] [cursor=pointer]:
+                - /url: /company/alten-spain/life/
+                - text: Show more
+    - generic [ref=e432]:
+      - generic [ref=e434] [cursor=pointer]:
+        - generic [ref=e435]:
+          - img [ref=e1687]
+          - generic [ref=e1132]: Status is online
+        - button [ref=e1688]:
+          - generic [ref=e438]:
+            - generic [ref=e439]: Messaging
+            - generic [ref=e440]: You are on the messaging overlay. Press enter to open the list of conversations.
+      - generic [ref=e441]:
+        - button [ref=e1689] [cursor=pointer]:
+          - img [ref=e1690]
+        - button [ref=e1691] [cursor=pointer]:
+          - img [ref=e447]
+          - generic [ref=e448]: Compose message
+        - button [ref=e1692] [cursor=pointer]:
+          - img [ref=e450]
+          - generic [ref=e451]: You are on the messaging overlay. Press enter to open the list of conversations.
+  - region [ref=e452]

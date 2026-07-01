@@ -1,44 +1,66 @@
-# Brisa Lázaro — Online CV
+# Brisa Lázaro — QA Portfolio
 
-A minimal, single-file online CV with PDF download. No build step, no dependencies.
+A static portfolio site for a Junior QA Engineer. No build step, no dependencies — just HTML, CSS, and vanilla JS.
+
+**Live site:** [gerardramonp.github.io/job-agent](https://gerardramonp.github.io/job-agent/)
+
+## What's included
+
+- **`index.html`** — Portfolio landing page (hero, about, skills, experience, portfolio with bugs found, contact)
+- **`cv.html`** — Printable CV with PDF download via browser print
+- **`cv-content.md`** — Source-of-truth reference for CV text
+- **`robots.txt`** / **`sitemap.xml`** — SEO files for search engines
 
 ## Preview locally
 
-Open `index.html` in your browser, or run a simple local server:
-
 ```bash
-# Python
 python3 -m http.server 8080
-
-# Node (if you have npx)
-npx serve .
+# or: npx serve .
 ```
 
 Then visit `http://localhost:8080`.
 
-## Download as PDF
+## Deploy to GitHub Pages
 
-Click **Download PDF**, then in the print dialog:
+1. Push this repo to GitHub (`main` branch).
+2. Go to **Settings → Pages**.
+3. Under **Build and deployment**, set **Source** to **Deploy from a branch**.
+4. Choose branch **`main`**, folder **`/ (root)`**, then **Save**.
+5. After a minute or two, the site is live at `https://<username>.github.io/job-agent/`.
 
-1. Turn off **Headers and footers** (under More settings in Chrome)
-2. Choose **Save as PDF** as the destination
+The `.nojekyll` file ensures GitHub Pages serves all files as-is (no Jekyll processing).
 
-This uses your browser's print engine, so the PDF matches what you see on screen exactly.
+### Custom domain (optional)
 
-## Edit content
+Add a `CNAME` file with your domain, then configure DNS at your registrar. Update `sitemap.xml` and the canonical/OG URLs in `index.html` to match.
 
-All content lives in `index.html`. Search for the section you want to change (header, skills, experience, etc.) and edit the HTML directly.
+## Update content
 
-Contact details are at the top of the file — replace the placeholder email, LinkedIn, and GitHub links.
+### Portfolio projects
 
-For longer-form reference, see `cv-content.md`.
+Open `index.html`, find the **Portfolio** section, and copy the HTML comment template at the bottom of the grid. Fill in project name, role, stack, summary, link, and bug entries. Severity classes: `severity--critical`, `severity--high`, `severity--medium`, `severity--low`.
 
-## Deploy
+### CV
 
-Upload the project folder to any static host:
+Edit `cv.html` directly, or update `cv-content.md` as reference and sync changes into `cv.html`.
 
-- **GitHub Pages** — push to a repo, enable Pages from the `main` branch (root).
-- **Netlify / Vercel** — drag-and-drop the folder or connect the repo; no build command needed.
-- **Any web server** — copy `index.html` to your public directory.
+### Contact details
 
-That's it. One file to maintain, one file to deploy.
+Search for `brisa.lazaroc@gmail.com` in `index.html` and `cv.html` to update email, phone, and LinkedIn links.
+
+## Download CV as PDF
+
+Open `cv.html`, click **Download PDF**, then in the print dialog:
+
+1. Turn off **Headers and footers**
+2. Choose **Save as PDF**
+
+## QA easter eggs
+
+- **Before/After QA toggle** in the hero — switches between a "buggy" and polished hero
+- **Console message** — open DevTools to see a QA-themed greeting
+- **Report a bug** button in the footer — opens a pre-filled bug report email
+
+## OG image (optional)
+
+Add an `og-image.png` (1200×630px recommended) to the repo root for social media previews. The meta tags already reference it.

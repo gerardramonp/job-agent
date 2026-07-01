@@ -1,0 +1,269 @@
+- generic [active] [ref=e1]:
+  - generic:
+    - region "Toast message":
+      - heading "0 notifications total" [level=2] [ref=e3]
+      - alert
+  - generic [ref=e6]:
+    - img [ref=e8]
+    - generic [ref=e10]:
+      - heading "LinkedIn respects your privacy" [level=1] [ref=e11]
+      - generic [ref=e12]:
+        - paragraph [ref=e13]:
+          - text: LinkedIn and 3rd parties use essential and non-essential cookies to provide, secure, analyze and improve our Services, and to show you relevant ads (including professional and job ads) on and off LinkedIn. Learn more in our
+          - link "Cookie Policy" [ref=e14] [cursor=pointer]:
+            - /url: https://www.linkedin.com/legal/cookie-policy
+          - text: .
+        - paragraph [ref=e15]:
+          - text: Select Accept to consent or Reject to decline non-essential cookies for this use. You can update your choices at any time in your
+          - link "settings" [ref=e16] [cursor=pointer]:
+            - /url: https://www.linkedin.com/settings/member-cookies
+          - text: .
+      - generic [ref=e17]:
+        - button "Accept" [ref=e18] [cursor=pointer]:
+          - generic [ref=e19]: Accept
+        - button "Reject" [ref=e20] [cursor=pointer]:
+          - generic [ref=e21]: Reject
+  - generic [ref=e22]:
+    - generic [ref=e24]:
+      - button "Skip to search" [ref=e25] [cursor=pointer]:
+        - generic [ref=e26]: Skip to search
+      - button "Skip to main content" [ref=e27] [cursor=pointer]:
+        - generic [ref=e28]: Skip to main content
+      - button "Keyboard shortcuts" [ref=e29] [cursor=pointer]:
+        - generic [ref=e30]: Keyboard shortcuts
+      - button "Close jump menu" [ref=e31] [cursor=pointer]:
+        - img [ref=e32]
+        - generic [ref=e34]: Close jump menu
+    - banner "Global Navigation" [ref=e35]:
+      - generic [ref=e36]:
+        - link "LinkedIn" [ref=e37] [cursor=pointer]:
+          - /url: https://www.linkedin.com/feed/?nis=true
+          - img "LinkedIn" [ref=e40]:
+            - img [ref=e41]
+        - generic [ref=e45]:
+          - generic [ref=e48]:
+            - generic [ref=e49]:
+              - generic [ref=e50]: Search by title, skill, or company
+              - img [ref=e51]
+            - combobox "Search by title, skill, or company" [ref=e53]: QA Engineer
+            - textbox [disabled]
+          - generic [ref=e56]:
+            - generic [ref=e57]:
+              - generic [ref=e58]: City, state, or zip code
+              - img [ref=e59]
+            - combobox "City, state, or zip code" [ref=e61]: Catalonia, Spain
+            - textbox [disabled]
+          - button "Search" [ref=e62] [cursor=pointer]
+        - navigation "Primary Navigation" [ref=e63]:
+          - list [ref=e64]:
+            - listitem [ref=e65]:
+              - link "new feed updates notifications Home" [ref=e66] [cursor=pointer]:
+                - /url: https://www.linkedin.com/feed/?nis=true&
+                - generic [ref=e67]:
+                  - generic [ref=e70]: new feed updates notifications
+                  - img [ref=e74]
+                - generic "Home" [ref=e76]
+            - listitem [ref=e77]:
+              - link "My Network" [ref=e78] [cursor=pointer]:
+                - /url: https://www.linkedin.com/mynetwork/?
+                - img [ref=e82]
+                - generic "My Network" [ref=e84]
+            - listitem [ref=e85]:
+              - link "Jobs" [ref=e86] [cursor=pointer]:
+                - /url: https://www.linkedin.com/jobs/?
+                - img [ref=e90]
+                - generic "Jobs" [ref=e92]
+            - listitem [ref=e93]:
+              - link "Messaging" [ref=e94] [cursor=pointer]:
+                - /url: https://www.linkedin.com/messaging/?
+                - img [ref=e98]
+                - generic "Messaging" [ref=e100]
+            - listitem [ref=e101]:
+              - link "Notifications" [ref=e102] [cursor=pointer]:
+                - /url: https://www.linkedin.com/notifications/?
+                - img [ref=e106]
+                - generic "Notifications" [ref=e108]
+            - listitem [ref=e109]:
+              - button "Brisa Elvira Lazaro Campos Me" [ref=e111] [cursor=pointer]:
+                - img "Brisa Elvira Lazaro Campos" [ref=e112]
+                - generic [ref=e113]:
+                  - text: Me
+                  - img [ref=e114]
+            - listitem [ref=e116]:
+              - button "For Business" [ref=e118] [cursor=pointer]:
+                - img [ref=e122]
+                - generic "For Business" [ref=e124]:
+                  - text: For Business
+                  - img [ref=e125]
+            - listitem [ref=e127]:
+              - link "Get hired for €0" [ref=e129] [cursor=pointer]:
+                - /url: javascript:void(0)
+                - generic [ref=e130]:
+                  - img [ref=e131]
+                  - generic [ref=e133]: Get hired for €0
+    - generic [ref=e135]:
+      - region "search filters" [ref=e138]:
+        - heading "Jobs search" [level=2] [ref=e139]
+      - main [ref=e150]:
+        - generic [ref=e152]:
+          - generic [ref=e153]:
+            - generic [ref=e154]:
+              - generic [ref=e155]:
+                - generic "QA Engineer in Catalonia, Spain" [ref=e156]
+                - generic [ref=e159]: 200+ results
+              - generic [ref=e162] [cursor=pointer]:
+                - generic [ref=e163]: Set alert
+                - generic [ref=e164]: Set job alert for QA Engineer in Catalonia, Spain
+                - switch "Set job alert for QA Engineer in Catalonia, Spain"
+            - generic [ref=e165]:
+              - button "Jump to active job details":
+                - generic [ref=e166] [cursor=pointer]: Jump to active job details
+              - button "Jump to active search result":
+                - generic [ref=e167] [cursor=pointer]: Jump to active search result
+              - list [ref=e168]:
+                - listitem [ref=e169]:
+                  - generic [ref=e172] [cursor=pointer]:
+                    - generic [ref=e173]:
+                      - img "BCNC GROUP logo" [ref=e177]
+                      - generic [ref=e178]:
+                        - link "Senior Developer Java/Apache Camel (100% Teletrabajo) with verification" [ref=e180]:
+                          - /url: /jobs/view/4413933446/?trk=flagship3_search_srp_jobs
+                          - generic [ref=e181]:
+                            - strong [ref=e182]: Senior Developer Java/Apache Camel (100% Teletrabajo)
+                            - img [ref=e184]
+                        - generic [ref=e187]: BCNC GROUP
+                        - list [ref=e189]:
+                          - listitem [ref=e190]:
+                            - generic [ref=e191]: Spain (Remote)
+                    - list [ref=e193]:
+                      - listitem [ref=e194]
+                - listitem [ref=e196]:
+                  - generic [ref=e199] [cursor=pointer]:
+                    - generic [ref=e200]:
+                      - img "83zero logo" [ref=e204]
+                      - generic [ref=e205]:
+                        - link "Queue Lead" [ref=e207]:
+                          - /url: /jobs/view/4431522281/?trk=flagship3_search_srp_jobs
+                          - strong [ref=e209]: Queue Lead
+                        - generic [ref=e211]: 83zero
+                        - list [ref=e213]:
+                          - listitem [ref=e214]:
+                            - generic [ref=e215]: Spain (Remote)
+                    - list [ref=e217]:
+                      - listitem [ref=e218]
+                - listitem [ref=e220]:
+                  - generic [ref=e223] [cursor=pointer]:
+                    - generic [ref=e224]:
+                      - img "Jobgether logo" [ref=e228]
+                      - generic [ref=e229]:
+                        - link "Backend Software Engineer" [ref=e231]:
+                          - /url: /jobs/view/4434109880/?trk=flagship3_search_srp_jobs
+                          - strong [ref=e233]: Backend Software Engineer
+                        - generic [ref=e235]: Jobgether
+                        - list [ref=e237]:
+                          - listitem [ref=e238]:
+                            - generic [ref=e239]: Spain (Remote)
+                    - list [ref=e241]:
+                      - listitem [ref=e242]
+                - listitem [ref=e244]:
+                  - generic [ref=e247] [cursor=pointer]:
+                    - generic [ref=e248]:
+                      - img "RS ISOLSEC S.L.U. logo" [ref=e252]
+                      - generic [ref=e253]:
+                        - link "Ingeniero/a de Procesos Industriales" [ref=e255]:
+                          - /url: /jobs/view/4431503613/?trk=flagship3_search_srp_jobs
+                          - strong [ref=e257]: Ingeniero/a de Procesos Industriales
+                        - generic [ref=e259]: RS ISOLSEC S.L.U.
+                        - list [ref=e261]:
+                          - listitem [ref=e262]:
+                            - generic [ref=e263]: Montornès del Vallès, Catalonia, Spain (On-site)
+                    - list [ref=e265]:
+                      - listitem [ref=e266]
+                - listitem [ref=e268]:
+                  - generic [ref=e271] [cursor=pointer]:
+                    - generic [ref=e272]:
+                      - img "Optimissa logo" [ref=e276]
+                      - generic [ref=e277]:
+                        - link "Desarrollador Mid Full Stack (Node.js) with verification" [ref=e279]:
+                          - /url: /jobs/view/4431057945/?trk=flagship3_search_srp_jobs
+                          - generic [ref=e280]:
+                            - strong [ref=e281]: Desarrollador Mid Full Stack (Node.js)
+                            - img [ref=e283]
+                        - generic [ref=e286]: Optimissa
+                        - list [ref=e288]:
+                          - listitem [ref=e289]:
+                            - generic [ref=e290]: Greater Barcelona Metropolitan Area (Hybrid)
+                    - list [ref=e292]:
+                      - listitem [ref=e293]
+                - listitem [ref=e295]:
+                  - generic [ref=e298] [cursor=pointer]:
+                    - generic [ref=e299]:
+                      - img "Randstad Digital España logo" [ref=e303]
+                      - generic [ref=e304]:
+                        - link "It support" [ref=e306]:
+                          - /url: /jobs/view/4434496404/?trk=flagship3_search_srp_jobs
+                          - strong [ref=e308]: It support
+                        - generic [ref=e310]: Randstad Digital España
+                        - list [ref=e312]:
+                          - listitem [ref=e313]:
+                            - generic [ref=e314]: Barcelona, Catalonia, Spain (Hybrid)
+                    - list [ref=e316]:
+                      - listitem [ref=e317]
+                - listitem [ref=e319]:
+                  - generic [ref=e322] [cursor=pointer]:
+                    - generic [ref=e323]:
+                      - img "Set2Recruit logo" [ref=e327]
+                      - generic [ref=e328]:
+                        - link "Software Developer Simulation" [ref=e330]:
+                          - /url: /jobs/view/4431523180/?trk=flagship3_search_srp_jobs
+                          - strong [ref=e332]: Software Developer Simulation
+                        - generic [ref=e334]: Set2Recruit
+                        - list [ref=e336]:
+                          - listitem [ref=e337]:
+                            - generic [ref=e338]: European Union (Remote)
+                    - list [ref=e340]:
+                      - listitem [ref=e341]
+              - generic [ref=e343]:
+                - list [ref=e346]:
+                  - listitem [ref=e347]:
+                    - button "Page 1" [ref=e348] [cursor=pointer]: "1"
+                - generic "LinkedIn Footer Content" [ref=e350]
+          - generic "Senior Developer Java/Apache Camel (100% Teletrabajo)" [ref=e354]:
+            - generic [ref=e358]:
+              - generic [ref=e362]:
+                - generic [ref=e365]:
+                  - button "Share" [ref=e368] [cursor=pointer]:
+                    - img [ref=e369]
+                    - generic [ref=e371]: Share
+                  - button "Show more options" [ref=e373] [cursor=pointer]:
+                    - img [ref=e374]
+                    - generic [ref=e376]: Show more options
+                - heading "Senior Developer Java/Apache Camel (100% Teletrabajo)" [level=1] [ref=e379]:
+                  - link "Senior Developer Java/Apache Camel (100% Teletrabajo)" [ref=e380] [cursor=pointer]:
+                    - /url: /jobs/view/4413933446/?alternateChannel=search&refId=NotAvailable&trackingId=CJnYOgF%2FSoqsg438dYiS6w%3D%3D&trk=d_flagship3_search_srp_jobs
+                - generic:
+                  - list
+              - article [ref=e393]:
+                - heading "About the job" [level=2] [ref=e396]
+              - alert [ref=e431]: Loading job details
+    - generic:
+      - generic:
+        - complementary:
+          - generic [ref=e445]:
+            - generic [ref=e447] [cursor=pointer]:
+              - img "Brisa Elvira Lazaro Campos" [ref=e449]
+              - button "You are on the messaging overlay. Press enter to open the list of conversations." [ref=e450]:
+                - generic [ref=e451]:
+                  - generic [ref=e452]: Messaging
+                  - generic [ref=e453]: You are on the messaging overlay. Press enter to open the list of conversations.
+            - generic [ref=e454]:
+              - button "Open messenger dropdown menu" [ref=e456] [cursor=pointer]:
+                - img "Open messenger dropdown menu" [ref=e457]
+              - button "Compose message" [ref=e460] [cursor=pointer]:
+                - img [ref=e461]
+                - generic [ref=e463]: Compose message
+              - button "You are on the messaging overlay. Press enter to open the list of conversations." [ref=e464] [cursor=pointer]:
+                - img [ref=e465]
+                - generic [ref=e467]: You are on the messaging overlay. Press enter to open the list of conversations.
+        - complementary "AI-powered assistant to get help with your career, jobs etc"
+  - region [ref=e468]

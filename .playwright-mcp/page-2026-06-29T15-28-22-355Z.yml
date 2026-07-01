@@ -1,0 +1,599 @@
+- generic [active] [ref=e1]:
+  - generic:
+    - region "Toast message":
+      - heading "0 notifications total" [level=2] [ref=e3]
+      - alert
+  - generic [ref=e22]:
+    - generic [ref=e24]:
+      - button "Skip to search" [ref=e25] [cursor=pointer]:
+        - generic [ref=e26]: Skip to search
+      - button "Skip to main content" [ref=e27] [cursor=pointer]:
+        - generic [ref=e28]: Skip to main content
+      - button "Keyboard shortcuts" [ref=e29] [cursor=pointer]:
+        - generic [ref=e30]: Keyboard shortcuts
+      - button "Close jump menu" [ref=e31] [cursor=pointer]:
+        - img [ref=e32]
+        - generic [ref=e34]: Close jump menu
+    - banner "Global Navigation" [ref=e35]:
+      - generic [ref=e36]:
+        - link "LinkedIn" [ref=e37] [cursor=pointer]:
+          - /url: https://www.linkedin.com/feed/?nis=true
+          - img "LinkedIn" [ref=e40]:
+            - img [ref=e41]
+        - generic [ref=e45]:
+          - generic [ref=e48]:
+            - generic [ref=e49]:
+              - generic [ref=e50]: Search by title, skill, or company
+              - img [ref=e51]
+            - combobox "Search by title, skill, or company" [ref=e53]: QA Engineer
+            - textbox [disabled]
+          - generic [ref=e56]:
+            - generic [ref=e57]:
+              - generic [ref=e58]: City, state, or zip code
+              - img [ref=e59]
+            - combobox "City, state, or zip code" [ref=e61]: Catalonia, Spain
+            - textbox [disabled]
+          - button "Search" [ref=e62] [cursor=pointer]
+        - navigation "Primary Navigation" [ref=e63]:
+          - list [ref=e64]:
+            - listitem [ref=e65]:
+              - link "new feed updates notifications Home" [ref=e66] [cursor=pointer]:
+                - /url: https://www.linkedin.com/feed/?nis=true&
+                - generic [ref=e67]:
+                  - generic [ref=e70]: new feed updates notifications
+                  - img [ref=e470]
+                - generic "Home" [ref=e76]
+            - listitem [ref=e77]:
+              - link "My Network" [ref=e78] [cursor=pointer]:
+                - /url: https://www.linkedin.com/mynetwork/?
+                - img [ref=e473]
+                - generic "My Network" [ref=e84]
+            - listitem [ref=e85]:
+              - link "Jobs" [ref=e86] [cursor=pointer]:
+                - /url: https://www.linkedin.com/jobs/?
+                - img [ref=e476]
+                - generic "Jobs" [ref=e92]
+            - listitem [ref=e93]:
+              - link "Messaging" [ref=e94] [cursor=pointer]:
+                - /url: https://www.linkedin.com/messaging/?
+                - img [ref=e479]
+                - generic "Messaging" [ref=e100]
+            - listitem [ref=e101]:
+              - link "Notifications" [ref=e102] [cursor=pointer]:
+                - /url: https://www.linkedin.com/notifications/?
+                - img [ref=e482]
+                - generic "Notifications" [ref=e108]
+            - listitem [ref=e109]:
+              - button "Brisa Elvira Lazaro Campos Me" [ref=e111] [cursor=pointer]:
+                - img "Brisa Elvira Lazaro Campos" [ref=e112]
+                - generic [ref=e113]:
+                  - text: Me
+                  - img [ref=e114]
+            - listitem [ref=e116]:
+              - button "For Business" [ref=e118] [cursor=pointer]:
+                - img [ref=e122]
+                - generic "For Business" [ref=e124]:
+                  - text: For Business
+                  - img [ref=e125]
+            - listitem [ref=e127]:
+              - link "Get hired for €0" [ref=e129] [cursor=pointer]:
+                - /url: javascript:void(0)
+                - generic [ref=e130]:
+                  - img [ref=e131]
+                  - generic [ref=e133]: Get hired for €0
+    - generic [ref=e135]:
+      - region "search filters" [ref=e138]:
+        - heading "Jobs search" [level=2] [ref=e139]
+        - generic [ref=e141]:
+          - generic [ref=e484]:
+            - list [ref=e485]:
+              - listitem [ref=e486]:
+                - 'button "Filter by: Jobs" [ref=e488] [cursor=pointer]':
+                  - text: Jobs
+                  - img [ref=e489]
+              - listitem [ref=e491]
+              - listitem [ref=e492]:
+                - button "Sort by filter. Most recent filter is currently applied. Clicking this button displays all Sort by filter options." [ref=e495] [cursor=pointer]:
+                  - text: Most recent
+                  - img [ref=e496]
+              - listitem [ref=e498]:
+                - button "Date posted filter. Past week filter is currently applied. Clicking this button displays all Date posted filter options." [ref=e501] [cursor=pointer]:
+                  - text: Past week
+                  - img [ref=e502]
+              - listitem [ref=e504]:
+                - radio "Easy Apply filter." [checked] [ref=e506] [cursor=pointer]: Easy Apply
+              - listitem [ref=e507]:
+                - button "Experience level filter. Clicking this button displays all Experience level filter options." [ref=e510] [cursor=pointer]:
+                  - text: Experience level
+                  - img [ref=e511]
+            - generic [ref=e513]:
+              - button "Show all filters. Clicking this button displays all available filter options." [ref=e516] [cursor=pointer]: All filters
+              - button "Reset applied filters" [ref=e517] [cursor=pointer]:
+                - generic [ref=e518]: Reset
+          - button "Try AI job search" [ref=e519] [cursor=pointer]:
+            - img [ref=e520]
+            - generic [ref=e522]: Try AI job search
+      - main [ref=e150]:
+        - generic [ref=e152]:
+          - generic [ref=e153]:
+            - generic [ref=e154]:
+              - generic [ref=e155]:
+                - generic "QA Engineer in Catalonia, Spain" [ref=e156]
+                - generic [ref=e159]: 200+ results
+              - generic [ref=e162] [cursor=pointer]:
+                - generic [ref=e163]: Set alert
+                - generic [ref=e164]: Set job alert for QA Engineer in Catalonia, Spain
+                - switch "Set job alert for QA Engineer in Catalonia, Spain"
+            - generic [ref=e165]:
+              - button "Jump to active job details":
+                - generic [ref=e166] [cursor=pointer]: Jump to active job details
+              - button "Jump to active search result":
+                - generic [ref=e167] [cursor=pointer]: Jump to active search result
+              - list [ref=e168]:
+                - listitem [ref=e523]:
+                  - generic [ref=e525] [cursor=pointer]:
+                    - generic [ref=e526]:
+                      - generic [ref=e527]:
+                        - img "BCNC GROUP logo" [ref=e531]
+                        - generic [ref=e532]:
+                          - link "Senior Developer Java/Apache Camel (100% Teletrabajo) with verification" [ref=e534]:
+                            - /url: /jobs/view/4413933446/?eBP=NON_CHARGEABLE_CHANNEL&refId=fK9E6v4n%2Be%2BZ8Ys0R3CCVg%3D%3D&trackingId=%2BFseyvTnzdFly2lxF%2BubHw%3D%3D&trk=flagship3_search_srp_jobs
+                            - generic [ref=e535]:
+                              - strong [ref=e536]: Senior Developer Java/Apache Camel (100% Teletrabajo)
+                              - img [ref=e538]
+                          - generic [ref=e541]: BCNC GROUP
+                          - list [ref=e543]:
+                            - listitem [ref=e544]:
+                              - generic [ref=e545]: Spain (Remote)
+                      - generic [ref=e547]:
+                        - img "Actively reviewing applicants" [ref=e551]
+                        - generic [ref=e553]: Actively reviewing applicants
+                      - list [ref=e554]:
+                        - listitem [ref=e555]: Viewed
+                        - listitem [ref=e556]:
+                          - img [ref=e557]:
+                            - img [ref=e558]
+                          - generic [ref=e560]: Easy Apply
+                    - button "Dismiss Senior Developer Java/Apache Camel (100% Teletrabajo) job" [ref=e564]:
+                      - img [ref=e566]
+                - listitem [ref=e569]:
+                  - generic [ref=e571] [cursor=pointer]:
+                    - generic [ref=e572]:
+                      - generic [ref=e573]:
+                        - img "83zero logo" [ref=e577]
+                        - generic [ref=e578]:
+                          - link "Queue Lead" [ref=e580]:
+                            - /url: /jobs/view/4431522281/?eBP=NON_CHARGEABLE_CHANNEL&refId=fK9E6v4n%2Be%2BZ8Ys0R3CCVg%3D%3D&trackingId=M9SGZvg%2BOPgbYMaQTc2hGw%3D%3D&trk=flagship3_search_srp_jobs
+                            - strong [ref=e582]: Queue Lead
+                          - generic [ref=e584]: 83zero
+                          - list [ref=e586]:
+                            - listitem [ref=e587]:
+                              - generic [ref=e588]: Spain (Remote)
+                      - generic [ref=e590]:
+                        - img "Company review time is typically 1 week" [ref=e594]
+                        - generic [ref=e596]: Company review time is typically 1 week
+                      - list [ref=e597]:
+                        - listitem [ref=e598]:
+                          - time [ref=e599]:
+                            - text: 16 minutes ago
+                            - generic [ref=e600]: Within the past 24 hours
+                        - listitem [ref=e601]:
+                          - img [ref=e602]:
+                            - img [ref=e603]
+                          - generic [ref=e605]: Easy Apply
+                    - button "Dismiss Queue Lead job" [ref=e609]:
+                      - img [ref=e611]
+                - listitem [ref=e614]:
+                  - generic [ref=e616] [cursor=pointer]:
+                    - generic [ref=e617]:
+                      - generic [ref=e618]:
+                        - img "Jobgether logo" [ref=e622]
+                        - generic [ref=e623]:
+                          - link "Backend Software Engineer" [ref=e625]:
+                            - /url: /jobs/view/4434109880/?eBP=NON_CHARGEABLE_CHANNEL&refId=fK9E6v4n%2Be%2BZ8Ys0R3CCVg%3D%3D&trackingId=L5nvcS9HPM%2F5pCb%2FJBCglQ%3D%3D&trk=flagship3_search_srp_jobs
+                            - strong [ref=e627]: Backend Software Engineer
+                          - generic [ref=e629]: Jobgether
+                          - list [ref=e631]:
+                            - listitem [ref=e632]:
+                              - generic [ref=e633]: Spain (Remote)
+                      - list [ref=e634]:
+                        - listitem [ref=e635]:
+                          - time [ref=e636]:
+                            - text: 20 minutes ago
+                            - generic [ref=e637]: Within the past 24 hours
+                        - listitem [ref=e638]:
+                          - img [ref=e639]:
+                            - img [ref=e640]
+                          - generic [ref=e642]: Easy Apply
+                    - button "Dismiss Backend Software Engineer job" [ref=e646]:
+                      - img [ref=e648]
+                - listitem [ref=e651]:
+                  - generic [ref=e653] [cursor=pointer]:
+                    - generic [ref=e654]:
+                      - generic [ref=e655]:
+                        - img "RS ISOLSEC S.L.U. logo" [ref=e659]
+                        - generic [ref=e660]:
+                          - link "Ingeniero/a de Procesos Industriales" [ref=e662]:
+                            - /url: /jobs/view/4431503613/?eBP=NON_CHARGEABLE_CHANNEL&refId=fK9E6v4n%2Be%2BZ8Ys0R3CCVg%3D%3D&trackingId=8qiPlE7xGHRj3WXxFMux5g%3D%3D&trk=flagship3_search_srp_jobs
+                            - strong [ref=e664]: Ingeniero/a de Procesos Industriales
+                          - generic [ref=e666]: RS ISOLSEC S.L.U.
+                          - list [ref=e668]:
+                            - listitem [ref=e669]:
+                              - generic [ref=e670]: Montornès del Vallès, Catalonia, Spain (On-site)
+                      - list [ref=e671]:
+                        - listitem [ref=e672]:
+                          - time [ref=e673]:
+                            - text: 20 minutes ago
+                            - generic [ref=e674]: Within the past 24 hours
+                        - listitem [ref=e675]:
+                          - img [ref=e676]:
+                            - img [ref=e677]
+                          - generic [ref=e679]: Easy Apply
+                    - button "Dismiss Ingeniero/a de Procesos Industriales job" [ref=e683]:
+                      - img [ref=e685]
+                - listitem [ref=e688]:
+                  - generic [ref=e690] [cursor=pointer]:
+                    - generic [ref=e691]:
+                      - generic [ref=e692]:
+                        - img "Optimissa logo" [ref=e696]
+                        - generic [ref=e697]:
+                          - link "Desarrollador Mid Full Stack (Node.js) with verification" [ref=e699]:
+                            - /url: /jobs/view/4431057945/?eBP=NON_CHARGEABLE_CHANNEL&refId=fK9E6v4n%2Be%2BZ8Ys0R3CCVg%3D%3D&trackingId=34DpDTWS1fRzVDwTnm94DQ%3D%3D&trk=flagship3_search_srp_jobs
+                            - generic [ref=e700]:
+                              - strong [ref=e701]: Desarrollador Mid Full Stack (Node.js)
+                              - img [ref=e703]
+                          - generic [ref=e706]: Optimissa
+                          - list [ref=e708]:
+                            - listitem [ref=e709]:
+                              - generic [ref=e710]: Greater Barcelona Metropolitan Area (Hybrid)
+                      - generic [ref=e712]:
+                        - img "Company review time is typically 1 week" [ref=e716]
+                        - generic [ref=e718]: Company review time is typically 1 week
+                      - list [ref=e719]:
+                        - listitem [ref=e720]:
+                          - time [ref=e721]:
+                            - text: 22 minutes ago
+                            - generic [ref=e722]: Within the past 24 hours
+                        - listitem [ref=e723]:
+                          - img [ref=e724]:
+                            - img [ref=e725]
+                          - generic [ref=e727]: Easy Apply
+                    - button "Dismiss Desarrollador Mid Full Stack (Node.js) job" [ref=e731]:
+                      - img [ref=e733]
+                - listitem [ref=e736]:
+                  - generic [ref=e738] [cursor=pointer]:
+                    - generic [ref=e739]:
+                      - generic [ref=e740]:
+                        - img "Randstad Digital España logo" [ref=e744]
+                        - generic [ref=e745]:
+                          - link "It support" [ref=e747]:
+                            - /url: /jobs/view/4434496404/?eBP=NON_CHARGEABLE_CHANNEL&refId=fK9E6v4n%2Be%2BZ8Ys0R3CCVg%3D%3D&trackingId=PGqSHyyHsOEXoeEC3TIfHg%3D%3D&trk=flagship3_search_srp_jobs
+                            - strong [ref=e749]: It support
+                          - generic [ref=e751]: Randstad Digital España
+                          - list [ref=e753]:
+                            - listitem [ref=e754]:
+                              - generic [ref=e755]: Barcelona, Catalonia, Spain (Hybrid)
+                      - generic [ref=e757]:
+                        - img "Company review time is typically 1 week" [ref=e761]
+                        - generic [ref=e763]: Company review time is typically 1 week
+                      - list [ref=e764]:
+                        - listitem [ref=e765]:
+                          - time [ref=e766]:
+                            - text: 31 minutes ago
+                            - generic [ref=e767]: Within the past 24 hours
+                        - listitem [ref=e768]:
+                          - img [ref=e769]:
+                            - img [ref=e770]
+                          - generic [ref=e772]: Easy Apply
+                    - button "Dismiss It support job" [ref=e776]:
+                      - img [ref=e778]
+                - listitem [ref=e781]:
+                  - generic [ref=e783] [cursor=pointer]:
+                    - generic [ref=e784]:
+                      - generic [ref=e785]:
+                        - img "Set2Recruit logo" [ref=e789]
+                        - generic [ref=e790]:
+                          - link "Software Developer Simulation" [ref=e792]:
+                            - /url: /jobs/view/4431523180/?eBP=NON_CHARGEABLE_CHANNEL&refId=fK9E6v4n%2Be%2BZ8Ys0R3CCVg%3D%3D&trackingId=lqsxFzYYlsMvASjjK5%2F4%2FA%3D%3D&trk=flagship3_search_srp_jobs
+                            - strong [ref=e794]: Software Developer Simulation
+                          - generic [ref=e796]: Set2Recruit
+                          - list [ref=e798]:
+                            - listitem [ref=e799]:
+                              - generic [ref=e800]: European Union (Remote)
+                      - generic [ref=e802]:
+                        - img "Company review time is typically 1 week" [ref=e806]
+                        - generic [ref=e808]: Company review time is typically 1 week
+                      - list [ref=e809]:
+                        - listitem [ref=e810]:
+                          - time [ref=e811]:
+                            - text: 32 minutes ago
+                            - generic [ref=e812]: Within the past 24 hours
+                        - listitem [ref=e813]:
+                          - img [ref=e814]:
+                            - img [ref=e815]
+                          - generic [ref=e817]: Easy Apply
+                    - button "Dismiss Software Developer Simulation job" [ref=e821]:
+                      - img [ref=e823]
+                - listitem [ref=e826]
+                - listitem [ref=e827]
+                - listitem [ref=e828]
+                - listitem [ref=e829]
+                - listitem [ref=e830]
+                - listitem [ref=e831]
+                - listitem [ref=e832]
+                - listitem [ref=e833]
+                - listitem [ref=e834]
+                - listitem [ref=e835]
+                - listitem [ref=e836]
+                - listitem [ref=e837]
+                - listitem [ref=e838]
+                - listitem [ref=e839]
+                - listitem [ref=e840]
+                - listitem [ref=e841]
+                - listitem [ref=e842]
+                - listitem [ref=e843]
+              - generic [ref=e846]:
+                - generic [ref=e847]:
+                  - heading "Are these results helpful?" [level=2] [ref=e848]
+                  - paragraph [ref=e849]: Your feedback helps us improve search results.
+                - generic [ref=e850]:
+                  - button "Are you finding what you’re looking for? No" [ref=e851] [cursor=pointer]:
+                    - img [ref=e852]
+                    - generic [ref=e854]: Are you finding what you’re looking for? No
+                  - button "Are you finding what you’re looking for? Yes" [ref=e855] [cursor=pointer]:
+                    - img [ref=e856]
+                    - generic [ref=e858]: Are you finding what you’re looking for? Yes
+              - generic [ref=e343]:
+                - generic [ref=e344]:
+                  - list [ref=e346]:
+                    - listitem [ref=e859]:
+                      - button "Page 1" [ref=e860] [cursor=pointer]: "1"
+                    - listitem [ref=e861]:
+                      - button "Page 2" [ref=e862] [cursor=pointer]: "2"
+                    - listitem [ref=e863]:
+                      - button "Page 3" [ref=e864] [cursor=pointer]: "3"
+                    - listitem [ref=e865]:
+                      - button "Page 4" [ref=e866] [cursor=pointer]: …
+                  - button "View next page" [ref=e867] [cursor=pointer]:
+                    - img [ref=e868]
+                    - generic [ref=e870]: Next
+                - generic "LinkedIn Footer Content" [ref=e350]
+          - generic "Senior Developer Java/Apache Camel (100% Teletrabajo)" [ref=e354]:
+            - generic [ref=e358]:
+              - generic [ref=e362]:
+                - generic [ref=e363]:
+                  - generic [ref=e364]:
+                    - link "BCNC GROUP logo" [ref=e871] [cursor=pointer]:
+                      - /url: https://www.linkedin.com/company/bcncgroup/life
+                      - img "BCNC GROUP logo" [ref=e874]
+                    - link "BCNC GROUP" [ref=e876] [cursor=pointer]:
+                      - /url: https://www.linkedin.com/company/bcncgroup/life
+                  - generic [ref=e365]:
+                    - button "Share" [ref=e368] [cursor=pointer]:
+                      - img [ref=e369]
+                      - generic [ref=e371]: Share
+                    - button "Show more options" [ref=e373] [cursor=pointer]:
+                      - img [ref=e374]
+                      - generic [ref=e376]: Show more options
+                - generic [ref=e378]:
+                  - heading "Senior Developer Java/Apache Camel (100% Teletrabajo)" [level=1] [ref=e379]:
+                    - link "Senior Developer Java/Apache Camel (100% Teletrabajo)" [ref=e380] [cursor=pointer]:
+                      - /url: /jobs/view/4413933446/?alternateChannel=search&eBP=NON_CHARGEABLE_CHANNEL&refId=fK9E6v4n%2Be%2BZ8Ys0R3CCVg%3D%3D&trackingId=%2BFseyvTnzdFly2lxF%2BubHw%3D%3D&trk=d_flagship3_search_srp_jobs
+                  - button "View verified hiring modal" [ref=e878] [cursor=pointer]:
+                    - img [ref=e881]
+                - generic [ref=e884]:
+                  - generic [ref=e885]: Spain
+                  - generic [ref=e886]: ·
+                  - strong [ref=e888]:
+                    - text: Reposted
+                    - generic [ref=e889]: 15 minutes ago
+                  - generic [ref=e890]: ·
+                  - generic [ref=e891]: Over 100 applicants
+                  - paragraph [ref=e892]:
+                    - generic [ref=e893]: Promoted by hirer
+                    - generic [ref=e894]: ·
+                    - strong [ref=e896]: Actively reviewing applicants
+                - generic [ref=e897]:
+                  - button "Remote" [ref=e898] [cursor=pointer]:
+                    - strong [ref=e900]: Remote
+                  - button "Full-time" [ref=e901] [cursor=pointer]:
+                    - strong [ref=e903]: Full-time
+                  - button "0 of 10 skills match" [ref=e904] [cursor=pointer]:
+                    - strong [ref=e907]:
+                      - img [ref=e908]
+                      - text: 0 of 10 skills match
+                - generic [ref=e911]:
+                  - button "Easy Apply to Senior Developer Java/Apache Camel (100% Teletrabajo) at BCNC GROUP" [ref=e914] [cursor=pointer]:
+                    - img [ref=e915]
+                    - generic [ref=e917]: Easy Apply
+                  - button "Save Senior Developer Java/Apache Camel (100% Teletrabajo) at BCNC GROUP" [ref=e918] [cursor=pointer]:
+                    - generic [ref=e919]: Save
+                    - generic [ref=e920]: Save Senior Developer Java/Apache Camel (100% Teletrabajo) at BCNC GROUP
+              - generic [ref=e925]:
+                - heading "See how you compare to over 100 other applicants" [level=3] [ref=e926]
+                - paragraph [ref=e927]: Access exclusive applicant insights, see jobs where you have the highest chance of hearing back, and more.
+                - link "Try Premium for €0" [ref=e928] [cursor=pointer]:
+                  - /url: http://www.linkedin.com/premium/products/?upsellOrderOrigin=Tracking%3Av1%3Apremium_job_details_summary_card%3AJob+Seeker%3AIn-Product&utype=job&referenceId=WUcj8KuvQ%2F%2BNDDmNonT%2BtA%3D%3D&isSS=false&upsellSlotId=JOB_DETAILS_SUMMARY_CARD&destRedirectURL=https%3A%2F%2Fwww.linkedin.com%2Fjobs%2Fsearch%2F%3FcurrentJobId%3D4413933446%26f_AL%3Dtrue%26f_TPR%3Dr604800%26keywords%3DQA%2520Engineer%26location%3DCatalonia%252C%2520Spain%26sortBy%3DDD
+                  - generic [ref=e929]:
+                    - img [ref=e930]
+                    - generic [ref=e932]: Try Premium for €0
+              - generic [ref=e383]:
+                - heading "People you can reach out to" [level=2] [ref=e933]
+                - generic [ref=e937]:
+                  - link "Ivan profile photo Ivan profile photo" [ref=e939] [cursor=pointer]:
+                    - /url: https://www.linkedin.com/in/ivanbetanzosmacias
+                    - generic [ref=e940]:
+                      - list [ref=e941]:
+                        - listitem [ref=e942]:
+                          - img "Ivan profile photo" [ref=e944]
+                      - generic [ref=e945]: Ivan profile photo
+                  - link "Ivan Betanzos Macias · 2nd Software Engineer - Node, SpringBoot, React School alum from freeCodeCamp" [ref=e947] [cursor=pointer]:
+                    - /url: https://www.linkedin.com/in/ivanbetanzosmacias
+                    - generic [ref=e949]:
+                      - strong [ref=e950]: Ivan Betanzos Macias
+                      - img [ref=e952]
+                    - generic [ref=e955]: · 2nd
+                    - generic [ref=e956]: Software Engineer - Node, SpringBoot, React
+                    - generic [ref=e958]: School alum from freeCodeCamp
+                  - button "Invite Ivan Betanzos Macias to connect" [ref=e960] [cursor=pointer]:
+                    - generic [ref=e961]: Connect
+                - generic [ref=e962]:
+                  - heading "Meet the hiring team" [level=2] [ref=e963]
+                  - generic [ref=e965]:
+                    - link "View Ana R.’s verified profile graphic" [ref=e966] [cursor=pointer]:
+                      - /url: https://www.linkedin.com/in/ana-r-73015218
+                      - generic [ref=e970]: Ana R.
+                    - generic [ref=e971]:
+                      - link "View Ana R.’s verified profile" [ref=e972] [cursor=pointer]:
+                        - /url: https://www.linkedin.com/in/ana-r-73015218
+                        - generic [ref=e973]:
+                          - strong [ref=e974]: Ana R.
+                          - img [ref=e976]
+                      - generic [ref=e980]: 2nd
+                      - generic [ref=e981]:
+                        - generic [ref=e982]: Senior HR Specialist en BCNC GROUP
+                        - generic [ref=e983]: Job poster · 1 mutual connection
+                    - button "Message" [ref=e985] [cursor=pointer]:
+                      - generic [ref=e986]: Message
+              - article [ref=e393]:
+                - generic [ref=e395]:
+                  - heading "About the job" [level=2] [ref=e396]
+                  - paragraph [ref=e988]:
+                    - paragraph [ref=e990]: En BCNC GROUP buscamos incorporar perfiles Senior Developer Java/ Apache Camel con al menos 4 años experiencia contrastada para formar parte de nuestro equipo participando de un proyecto con arquitectura orientada a eventos, alto volumen de integraciones y fuerte componente de gobierno técnico, donde el rol tiene impacto directo en estándares, decisiones arquitectónicas y roadmap, en modalidad de trabajo remoto.
+                    - paragraph [ref=e992]
+                    - paragraph [ref=e994]: "Responsabilidades:"
+                    - paragraph [ref=e996]
+                    - list [ref=e998]:
+                      - listitem [ref=e999]:
+                        - text: Desarrollo de proyecto BackEnd con
+                        - strong [ref=e1001]: Java v. 17- 21, Spring framework,
+                        - text: entorno basado en
+                        - strong [ref=e1003]: OpenShift
+                        - text: (on-prem + cloud),
+                        - strong [ref=e1005]: Apache Camel Quarkus, API REST, Kubernetes, gestores de mensajería (Kafka, Active MQ, similares
+                        - text: ),
+                        - strong [ref=e1007]: arquitecturas (
+                        - text: Microservicios de integración/Event-driven) formando parte de un equipo en una oficina transversal que gobierna toda la arquitectura tecnológica.
+                      - listitem [ref=e1008]:
+                        - text: Diseño y desarrollo de flujos de integración utilizando
+                        - strong [ref=e1010]: Apache Camel,
+                        - text: garantizando la correcta orquestación, transformación y comunicación entre los distintos sistemas, así como una arquitectura escalable, robusta y mantenible.
+                    - paragraph [ref=e1012]
+                    - paragraph [ref=e1014]: "Requisitos:"
+                    - paragraph [ref=e1016]
+                    - list [ref=e1018]:
+                      - listitem [ref=e1019]:
+                        - text: Experiencia de al menos 4 años desempeñando labores de programación, diseño e integración de flujos completos mediante
+                        - strong [ref=e1021]: Apache Camel
+                        - text: en entornos productivos.
+                      - listitem [ref=e1022]:
+                        - text: Dominio de
+                        - strong [ref=e1024]: Java (11-21), Spring Framework- Springboot
+                        - text: ","
+                        - strong [ref=e1026]: microservicios,
+                        - strong [ref=e1028]: gestores de mensajería (Kafka, Active MQ, similares
+                        - text: ),
+                        - strong [ref=e1030]: Quarkus, API Rest, Kubernetes.
+                    - paragraph [ref=e1032]
+                    - paragraph [ref=e1034]: ¿Qué ofrecemos?
+                    - paragraph [ref=e1036]
+                    - list [ref=e1038]:
+                      - listitem [ref=e1039]: Contrato indefinido.
+                      - listitem [ref=e1040]: Trabajar en importantes proyectos con las tecnologías más punteras.
+                      - listitem [ref=e1041]: Posibilidad de realizar proyectos internacionales.
+                      - listitem [ref=e1042]: Desarrollo de carrera y formación personalizada.
+                      - listitem [ref=e1043]: Modalidad Híbrida (en función de la ubicación).
+                      - listitem [ref=e1044]: "Horario: Lunes a Jueves de 8:00-18:00h y Viernes de 8:00 a 14:00 h (42 h semanales)"
+                      - listitem [ref=e1045]: En Julio y Agosto 30 horas semanales, en modalidad de 100% teletrabajo.
+                      - listitem [ref=e1046]: Plan de retribución flexible.
+                    - paragraph [ref=e1048]
+                    - paragraph [ref=e1050]: BCNC GROUP es una empresa de ingeniería y tecnología con operaciones en España, UK, Alemania, Francia y Suecia. Trabajamos con las multinacionales más prestigiosas de Europa ayudándoles a implementar sus proyectos estratégicos.
+                    - paragraph [ref=e1052]:
+                      - strong [ref=e1054]: "#WeHaveOurOwnCode #bcncgroup"
+              - generic [ref=e1060]:
+                - heading "Job search faster with Premium" [level=3] [ref=e1061]
+                - paragraph [ref=e1062]: Access company insights like strategic priorities, headcount trends, and more
+                - generic [ref=e1063]:
+                  - list [ref=e1065]:
+                    - listitem [ref=e1066]
+                    - listitem [ref=e1068]
+                    - listitem [ref=e1070]
+                  - paragraph [ref=e1072]: Carlos Sneyder and millions of other members use Premium
+                - link "Try Premium for €0" [ref=e1073] [cursor=pointer]:
+                  - /url: http://www.linkedin.com/premium/products/?upsellOrderOrigin=Tracking%3Av1%3Apremium_job_details_how_you_match_upsell%3AJob+Seeker%3AIn-Product&utype=job&referenceId=a0uv%2FKLsSqqLk61Phsc0wg%3D%3D&isSS=false&upsellSlotId=JOB_DETAILS_HOW_YOU_MATCH&destRedirectURL=https%3A%2F%2Fwww.linkedin.com%2Fjobs%2Fsearch%2F%3FcurrentJobId%3D4413933446%26f_AL%3Dtrue%26f_TPR%3Dr604800%26keywords%3DQA%2520Engineer%26location%3DCatalonia%252C%2520Spain%26sortBy%3DDD
+                - paragraph [ref=e1074]: 1-month free trial. Easy to cancel. We’ll remind you 7 days before your trial ends.
+              - generic [ref=e1076]:
+                - generic [ref=e1077]:
+                  - heading "About the company" [level=2] [ref=e1078]
+                  - generic [ref=e1079]:
+                    - generic [ref=e1080]:
+                      - link "BCNC GROUP company logo" [ref=e1082] [cursor=pointer]:
+                        - /url: /company/bcncgroup/life/
+                        - img "BCNC GROUP company logo" [ref=e1083]
+                      - generic [ref=e1084]:
+                        - link "BCNC GROUP" [ref=e1086] [cursor=pointer]:
+                          - /url: /company/bcncgroup/life/
+                        - generic [ref=e1087]: 36,041 followers
+                    - button "Following" [pressed] [ref=e1088] [cursor=pointer]:
+                      - img [ref=e1089]
+                      - generic [ref=e1091]: Following
+                  - generic [ref=e1092]:
+                    - text: Information Technology & Services
+                    - generic [ref=e1093]: • 51-200 employees
+                    - generic [ref=e1094]: • 129 on LinkedIn
+                  - paragraph [ref=e1095]:
+                    - generic [ref=e1096]:
+                      - text: We are an Engineering & Technology firm created around strong values and the pursuit of pure excellence.
+                      - text: Our mission is to help our customers improve their performance and increase their value through innovation and the smart use of the latest technologies.
+                      - text: We help companies innovate to become more efficient and more competitive. Some of the world's most successful businesses have benefited from our experience.
+                      - text: Our ultimate goal is to become a standard for excellence, continuoulsly setting, achieving and exceeding new highs for quality in everything we do.
+                      - text: "At BCNC Group we have our own code: a code with which everyone at the company identifies. It is a fair, simple code developed by all of us, comprised of the values that make us different from others."
+                      - generic [ref=e1098]:
+                        - generic [ref=e1099]: …
+                        - button "show more" [ref=e1100] [cursor=pointer]
+                  - generic [ref=e1104]:
+                    - heading "Interested in working with us in the future?" [level=3] [ref=e1105]
+                    - paragraph [ref=e1106]:
+                      - generic [ref=e1107]:
+                        - text: Members who share that they’re interested in a company may be 2x as likely to get a message from a recruiter than those who don’t.
+                        - link "Learn more about Interested in working for our company" [ref=e1108] [cursor=pointer]:
+                          - /url: https://www.linkedin.com/help/linkedin/answer/a1380509
+                          - text: Learn more
+                    - button "I’m interested" [ref=e1109] [cursor=pointer]:
+                      - generic [ref=e1110]: I’m interested
+                  - generic [ref=e1114]:
+                    - heading "Trending employee content" [level=2] [ref=e1116]
+                    - generic [ref=e1118]:
+                      - generic [ref=e1119]: Page 1 of 2
+                      - button "Previous" [disabled] [ref=e1120]:
+                        - img
+                        - generic: Previous
+                      - button "Next" [ref=e1121] [cursor=pointer]:
+                        - img [ref=e1122]
+                        - generic [ref=e1124]: Next
+                - link "Show more about the company" [ref=e1136] [cursor=pointer]:
+                  - /url: /company/bcncgroup/life/
+                  - text: Show more
+    - generic:
+      - generic:
+        - complementary:
+          - generic [ref=e445]:
+            - generic [ref=e447] [cursor=pointer]:
+              - generic [ref=e448]:
+                - img "Brisa Elvira Lazaro Campos" [ref=e449]
+                - generic [ref=e1138]: Status is online
+              - button "You are on the messaging overlay. Press enter to open the list of conversations." [ref=e450]:
+                - generic [ref=e451]:
+                  - generic [ref=e452]: Messaging
+                  - generic [ref=e453]: You are on the messaging overlay. Press enter to open the list of conversations.
+            - generic [ref=e454]:
+              - button "Open messenger dropdown menu" [ref=e456] [cursor=pointer]:
+                - img "Open messenger dropdown menu" [ref=e457]
+              - button "Compose message" [ref=e460] [cursor=pointer]:
+                - img [ref=e461]
+                - generic [ref=e463]: Compose message
+              - button "You are on the messaging overlay. Press enter to open the list of conversations." [ref=e464] [cursor=pointer]:
+                - img [ref=e465]
+                - generic [ref=e467]: You are on the messaging overlay. Press enter to open the list of conversations.
+        - complementary "AI-powered assistant to get help with your career, jobs etc"
+  - region [ref=e468]

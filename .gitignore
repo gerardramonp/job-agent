@@ -5,3 +5,4 @@ data/
 browser/
 *.db
 .DS_Store
+.cursor/skills/job-apply-agent/.browser-profile/

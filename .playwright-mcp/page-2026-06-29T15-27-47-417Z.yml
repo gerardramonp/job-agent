@@ -1,0 +1,568 @@
+- generic [active] [ref=e1]:
+  - generic:
+    - region "Toast message":
+      - heading "0 notifications total" [level=2] [ref=e3]
+      - alert
+  - generic [ref=e4]:
+    - generic [ref=e6]:
+      - button "Skip to search" [ref=e7] [cursor=pointer]:
+        - generic [ref=e8]: Skip to search
+      - button "Skip to main content" [ref=e9] [cursor=pointer]:
+        - generic [ref=e10]: Skip to main content
+      - button "Keyboard shortcuts" [ref=e11] [cursor=pointer]:
+        - generic [ref=e12]: Keyboard shortcuts
+      - button "Close jump menu" [ref=e13] [cursor=pointer]:
+        - img [ref=e14]
+        - generic [ref=e16]: Close jump menu
+    - banner "Global Navigation" [ref=e17]:
+      - generic [ref=e18]:
+        - link "LinkedIn" [ref=e19] [cursor=pointer]:
+          - /url: https://www.linkedin.com/feed/?nis=true
+          - img "LinkedIn" [ref=e22]:
+            - img [ref=e23]
+        - generic [ref=e27]:
+          - generic [ref=e30]:
+            - generic [ref=e31]:
+              - generic [ref=e32]: Search by title, skill, or company
+              - img [ref=e33]
+            - combobox "Search by title, skill, or company" [ref=e35]: QA Engineer
+            - textbox [disabled]
+          - generic [ref=e38]:
+            - generic [ref=e39]:
+              - generic [ref=e40]: City, state, or zip code
+              - img [ref=e41]
+            - combobox "City, state, or zip code" [ref=e43]: Barcelona, Catalonia, Spain
+            - textbox [disabled]
+          - button "Search" [ref=e44] [cursor=pointer]
+        - navigation "Primary Navigation" [ref=e45]:
+          - list [ref=e46]:
+            - listitem [ref=e47]:
+              - link "new feed updates notifications Home" [ref=e48] [cursor=pointer]:
+                - /url: https://www.linkedin.com/feed/?nis=true&
+                - generic [ref=e49]:
+                  - generic [ref=e52]: new feed updates notifications
+                  - img [ref=e452]
+                - generic "Home" [ref=e58]
+            - listitem [ref=e59]:
+              - link "My Network" [ref=e60] [cursor=pointer]:
+                - /url: https://www.linkedin.com/mynetwork/?
+                - img [ref=e455]
+                - generic "My Network" [ref=e66]
+            - listitem [ref=e67]:
+              - link "Jobs" [ref=e68] [cursor=pointer]:
+                - /url: https://www.linkedin.com/jobs/?
+                - img [ref=e458]
+                - generic "Jobs" [ref=e74]
+            - listitem [ref=e75]:
+              - link "Messaging" [ref=e76] [cursor=pointer]:
+                - /url: https://www.linkedin.com/messaging/?
+                - img [ref=e461]
+                - generic "Messaging" [ref=e82]
+            - listitem [ref=e83]:
+              - link "Notifications" [ref=e84] [cursor=pointer]:
+                - /url: https://www.linkedin.com/notifications/?
+                - img [ref=e464]
+                - generic "Notifications" [ref=e90]
+            - listitem [ref=e91]:
+              - button "Brisa Elvira Lazaro Campos Me" [ref=e93] [cursor=pointer]:
+                - img "Brisa Elvira Lazaro Campos" [ref=e94]
+                - generic [ref=e95]:
+                  - text: Me
+                  - img [ref=e96]
+            - listitem [ref=e98]:
+              - button "For Business" [ref=e100] [cursor=pointer]:
+                - img [ref=e104]
+                - generic "For Business" [ref=e106]:
+                  - text: For Business
+                  - img [ref=e107]
+            - listitem [ref=e109]:
+              - link "Get hired for €0" [ref=e111] [cursor=pointer]:
+                - /url: javascript:void(0)
+                - generic [ref=e112]:
+                  - img [ref=e113]
+                  - generic [ref=e115]: Get hired for €0
+    - generic [ref=e117]:
+      - region "search filters" [ref=e120]:
+        - heading "Jobs search" [level=2] [ref=e121]
+        - generic [ref=e123]:
+          - generic [ref=e466]:
+            - list [ref=e467]:
+              - listitem [ref=e468]:
+                - 'button "Filter by: Jobs" [ref=e470] [cursor=pointer]':
+                  - text: Jobs
+                  - img [ref=e471]
+              - listitem [ref=e473]
+              - listitem [ref=e474]:
+                - button "Sort by filter. Most recent filter is currently applied. Clicking this button displays all Sort by filter options." [ref=e477] [cursor=pointer]:
+                  - text: Most recent
+                  - img [ref=e478]
+              - listitem [ref=e480]:
+                - button "Date posted filter. Past week filter is currently applied. Clicking this button displays all Date posted filter options." [ref=e483] [cursor=pointer]:
+                  - text: Past week
+                  - img [ref=e484]
+              - listitem [ref=e486]:
+                - radio "Easy Apply filter." [checked] [ref=e488] [cursor=pointer]: Easy Apply
+              - listitem [ref=e489]:
+                - button "Distance filter. Clicking this button displays all Distance filter options." [ref=e492] [cursor=pointer]:
+                  - text: 40 km
+                  - img [ref=e493]
+              - listitem [ref=e495]:
+                - button "Company filter. Clicking this button displays all Company filter options." [ref=e498] [cursor=pointer]:
+                  - text: Company
+                  - img [ref=e499]
+            - generic [ref=e501]:
+              - button "Show all filters. Clicking this button displays all available filter options." [ref=e504] [cursor=pointer]: All filters
+              - button "Reset applied filters" [ref=e505] [cursor=pointer]:
+                - generic [ref=e506]: Reset
+          - button "Try AI job search" [ref=e507] [cursor=pointer]:
+            - img [ref=e508]
+            - generic [ref=e510]: Try AI job search
+      - main [ref=e132]:
+        - generic [ref=e134]:
+          - generic [ref=e135]:
+            - generic [ref=e136]:
+              - generic [ref=e137]:
+                - generic "QA Engineer in Barcelona, Catalonia, Spain" [ref=e138]
+                - generic [ref=e141]: 100+ results
+              - generic [ref=e144] [cursor=pointer]:
+                - generic [ref=e145]: Set alert
+                - generic [ref=e146]: Set job alert for QA Engineer in Barcelona, Catalonia, Spain
+                - switch "Set job alert for QA Engineer in Barcelona, Catalonia, Spain"
+            - generic [ref=e147]:
+              - button "Jump to active job details":
+                - generic [ref=e148] [cursor=pointer]: Jump to active job details
+              - button "Jump to active search result":
+                - generic [ref=e149] [cursor=pointer]: Jump to active search result
+              - list [ref=e150]:
+                - listitem [ref=e511]:
+                  - generic [ref=e513] [cursor=pointer]:
+                    - generic [ref=e514]:
+                      - generic [ref=e515]:
+                        - img "83zero logo" [ref=e519]
+                        - generic [ref=e520]:
+                          - link "Queue Lead" [ref=e522]:
+                            - /url: /jobs/view/4431522281/?eBP=NON_CHARGEABLE_CHANNEL&refId=hvrJteInjLWgzD0%2FLIjA3w%3D%3D&trackingId=2kEMjBSo4aPFcLwJdI9NOA%3D%3D&trk=flagship3_search_srp_jobs
+                            - strong [ref=e524]: Queue Lead
+                          - generic [ref=e526]: 83zero
+                          - list [ref=e528]:
+                            - listitem [ref=e529]:
+                              - generic [ref=e530]: Spain (Remote)
+                      - generic [ref=e532]:
+                        - img "Company review time is typically 1 week" [ref=e536]
+                        - generic [ref=e538]: Company review time is typically 1 week
+                      - list [ref=e539]:
+                        - listitem [ref=e540]: Viewed
+                        - listitem [ref=e541]:
+                          - img [ref=e542]:
+                            - img [ref=e543]
+                          - generic [ref=e545]: Easy Apply
+                    - button "Dismiss Queue Lead job" [ref=e549]:
+                      - img [ref=e551]
+                - listitem [ref=e554]:
+                  - generic [ref=e556] [cursor=pointer]:
+                    - generic [ref=e557]:
+                      - generic [ref=e558]:
+                        - img "Jobgether logo" [ref=e562]
+                        - generic [ref=e563]:
+                          - link "Backend Software Engineer" [ref=e565]:
+                            - /url: /jobs/view/4434109880/?eBP=NON_CHARGEABLE_CHANNEL&refId=hvrJteInjLWgzD0%2FLIjA3w%3D%3D&trackingId=jC3jucf9CH5DoZYn4oFsnA%3D%3D&trk=flagship3_search_srp_jobs
+                            - strong [ref=e567]: Backend Software Engineer
+                          - generic [ref=e569]: Jobgether
+                          - list [ref=e571]:
+                            - listitem [ref=e572]:
+                              - generic [ref=e573]: Spain (Remote)
+                      - list [ref=e574]:
+                        - listitem [ref=e575]:
+                          - time [ref=e576]:
+                            - text: 20 minutes ago
+                            - generic [ref=e577]: Within the past 24 hours
+                        - listitem [ref=e578]:
+                          - img [ref=e579]:
+                            - img [ref=e580]
+                          - generic [ref=e582]: Easy Apply
+                    - button "Dismiss Backend Software Engineer job" [ref=e586]:
+                      - img [ref=e588]
+                - listitem [ref=e591]:
+                  - generic [ref=e593] [cursor=pointer]:
+                    - generic [ref=e594]:
+                      - generic [ref=e595]:
+                        - img "Optimissa logo" [ref=e599]
+                        - generic [ref=e600]:
+                          - link "Desarrollador Mid Full Stack (Node.js) with verification" [ref=e602]:
+                            - /url: /jobs/view/4431057945/?eBP=NON_CHARGEABLE_CHANNEL&refId=hvrJteInjLWgzD0%2FLIjA3w%3D%3D&trackingId=ZU%2FRjoTnbW%2FjwdlBhygLHw%3D%3D&trk=flagship3_search_srp_jobs
+                            - generic [ref=e603]:
+                              - strong [ref=e604]: Desarrollador Mid Full Stack (Node.js)
+                              - img [ref=e606]
+                          - generic [ref=e609]: Optimissa
+                          - list [ref=e611]:
+                            - listitem [ref=e612]:
+                              - generic [ref=e613]: Greater Barcelona Metropolitan Area (Hybrid)
+                      - generic [ref=e615]:
+                        - img "Company review time is typically 1 week" [ref=e619]
+                        - generic [ref=e621]: Company review time is typically 1 week
+                      - list [ref=e622]:
+                        - listitem [ref=e623]:
+                          - time [ref=e624]:
+                            - text: 22 minutes ago
+                            - generic [ref=e625]: Within the past 24 hours
+                        - listitem [ref=e626]:
+                          - img [ref=e627]:
+                            - img [ref=e628]
+                          - generic [ref=e630]: Easy Apply
+                    - button "Dismiss Desarrollador Mid Full Stack (Node.js) job" [ref=e634]:
+                      - img [ref=e636]
+                - listitem [ref=e639]:
+                  - generic [ref=e641] [cursor=pointer]:
+                    - generic [ref=e642]:
+                      - generic [ref=e643]:
+                        - img "Randstad Digital España logo" [ref=e647]
+                        - generic [ref=e648]:
+                          - link "It support" [ref=e650]:
+                            - /url: /jobs/view/4434496404/?eBP=NON_CHARGEABLE_CHANNEL&refId=hvrJteInjLWgzD0%2FLIjA3w%3D%3D&trackingId=Mq6JxswQnZrnrMki3e%2BGcQ%3D%3D&trk=flagship3_search_srp_jobs
+                            - strong [ref=e652]: It support
+                          - generic [ref=e654]: Randstad Digital España
+                          - list [ref=e656]:
+                            - listitem [ref=e657]:
+                              - generic [ref=e658]: Barcelona, Catalonia, Spain (Hybrid)
+                      - generic [ref=e660]:
+                        - img "Company review time is typically 1 week" [ref=e664]
+                        - generic [ref=e666]: Company review time is typically 1 week
+                      - list [ref=e667]:
+                        - listitem [ref=e668]:
+                          - time [ref=e669]:
+                            - text: 31 minutes ago
+                            - generic [ref=e670]: Within the past 24 hours
+                        - listitem [ref=e671]:
+                          - img [ref=e672]:
+                            - img [ref=e673]
+                          - generic [ref=e675]: Easy Apply
+                    - button "Dismiss It support job" [ref=e679]:
+                      - img [ref=e681]
+                - listitem [ref=e684]:
+                  - generic [ref=e686] [cursor=pointer]:
+                    - generic [ref=e687]:
+                      - generic [ref=e688]:
+                        - img "Set2Recruit logo" [ref=e692]
+                        - generic [ref=e693]:
+                          - link "Software Developer Simulation" [ref=e695]:
+                            - /url: /jobs/view/4431523180/?eBP=NON_CHARGEABLE_CHANNEL&refId=hvrJteInjLWgzD0%2FLIjA3w%3D%3D&trackingId=D7PWamSK2CgEwb8PflFALw%3D%3D&trk=flagship3_search_srp_jobs
+                            - strong [ref=e697]: Software Developer Simulation
+                          - generic [ref=e699]: Set2Recruit
+                          - list [ref=e701]:
+                            - listitem [ref=e702]:
+                              - generic [ref=e703]: European Union (Remote)
+                      - generic [ref=e705]:
+                        - img "Company review time is typically 1 week" [ref=e709]
+                        - generic [ref=e711]: Company review time is typically 1 week
+                      - list [ref=e712]:
+                        - listitem [ref=e713]:
+                          - time [ref=e714]:
+                            - text: 31 minutes ago
+                            - generic [ref=e715]: Within the past 24 hours
+                        - listitem [ref=e716]:
+                          - img [ref=e717]:
+                            - img [ref=e718]
+                          - generic [ref=e720]: Easy Apply
+                    - button "Dismiss Software Developer Simulation job" [ref=e724]:
+                      - img [ref=e726]
+                - listitem [ref=e729]:
+                  - generic [ref=e731] [cursor=pointer]:
+                    - generic [ref=e732]:
+                      - generic [ref=e733]:
+                        - img "Paradigma Digital logo" [ref=e737]
+                        - generic [ref=e738]:
+                          - link "Senior Data Engineer with verification" [ref=e740]:
+                            - /url: /jobs/view/4434495450/?eBP=NON_CHARGEABLE_CHANNEL&refId=hvrJteInjLWgzD0%2FLIjA3w%3D%3D&trackingId=y9l3%2FhCDqeBcwhVrNmbGYg%3D%3D&trk=flagship3_search_srp_jobs
+                            - generic [ref=e741]:
+                              - strong [ref=e742]: Senior Data Engineer
+                              - img [ref=e744]
+                          - generic [ref=e747]: Paradigma Digital
+                          - list [ref=e749]:
+                            - listitem [ref=e750]:
+                              - generic [ref=e751]: Spain (Remote)
+                      - generic [ref=e758]: 4 school alumni work here
+                      - list [ref=e759]:
+                        - listitem [ref=e760]:
+                          - time [ref=e761]:
+                            - text: 33 minutes ago
+                            - generic [ref=e762]: Within the past 24 hours
+                        - listitem [ref=e763]:
+                          - img [ref=e764]:
+                            - img [ref=e765]
+                          - generic [ref=e767]: Easy Apply
+                    - button "Dismiss Senior Data Engineer job" [ref=e771]:
+                      - img [ref=e773]
+                - listitem [ref=e776]:
+                  - generic [ref=e778] [cursor=pointer]:
+                    - generic [ref=e779]:
+                      - generic [ref=e780]:
+                        - img "Neuron IP logo" [ref=e784]
+                        - generic [ref=e785]:
+                          - link "Digital ASIC Engineer (Design, Verif, PNR, FW)" [ref=e787]:
+                            - /url: /jobs/view/4434125440/?eBP=NON_CHARGEABLE_CHANNEL&refId=hvrJteInjLWgzD0%2FLIjA3w%3D%3D&trackingId=PNhSWLyseo1xw7EvMkYcjQ%3D%3D&trk=flagship3_search_srp_jobs
+                            - strong [ref=e789]: Digital ASIC Engineer (Design, Verif, PNR, FW)
+                          - generic [ref=e791]: Neuron IP
+                          - list [ref=e793]:
+                            - listitem [ref=e794]:
+                              - generic [ref=e795]: Barcelona, Catalonia, Spain (Hybrid)
+                      - generic [ref=e797]:
+                        - img "Company review time is typically 1 week" [ref=e801]
+                        - generic [ref=e803]: Company review time is typically 1 week
+                      - list [ref=e804]:
+                        - listitem [ref=e805]:
+                          - time [ref=e806]:
+                            - text: 35 minutes ago
+                            - generic [ref=e807]: Within the past 24 hours
+                        - listitem [ref=e808]:
+                          - img [ref=e809]:
+                            - img [ref=e810]
+                          - generic [ref=e812]: Easy Apply
+                    - button "Dismiss Digital ASIC Engineer (Design, Verif, PNR, FW) job" [ref=e816]:
+                      - img [ref=e818]
+                - listitem [ref=e821]
+                - listitem [ref=e822]
+                - listitem [ref=e823]
+                - listitem [ref=e824]
+                - listitem [ref=e825]
+                - listitem [ref=e826]
+                - listitem [ref=e827]
+                - listitem [ref=e828]
+                - listitem [ref=e829]
+                - listitem [ref=e830]
+                - listitem [ref=e831]
+                - listitem [ref=e832]
+                - listitem [ref=e833]
+                - listitem [ref=e834]
+                - listitem [ref=e835]
+                - listitem [ref=e836]
+                - listitem [ref=e837]
+                - listitem [ref=e838]
+              - generic [ref=e841]:
+                - generic [ref=e842]:
+                  - heading "Are these results helpful?" [level=2] [ref=e843]
+                  - paragraph [ref=e844]: Your feedback helps us improve search results.
+                - generic [ref=e845]:
+                  - button "Are you finding what you’re looking for? No" [ref=e846] [cursor=pointer]:
+                    - img [ref=e847]
+                    - generic [ref=e849]: Are you finding what you’re looking for? No
+                  - button "Are you finding what you’re looking for? Yes" [ref=e850] [cursor=pointer]:
+                    - img [ref=e851]
+                    - generic [ref=e853]: Are you finding what you’re looking for? Yes
+              - generic [ref=e325]:
+                - generic [ref=e326]:
+                  - list [ref=e328]:
+                    - listitem [ref=e854]:
+                      - button "Page 1" [ref=e855] [cursor=pointer]: "1"
+                    - listitem [ref=e856]:
+                      - button "Page 2" [ref=e857] [cursor=pointer]: "2"
+                    - listitem [ref=e858]:
+                      - button "Page 3" [ref=e859] [cursor=pointer]: "3"
+                    - listitem [ref=e860]:
+                      - button "Page 4" [ref=e861] [cursor=pointer]: …
+                  - button "View next page" [ref=e862] [cursor=pointer]:
+                    - img [ref=e863]
+                    - generic [ref=e865]: Next
+                - generic "LinkedIn Footer Content" [ref=e332]
+          - generic "Queue Lead" [ref=e336]:
+            - generic [ref=e340]:
+              - generic [ref=e344]:
+                - generic [ref=e345]:
+                  - generic [ref=e346]:
+                    - link "83zero logo" [ref=e866] [cursor=pointer]:
+                      - /url: https://www.linkedin.com/company/83zero-ltd/life
+                      - img "83zero logo" [ref=e869]
+                    - link "83zero" [ref=e871] [cursor=pointer]:
+                      - /url: https://www.linkedin.com/company/83zero-ltd/life
+                  - generic [ref=e347]:
+                    - button "Share" [ref=e350] [cursor=pointer]:
+                      - img [ref=e351]
+                      - generic [ref=e353]: Share
+                    - button "Show more options" [ref=e355] [cursor=pointer]:
+                      - img [ref=e356]
+                      - generic [ref=e358]: Show more options
+                - heading "Queue Lead" [level=1] [ref=e361]:
+                  - link "Queue Lead" [ref=e362] [cursor=pointer]:
+                    - /url: /jobs/view/4431522281/?alternateChannel=search&eBP=NON_CHARGEABLE_CHANNEL&refId=hvrJteInjLWgzD0%2FLIjA3w%3D%3D&trackingId=2kEMjBSo4aPFcLwJdI9NOA%3D%3D&trk=d_flagship3_search_srp_jobs
+                - generic [ref=e873]:
+                  - generic [ref=e874]: Spain
+                  - generic [ref=e875]: ·
+                  - strong [ref=e877]:
+                    - generic [ref=e878]: 16 minutes ago
+                  - generic [ref=e879]: ·
+                  - generic [ref=e880]: 4 applicants
+                  - paragraph [ref=e881]:
+                    - generic [ref=e882]: Promoted by hirer
+                    - generic [ref=e883]: ·
+                    - strong [ref=e885]: Company review time is typically 1 week
+                - generic [ref=e886]:
+                  - button "Remote" [ref=e887] [cursor=pointer]:
+                    - strong [ref=e889]: Remote
+                  - button "Full-time" [ref=e890] [cursor=pointer]:
+                    - strong [ref=e892]: Full-time
+                  - button "0 of 10 skills match" [ref=e893] [cursor=pointer]:
+                    - strong [ref=e896]:
+                      - img [ref=e897]
+                      - text: 0 of 10 skills match
+                - generic [ref=e900]:
+                  - button "Easy Apply to Queue Lead at 83zero" [ref=e903] [cursor=pointer]:
+                    - img [ref=e904]
+                    - generic [ref=e906]: Easy Apply
+                  - button "Save Queue Lead at 83zero" [ref=e907] [cursor=pointer]:
+                    - generic [ref=e908]: Save
+                    - generic [ref=e909]: Save Queue Lead at 83zero
+              - generic [ref=e914]:
+                - heading "See how you compare to 4 applicants" [level=3] [ref=e915]
+                - paragraph [ref=e916]: Access exclusive applicant insights, see jobs where you have the highest chance of hearing back, and more.
+                - link "Try Premium for €0" [ref=e917] [cursor=pointer]:
+                  - /url: http://www.linkedin.com/premium/products/?upsellOrderOrigin=Tracking%3Av1%3Apremium_job_details_summary_card%3AJob+Seeker%3AIn-Product&utype=job&referenceId=0e1z9SjJQrCMKW1FwivraA%3D%3D&isSS=false&upsellSlotId=JOB_DETAILS_SUMMARY_CARD&destRedirectURL=https%3A%2F%2Fwww.linkedin.com%2Fjobs%2Fsearch%2F%3FcurrentJobId%3D4431522281%26f_AL%3Dtrue%26f_TPR%3Dr604800%26keywords%3DQA%2520Engineer%26location%3DBarcelona%252C%2520Catalonia%252C%2520Spain%26sortBy%3DDD
+                  - generic [ref=e918]:
+                    - img [ref=e919]
+                    - generic [ref=e921]: Try Premium for €0
+              - generic [ref=e922]:
+                - heading "Meet the hiring team" [level=2] [ref=e923]
+                - generic [ref=e925]:
+                  - link "View Katie Wallace’s verified profile graphic" [ref=e926] [cursor=pointer]:
+                    - /url: https://www.linkedin.com/in/kwusurpo
+                    - img "Katie Wallace" [ref=e929]
+                  - generic [ref=e930]:
+                    - link "View Katie Wallace’s verified profile" [ref=e931] [cursor=pointer]:
+                      - /url: https://www.linkedin.com/in/kwusurpo
+                      - generic [ref=e932]:
+                        - strong [ref=e933]: Katie Wallace
+                        - img [ref=e935]
+                    - generic [ref=e939]: 3rd
+                    - generic [ref=e940]:
+                      - generic [ref=e941]: Delivery Consultant Specialising in Strategic Talent Placement and Career Advancement
+                      - generic [ref=e942]: Job poster
+                  - button "Message" [ref=e944] [cursor=pointer]:
+                    - generic [ref=e945]: Message
+              - article [ref=e375]:
+                - generic [ref=e377]:
+                  - heading "About the job" [level=2] [ref=e378]
+                  - paragraph [ref=e947]:
+                    - paragraph [ref=e949]:
+                      - strong [ref=e951]: Queue Lead – Spain (12-Month Initial Fixed-Term Contract)
+                    - paragraph [ref=e953]:
+                      - strong [ref=e955]: "Location:"
+                      - text: Spain (Fully Remote)
+                    - paragraph [ref=e957]:
+                      - strong [ref=e959]: "Salary:"
+                      - text: €40,000 - €48,000 per annum
+                    - paragraph [ref=e961]
+                    - paragraph [ref=e963]:
+                      - strong [ref=e965]: Company Overview
+                    - paragraph [ref=e967]: 83zero is recruiting on behalf of an innovative global technology organisation that develops market-leading cloud security solutions. This is an exciting opportunity to join a high-performing international support team, working alongside colleagues across Europe and beyond.
+                    - paragraph [ref=e969]
+                    - paragraph [ref=e971]:
+                      - strong [ref=e973]: Role Overview
+                    - paragraph [ref=e975]: We are looking for a proactive Queue Lead to join on an initial 12-month fixed-term contract (with a strong possibility of extension), supporting the day-to-day operations of a global Cloud Security Technical Support organisation.
+                    - paragraph [ref=e977]: As the Queue Lead, you will be responsible for ensuring the smooth flow of support cases across the business, preventing bottlenecks, managing case routing, and ensuring work is prioritised effectively to meet service level agreements. You'll act as the central point of coordination between multiple internal teams, helping to keep support operations running efficiently across global regions.
+                    - paragraph [ref=e979]
+                    - paragraph [ref=e981]: This is a fast-paced, highly collaborative role that requires excellent organisational skills, strong time management, and the confidence to communicate with a wide range of stakeholders throughout the day. You will need to be proactive, detail-oriented, and comfortable taking ownership to ensure support cases continue moving through the queue without delays.
+                    - paragraph [ref=e983]
+                    - paragraph [ref=e985]:
+                      - strong [ref=e987]: Key Responsibilities
+                    - list [ref=e989]:
+                      - listitem [ref=e990]: Manage the day-to-day support queues for a portfolio of cloud security products, ensuring cases progress without delays or operational blockers.
+                      - listitem [ref=e991]: Monitor, prioritise, assign, and route support cases in line with SLA targets.
+                      - listitem [ref=e992]: Coordinate queue management activities, including case routing, ownership validation, First Time Support (FTS), reopen handling, and queue hygiene.
+                      - listitem [ref=e993]: Identify and resolve duplicate, missing, or misrouted cases.
+                      - listitem [ref=e994]: Work closely with Technical Support, Engineering, Customer Success, and Account teams across multiple regions, including Spain, Israel, Poland, and India.
+                      - listitem [ref=e995]: Act as a key point of coordination to remove operational blockers and maintain efficient support workflows.
+                      - listitem [ref=e996]: Produce operational reports and support continuous process improvement using Salesforce.
+                      - listitem [ref=e997]: Help maintain high service standards by ensuring support teams have visibility of workloads, priorities, and case ownership.
+                    - paragraph [ref=e999]
+                    - paragraph [ref=e1001]:
+                      - strong [ref=e1003]: Qualifications & Experience
+                    - list [ref=e1005]:
+                      - listitem [ref=e1006]: Fluent English is essential.
+                      - listitem [ref=e1007]: Must be based in Spain and able to work fully remotely.
+                      - listitem [ref=e1008]: 2–3 years' experience within Technical Support Operations, Queue Management, Service Delivery, or a similar customer support environment.
+                      - listitem [ref=e1009]: Strong experience using Salesforce (SFDC) is essential.
+                      - listitem [ref=e1010]: Experience with Jira is highly desirable.
+                      - listitem [ref=e1011]: Excellent understanding of support operations, case routing, and SLA management.
+                      - listitem [ref=e1012]: Outstanding organisational and time management skills with the ability to prioritise multiple tasks in a fast-moving environment.
+                      - listitem [ref=e1013]: Strong communication skills and the confidence to work with stakeholders across different teams, functions, and global regions.
+                      - listitem [ref=e1014]: A proactive and assertive approach, with the ability to take ownership, solve problems, and keep work progressing.
+                      - listitem [ref=e1015]: Experience supporting enterprise software, cloud technologies, cloud security products, or cybersecurity environments would be advantageous.
+                    - paragraph [ref=e1017]
+                    - paragraph [ref=e1019]:
+                      - strong [ref=e1021]: Why Apply?
+                    - paragraph [ref=e1023]: This is an excellent opportunity to join a global technology organisation developing market-leading cloud security solutions. Working fully remotely from Spain, you'll become part of an international support function where you'll play a critical role in keeping technical support operations running efficiently. If you enjoy solving problems, coordinating teams, and making a real impact within a fast-paced global environment, we'd love to hear from you.
+              - generic [ref=e1029]:
+                - heading "Job search faster with Premium" [level=3] [ref=e1030]
+                - paragraph [ref=e1031]: Access company insights like strategic priorities, headcount trends, and more
+                - generic [ref=e1032]:
+                  - list [ref=e1034]:
+                    - listitem [ref=e1035]
+                    - listitem [ref=e1037]
+                    - listitem [ref=e1039]
+                  - paragraph [ref=e1041]: Carlos Sneyder and millions of other members use Premium
+                - link "Try Premium for €0" [ref=e1042] [cursor=pointer]:
+                  - /url: http://www.linkedin.com/premium/products/?upsellOrderOrigin=Tracking%3Av1%3Apremium_job_details_how_you_match_upsell%3AJob+Seeker%3AIn-Product&utype=job&referenceId=iuSX8yceQYqwFNDomeCMfA%3D%3D&isSS=false&upsellSlotId=JOB_DETAILS_HOW_YOU_MATCH&destRedirectURL=https%3A%2F%2Fwww.linkedin.com%2Fjobs%2Fsearch%2F%3FcurrentJobId%3D4431522281%26f_AL%3Dtrue%26f_TPR%3Dr604800%26keywords%3DQA%2520Engineer%26location%3DBarcelona%252C%2520Catalonia%252C%2520Spain%26sortBy%3DDD
+                - paragraph [ref=e1043]: 1-month free trial. Easy to cancel. We’ll remind you 7 days before your trial ends.
+              - generic [ref=e1045]:
+                - generic [ref=e1046]:
+                  - heading "About the company" [level=2] [ref=e1047]
+                  - generic [ref=e1048]:
+                    - generic [ref=e1049]:
+                      - link "83zero company logo" [ref=e1051] [cursor=pointer]:
+                        - /url: /company/83zero-ltd/life/
+                        - img "83zero company logo" [ref=e1052]
+                      - generic [ref=e1053]:
+                        - link "83zero" [ref=e1055] [cursor=pointer]:
+                          - /url: /company/83zero-ltd/life/
+                        - generic [ref=e1056]: 135,168 followers
+                    - button "Follow" [ref=e1057] [cursor=pointer]:
+                      - img [ref=e1058]
+                      - generic [ref=e1060]: Follow
+                  - generic [ref=e1061]:
+                    - text: Staffing and Recruiting
+                    - generic [ref=e1062]: • 11-50 employees
+                    - generic [ref=e1063]: • 42 on LinkedIn
+                  - paragraph [ref=e1064]:
+                    - generic [ref=e1065]:
+                      - text: 83zero Ltd – IT Recruitment Specialists
+                      - text: With 30 years combined recruitment experience, 83zero Ltd offers a consultative approach delivering a trusted partnership to both our clients and candidates.
+                      - text: We specialise within the contract and interim recruitment market, providing a timely and cost-effective IT contract solution tailored to your needs. What sets us apart is our ability to find the right person in the tightest of deadlines. We also have extensive experience in partnering with our clients providing the best permanent talent through our established network. Our proven search and selection methodology means we secure the best talent for you.
+                      - text: "Everyone, and we make no distinction between client and candidate, can expect the same of 83zero: open communication, discretion, knowledge, opinion and, above all, honesty."
+                      - text: "You'll be pleasantly surprised by our down-to-earth, pragmatic and honest assessment of what we do: we find the most suitable and relevant opportunities for the most highly qualified and experienced individuals providing a customised solution to our client needs and we've done it for years. Successfully."
+                      - generic [ref=e1066]:
+                        - generic [ref=e1067]: …
+                        - button "show more" [ref=e1068] [cursor=pointer]
+                  - generic [ref=e1072]:
+                    - heading "Interested in working with us in the future?" [level=3] [ref=e1073]
+                    - paragraph [ref=e1074]:
+                      - generic [ref=e1075]:
+                        - text: Members who share that they’re interested in a company may be 2x as likely to get a message from a recruiter than those who don’t.
+                        - link "Learn more about Interested in working for our company" [ref=e1076] [cursor=pointer]:
+                          - /url: https://www.linkedin.com/help/linkedin/answer/a1380509
+                          - text: Learn more
+                    - button "I’m interested" [ref=e1077] [cursor=pointer]:
+                      - generic [ref=e1078]: I’m interested
+                - link "Show more about the company" [ref=e1080] [cursor=pointer]:
+                  - /url: /company/83zero-ltd/life/
+                  - text: Show more
+    - generic:
+      - generic:
+        - complementary:
+          - generic [ref=e427]:
+            - generic [ref=e429] [cursor=pointer]:
+              - generic [ref=e430]:
+                - img "Brisa Elvira Lazaro Campos" [ref=e431]
+                - generic [ref=e1082]: Status is online
+              - button "You are on the messaging overlay. Press enter to open the list of conversations." [ref=e432]:
+                - generic [ref=e433]:
+                  - generic [ref=e434]: Messaging
+                  - generic [ref=e435]: You are on the messaging overlay. Press enter to open the list of conversations.
+            - generic [ref=e436]:
+              - button "Open messenger dropdown menu" [ref=e438] [cursor=pointer]:
+                - img "Open messenger dropdown menu" [ref=e439]
+              - button "Compose message" [ref=e442] [cursor=pointer]:
+                - img [ref=e443]
+                - generic [ref=e445]: Compose message
+              - button "You are on the messaging overlay. Press enter to open the list of conversations." [ref=e446] [cursor=pointer]:
+                - img [ref=e447]
+                - generic [ref=e449]: You are on the messaging overlay. Press enter to open the list of conversations.
+        - complementary "AI-powered assistant to get help with your career, jobs etc"
+  - region [ref=e450]

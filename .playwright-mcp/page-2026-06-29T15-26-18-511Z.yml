@@ -1,0 +1,158 @@
+- generic [ref=e2]:
+  - heading "0 notifications" [level=2] [ref=e3]
+  - generic [ref=e4]:
+    - generic:
+      - generic "Skip navigation menu":
+        - button "Close jump menu" [ref=e6] [cursor=pointer]
+    - generic [ref=e9]:
+      - banner [ref=e11]:
+        - generic [ref=e14]:
+          - button [ref=e15] [cursor=pointer]
+          - generic [ref=e18]:
+            - navigation [ref=e22]:
+              - list [ref=e23]:
+                - listitem [ref=e24]:
+                  - button "Home, 1 new notification" [ref=e25] [cursor=pointer]:
+                    - img [ref=e27]
+                    - generic [ref=e30]: Home
+                - listitem [ref=e31]:
+                  - link "My Network, 0 new notifications" [ref=e32] [cursor=pointer]:
+                    - /url: https://www.linkedin.com/mynetwork
+                    - img [ref=e34]
+                    - generic [ref=e37]: My Network
+                - listitem [ref=e38]:
+                  - link "Jobs, 0 new notifications" [ref=e39] [cursor=pointer]:
+                    - /url: https://www.linkedin.com/jobs/
+                    - img [ref=e41]
+                    - generic [ref=e44]: Jobs
+                - listitem [ref=e45]:
+                  - link "Messaging, 0 new notifications" [ref=e46] [cursor=pointer]:
+                    - /url: https://www.linkedin.com/messaging/
+                    - img [ref=e48]
+                    - generic [ref=e51]: Messaging
+                - listitem [ref=e52]:
+                  - link "Notifications, 0 new notifications" [ref=e53] [cursor=pointer]:
+                    - /url: https://www.linkedin.com/notifications/
+                    - img [ref=e55]
+                    - generic [ref=e58]: Notifications
+                - listitem [ref=e59]:
+                  - button "Me" [ref=e60] [cursor=pointer]:
+                    - figure [ref=e62]
+                    - generic [ref=e64]: Me
+            - generic [ref=e67]:
+              - navigation [ref=e68]:
+                - list [ref=e69]:
+                  - listitem [ref=e70]:
+                    - button "For Business" [ref=e71] [cursor=pointer]:
+                      - img [ref=e73]
+                      - generic [ref=e76]: For Business
+              - link "Get hired for €0" [ref=e79] [cursor=pointer]:
+                - /url: https://www.linkedin.com/
+                - paragraph [ref=e83]: Get hired for €0
+      - main [ref=e86]:
+        - generic [ref=e88]:
+          - complementary "Sidebar" [ref=e89]:
+            - generic [ref=e92]:
+              - generic [ref=e96]:
+                - link [ref=e97] [cursor=pointer]:
+                  - /url: https://www.linkedin.com/in/brisa-lazaro/
+                  - generic [ref=e98]:
+                    - figure [ref=e100]
+                    - figure [ref=e102]:
+                      - img "Brisa Elvira Lazaro Campos" [ref=e103]
+                - link "Brisa Elvira Lazaro Campos Frontend Developer → QA Engineer | Test Automation | Quality Enthusiast Granollers, Catalonia" [ref=e105] [cursor=pointer]:
+                  - /url: https://www.linkedin.com/in/brisa-lazaro/
+                  - generic [ref=e106]:
+                    - paragraph [ref=e109]: Brisa Elvira Lazaro Campos
+                    - paragraph [ref=e111]: Frontend Developer → QA Engineer | Test Automation | Quality Enthusiast
+                    - paragraph [ref=e112]: Granollers, Catalonia
+              - generic [ref=e113]:
+                - navigation [ref=e114]:
+                  - list [ref=e115]:
+                    - listitem [ref=e116]:
+                      - link "Preferences" [ref=e117] [cursor=pointer]:
+                        - /url: https://www.linkedin.com/jobs/preferences/?viewType=SEEKING_PREFERENCES
+                        - generic [ref=e121]: Preferences
+                    - listitem [ref=e122]:
+                      - link "Job tracker" [ref=e123] [cursor=pointer]:
+                        - /url: https://www.linkedin.com/jobs-tracker/
+                        - generic [ref=e127]: Job tracker
+                    - listitem [ref=e128]:
+                      - link "My Career Insights" [ref=e129] [cursor=pointer]:
+                        - /url: https://www.linkedin.com/explore-career-insights/?job_title=3172&location=100999116
+                        - generic [ref=e133]: My Career Insights
+                - navigation [ref=e134]:
+                  - list [ref=e135]:
+                    - listitem [ref=e136]:
+                      - link "Post a free job" [ref=e137] [cursor=pointer]:
+                        - /url: https://www.linkedin.com/talent/job-posting-redirect/?trk=flagship3_job_home
+                        - generic [ref=e141]: Post a free job
+              - generic [ref=e143]:
+                - generic [ref=e144]:
+                  - link "About" [ref=e145] [cursor=pointer]:
+                    - /url: https://about.linkedin.com/
+                    - paragraph [ref=e146]: About
+                  - link "Accessibility" [ref=e147] [cursor=pointer]:
+                    - /url: https://www.linkedin.com/accessibility/
+                    - paragraph [ref=e148]: Accessibility
+                  - link "Help Center" [ref=e149] [cursor=pointer]:
+                    - /url: https://www.linkedin.com/help/linkedin/
+                    - paragraph [ref=e150]: Help Center
+                  - button "Privacy & Terms" [ref=e151] [cursor=pointer]:
+                    - paragraph [ref=e153]: Privacy & Terms
+                  - link "Ad Choices" [ref=e155] [cursor=pointer]:
+                    - /url: https://www.linkedin.com/help/linkedin/answer/62931/
+                    - paragraph [ref=e156]: Ad Choices
+                  - link "Advertising" [ref=e157] [cursor=pointer]:
+                    - /url: https://www.linkedin.com/ad/start/?trk=n_nav_ads_rr
+                    - paragraph [ref=e158]: Advertising
+                  - button "Business Services" [ref=e159] [cursor=pointer]:
+                    - paragraph [ref=e161]: Business Services
+                  - link "Get the LinkedIn app" [ref=e163] [cursor=pointer]:
+                    - /url: https://www.linkedin.com/mobile/
+                    - paragraph [ref=e164]: Get the LinkedIn app
+                  - link "More" [ref=e165] [cursor=pointer]:
+                    - /url: https://www.linkedin.com/
+                    - paragraph [ref=e166]: More
+                - paragraph [ref=e169]: LinkedIn Corporation © 2026
+          - region "Primary content" [ref=e170]:
+            - generic [ref=e171]:
+              - generic [ref=e173]:
+                - generic [ref=e176]:
+                  - heading "Top job picks for you" [level=2] [ref=e177]
+                  - paragraph [ref=e179]: Based on your profile, preferences, and activity like applies, searches, and saves
+                - generic [ref=e180]:
+                  - link "More options" [ref=e182] [cursor=pointer]:
+                    - /url: https://www.linkedin.com/jobs/collections/recommended/?trackingId=aIVW5i0RgwKwPC9P%2FIiMPA%3D%3D&currentJobId=4428949469&refId=6zHFfox0Vm092XDKcy32lg%3D%3D&eBP=CwEAAAGfE_0JD8oObE4Yb2E71TwhNhsQGbVneISGeTHRnrv4uzd-hrIVwlfuPgB7lMsRzsMncmr-BKG7BKNLqpMiKPFhEk2IuEdOqxMEIppjEaJdWgEPsn5pA8JjhT1OGxgm9yAy0khYhZe355S1-IXFQ_VNcYByBmeJmgj7ZVN0hFg4cTG76WJ--_Syv87xFI8uBL3E78Rj2NGDZ9uQgTF0Q_ILqKGA2SHq6aDxpJD8VQv_PXqnXL7EV7uFwpy6Dx3RqcktNGJtbSiszvmHC7qniIp3bPMHNwhLcX2I30WCW_ApMJuIqQ1u5gcsYLQ-17mSNit1AE921YGeGfXyTi1He-M5asY0kTw3D1LozY8zyXpeKFMVozo8Xn8w1m7eD1x2noATCwPxsaDrJcTUxN2rghp5BJrYzNRM5mOH5sDFH4505AOn68Otd1gL_1uZC-iNJ0kl_8oJOUWDfwulv-MnA45dsnnuij1sazmb
+                    - button "More options" [ref=e188]
+                  - link "More options" [ref=e192] [cursor=pointer]:
+                    - /url: https://www.linkedin.com/jobs/collections/recommended/?trackingId=77iwae%2BUGwV7yB%2FS6ZJCgg%3D%3D&currentJobId=4428553789&refId=6zHFfox0Vm092XDKcy32lg%3D%3D&eBP=CwEAAAGfE_0JEJ-T33alHwoVv7cu2g8YhWZcmygOcId4TI4-SxWRsDuhTtVKR2IeU0FVsiDdlkTJujsbagZ9Tjby8Q-a19sfWomyX6E38kWR1SCzA88wiLBDw6AWO5r73T-bIPgfEtO5dN2tstvBmERAsA9AT_xOU2uMaAvYXK-DLM0cqTg4XZVUgjf-FLPFW0SSmyg3SLCkbZJ3sNhVBzpMDhWXJxqbIpoIb0OaWd4apVxnDKosfxk6Bq_gZABL8pEgzOJL-eDupjmUKJU8abTutzzZxBvYobcZdc5mkcoDzJO0yZhQtqg4ZN59eQDiTLdNZKzLOGpWP8oSsNvJllIEMbogqx8qEwNZDsCrxZdDRJMbku_o4_cvnq6bhp_9UHa5HEOW8FE_MNn_7R07DcSC2u_v2skA6mtnK1PlsgORgPNbtIJ4YJG5USXs7DU9xh0Uj33UMB1NHdS7c7307hn2RvlSsMJ8
+                    - button "More options" [ref=e198]
+                  - link "More options" [ref=e202] [cursor=pointer]:
+                    - /url: https://www.linkedin.com/jobs/collections/recommended/?trackingId=qSnaG75hkkQXV0lw6cLe%2FQ%3D%3D&currentJobId=4428864211&refId=6zHFfox0Vm092XDKcy32lg%3D%3D&eBP=CwEAAAGfE_0JECoIh0OeSu7iO2HuHbQZuXYrKJ539lVkZcmCItFRJ-VT1YDPQX_xs2dwNz6qilTdPpk_xKXG46TEm35sd2zHiwk08lOW97Lp4fsxTpJROc5PrbvOprhIF7YdG8JSpMd7Bh15hV-rg6s_D8dd3LEcMDHMgZQ6E8QkQJJvxWkUwrkSEqo33nZBwWpiOV9aVeAXlNnaXvLoKA4BqB0wph_TRXuXDbj4KdkQtlOfn1_dD9KR7hxXPWoR9Ba-2N4Wsgzz_9mJikVzczZ3A50UeyyR2JfD4BRfIVojbu3NfmrwxeC0mufOU-fcFZBYVx1o7UQSQUmvrMo04msGRWwMmBmgkyiLpWXAMTbS00Gd_paWnjSB6zi_7gPkW427lHRSD-G2IyHZgqw5l-RctqqIPhkvsxrYJKgVp7NfZm2sX3J7wA-OtGj5dKT22p7EXEETmGSFcOUqrSGISoEWvjHn2U8b5YcUcg
+                    - button "More options" [ref=e208]
+                - link "Show all top job picks for you" [ref=e212] [cursor=pointer]:
+                  - /url: https://www.linkedin.com/jobs/collections/recommended/?discover=recommended&discoveryOrigin=JOBS_HOME_JYMBII
+                  - generic [ref=e215]: Show all
+              - generic [ref=e217]:
+                - heading "Explore with job collections" [level=2] [ref=e221]
+                - generic [ref=e222]:
+                  - generic [ref=e223]:
+                    - button [ref=e224] [cursor=pointer]:
+                      - figure [ref=e227]
+                    - button [ref=e228] [cursor=pointer]:
+                      - figure [ref=e231]
+                    - button [ref=e232] [cursor=pointer]:
+                      - figure [ref=e235]
+                    - button [ref=e236] [cursor=pointer]:
+                      - figure [ref=e239]
+                  - generic [ref=e241]:
+                    - link [ref=e243] [cursor=pointer]:
+                      - /url: https://www.linkedin.com/jobs/collections/human-resources/?discover=true&trackingId=J%2FdDWXQfLYilXamjHCUGQA%3D%3D&currentJobId=4434472957&refId=QIZgeLEjS5yZjOdgqYlpzg%3D%3D&eBP=NOT_ELIGIBLE_FOR_CHARGING
+                    - link [ref=e246] [cursor=pointer]:
+                      - /url: https://www.linkedin.com/jobs/collections/human-resources/?discover=true&trackingId=%2FjAKTjd%2BsT%2F5ollk7kkrrQ%3D%3D&currentJobId=4432239570&refId=QIZgeLEjS5yZjOdgqYlpzg%3D%3D&eBP=NOT_ELIGIBLE_FOR_CHARGING
+                - link "Show all available jobs" [ref=e250] [cursor=pointer]:
+                  - /url: https://www.linkedin.com/jobs/collections/human-resources/?discover=true&discoveryOrigin=JOBS_HOME_EXPANDED_JOB_COLLECTIONS&subscriptionOrigin=JOBS_HOME
+                  - generic [ref=e253]: Show all
+              - progressbar "In progress" [ref=e256]
+          - generic "Footer"

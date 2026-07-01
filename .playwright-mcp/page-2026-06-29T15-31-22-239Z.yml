@@ -1,0 +1,271 @@
+- generic [active] [ref=e1]:
+  - generic:
+    - region "Toast message":
+      - heading "0 notifications total" [level=2] [ref=e3]
+      - alert
+  - generic [ref=e6]:
+    - img [ref=e8]
+    - generic [ref=e10]:
+      - heading "LinkedIn respects your privacy" [level=1] [ref=e11]
+      - generic [ref=e12]:
+        - paragraph [ref=e13]:
+          - text: LinkedIn and 3rd parties use essential and non-essential cookies to provide, secure, analyze and improve our Services, and to show you relevant ads (including professional and job ads) on and off LinkedIn. Learn more in our
+          - link "Cookie Policy" [ref=e14] [cursor=pointer]:
+            - /url: https://www.linkedin.com/legal/cookie-policy
+          - text: .
+        - paragraph [ref=e15]:
+          - text: Select Accept to consent or Reject to decline non-essential cookies for this use. You can update your choices at any time in your
+          - link "settings" [ref=e16] [cursor=pointer]:
+            - /url: https://www.linkedin.com/settings/member-cookies
+          - text: .
+      - generic [ref=e17]:
+        - button "Accept" [ref=e18] [cursor=pointer]:
+          - generic [ref=e19]: Accept
+        - button "Reject" [ref=e20] [cursor=pointer]:
+          - generic [ref=e21]: Reject
+  - generic [ref=e22]:
+    - generic [ref=e24]:
+      - button "Skip to search" [ref=e25] [cursor=pointer]:
+        - generic [ref=e26]: Skip to search
+      - button "Skip to main content" [ref=e27] [cursor=pointer]:
+        - generic [ref=e28]: Skip to main content
+      - button "Keyboard shortcuts" [ref=e29] [cursor=pointer]:
+        - generic [ref=e30]: Keyboard shortcuts
+      - button "Close jump menu" [ref=e31] [cursor=pointer]:
+        - img [ref=e32]
+        - generic [ref=e34]: Close jump menu
+    - banner "Global Navigation" [ref=e35]:
+      - generic [ref=e36]:
+        - link "LinkedIn" [ref=e37] [cursor=pointer]:
+          - /url: https://www.linkedin.com/feed/?nis=true
+          - img "LinkedIn" [ref=e40]:
+            - img [ref=e41]
+        - generic [ref=e45]:
+          - generic [ref=e48]:
+            - generic [ref=e49]:
+              - generic [ref=e50]: Search by title, skill, or company
+              - img [ref=e51]
+            - combobox "Search by title, skill, or company" [ref=e53]: QA Tester
+            - textbox [disabled]
+          - generic [ref=e56]:
+            - generic [ref=e57]:
+              - generic [ref=e58]: City, state, or zip code
+              - img [ref=e59]
+            - combobox "City, state, or zip code" [ref=e61]: Catalonia, Spain
+            - textbox [disabled]
+          - button "Search" [ref=e62] [cursor=pointer]
+        - navigation "Primary Navigation" [ref=e63]:
+          - list [ref=e64]:
+            - listitem [ref=e65]:
+              - link "new feed updates notifications Home" [ref=e66] [cursor=pointer]:
+                - /url: https://www.linkedin.com/feed/?nis=true&
+                - generic [ref=e67]:
+                  - generic [ref=e70]: new feed updates notifications
+                  - img [ref=e74]
+                - generic "Home" [ref=e76]
+            - listitem [ref=e77]:
+              - link "My Network" [ref=e78] [cursor=pointer]:
+                - /url: https://www.linkedin.com/mynetwork/?
+                - img [ref=e82]
+                - generic "My Network" [ref=e84]
+            - listitem [ref=e85]:
+              - link "Jobs" [ref=e86] [cursor=pointer]:
+                - /url: https://www.linkedin.com/jobs/?
+                - img [ref=e90]
+                - generic "Jobs" [ref=e92]
+            - listitem [ref=e93]:
+              - link "Messaging" [ref=e94] [cursor=pointer]:
+                - /url: https://www.linkedin.com/messaging/?
+                - img [ref=e98]
+                - generic "Messaging" [ref=e100]
+            - listitem [ref=e101]:
+              - link "Notifications" [ref=e102] [cursor=pointer]:
+                - /url: https://www.linkedin.com/notifications/?
+                - img [ref=e106]
+                - generic "Notifications" [ref=e108]
+            - listitem [ref=e109]:
+              - button "Brisa Elvira Lazaro Campos Me" [ref=e111] [cursor=pointer]:
+                - img "Brisa Elvira Lazaro Campos" [ref=e112]
+                - generic [ref=e113]:
+                  - text: Me
+                  - img [ref=e114]
+            - listitem [ref=e116]:
+              - button "For Business" [ref=e118] [cursor=pointer]:
+                - img [ref=e122]
+                - generic "For Business" [ref=e124]:
+                  - text: For Business
+                  - img [ref=e125]
+            - listitem [ref=e127]:
+              - link "Get hired for €0" [ref=e129] [cursor=pointer]:
+                - /url: javascript:void(0)
+                - generic [ref=e130]:
+                  - img [ref=e131]
+                  - generic [ref=e133]: Get hired for €0
+    - generic [ref=e135]:
+      - region "search filters" [ref=e138]:
+        - heading "Jobs search" [level=2] [ref=e139]
+      - main [ref=e150]:
+        - generic [ref=e152]:
+          - generic [ref=e153]:
+            - generic [ref=e154]:
+              - generic [ref=e155]:
+                - generic "QA Tester in Catalonia, Spain" [ref=e156]
+                - generic [ref=e159]: 300+ results
+              - generic [ref=e162] [cursor=pointer]:
+                - generic [ref=e163]: Set alert
+                - generic [ref=e164]: Set job alert for QA Tester in Catalonia, Spain
+                - switch "Set job alert for QA Tester in Catalonia, Spain"
+            - generic [ref=e165]:
+              - button "Jump to active job details":
+                - generic [ref=e166] [cursor=pointer]: Jump to active job details
+              - button "Jump to active search result":
+                - generic [ref=e167] [cursor=pointer]: Jump to active search result
+              - list [ref=e168]:
+                - listitem [ref=e169]:
+                  - generic [ref=e172] [cursor=pointer]:
+                    - generic [ref=e173]:
+                      - img "Paradigma Digital logo" [ref=e177]
+                      - generic [ref=e178]:
+                        - link "Prompt Engineer with verification" [ref=e180]:
+                          - /url: /jobs/view/4434708065/?trk=flagship3_search_srp_jobs
+                          - generic [ref=e181]:
+                            - strong [ref=e182]: Prompt Engineer
+                            - img [ref=e184]
+                        - generic [ref=e187]: Paradigma Digital
+                        - list [ref=e189]:
+                          - listitem [ref=e190]:
+                            - generic [ref=e191]: Spain (Remote)
+                    - list [ref=e193]:
+                      - listitem [ref=e194]
+                - listitem [ref=e196]:
+                  - generic [ref=e199] [cursor=pointer]:
+                    - generic [ref=e200]:
+                      - img "BCNC GROUP logo" [ref=e204]
+                      - generic [ref=e205]:
+                        - link "Senior Developer Java/Apache Camel (100% Teletrabajo) with verification" [ref=e207]:
+                          - /url: /jobs/view/4413933446/?trk=flagship3_search_srp_jobs
+                          - generic [ref=e208]:
+                            - strong [ref=e209]: Senior Developer Java/Apache Camel (100% Teletrabajo)
+                            - img [ref=e211]
+                        - generic [ref=e214]: BCNC GROUP
+                        - list [ref=e216]:
+                          - listitem [ref=e217]:
+                            - generic [ref=e218]: Spain (Remote)
+                    - list [ref=e220]:
+                      - listitem [ref=e221]
+                - listitem [ref=e223]:
+                  - generic [ref=e226] [cursor=pointer]:
+                    - generic [ref=e227]:
+                      - img "83zero logo" [ref=e231]
+                      - generic [ref=e232]:
+                        - link "Queue Lead" [ref=e234]:
+                          - /url: /jobs/view/4431522281/?trk=flagship3_search_srp_jobs
+                          - strong [ref=e236]: Queue Lead
+                        - generic [ref=e238]: 83zero
+                        - list [ref=e240]:
+                          - listitem [ref=e241]:
+                            - generic [ref=e242]: Spain (Remote)
+                    - list [ref=e244]:
+                      - listitem [ref=e245]
+                - listitem [ref=e247]:
+                  - generic [ref=e250] [cursor=pointer]:
+                    - generic [ref=e251]:
+                      - img "Grupo Muebles La Fábrica logo" [ref=e255]
+                      - generic [ref=e256]:
+                        - link "PARA DEPARTAMENTO ECOMMERCE//WEB BUSCAMOS IMPLEMENTADOR DE PRODUCTO/AGENTE DE SOPORTE" [ref=e258]:
+                          - /url: /jobs/view/4434499406/?trk=flagship3_search_srp_jobs
+                          - strong [ref=e260]: PARA DEPARTAMENTO ECOMMERCE//WEB BUSCAMOS IMPLEMENTADOR DE PRODUCTO/AGENTE DE SOPORTE
+                        - generic [ref=e262]: Grupo Muebles La Fábrica
+                        - list [ref=e264]:
+                          - listitem [ref=e265]:
+                            - generic [ref=e266]: Barcelona, Catalonia, Spain (On-site)
+                    - list [ref=e268]:
+                      - listitem [ref=e269]
+                - listitem [ref=e271]:
+                  - generic [ref=e274] [cursor=pointer]:
+                    - generic [ref=e275]:
+                      - img "Optimissa logo" [ref=e279]
+                      - generic [ref=e280]:
+                        - link "Desarrollador Mid Full Stack (Node.js) with verification" [ref=e282]:
+                          - /url: /jobs/view/4431057945/?trk=flagship3_search_srp_jobs
+                          - generic [ref=e283]:
+                            - strong [ref=e284]: Desarrollador Mid Full Stack (Node.js)
+                            - img [ref=e286]
+                        - generic [ref=e289]: Optimissa
+                        - list [ref=e291]:
+                          - listitem [ref=e292]:
+                            - generic [ref=e293]: Greater Barcelona Metropolitan Area (Hybrid)
+                    - list [ref=e295]:
+                      - listitem [ref=e296]
+                - listitem [ref=e298]:
+                  - generic [ref=e301] [cursor=pointer]:
+                    - generic [ref=e302]:
+                      - img "Randstad Digital España logo" [ref=e306]
+                      - generic [ref=e307]:
+                        - link "Project Manager" [ref=e309]:
+                          - /url: /jobs/view/4431503651/?trk=flagship3_search_srp_jobs
+                          - strong [ref=e311]: Project Manager
+                        - generic [ref=e313]: Randstad Digital España
+                        - list [ref=e315]:
+                          - listitem [ref=e316]:
+                            - generic [ref=e317]: Barcelona, Catalonia, Spain (Hybrid)
+                    - list [ref=e319]:
+                      - listitem [ref=e320]
+                - listitem [ref=e322]:
+                  - generic [ref=e325] [cursor=pointer]:
+                    - generic [ref=e326]:
+                      - img "Set2Recruit logo" [ref=e330]
+                      - generic [ref=e331]:
+                        - link "Software Developer Simulation" [ref=e333]:
+                          - /url: /jobs/view/4431523180/?trk=flagship3_search_srp_jobs
+                          - strong [ref=e335]: Software Developer Simulation
+                        - generic [ref=e337]: Set2Recruit
+                        - list [ref=e339]:
+                          - listitem [ref=e340]:
+                            - generic [ref=e341]: European Union (Remote)
+                    - list [ref=e343]:
+                      - listitem [ref=e344]
+              - generic [ref=e346]:
+                - list [ref=e349]:
+                  - listitem [ref=e350]:
+                    - button "Page 1" [ref=e351] [cursor=pointer]: "1"
+                - generic "LinkedIn Footer Content" [ref=e353]
+          - generic "Prompt Engineer" [ref=e357]:
+            - generic [ref=e361]:
+              - generic [ref=e365]:
+                - generic [ref=e368]:
+                  - button "Share" [ref=e371] [cursor=pointer]:
+                    - img [ref=e372]
+                    - generic [ref=e374]: Share
+                  - button "Show more options" [ref=e376] [cursor=pointer]:
+                    - img [ref=e377]
+                    - generic [ref=e379]: Show more options
+                - heading "Prompt Engineer" [level=1] [ref=e382]:
+                  - link "Prompt Engineer" [ref=e383] [cursor=pointer]:
+                    - /url: /jobs/view/4434708065/?alternateChannel=search&refId=NotAvailable&trackingId=ii30rktmQEqPo6L1kveTlA%3D%3D&trk=d_flagship3_search_srp_jobs
+                - generic:
+                  - list
+              - article [ref=e396]:
+                - heading "About the job" [level=2] [ref=e399]
+              - alert [ref=e434]: Loading job details
+    - generic:
+      - generic:
+        - complementary:
+          - generic [ref=e448]:
+            - generic [ref=e450] [cursor=pointer]:
+              - img "Brisa Elvira Lazaro Campos" [ref=e452]
+              - button "You are on the messaging overlay. Press enter to open the list of conversations." [ref=e453]:
+                - generic [ref=e454]:
+                  - generic [ref=e455]: Messaging
+                  - generic [ref=e456]: You are on the messaging overlay. Press enter to open the list of conversations.
+            - generic [ref=e457]:
+              - button "Open messenger dropdown menu" [ref=e459] [cursor=pointer]:
+                - img "Open messenger dropdown menu" [ref=e460]
+              - button "Compose message" [ref=e463] [cursor=pointer]:
+                - img [ref=e464]
+                - generic [ref=e466]: Compose message
+              - button "You are on the messaging overlay. Press enter to open the list of conversations." [ref=e467] [cursor=pointer]:
+                - img [ref=e468]
+                - generic [ref=e470]: You are on the messaging overlay. Press enter to open the list of conversations.
+        - complementary "AI-powered assistant to get help with your career, jobs etc"
+  - region [ref=e471]

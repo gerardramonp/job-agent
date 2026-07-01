@@ -1,0 +1,183 @@
+- generic [ref=e2]:
+  - heading "0 notificaciones" [level=2] [ref=e3]
+  - generic [ref=e4]:
+    - generic:
+      - generic "Omitir el menú de navegación":
+        - button "Cerrar menú de omisión" [ref=e6] [cursor=pointer]
+    - generic [ref=e9]:
+      - banner [ref=e11]:
+        - generic [ref=e15]:
+          - button [ref=e16] [cursor=pointer]
+          - generic [ref=e18]:
+            - status [ref=e19]
+            - search [ref=e20]:
+              - textbox "Buscar" [ref=e24]
+      - generic [ref=e26]:
+        - toolbar
+        - main [ref=e27]:
+          - generic [ref=e29]:
+            - region "Contenido principal" [ref=e30]:
+              - generic [ref=e33]:
+                - generic [ref=e38]:
+                  - generic [ref=e39]:
+                    - generic [ref=e40]:
+                      - generic [ref=e41]:
+                        - link:
+                          - /url: https://www.linkedin.com/company/itequia/life/
+                        - generic "Empresa, Itequia" [ref=e42]:
+                          - link [ref=e43] [cursor=pointer]:
+                            - /url: https://www.linkedin.com/company/itequia/life/
+                            - figure [ref=e44]
+                          - paragraph [ref=e45]:
+                            - link:
+                              - /url: https://www.linkedin.com/company/itequia/life/
+                            - link "Itequia" [ref=e46] [cursor=pointer]:
+                              - /url: https://www.linkedin.com/company/itequia/life/
+                      - button "Más opciones" [ref=e47] [cursor=pointer]
+                    - paragraph [ref=e52]:
+                      - text: QA Engineer
+                      - link "Empleo verificado" [ref=e53] [cursor=pointer]:
+                        - /url: "#"
+                        - img "Empleo verificado" [ref=e54]
+                    - paragraph [ref=e56]: Barcelona y alrededores · hace 3 días · 29 solicitudes
+                    - paragraph [ref=e58]:
+                      - generic [ref=e59]:
+                        - text: Promocionado por técnico de selección ·
+                        - strong [ref=e60]: Evaluando solicitudes de forma activa
+                  - generic [ref=e61]:
+                    - link "Híbrido" [ref=e63] [cursor=pointer]:
+                      - /url: https://www.linkedin.com/
+                      - generic [ref=e65]: Híbrido
+                    - link "Jornada completa" [ref=e67] [cursor=pointer]:
+                      - /url: https://www.linkedin.com/
+                      - generic [ref=e69]: Jornada completa
+                    - link "0 de 6 aptitudes coinciden" [ref=e70] [cursor=pointer]:
+                      - /url: https://www.linkedin.com/
+                      - generic [ref=e73]: 0 de 6 aptitudes coinciden
+                  - generic [ref=e76]:
+                    - generic [ref=e78]:
+                      - button "Solicitar este empleo en LinkedIn" [ref=e80] [cursor=pointer]:
+                        - generic [ref=e83]: Solicitar
+                      - button "Guardar empleo" [ref=e85] [cursor=pointer]:
+                        - generic [ref=e87]: Guardar
+                    - generic [ref=e90]:
+                      - paragraph [ref=e92]:
+                        - strong [ref=e93]: «Solicitud sencilla» ahora se llama «Solicitud con LinkedIn».
+                        - text: La misma experiencia, con un nombre que refleja el énfasis de LinkedIn en las solicitudes de calidad.
+                      - button "Descartar" [ref=e94] [cursor=pointer]
+                - generic [ref=e97]:
+                  - generic [ref=e103]:
+                    - paragraph [ref=e104]: Mira una comparación con los otros 29 candidatos
+                    - paragraph [ref=e105]: Accede a información exclusiva sobre los candidatos, mira empleos donde tienes más probabilidades de recibir respuesta y mucho más.
+                    - link "Probar Premium por 0 €" [ref=e106] [cursor=pointer]:
+                      - /url: https://www.linkedin.com/premium/products/?upsellOrderOrigin=Tracking%3Av1%3Apremium_job_details_summary_card%3AJob+Seeker%3AIn-Product&utype=job&referenceId=X%2F0JIjVSQgWGRoAGJuB9%2Fg%3D%3D&isSS=false&upsellSlotId=JOB_DETAILS_SUMMARY_CARD
+                      - paragraph [ref=e109]: Probar Premium por 0 €
+                  - progressbar "En curso" [ref=e193]
+            - complementary "Al margen" [ref=e194]:
+              - generic [ref=e197]:
+                - paragraph [ref=e198]: ¿Estás buscando candidatos?
+                - link "Anuncia un empleo" [ref=e199] [cursor=pointer]:
+                  - /url: https://www.linkedin.com/talent/job-posting-redirect/?trk=flagship3_job_detail
+                  - generic [ref=e201]: Anuncia un empleo
+            - generic "Pie de página" [ref=e202]:
+              - generic [ref=e206]:
+                - generic [ref=e207]:
+                  - navigation [ref=e208]:
+                    - link "Acerca de" [ref=e209] [cursor=pointer]:
+                      - /url: https://about.linkedin.com/
+                      - paragraph [ref=e210]: Acerca de
+                    - link "Accesibilidad" [ref=e211] [cursor=pointer]:
+                      - /url: https://www.linkedin.com/accessibility/
+                      - paragraph [ref=e212]: Accesibilidad
+                    - link "Talent Solutions" [ref=e213] [cursor=pointer]:
+                      - /url: https://business.linkedin.com/talent-solutions?trk=flagship_nav&veh=li-footer-lts-control&src=li-footer
+                      - paragraph [ref=e214]: Talent Solutions
+                    - link "Pautas comunitarias" [ref=e215] [cursor=pointer]:
+                      - /url: https://www.linkedin.com/legal/professional-community-policies/
+                      - paragraph [ref=e216]: Pautas comunitarias
+                    - link "Empleo" [ref=e217] [cursor=pointer]:
+                      - /url: https://careers.linkedin.com/
+                      - paragraph [ref=e218]: Empleo
+                    - link "Marketing Solutions" [ref=e219] [cursor=pointer]:
+                      - /url: https://business.linkedin.com/advertise?trk=n_nav_lms_f&src=li-footer
+                      - paragraph [ref=e220]: Marketing Solutions
+                    - button "Privacidad y condiciones" [ref=e221] [cursor=pointer]:
+                      - paragraph [ref=e223]: Privacidad y condiciones
+                    - link "Opciones de publicidad" [ref=e225] [cursor=pointer]:
+                      - /url: https://www.linkedin.com/help/linkedin/answer/62931/
+                      - paragraph [ref=e226]: Opciones de publicidad
+                    - link "Publicidad" [ref=e227] [cursor=pointer]:
+                      - /url: https://www.linkedin.com/ad/start/?trk=n_nav_ads_rr
+                      - paragraph [ref=e228]: Publicidad
+                    - link "Sales Solutions" [ref=e229] [cursor=pointer]:
+                      - /url: https://business.linkedin.com/sales-solutions?trk=flagship_nav&veh=li-footer-lss-control&src=li-footer
+                      - paragraph [ref=e230]: Sales Solutions
+                    - link "Móvil" [ref=e231] [cursor=pointer]:
+                      - /url: https://mobile.linkedin.com/
+                      - paragraph [ref=e232]: Móvil
+                    - link "Pequeñas empresas" [ref=e233] [cursor=pointer]:
+                      - /url: https://business.linkedin.com/grow?src=li-footer
+                      - paragraph [ref=e234]: Pequeñas empresas
+                    - link "Centro de seguridad" [ref=e235] [cursor=pointer]:
+                      - /url: https://safety.linkedin.com/
+                      - paragraph [ref=e236]: Centro de seguridad
+                  - paragraph [ref=e238]: LinkedIn Corporation © 2026
+                - generic [ref=e239]:
+                  - list [ref=e240]:
+                    - listitem [ref=e241]:
+                      - generic [ref=e244]:
+                        - link "¿Tienes preguntas?" [ref=e245] [cursor=pointer]:
+                          - /url: https://www.linkedin.com/help/linkedin/
+                          - paragraph [ref=e246]: ¿Tienes preguntas?
+                        - paragraph [ref=e247]: Visita nuestro Centro de ayuda.
+                    - listitem [ref=e248]:
+                      - generic [ref=e251]:
+                        - link "Gestiona tu cuenta y la privacidad" [ref=e252] [cursor=pointer]:
+                          - /url: https://www.linkedin.com/mypreferences/d/
+                          - paragraph [ref=e253]: Gestiona tu cuenta y la privacidad
+                        - paragraph [ref=e254]: Accede a tu Configuración.
+                    - listitem [ref=e255]:
+                      - generic [ref=e258]:
+                        - link "Transparencia de las recomendaciones" [ref=e259] [cursor=pointer]:
+                          - /url: https://www.linkedin.com/help/linkedin/answer/a1339724/
+                          - paragraph [ref=e260]: Transparencia de las recomendaciones
+                        - paragraph [ref=e261]: Más información sobre el contenido recomendado.
+                  - generic [ref=e263]:
+                    - paragraph [ref=e265]: Seleccionar idioma
+                    - combobox "Seleccionar idioma" [ref=e267] [cursor=pointer]:
+                      - option "العربية (árabe)"
+                      - option "বাংলা (bengalí)"
+                      - option "Čeština (checo)"
+                      - option "Dansk (danés)"
+                      - option "Deutsch (alemán)"
+                      - option "Ελληνικά (griego)"
+                      - option "English (inglés)"
+                      - option "Español" [selected]
+                      - option "لاررل (persa)"
+                      - option "Suomi (finlandés)"
+                      - option "Français (francés)"
+                      - option "हिंदी (hindi)"
+                      - option "Magyar (húngaro)"
+                      - option "Bahasa Indonesia (indonesio)"
+                      - option "Italiano (italiano)"
+                      - option "עברית (hebreo)"
+                      - option "日本語 (japonés)"
+                      - option "한국어 (coreano)"
+                      - option "मराठी (marati)"
+                      - option "Bahasa Malaysia (malayo)"
+                      - option "Nederlands (neerlandés)"
+                      - option "Norsk (noruego)"
+                      - option "ਪੰਜਾਬੀ (punyabí)"
+                      - option "Polski (polaco)"
+                      - option "Português (portugués)"
+                      - option "Română (rumano)"
+                      - option "Русский (ruso)"
+                      - option "Svenska (sueco)"
+                      - option "తెలుగు (telugu)"
+                      - option "ภาษาไทย (tailandés)"
+                      - option "Tagalog (tagalo)"
+                      - option "Türkçe (turco)"
+                      - option "Українська (ucraniano)"
+                      - option "Tiếng Việt (vietnamita)"
+                      - option "简体中文 (chino simplificado)"
+                      - option "正體中文 (chino tradicional)"

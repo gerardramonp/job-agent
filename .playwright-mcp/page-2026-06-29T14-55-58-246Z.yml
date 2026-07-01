@@ -1,0 +1,1089 @@
+- generic [ref=e2]:
+  - heading "0 notificaciones" [level=2] [ref=e268]
+  - dialog "Aplicar a Itequia" [active] [ref=e1186]:
+    - button "Descartar" [ref=e1187] [cursor=pointer]:
+      - img [ref=e1189]
+    - generic [ref=e1191]:
+      - banner [ref=e1192]:
+        - heading "Aplicar a Itequia" [level=2] [ref=e1193]
+      - generic [ref=e1199]:
+        - generic [ref=e1200]:
+          - generic "33 porcentaje completado" [ref=e1201]:
+            - progressbar [ref=e1202]
+          - paragraph [ref=e1203]: 1/3 páginas
+        - generic [ref=e1207]:
+          - paragraph [ref=e1208]: Información de contacto
+          - generic [ref=e1209]:
+            - figure [ref=e1210]:
+              - img [ref=e1211]
+            - generic [ref=e1217]:
+              - paragraph [ref=e1220]: gerard ramonlol3
+              - paragraph [ref=e1222]: Desarrollador de front-end en BikUP App
+              - paragraph [ref=e1223]: Granollers, Cataluña, España
+          - generic [ref=e1224]:
+            - generic [ref=e1226]: Email*
+            - generic [ref=e1227]:
+              - combobox "Email*" [ref=e1228] [cursor=pointer]:
+                - option "gerardramonlol3@gmail.com" [selected]
+              - img
+          - generic [ref=e1229]:
+            - generic [ref=e1230]:
+              - generic [ref=e1232]: Código del país*
+              - generic [ref=e1233]:
+                - combobox "Código del país*" [ref=e1234] [cursor=pointer]:
+                  - option "Andorra (+376)"
+                  - option "Emiratos Árabes Unidos (+971)"
+                  - option "Afganistán (+93)"
+                  - option "Antigua y Barbuda (+1)"
+                  - option "Anguila (+1)"
+                  - option "Albania (+355)"
+                  - option "Armenia (+374)"
+                  - option "Angola (+244)"
+                  - option "Antártida (+0)"
+                  - option "Argentina (+54)"
+                  - option "Samoa Americana (+1)"
+                  - option "Austria (+43)"
+                  - option "Australia (+61)"
+                  - option "Aruba (+297)"
+                  - option "Islas Aland (+358)"
+                  - option "Azerbaiyán (+994)"
+                  - option "Bosnia y Herzegovina (+387)"
+                  - option "Barbados (+1)"
+                  - option "Bangladés (+880)"
+                  - option "Bélgica (+32)"
+                  - option "Burkina Faso (+226)"
+                  - option "Bulgaria (+359)"
+                  - option "Baréin (+973)"
+                  - option "Burundi (+257)"
+                  - option "Benín (+229)"
+                  - option "San Bartolomé (+590)"
+                  - option "Bermudas (+1)"
+                  - option "Brunéi (+673)"
+                  - option "Bolivia (+591)"
+                  - option "Caribe neerlandés (+599)"
+                  - option "Brasil (+55)"
+                  - option "Bahamas (+1)"
+                  - option "Bután (+975)"
+                  - option "Isla Bouvet (+0)"
+                  - option "Botsuana (+267)"
+                  - option "Bielorrusia (+375)"
+                  - option "Belice (+501)"
+                  - option "Canadá (+1)"
+                  - option "Islas Cocos (+61)"
+                  - option "República Democrática del Congo (+243)"
+                  - option "República Centroafricana (+236)"
+                  - option "Congo (+242)"
+                  - option "Suiza (+41)"
+                  - option "Côte d’Ivoire (+225)"
+                  - option "Islas Cook (+682)"
+                  - option "Chile (+56)"
+                  - option "Camerún (+237)"
+                  - option "China (+86)"
+                  - option "Colombia (+57)"
+                  - option "Costa Rica (+506)"
+                  - option "Cuba (+53)"
+                  - option "Cabo Verde (+238)"
+                  - option "Curazao (+599)"
+                  - option "Isla de Navidad (+61)"
+                  - option "Chipre (+357)"
+                  - option "Chequia (+420)"
+                  - option "Alemania (+49)"
+                  - option "Yibuti (+253)"
+                  - option "Dinamarca (+45)"
+                  - option "Dominica (+1)"
+                  - option "República Dominicana (+1)"
+                  - option "Argelia (+213)"
+                  - option "Ecuador (+593)"
+                  - option "Estonia (+372)"
+                  - option "Egipto (+20)"
+                  - option "Sáhara Occidental (+212)"
+                  - option "Eritrea (+291)"
+                  - option "España (+34)" [selected]
+                  - option "Etiopía (+251)"
+                  - option "Finlandia (+358)"
+                  - option "Fiyi (+679)"
+                  - option "Islas Malvinas (+500)"
+                  - option "Micronesia (+691)"
+                  - option "Islas Feroe (+298)"
+                  - option "Francia (+33)"
+                  - option "Gabón (+241)"
+                  - option "Reino Unido (+44)"
+                  - option "Granada (+1)"
+                  - option "Georgia (+995)"
+                  - option "Guayana Francesa (+594)"
+                  - option "Guernesey (+44)"
+                  - option "Ghana (+233)"
+                  - option "Gibraltar (+350)"
+                  - option "Groenlandia (+299)"
+                  - option "Gambia (+220)"
+                  - option "Guinea (+224)"
+                  - option "Guadalupe (+590)"
+                  - option "Guinea Ecuatorial (+240)"
+                  - option "Grecia (+30)"
+                  - option "Islas Georgia del Sur y Sandwich del Sur (+0)"
+                  - option "Guatemala (+502)"
+                  - option "Guam (+1)"
+                  - option "Guinea-Bisáu (+245)"
+                  - option "Guyana (+592)"
+                  - option "RAE de Hong Kong (China) (+852)"
+                  - option "Islas Heard y McDonald (+0)"
+                  - option "Honduras (+504)"
+                  - option "Croacia (+385)"
+                  - option "Haití (+509)"
+                  - option "Hungría (+36)"
+                  - option "Indonesia (+62)"
+                  - option "Irlanda (+353)"
+                  - option "Israel (+972)"
+                  - option "Isla de Man (+44)"
+                  - option "India (+91)"
+                  - option "Territorio Británico del Océano Índico (+246)"
+                  - option "Irak (+964)"
+                  - option "Irán (+98)"
+                  - option "Islandia (+354)"
+                  - option "Italia (+39)"
+                  - option "Jersey (+44)"
+                  - option "Jamaica (+1)"
+                  - option "Jordania (+962)"
+                  - option "Japón (+81)"
+                  - option "Kenia (+254)"
+                  - option "Kirguistán (+996)"
+                  - option "Camboya (+855)"
+                  - option "Kiribati (+686)"
+                  - option "Comoras (+269)"
+                  - option "San Cristóbal y Nieves (+1)"
+                  - option "Corea del Norte (+850)"
+                  - option "Corea del Sur (+82)"
+                  - option "Kuwait (+965)"
+                  - option "Islas Caimán (+1)"
+                  - option "Kazajistán (+7)"
+                  - option "Laos (+856)"
+                  - option "Líbano (+961)"
+                  - option "Santa Lucía (+1)"
+                  - option "Liechtenstein (+423)"
+                  - option "Sri Lanka (+94)"
+                  - option "Liberia (+231)"
+                  - option "Lesoto (+266)"
+                  - option "Lituania (+370)"
+                  - option "Luxemburgo (+352)"
+                  - option "Letonia (+371)"
+                  - option "Libia (+218)"
+                  - option "Marruecos (+212)"
+                  - option "Mónaco (+377)"
+                  - option "Moldavia (+373)"
+                  - option "Montenegro (+382)"
+                  - option "San Martín (+590)"
+                  - option "Madagascar (+261)"
+                  - option "Islas Marshall (+692)"
+                  - option "Macedonia del Norte (+389)"
+                  - option "Mali (+223)"
+                  - option "Myanmar (Birmania) (+95)"
+                  - option "Mongolia (+976)"
+                  - option "RAE de Macao (China) (+853)"
+                  - option "Islas Marianas del Norte (+1)"
+                  - option "Martinica (+596)"
+                  - option "Mauritania (+222)"
+                  - option "Montserrat (+1)"
+                  - option "Malta (+356)"
+                  - option "Mauricio (+230)"
+                  - option "Maldivas (+960)"
+                  - option "Malaui (+265)"
+                  - option "México (+52)"
+                  - option "Malasia (+60)"
+                  - option "Mozambique (+258)"
+                  - option "Namibia (+264)"
+                  - option "Nueva Caledonia (+687)"
+                  - option "Níger (+227)"
+                  - option "Isla Norfolk (+672)"
+                  - option "Nigeria (+234)"
+                  - option "Nicaragua (+505)"
+                  - option "Países Bajos (+31)"
+                  - option "Noruega (+47)"
+                  - option "Nepal (+977)"
+                  - option "Nauru (+674)"
+                  - option "Niue (+683)"
+                  - option "Nueva Zelanda (+64)"
+                  - option "Omán (+968)"
+                  - option "Panamá (+507)"
+                  - option "Perú (+51)"
+                  - option "Polinesia Francesa (+689)"
+                  - option "Papúa Nueva Guinea (+675)"
+                  - option "Filipinas (+63)"
+                  - option "Pakistán (+92)"
+                  - option "Polonia (+48)"
+                  - option "San Pedro y Miquelón (+508)"
+                  - option "Islas Pitcairn (+0)"
+                  - option "Puerto Rico (+1)"
+                  - option "Territorios Palestinos (+970)"
+                  - option "Portugal (+351)"
+                  - option "Palaos (+680)"
+                  - option "Paraguay (+595)"
+                  - option "Catar (+974)"
+                  - option "Reunión (+262)"
+                  - option "Rumanía (+40)"
+                  - option "Serbia (+381)"
+                  - option "Rusia (+7)"
+                  - option "Ruanda (+250)"
+                  - option "Arabia Saudí (+966)"
+                  - option "Islas Salomón (+677)"
+                  - option "Seychelles (+248)"
+                  - option "Sudán (+249)"
+                  - option "Suecia (+46)"
+                  - option "Singapur (+65)"
+                  - option "Santa Elena (+290)"
+                  - option "Eslovenia (+386)"
+                  - option "Svalbard y Jan Mayen (+47)"
+                  - option "Eslovaquia (+421)"
+                  - option "Sierra Leona (+232)"
+                  - option "San Marino (+378)"
+                  - option "Senegal (+221)"
+                  - option "Somalia (+252)"
+                  - option "Surinam (+597)"
+                  - option "Sudán del Sur (+211)"
+                  - option "Santo Tomé y Príncipe (+239)"
+                  - option "El Salvador (+503)"
+                  - option "Sint Maarten (+1)"
+                  - option "Siria (+963)"
+                  - option "Esuatini (+268)"
+                  - option "Islas Turcas y Caicos (+1)"
+                  - option "Chad (+235)"
+                  - option "Territorios Australes Franceses (+0)"
+                  - option "Togo (+228)"
+                  - option "Tailandia (+66)"
+                  - option "Tayikistán (+992)"
+                  - option "Tokelau (+690)"
+                  - option "Timor-Leste (+670)"
+                  - option "Turkmenistán (+993)"
+                  - option "Túnez (+216)"
+                  - option "Tonga (+676)"
+                  - option "Turquía (+90)"
+                  - option "Trinidad y Tobago (+1)"
+                  - option "Tuvalu (+688)"
+                  - option "Taiwán (+886)"
+                  - option "Tanzania (+255)"
+                  - option "Ucrania (+380)"
+                  - option "Uganda (+256)"
+                  - option "Islas menores alejadas de EE. UU. (+0)"
+                  - option "Estados Unidos (+1)"
+                  - option "Uruguay (+598)"
+                  - option "Uzbekistán (+998)"
+                  - option "Ciudad del Vaticano (+39)"
+                  - option "San Vicente y las Granadinas (+1)"
+                  - option "Venezuela (+58)"
+                  - option "Islas Vírgenes Británicas (+1)"
+                  - option "Islas Vírgenes de EE. UU. (+1)"
+                  - option "Vietnam (+84)"
+                  - option "Vanuatu (+678)"
+                  - option "Wallis y Futuna (+681)"
+                  - option "Samoa (+685)"
+                  - option "Yemen (+967)"
+                  - option "Mayotte (+262)"
+                  - option "Sudáfrica (+27)"
+                  - option "Zambia (+260)"
+                  - option "Zimbabue (+263)"
+                - img
+            - generic [ref=e1235]:
+              - generic [ref=e1237]: Teléfono móvil*
+              - textbox "Teléfono móvil*" [ref=e1239]
+        - contentinfo [ref=e1242]:
+          - button "Siguiente" [ref=e1243] [cursor=pointer]:
+            - generic [ref=e1245]: Siguiente
+  - generic [ref=e269]:
+    - generic:
+      - generic "Omitir el menú de navegación":
+        - generic [ref=e270]:
+          - button "Pasar a la búsqueda" [ref=e271] [cursor=pointer]:
+            - generic [ref=e273]: Pasar a la búsqueda
+          - button "Ir al contenido principal" [ref=e274] [cursor=pointer]:
+            - generic [ref=e276]: Ir al contenido principal
+          - button "Skip to contenido principal" [ref=e277] [cursor=pointer]:
+            - generic [ref=e279]: Skip to contenido principal
+          - button "Skip to al margen" [ref=e280] [cursor=pointer]:
+            - generic [ref=e282]: Skip to al margen
+          - button "Skip to pie de página" [ref=e283] [cursor=pointer]:
+            - generic [ref=e285]: Skip to pie de página
+          - button "Cerrar menú de omisión" [ref=e287] [cursor=pointer]:
+            - img [ref=e289]
+    - generic [ref=e291]:
+      - banner [ref=e293]:
+        - generic [ref=e296]:
+          - generic [ref=e297]:
+            - button "LinkedIn" [ref=e298] [cursor=pointer]:
+              - img "LinkedIn" [ref=e299]
+            - generic [ref=e301]:
+              - status [ref=e302]
+              - search [ref=e303]:
+                - generic [ref=e304]:
+                  - img [ref=e306]
+                  - textbox "Buscar" [ref=e308]
+          - navigation [ref=e310]:
+            - list [ref=e311]:
+              - listitem [ref=e312]:
+                - button "Inicio, 0 nuevas notificaciones" [ref=e313] [cursor=pointer]:
+                  - img [ref=e315]
+                  - generic [ref=e319]: Inicio
+              - listitem [ref=e320]:
+                - link "Mi red, 0 nuevas notificaciones" [ref=e321] [cursor=pointer]:
+                  - /url: https://www.linkedin.com/mynetwork
+                  - img [ref=e323]
+                  - generic [ref=e326]: Mi red
+              - listitem [ref=e327]:
+                - link "Empleos, 0 nuevas notificaciones" [ref=e328] [cursor=pointer]:
+                  - /url: https://www.linkedin.com/jobs/
+                  - img [ref=e330]
+                  - generic [ref=e333]: Empleos
+              - listitem [ref=e334]:
+                - link "Mensajes, 0 notificaciones nuevas" [ref=e335] [cursor=pointer]:
+                  - /url: https://www.linkedin.com/messaging/
+                  - img [ref=e337]
+                  - generic [ref=e340]: Mensajes
+              - listitem [ref=e341]:
+                - link "Notificaciones, 2 notificaciones nuevas" [ref=e342] [cursor=pointer]:
+                  - /url: https://www.linkedin.com/notifications/
+                  - generic [ref=e343]:
+                    - img [ref=e344]
+                    - generic [ref=e346]: "2"
+                  - generic [ref=e348]: Notificaciones
+              - listitem [ref=e349]:
+                - button "Más" [ref=e350] [cursor=pointer]:
+                  - img [ref=e352]
+                  - generic [ref=e355]:
+                    - text: Más
+                    - img [ref=e356]
+          - generic [ref=e358]:
+            - button "gerard ramonlol3 Yo" [ref=e360] [cursor=pointer]:
+              - generic "gerard ramonlol3 Yo" [ref=e361]:
+                - generic [ref=e362]:
+                  - figure [ref=e363]:
+                    - img [ref=e364]
+                  - generic [ref=e370]:
+                    - paragraph [ref=e371]: Yo
+                    - img [ref=e372]
+            - generic [ref=e374]:
+              - navigation [ref=e375]:
+                - list [ref=e376]:
+                  - listitem [ref=e377]:
+                    - button "Para negocios" [ref=e378] [cursor=pointer]:
+                      - img [ref=e380]
+                      - generic [ref=e383]:
+                        - text: Para negocios
+                        - img [ref=e384]
+              - link "Probar Premium por 0 €" [ref=e388] [cursor=pointer]:
+                - /url: https://www.linkedin.com/jobs/view/4432949698/apply/?companyName=Itequia&trackingId=WkseLOnpRDefmBh3HiFd3A%3D%3D&applicantTrackingSystemName=LinkedIn
+                - paragraph [ref=e390]:
+                  - link "Probar Premium por 0 €" [ref=e392]:
+                    - /url: https://www.linkedin.com/jobs/view/4432949698/apply/?companyName=Itequia&trackingId=WkseLOnpRDefmBh3HiFd3A%3D%3D&applicantTrackingSystemName=LinkedIn
+      - generic [ref=e394]:
+        - toolbar
+        - main [ref=e430]:
+          - generic [ref=e432]:
+            - region "Contenido principal" [ref=e433]:
+              - generic [ref=e436]:
+                - generic [ref=e441]:
+                  - generic [ref=e442]:
+                    - generic [ref=e443]:
+                      - link "Empresa, Itequia" [ref=e445] [cursor=pointer]:
+                        - /url: https://www.linkedin.com/company/itequia/life/
+                        - generic "Empresa, Itequia" [ref=e446]:
+                          - figure [ref=e447]:
+                            - img "Logotipo de empresa para Itequia" [ref=e448]
+                          - paragraph [ref=e449]:
+                            - link "Itequia" [ref=e450]:
+                              - /url: https://www.linkedin.com/company/itequia/life/
+                      - button "Más opciones" [ref=e451] [cursor=pointer]:
+                        - img [ref=e453]
+                    - paragraph [ref=e457]:
+                      - text: QA Engineer
+                      - link "Empleo verificado" [ref=e458] [cursor=pointer]:
+                        - /url: "#"
+                        - img "Empleo verificado" [ref=e459]:
+                          - img [ref=e460]
+                    - paragraph [ref=e462]: Barcelona y alrededores · hace 3 días · 29 solicitudes
+                    - paragraph [ref=e464]:
+                      - generic [ref=e465]:
+                        - text: Promocionado por técnico de selección ·
+                        - strong [ref=e466]: Evaluando solicitudes de forma activa
+                  - generic [ref=e467]:
+                    - link "Híbrido" [ref=e469] [cursor=pointer]:
+                      - /url: https://www.linkedin.com/jobs/view/4432949698/apply/?companyName=Itequia&trackingId=WkseLOnpRDefmBh3HiFd3A%3D%3D&applicantTrackingSystemName=LinkedIn
+                      - generic [ref=e471]: Híbrido
+                    - link "Jornada completa" [ref=e473] [cursor=pointer]:
+                      - /url: https://www.linkedin.com/jobs/view/4432949698/apply/?companyName=Itequia&trackingId=WkseLOnpRDefmBh3HiFd3A%3D%3D&applicantTrackingSystemName=LinkedIn
+                      - generic [ref=e475]: Jornada completa
+                    - link "0 de 6 aptitudes coinciden" [ref=e476] [cursor=pointer]:
+                      - /url: https://www.linkedin.com/jobs/view/4432949698/apply/?companyName=Itequia&trackingId=WkseLOnpRDefmBh3HiFd3A%3D%3D&applicantTrackingSystemName=LinkedIn
+                      - generic [ref=e477]:
+                        - img [ref=e478]
+                        - generic [ref=e480]: 0 de 6 aptitudes coinciden
+                  - generic [ref=e483]:
+                    - generic [ref=e485]:
+                      - button "Solicitar este empleo en LinkedIn" [ref=e487] [cursor=pointer]:
+                        - generic [ref=e488]:
+                          - img [ref=e489]
+                          - generic [ref=e491]: Solicitar
+                      - button "Guardar empleo" [ref=e493] [cursor=pointer]:
+                        - generic [ref=e495]: Guardar
+                    - generic [ref=e498]:
+                      - paragraph [ref=e500]:
+                        - strong [ref=e501]: «Solicitud sencilla» ahora se llama «Solicitud con LinkedIn».
+                        - text: La misma experiencia, con un nombre que refleja el énfasis de LinkedIn en las solicitudes de calidad.
+                      - button "Descartar" [ref=e502] [cursor=pointer]:
+                        - img [ref=e504]
+                - generic [ref=e506]:
+                  - generic [ref=e512]:
+                    - paragraph [ref=e513]: Mira una comparación con los otros 29 candidatos
+                    - paragraph [ref=e514]: Accede a información exclusiva sobre los candidatos, mira empleos donde tienes más probabilidades de recibir respuesta y mucho más.
+                    - link "Probar Premium por 0 €" [ref=e515] [cursor=pointer]:
+                      - /url: https://www.linkedin.com/premium/products/?upsellOrderOrigin=Tracking%3Av1%3Apremium_job_details_summary_card%3AJob+Seeker%3AIn-Product&utype=job&referenceId=mzyN30zITKC7hmhF55LzHw%3D%3D&isSS=false&upsellSlotId=JOB_DETAILS_SUMMARY_CARD
+                      - generic [ref=e516]:
+                        - img [ref=e517]
+                        - paragraph [ref=e520]: Probar Premium por 0 €
+                  - generic [ref=e524]:
+                    - heading "Personas con las que puedes hablar" [level=2] [ref=e525]
+                    - generic [ref=e526]:
+                      - paragraph [ref=e527]: Conoce al equipo de contratación
+                      - generic [ref=e528]:
+                        - link "Marisa Payá Romero • 3er+ Talent Manager | Helping companies build high-performing tech teams | Recruitment & HR Solutions Anunciante del empleo" [ref=e529] [cursor=pointer]:
+                          - /url: https://www.linkedin.com/in/marisa-pay%C3%A1-romero-287a501ab/
+                          - generic [ref=e530]:
+                            - figure [ref=e531]
+                            - generic [ref=e532]:
+                              - generic [ref=e533]:
+                                - paragraph [ref=e535]:
+                                  - generic [ref=e536]:
+                                    - link "Marisa Payá Romero" [ref=e537]:
+                                      - /url: https://www.linkedin.com/in/marisa-pay%C3%A1-romero-287a501ab/
+                                    - img [ref=e539]
+                                - paragraph [ref=e541]: • 3er+
+                              - paragraph [ref=e543]: Talent Manager | Helping companies build high-performing tech teams | Recruitment & HR Solutions
+                              - paragraph [ref=e544]: Anunciante del empleo
+                        - link "Enviar mensaje" [ref=e546] [cursor=pointer]:
+                          - /url: /messaging/compose/?profileUrn=urn%3Ali%3Afsd_profile%3AACoAADEZPocBn_i6ybApdzewhCGKBemw-2nOLFc&recipient=ACoAADEZPocBn_i6ybApdzewhCGKBemw-2nOLFc&screenContext=JOB_DETAILS_HIRING_TEAM&jobPostingUrn=urn%3Ali%3Afsd_jobPosting%3A4432949698&contextEntityUrn=urn%3Ali%3Afsd_jobPosting%3A4432949698&interop=msgOverlay
+                          - generic [ref=e548]: Enviar mensaje
+                  - generic [ref=e554]:
+                    - heading "Acerca del empleo" [level=2] [ref=e556]
+                    - paragraph [ref=e557]:
+                      - generic [ref=e558]:
+                        - paragraph [ref=e559]:
+                          - text: En
+                          - strong [ref=e560]: Itequia
+                          - text: buscamos incorporar un/a
+                          - strong [ref=e561]: QA Engineer
+                          - text: para unirse al equipo de uno de nuestros principales clientes,
+                          - strong [ref=e562]: una multinacional alemana del sector farmacéutico,
+                          - text: en la que trabajarás en el desarrollo y evolución de soluciones digitales críticas para el negocio.
+                        - paragraph [ref=e563]
+                        - paragraph [ref=e564]: Si te apasiona la calidad, la automatización y quieres formar parte de un entorno tecnológico exigente e innovador, ¡esta oportunidad es para ti!
+                        - paragraph [ref=e565]
+                        - paragraph [ref=e566]:
+                          - strong [ref=e567]: ¿Cuál será tu misión?
+                          - text: 🚀
+                        - paragraph [ref=e568]: "Formarás parte de un equipo multidisciplinar trabajando en entornos digitales y mobile, contribuyendo a garantizar la calidad de aplicaciones clave mediante:"
+                        - list [ref=e569]:
+                          - listitem [ref=e570]:
+                            - text: Diseño, ejecución y mantenimiento de
+                            - strong [ref=e571]: tests manuales y automatizados
+                          - listitem [ref=e572]:
+                            - text: Validación de sistemas backend y
+                            - strong [ref=e573]: testing de APIs y E2E
+                          - listitem [ref=e574]:
+                            - strong [ref=e575]: Testing de aplicaciones digitales
+                            - text: (Angular/.NET) y mobile (Flutter, Android, iOS)
+                          - listitem [ref=e576]: Validación de integraciones complejas (incluyendo procesos relacionados con Salesforce)
+                          - listitem [ref=e577]: Colaboración estrecha con desarrollo, producto y negocio
+                          - listitem [ref=e578]: Identificación, documentación y seguimiento de bugs
+                          - listitem [ref=e579]:
+                            - strong [ref=e580]: Participación en ciclos de release
+                            - text: (SIT, UAT, PROD) con enfoque basado en riesgo
+                          - listitem [ref=e581]: Mejora continua de procesos de testing y automatización
+                        - paragraph [ref=e582]
+                        - paragraph [ref=e583]:
+                          - strong [ref=e584]: ¿Qué buscamos en ti? 🔎
+                        - list [ref=e585]:
+                          - listitem [ref=e586]:
+                            - text: Experiencia de 2-3 años como
+                            - strong [ref=e587]: QA Engineer
+                            - text: en entornos digitales
+                          - listitem [ref=e588]: "Conocimiento en:"
+                          - listitem [ref=e589]: Testing funcional, regresión, integración y end-to-end
+                          - listitem [ref=e590]: Testing de APIs / backend (Postman, Bruno o similares)
+                          - listitem [ref=e591]:
+                            - text: Automatización con herramientas como
+                            - strong [ref=e592]: Playwright y/o Appium
+                          - listitem [ref=e593]: Frameworks BDD/TDD (Gherkin)
+                          - listitem [ref=e594]:
+                            - text: Experiencia trabajando con
+                            - strong [ref=e595]: CI/CD
+                          - listitem [ref=e596]: Capacidad para entender procesos B2B complejos
+                          - listitem [ref=e597]: Experiencia en documentación de testing (test cases, test plans…)
+                          - listitem [ref=e598]:
+                            - text: Nivel de
+                            - strong [ref=e599]: inglés fluido
+                            - text: (B2)
+                        - paragraph [ref=e600]
+                        - paragraph [ref=e601]:
+                          - strong [ref=e602]: ¿Qué ofrecemos?
+                        - list [ref=e603]:
+                          - listitem [ref=e604]:
+                            - text: Proyecto estable en una
+                            - strong [ref=e605]: gran compañía internacional
+                          - listitem [ref=e606]:
+                            - text: Entorno tecnológico
+                            - strong [ref=e607]: innovador
+                            - text: y en evolución
+                          - listitem [ref=e608]:
+                            - text: Participación en
+                            - strong [ref=e609]: proyectos de alto impacto
+                          - listitem [ref=e610]: Equipo colaborativo y cercano
+                          - listitem [ref=e611]: Desarrollo profesional continuo
+                          - listitem [ref=e612]: "Modalidad híbrida: 1-2 días a la semana presencial en sus oficinas de Mataró."
+                  - generic [ref=e617]:
+                    - heading "Establecer una alerta para empleos similares" [level=2] [ref=e618]
+                    - generic [ref=e619]:
+                      - paragraph [ref=e620]: Ingeniero de aseguramiento de la calidad, Barcelona y alrededores
+                      - switch "Toca para cambiar el ajuste" [ref=e621] [cursor=pointer]:
+                        - generic [ref=e622]:
+                          - generic:
+                            - paragraph
+                          - generic [ref=e623]:
+                            - generic [ref=e624]: Desactivado
+                            - generic [ref=e625]:
+                              - switch
+                  - generic [ref=e629]:
+                    - heading "Más empleos" [level=2] [ref=e630]
+                    - generic [ref=e631]:
+                      - generic [ref=e632]:
+                        - link "Aditelsa España (En remoto) Evaluando solicitudes de forma activa Promocionado · Publicado hace 1 semana · Solicitar" [ref=e634] [cursor=pointer]:
+                          - /url: https://www.linkedin.com/jobs/search-results/?keywords=QA+Engineer&origin=JobSearchOrigin_JOB_DETAILS_SIMILAR_JOBS_CARD&currentJobId=4429322264&originToLandingJobPostings=4429322264&trackingId=Zn8yCoLvPjwIhRNt4JrQhw%3D%3D&eBP=CwEAAAGfE-BafYsnySsBwwak6ysRS2wwqF04W92-TcolIYsuQ4Bv8nrpibjA2z1R7GguSimnQYvrpOKLAxcNo4NUG2hWGliap5DphiR_0iyN1j5BxxK99l5PmQEXKr-rE28YVc3ORcMvDD0930VaPSteHORVRxV1UlzScbWJoysoAMrS1IW7hmBBdSTW7aDZyv1bzzofe3DKAv2E7v0fk28W1pEP1Mh9a2zlHTMfIvbOOL_s5DOlxthoMGMuP9LRzeoBYVHcxHoZuWFJGkNHqZcKDpvnXThUvZdtX9bmwyxO7jpvG93l-sQ0ea58grT3UdvD9K140nfrwgzIIUDJodmsEVRmI1YgzUigaN2ToIJqYvXzNe8PsAEm6g_2UfJgUL8p_RE7IW7pACkBMrTy1jXWR3vKs6DEFcSCwkfgFAU5UH6PDhGkhVnSMDKLgzfuZXLqsUbHJWKzO4vd9LcaDN4OW6HfYvEBzRD6LDnfcsPP&geoId=105646813
+                          - generic [ref=e635]:
+                            - generic [ref=e636]:
+                              - figure [ref=e637]
+                              - generic [ref=e638]:
+                                - generic [ref=e641]:
+                                  - paragraph [ref=e644]:
+                                    - generic [ref=e647]:
+                                      - text: QA Tester - Pruebas manuales y automatizadas (100% Teletrabajo)
+                                      - img [ref=e649]
+                                  - paragraph [ref=e652]: Aditelsa
+                                  - paragraph [ref=e654]: España (En remoto)
+                                - generic [ref=e656]:
+                                  - img [ref=e657]
+                                  - paragraph [ref=e661]: Evaluando solicitudes de forma activa
+                            - generic [ref=e662]:
+                              - paragraph [ref=e663]: Promocionado
+                              - paragraph [ref=e664]: ·
+                              - paragraph [ref=e665]:
+                                - generic [ref=e666]: Publicado hace 1 semana
+                                - text: hace 1 semana
+                              - paragraph [ref=e667]: ·
+                              - paragraph [ref=e668]:
+                                - img [ref=e670]
+                                - text: Solicitar
+                        - button "Más opciones" [ref=e673] [cursor=pointer]:
+                          - img [ref=e675]
+                      - generic [ref=e677]:
+                        - link "Sage - JW Barcelona Promocionado · Publicado hace 4 días" [ref=e679] [cursor=pointer]:
+                          - /url: https://www.linkedin.com/jobs/search-results/?keywords=QA+Engineer&origin=JobSearchOrigin_JOB_DETAILS_SIMILAR_JOBS_CARD&currentJobId=4433305082&originToLandingJobPostings=4433305082&trackingId=4AxRsSMEvW6xak5n5m%2FH4A%3D%3D&eBP=CwEAAAGfE-BafWqH-hQtEdqCRzMY-YFUwkrlf6qkdnQuF254Gs1U30j6ccYStZkGEyqilRUn9BUs5MLPX9cgJxvt_ruI60uRjz4fimqk92uGGbRyTDcamM2DboW9RgweGJUoVh4xLLGNvYCwkBL_olsl20MGZ2NC1HGYrZOHkUeEbd9fRYIwu3lIKn2X9AdYKNeKuj2__xP58yBEK_a5-XTkrCfHE5-x9LsVAlB1EZauj_byplhp5eZpErDugRWXQtJMx8FwMk_usdEXQsodjKDBlNMrdFLmRbV12eHGY8lRsfya003H0AnsEqzN6MAlEAnWLqFl9MtY7uvUJ2Rlni40QTSJHb8E_h9ezv0r1iIdVlepNO03gytekuk-Sf-ZJ9dZGzmJeGX8zIbRQyNj8bv-wIaGXSft9YmU5-RLciiyCZuEWeD9rD1vMHuH4IDwFoeXeF8LahlWWNbbRTd0zP0WdJaMyTq30b6vpFEEjsBUQLZsbeNbZofh&geoId=105646813
+                          - generic [ref=e680]:
+                            - generic [ref=e681]:
+                              - figure [ref=e682]
+                              - generic [ref=e686]:
+                                - paragraph [ref=e689]:
+                                  - generic [ref=e692]:
+                                    - text: QA Engineer
+                                    - img [ref=e694]
+                                - paragraph [ref=e697]: Sage - JW
+                                - paragraph [ref=e699]: Barcelona
+                            - generic [ref=e701]:
+                              - paragraph [ref=e702]: Promocionado
+                              - paragraph [ref=e703]: ·
+                              - paragraph [ref=e704]:
+                                - generic [ref=e705]: Publicado hace 4 días
+                                - text: hace 4 días
+                        - button "Más opciones" [ref=e707] [cursor=pointer]:
+                          - img [ref=e709]
+                      - generic [ref=e711]:
+                        - link "The Adecco Group Cerdanyola del Vallès (Híbrido) Evaluando solicitudes de forma activa Promocionado · Publicado hace 8 horas · Solicitar" [ref=e713] [cursor=pointer]:
+                          - /url: https://www.linkedin.com/jobs/search-results/?keywords=QA+Engineer&origin=JobSearchOrigin_JOB_DETAILS_SIMILAR_JOBS_CARD&currentJobId=4431066460&originToLandingJobPostings=4431066460&trackingId=LNQjD0T0IbFXmUAoPTg9oQ%3D%3D&eBP=CwEAAAGfE-BafYwg27ufLgPu9tUUKNVVVZk9DfYUx81W0ET2_nfa_hv3sABliuMoLZSIu7_3me5Jo71p_ZZGlCoh74qwi3SHaPrRjNd1cWb2aXruEE_2DcHz_iK_80lUMMooh-PE0xFM9bzsxmULQhgv7wuS4xgLL5rM0jQzoCIcvluad2RKeYPI0HMOXn78mnD__gtanDjpnufk_S8QXpAYrTCJ-2vCTfGqILbCqbvGWXnpGOKqP4h4DdXsbnwWLIZuyC_5c9ZBiMMIt5-CCCBgcnYRIx7w1nKVjEnokuZJZ2MPTz6JhRBsiapPHF1-xFrRDu02htqCwvqyi9sFxKwHF8W-AF6-4cCk9uUDoj8ELzaw7Yu5Ar93fYV0nmjykFEmN4fKcJapVSiZA_Fi0aMEjQK8DTr80AtHMhTflL4Zyb3ZZXqo8akVR_vR0gviOHOcMFnPmfRg59Kpkr8MJggJz8m3eNlI8FVULnU&geoId=105646813
+                          - generic [ref=e714]:
+                            - generic [ref=e715]:
+                              - figure [ref=e716]
+                              - generic [ref=e717]:
+                                - generic [ref=e720]:
+                                  - paragraph [ref=e723]:
+                                    - generic [ref=e726]:
+                                      - text: QA Tester Junior
+                                      - img [ref=e728]
+                                  - paragraph [ref=e731]: The Adecco Group
+                                  - paragraph [ref=e733]: Cerdanyola del Vallès (Híbrido)
+                                - generic [ref=e735]:
+                                  - img [ref=e736]
+                                  - paragraph [ref=e740]: Evaluando solicitudes de forma activa
+                            - generic [ref=e741]:
+                              - paragraph [ref=e742]: Promocionado
+                              - paragraph [ref=e743]: ·
+                              - paragraph [ref=e744]:
+                                - generic [ref=e745]: Publicado hace 8 horas
+                                - text: hace 8 horas
+                              - paragraph [ref=e746]: ·
+                              - paragraph [ref=e747]:
+                                - img [ref=e749]
+                                - text: Solicitar
+                        - button "Más opciones" [ref=e752] [cursor=pointer]:
+                          - img [ref=e754]
+                      - generic [ref=e756]:
+                        - link "BME | Bolsas y Mercados Españoles Madrid (Híbrido) Promocionado · Publicado hace 4 días" [ref=e758] [cursor=pointer]:
+                          - /url: https://www.linkedin.com/jobs/search-results/?keywords=QA+Engineer&origin=JobSearchOrigin_JOB_DETAILS_SIMILAR_JOBS_CARD&currentJobId=4432591786&originToLandingJobPostings=4432591786&trackingId=QcLjqC40qYFpPXEwNtb7DQ%3D%3D&eBP=CwEAAAGfE-BafUT2bwOIAz8OoHlGbWfIbxDNfyVqto5fM6ldmH6ivalQykjXGIzYY-d3Vb7560SHHyQ4KzcdA7RixaK7Q6-4_hG79WMDYoZWjWoKRvCi10XEMB4Txz6Cu8Sxj2VNJKP1avob_gPOXr10EhG-TbAX82GCwZBA2f8jfFOo24HydjtU2sB2RhbtJO9fDFrX7uLHu-sNuRAHXA0tI12qsd-1AJMim2ulZ-pHlpRTdfP2b68Er9Bs6EpftaRzaUDvjmnYJXGF5TzSWFEk-o6BYmLhviniQLjUHuUzgRmIwwEGd9L4SsQOftvIxMtTwuIYuoHYQW1rLtDEdNxZZXM7IELQgIx80WUcgCrpontW38Nxtu2V_p_QziUSHrlrD7ygvj_aNm3FlICFGQYBzBllt4T48hMTLeuKvN4At44UUNfS7c4uMnXr93dYL9G6RYpQ6bFDyppe9D6nUJX77jIRQGTzk2Z-GqEnNZtpx1Gph9g&geoId=105646813
+                          - generic [ref=e759]:
+                            - generic [ref=e760]:
+                              - figure [ref=e761]
+                              - generic [ref=e765]:
+                                - paragraph [ref=e768]:
+                                  - generic [ref=e771]:
+                                    - text: Quality Assurance Engineer
+                                    - img [ref=e773]
+                                - paragraph [ref=e776]: BME | Bolsas y Mercados Españoles
+                                - paragraph [ref=e778]: Madrid (Híbrido)
+                            - generic [ref=e780]:
+                              - paragraph [ref=e781]: Promocionado
+                              - paragraph [ref=e782]: ·
+                              - paragraph [ref=e783]:
+                                - generic [ref=e784]: Publicado hace 4 días
+                                - text: hace 4 días
+                        - button "Más opciones" [ref=e786] [cursor=pointer]:
+                          - img [ref=e788]
+                      - generic [ref=e790]:
+                        - link "WIRIS Barcelona (Presencial) Promocionado · Publicado hace 1 semana" [ref=e792] [cursor=pointer]:
+                          - /url: https://www.linkedin.com/jobs/search-results/?keywords=QA+Engineer&origin=JobSearchOrigin_JOB_DETAILS_SIMILAR_JOBS_CARD&currentJobId=4428949469&originToLandingJobPostings=4428949469&trackingId=1nXAsgJpgRCjsJd3PsbAHw%3D%3D&eBP=CwEAAAGfE-BafUxHGSglUxt-URsLHYkTRJRhdyUgROyENR1Gom-gYZCm1kl5_tzZej916eMCtEq63cY_MffwlNGZQeH46wYbEBUbw36hEThnF-ykr8JuUn3duxhFnxVfkaYoTFftnlGFzm52e7AJMoNwzSa4hWLyPtXj1zbLa0tH3zg9Cveb2OWx5CbO07WYWYrpEvHRb-5mKFBzT5fPuOrFjfDtChJ5CvAUULtbmyaR9ADjV2oe164T02_mCP_al7nr7tsjAzjfp_3B4OoKQP9ANKwRY50KuyU9Ck37qj012wF4Jn4Zw0YxT7edLDqZC7jibaacCuU_bLuzkdGNpedK7WBbVA1qqyb0WtQdVPbzBp_KPvEMKWKrAx3VufUVAQKO0ygYgf-rTXyUs27yjc5H_2JDUWuJKsgyJhF7Y4ISMa8kEz4ZT8rvdUSVZEJdvdF2uGaAPCKY8J5BTnujSRMu8u3AjHN9rAzoG5-odeJ3zw&geoId=105646813
+                          - generic [ref=e793]:
+                            - generic [ref=e794]:
+                              - figure [ref=e795]
+                              - generic [ref=e799]:
+                                - paragraph [ref=e802]:
+                                  - generic [ref=e803]: Junior QA Engineer
+                                - paragraph [ref=e806]: WIRIS
+                                - paragraph [ref=e808]: Barcelona (Presencial)
+                            - generic [ref=e810]:
+                              - paragraph [ref=e811]: Promocionado
+                              - paragraph [ref=e812]: ·
+                              - paragraph [ref=e813]:
+                                - generic [ref=e814]: Publicado hace 1 semana
+                                - text: hace 1 semana
+                        - button "Más opciones" [ref=e816] [cursor=pointer]:
+                          - img [ref=e818]
+                      - generic [ref=e820]:
+                        - link "Centro Tecnológico del Notariado Sant Cugat del Vallès (Híbrido) Evaluando solicitudes de forma activa Promocionado · Publicado hace 1 semana · Solicitar" [ref=e822] [cursor=pointer]:
+                          - /url: https://www.linkedin.com/jobs/search-results/?keywords=QA+Engineer&origin=JobSearchOrigin_JOB_DETAILS_SIMILAR_JOBS_CARD&currentJobId=4376803856&originToLandingJobPostings=4376803856&trackingId=sgNvW1u97puQlZ5k%2BXOH8A%3D%3D&eBP=CwEAAAGfE-BafU_kKApJDg__64FMWr5GEFcYTTVsUl6ZUioYzYc4pidZFsaDcdNLQ2W-foRthyCyGVfHfeV2fkc328f9WiYfr7q4T2O1kakrZTz1UKklQnsfYu5hpKLfJQN7wTNY5JjAii7MXDdOKMB92pYaupm_KK47TWDPgtD0DhAq4Mff7y9Y4Giq64aet3JzFBPih8K3QnxLMY4pYRDiLgzwUOBvoFTi2P1c0F5SdQWRPbt8S1JiqKe0P6R0xEB5EbtY0eGc93z0CKuACVKTLWq-r5XbY3VDILGfB3m7yBtLZrmmECAbb-aEOyG3q42Ine9wALWyYJxur2KMUH-BaLMQBcOJEb0SWSrz_xNAzTvnnhqjJ-bekvmPQrIcSl2zEgmKf7SbNl4sxI9ptfXRpPnwcNTDa6ImBfo4sBZVlY4jyV7vq7A1oZ1xyysoB7lZwQ_MwX4knNTOVkUgnIwJJJPf1GgzqkiSbOHIqL6bnmB8G3jm4-gIxZMcoQ&geoId=105646813
+                          - generic [ref=e823]:
+                            - generic [ref=e824]:
+                              - figure [ref=e825]
+                              - generic [ref=e826]:
+                                - generic [ref=e829]:
+                                  - paragraph [ref=e832]:
+                                    - generic [ref=e833]: QA/Tester Funcional
+                                  - paragraph [ref=e836]: Centro Tecnológico del Notariado
+                                  - paragraph [ref=e838]: Sant Cugat del Vallès (Híbrido)
+                                - generic [ref=e840]:
+                                  - img [ref=e841]
+                                  - paragraph [ref=e845]: Evaluando solicitudes de forma activa
+                            - generic [ref=e846]:
+                              - paragraph [ref=e847]: Promocionado
+                              - paragraph [ref=e848]: ·
+                              - paragraph [ref=e849]:
+                                - generic [ref=e850]: Publicado hace 1 semana
+                                - text: hace 1 semana
+                              - paragraph [ref=e851]: ·
+                              - paragraph [ref=e852]:
+                                - img [ref=e854]
+                                - text: Solicitar
+                        - button "Más opciones" [ref=e857] [cursor=pointer]:
+                          - img [ref=e859]
+                      - generic [ref=e861]:
+                        - link "IRiS Venture Builder Barcelona (En remoto) Promocionado · Publicado hace 6 días" [ref=e863] [cursor=pointer]:
+                          - /url: https://www.linkedin.com/jobs/search-results/?keywords=QA+Engineer&origin=JobSearchOrigin_JOB_DETAILS_SIMILAR_JOBS_CARD&currentJobId=4379868518&originToLandingJobPostings=4379868518&trackingId=neoKrIjJV1ebpMqyy1wjhQ%3D%3D&eBP=CwEAAAGfE-BafRRRWlnvhe5wZdrddpsz_LvgKiEIyqPcwzz4M9cK5uD0J0NOY2mc6qdN6vPOkCV8OAAYbDyo998bpWEmvob5fkz_LqrQ4I76hoCtpoh7_d6z0x4xCceD35hMrLfF-q9dLUInda1k2ViWJZXRAQ4PTAuLgF6MGGPbEiBqzwTBPIHSyxnUDIgK3t1C9b9SxtltOLlcy9fXAOq_8sPncQ0pubZtDJecyn3ppMSIeNGbGltr4jVcQThEHXYYhsR9FKMBqoPnCVlCa3ii0LmtiWQhph9Cr5SjdLtIWTCQCF4-f0C77DZe487HpOb5co54Ge_rq1KLsSF0WmHENKnb9LwIhiWAYbbfiogZL5JhvNzlTfiQhTWOZRbNuc32zNIQzLl8V43z26jjn3RmPBcbgt1tJ3hjGNXRIfdTNpppxLXXvpn2n3chKEurWCrIZug7owmDpc8R2ilDeTK8-5cccAqM1LP2IqiL568tbpwRYaiKXo0WmSU&geoId=105646813
+                          - generic [ref=e864]:
+                            - generic [ref=e865]:
+                              - figure [ref=e866]
+                              - generic [ref=e870]:
+                                - paragraph [ref=e873]:
+                                  - generic [ref=e874]: QA Engineer
+                                - paragraph [ref=e877]: IRiS Venture Builder
+                                - paragraph [ref=e879]: Barcelona (En remoto)
+                            - generic [ref=e881]:
+                              - paragraph [ref=e882]: Promocionado
+                              - paragraph [ref=e883]: ·
+                              - paragraph [ref=e884]:
+                                - generic [ref=e885]: Publicado hace 6 días
+                                - text: hace 6 días
+                        - button "Más opciones" [ref=e887] [cursor=pointer]:
+                          - img [ref=e889]
+                      - generic [ref=e891]:
+                        - link "B. Braun Group Barcelona (Híbrido) Promocionado · Publicado hace 5 días" [ref=e893] [cursor=pointer]:
+                          - /url: https://www.linkedin.com/jobs/search-results/?keywords=QA+Engineer&origin=JobSearchOrigin_JOB_DETAILS_SIMILAR_JOBS_CARD&currentJobId=4388777018&originToLandingJobPostings=4388777018&trackingId=W8Q6kY9SQw1TNXGUKri7VA%3D%3D&eBP=CwEAAAGfE-BafZ1CB6WlUfDKFe_KQmo4XJWDTtIzj2VMw4xW2aG_sARLIw5jHagjNmESVExuKmA7GSGOqtAGwmA8u-7Gf0dwotYCVT-zDfPF3U8O8-VMg4GWOJ9KiOMamagRRHnUgpUb9LuSxPPV32QqXEVoAiVyoWKSqyw2CWmvol7OWTBX5jTxlO9a5r0j7JGRVpIPwAJB9xjGnQH8yALoQnX6tRNJuZnDezLk_rCXygukqPFpuy1KXSycUAIwMXfTyrCTQM_eJudDOYZSrxS1D59V_Ywmg81D5PMtUASoD1qmBV8umA1y2OSgB6qoL0O5iMG1m0YidMUKuzrlhEYxn_jYW3E2pHHcz8hCaaQRcUbV8lNcDzaxbGrZZ5KvTW6hpfk6zr3ebW1gHUJPQ0C-HFmKmbFPJC71GzmF6IoGY7UO4FH6hxbAav0GBqUQkgOY8jDq-SEfSf0Q2iOrQEQAkYchgOA_fAWzTwrzwSqBXn6oSlk&geoId=105646813
+                          - generic [ref=e894]:
+                            - generic [ref=e895]:
+                              - figure [ref=e896]
+                              - generic [ref=e900]:
+                                - paragraph [ref=e903]:
+                                  - generic [ref=e904]: QA Engineer
+                                - paragraph [ref=e907]: B. Braun Group
+                                - paragraph [ref=e909]: Barcelona (Híbrido)
+                            - generic [ref=e911]:
+                              - paragraph [ref=e912]: Promocionado
+                              - paragraph [ref=e913]: ·
+                              - paragraph [ref=e914]:
+                                - generic [ref=e915]: Publicado hace 5 días
+                                - text: hace 5 días
+                        - button "Más opciones" [ref=e917] [cursor=pointer]:
+                          - img [ref=e919]
+                      - generic [ref=e921]:
+                        - link "Straumann Group Madrid Promocionado · Publicado hace 4 días" [ref=e923] [cursor=pointer]:
+                          - /url: https://www.linkedin.com/jobs/search-results/?keywords=QA+Engineer&origin=JobSearchOrigin_JOB_DETAILS_SIMILAR_JOBS_CARD&currentJobId=4419603676&originToLandingJobPostings=4419603676&trackingId=ippXKHlTy0EYiuimKlD3Kg%3D%3D&eBP=CwEAAAGfE-BafW1bIBn3syjP0KP3fvO0JXaxpoA0vVMAfm3b-cq3Mj06mMHf9qesoBG6cr9Rzm-VTMwFyBWwvIu7nqchGBKykTAzwU35abKpjak_nfak1gf7UV7ITJ2BUFbI86zRIzmH_v1pLrdQwPi5triY8JgL-0kwDGWvhQci9OlryW2HZKwgnvMgbOQr2IRrKWYQwTGhewcmSrr057knjv0LAvdU64l1raPjkFCFACtb3bNYkMgiKLIdce_nWDPFE4f17FNJd7z4XhJpbqAVsIR6ml5N--HczSgVS-7tlLFGTWVHSw06VxiivRtPuhiNRw0mtLEAvD75aVDf3n9IQF2uYAP_YgVOfvuUpl9ZmyE-FH34efNNFtaHPlFkoDjS3KXxu6b91L74zf_xShMDyhfHrA-oNz8suEtdkrZvtLgxVzI-NxTJrAWMG4DKqkEswn51VRHhdT9h4f6GrdJpBltTFp-3zO_1ud0XrV5uDTFqfV4I7A&geoId=105646813
+                          - generic [ref=e924]:
+                            - generic [ref=e925]:
+                              - figure [ref=e926]
+                              - generic [ref=e930]:
+                                - paragraph [ref=e933]:
+                                  - generic [ref=e934]: Software Quality Assurance Engineer
+                                - paragraph [ref=e937]: Straumann Group
+                                - paragraph [ref=e939]: Madrid
+                            - generic [ref=e941]:
+                              - paragraph [ref=e942]: Promocionado
+                              - paragraph [ref=e943]: ·
+                              - paragraph [ref=e944]:
+                                - generic [ref=e945]: Publicado hace 4 días
+                                - text: hace 4 días
+                        - button "Más opciones" [ref=e947] [cursor=pointer]:
+                          - img [ref=e949]
+                      - generic [ref=e951]:
+                        - link "IgmWeb SL Gerona (Presencial) Evaluando solicitudes de forma activa Promocionado · Publicado hace 2 semanas · Solicitar" [ref=e953] [cursor=pointer]:
+                          - /url: https://www.linkedin.com/jobs/search-results/?keywords=QA+Engineer&origin=JobSearchOrigin_JOB_DETAILS_SIMILAR_JOBS_CARD&currentJobId=4425786766&originToLandingJobPostings=4425786766&trackingId=82pivQaNChllaiaVkI0j%2BQ%3D%3D&eBP=CwEAAAGfE-BafaY3JCn4kM6wTm6DR6aVpOx-RLmwzYnwRx1I6G8h3eCjdR7bWWygxWGPvsQL4rDyvGKfxi0mK8Q2_bwgklRdlToSwar5D9FjwQRw1rSluX7drVDdxtsCeonEex7xhiD3AsbVeymcYHIppfRItSapD0Hge4pN9tQgnwZk8PMPf6NLO8HSpglZ9zzZ0dhPB5OIALEKEj6R2HZNxgQZzD4zYiwHTVieoMpxYfT9bZ-8859CCix_vtyF_0sSayzkxgpelUiZvyMxrTQMLanbbJrUQ5oG6U0TZTAOqukhfdBchci2VI7yQQIE-nLlQF51pUuTeeey5dg76NWWG-Xhl7DSztiMYLgyhyBBkPZu61pJGTZVXUWcy8w2yGVkRsWQs5oHs9_shg_jXGHvdH2_jMe26t3H_F5tDQW1ubL9OJoFa8-izL_jeDfB44o7Pc9gzIaQNdD5a6qejyUlBVnEknhNbGUyVvhYWi1MMeSi7gg&geoId=105646813
+                          - generic [ref=e954]:
+                            - generic [ref=e955]:
+                              - figure [ref=e956]
+                              - generic [ref=e957]:
+                                - generic [ref=e960]:
+                                  - paragraph [ref=e963]:
+                                    - generic [ref=e964]: QA Engineer
+                                  - paragraph [ref=e967]: IgmWeb SL
+                                  - paragraph [ref=e969]: Gerona (Presencial)
+                                - generic [ref=e971]:
+                                  - img [ref=e972]
+                                  - paragraph [ref=e976]: Evaluando solicitudes de forma activa
+                            - generic [ref=e977]:
+                              - paragraph [ref=e978]: Promocionado
+                              - paragraph [ref=e979]: ·
+                              - paragraph [ref=e980]:
+                                - generic [ref=e981]: Publicado hace 2 semanas
+                                - text: hace 2 semanas
+                              - paragraph [ref=e982]: ·
+                              - paragraph [ref=e983]:
+                                - img [ref=e985]
+                                - text: Solicitar
+                        - button "Más opciones" [ref=e988] [cursor=pointer]:
+                          - img [ref=e990]
+                      - generic [ref=e992]:
+                        - link "SII Group Spain Barcelona y alrededores (Híbrido) Evaluando solicitudes de forma activa Promocionado · Publicado hace 2 semanas · Solicitar" [ref=e994] [cursor=pointer]:
+                          - /url: https://www.linkedin.com/jobs/search-results/?keywords=QA+Engineer&origin=JobSearchOrigin_JOB_DETAILS_SIMILAR_JOBS_CARD&currentJobId=4428640656&originToLandingJobPostings=4428640656&trackingId=QC49h%2F5NiZD0Cww2gDoGTg%3D%3D&eBP=CwEAAAGfE-BafbEX2RK7ZTkM6GtWx7FxFb1uKj-bpVZ2VgBxyMayBzUwOMcfItoVSiI0884QOMzwoUInOQRaNchlrme6ZvyZILfkRq9lB2UtIOoczgwymLI4J27vaBwVZZe9KI07Y0V8_OSjb_7FwfReWGI-6YlCX8c17Ou1OP0e0LmwakwtVYqlfzZ-QOJ-Em9vztpDfplfk-XsplY6bprBrrJlcMw-_1DKRLMM8SBcyV-i-1sg9r5I99xaOlNNpBHYm6q00wV1b8KSwaTEaTfWX7AVTNEQppSXvzeeJzDJHahQ5pTEOUd8vFjx6pOgsNDTyss3c0dai2Zq7rBmiC8MFukHrO1lY-U6vC6FIwkjSzZUpz-1_ul02JPkCTpx8YSILyx6vRl4PpzgvnZJSoJs42S791YM3_mu8HO-gECt5I8kLzlEObY3Jb0-y3GYLAZqMAH8Vi0BvS6ATh6MoU_BMCt4Z0X5l5VH2uneQcf-vAxzCeilPg&geoId=105646813
+                          - generic [ref=e995]:
+                            - generic [ref=e996]:
+                              - figure [ref=e997]
+                              - generic [ref=e998]:
+                                - generic [ref=e1001]:
+                                  - paragraph [ref=e1004]:
+                                    - generic [ref=e1005]: QA Engineer
+                                  - paragraph [ref=e1008]: SII Group Spain
+                                  - paragraph [ref=e1010]: Barcelona y alrededores (Híbrido)
+                                - generic [ref=e1012]:
+                                  - img [ref=e1013]
+                                  - paragraph [ref=e1017]: Evaluando solicitudes de forma activa
+                            - generic [ref=e1018]:
+                              - paragraph [ref=e1019]: Promocionado
+                              - paragraph [ref=e1020]: ·
+                              - paragraph [ref=e1021]:
+                                - generic [ref=e1022]: Publicado hace 2 semanas
+                                - text: hace 2 semanas
+                              - paragraph [ref=e1023]: ·
+                              - paragraph [ref=e1024]:
+                                - img [ref=e1026]
+                                - text: Solicitar
+                        - button "Más opciones" [ref=e1029] [cursor=pointer]:
+                          - img [ref=e1031]
+                      - generic [ref=e1033]:
+                        - link "Plexus Tech La Coruña (Híbrido) Evaluando solicitudes de forma activa Promocionado · Publicado hace 1 semana · Solicitar" [ref=e1035] [cursor=pointer]:
+                          - /url: https://www.linkedin.com/jobs/search-results/?keywords=QA+Engineer&origin=JobSearchOrigin_JOB_DETAILS_SIMILAR_JOBS_CARD&currentJobId=4427349698&originToLandingJobPostings=4427349698&trackingId=xbxKyNCPv24PY0cGMhKgSg%3D%3D&eBP=CwEAAAGfE-BafTXDyTDyCno2wHYCPBF3T1epacKudH6JMu0pyG-LN6Rnd9rPaDpVBk4ZnvJ5ZCgA51iNhoZjUX86R4cGuylk8M1QLGNK0UxM2BOuQIgEX9tCzwr1SIIZ0GfUbkmMmJeiraVVXlNgcjNgxZdjHts4-Q_aWpR9V903Mv4ua2TWX643bSVOLCE2NkHXdW6r-bFs25nvzC5PnPOjzy6BBVSn0g2AMhqEzPFrMA61Zi8W1cwq1LqAyJcRPY-BIZbExw4KLNSMWXNbRuq906uxdxjOfjFgFc_bBEagzFWxQFClLxglafCjx0b6oYobCFOAdjVjpPJeFQJcDpTrBV-P1438eAOjXuoADUoAQqSWqpFHzDGkS66us1BfAYLQ3zwlsd49TWq10jmeCLwyUzmo1kgw6n53FrYLJ-MdOxjO-rvR09tZUy5701m92hip0m8kF6xyucUsMtGAg6GxVnDDEM95ZJFAJfkOEzdjIaq_phCirr52buUwZw&geoId=105646813
+                          - generic [ref=e1036]:
+                            - generic [ref=e1037]:
+                              - figure [ref=e1038]
+                              - generic [ref=e1039]:
+                                - generic [ref=e1042]:
+                                  - paragraph [ref=e1045]:
+                                    - generic [ref=e1048]:
+                                      - text: QA Tester
+                                      - img [ref=e1050]
+                                  - paragraph [ref=e1053]: Plexus Tech
+                                  - paragraph [ref=e1055]: La Coruña (Híbrido)
+                                - generic [ref=e1057]:
+                                  - img [ref=e1058]
+                                  - paragraph [ref=e1062]: Evaluando solicitudes de forma activa
+                            - generic [ref=e1063]:
+                              - paragraph [ref=e1064]: Promocionado
+                              - paragraph [ref=e1065]: ·
+                              - paragraph [ref=e1066]:
+                                - generic [ref=e1067]: Publicado hace 1 semana
+                                - text: hace 1 semana
+                              - paragraph [ref=e1068]: ·
+                              - paragraph [ref=e1069]:
+                                - img [ref=e1071]
+                                - text: Solicitar
+                        - button "Más opciones" [ref=e1074] [cursor=pointer]:
+                          - img [ref=e1076]
+                    - link "Ver más empleos como este" [ref=e1078] [cursor=pointer]:
+                      - /url: https://www.linkedin.com/jobs/search-results/?keywords=QA+Engineer&origin=JobSearchOrigin_JOB_DETAILS_SIMILAR_JOBS_SEE_MORE&geoId=105646813
+                      - generic [ref=e1079]:
+                        - img [ref=e1080]
+                        - generic [ref=e1082]: Ver más empleos como este
+            - complementary "Al margen" [ref=e1083]:
+              - generic [ref=e1086]:
+                - paragraph [ref=e1087]: ¿Estás buscando candidatos?
+                - link "Anuncia un empleo" [ref=e1088] [cursor=pointer]:
+                  - /url: https://www.linkedin.com/talent/job-posting-redirect/?trk=flagship3_job_detail
+                  - generic [ref=e1090]: Anuncia un empleo
+            - generic "Pie de página" [ref=e1091]:
+              - generic [ref=e1095]:
+                - generic [ref=e1096]:
+                  - navigation [ref=e1097]:
+                    - link "Acerca de" [ref=e1098] [cursor=pointer]:
+                      - /url: https://about.linkedin.com/
+                      - paragraph [ref=e1099]: Acerca de
+                    - link "Accesibilidad" [ref=e1100] [cursor=pointer]:
+                      - /url: https://www.linkedin.com/accessibility/
+                      - paragraph [ref=e1101]: Accesibilidad
+                    - link "Talent Solutions" [ref=e1102] [cursor=pointer]:
+                      - /url: https://business.linkedin.com/talent-solutions?trk=flagship_nav&veh=li-footer-lts-control&src=li-footer
+                      - paragraph [ref=e1103]: Talent Solutions
+                    - link "Pautas comunitarias" [ref=e1104] [cursor=pointer]:
+                      - /url: https://www.linkedin.com/legal/professional-community-policies/
+                      - paragraph [ref=e1105]: Pautas comunitarias
+                    - link "Empleo" [ref=e1106] [cursor=pointer]:
+                      - /url: https://careers.linkedin.com/
+                      - paragraph [ref=e1107]: Empleo
+                    - link "Marketing Solutions" [ref=e1108] [cursor=pointer]:
+                      - /url: https://business.linkedin.com/advertise?trk=n_nav_lms_f&src=li-footer
+                      - paragraph [ref=e1109]: Marketing Solutions
+                    - button "Privacidad y condiciones" [ref=e1110] [cursor=pointer]:
+                      - generic [ref=e1111]:
+                        - paragraph [ref=e1112]: Privacidad y condiciones
+                        - img [ref=e1113]
+                    - link "Opciones de publicidad" [ref=e1115] [cursor=pointer]:
+                      - /url: https://www.linkedin.com/help/linkedin/answer/62931/
+                      - paragraph [ref=e1116]: Opciones de publicidad
+                    - link "Publicidad" [ref=e1117] [cursor=pointer]:
+                      - /url: https://www.linkedin.com/ad/start/?trk=n_nav_ads_rr
+                      - paragraph [ref=e1118]: Publicidad
+                    - link "Sales Solutions" [ref=e1119] [cursor=pointer]:
+                      - /url: https://business.linkedin.com/sales-solutions?trk=flagship_nav&veh=li-footer-lss-control&src=li-footer
+                      - paragraph [ref=e1120]: Sales Solutions
+                    - link "Móvil" [ref=e1121] [cursor=pointer]:
+                      - /url: https://mobile.linkedin.com/
+                      - paragraph [ref=e1122]: Móvil
+                    - link "Pequeñas empresas" [ref=e1123] [cursor=pointer]:
+                      - /url: https://business.linkedin.com/grow?src=li-footer
+                      - paragraph [ref=e1124]: Pequeñas empresas
+                    - link "Centro de seguridad" [ref=e1125] [cursor=pointer]:
+                      - /url: https://safety.linkedin.com/
+                      - paragraph [ref=e1126]: Centro de seguridad
+                  - paragraph [ref=e1128]: LinkedIn Corporation © 2026
+                - generic [ref=e1129]:
+                  - list [ref=e1130]:
+                    - listitem [ref=e1131]:
+                      - generic [ref=e1132]:
+                        - img [ref=e1133]
+                        - generic [ref=e1135]:
+                          - link "¿Tienes preguntas?" [ref=e1136] [cursor=pointer]:
+                            - /url: https://www.linkedin.com/help/linkedin/
+                            - paragraph [ref=e1137]: ¿Tienes preguntas?
+                          - paragraph [ref=e1138]: Visita nuestro Centro de ayuda.
+                    - listitem [ref=e1139]:
+                      - generic [ref=e1140]:
+                        - img [ref=e1141]
+                        - generic [ref=e1143]:
+                          - link "Gestiona tu cuenta y la privacidad" [ref=e1144] [cursor=pointer]:
+                            - /url: https://www.linkedin.com/mypreferences/d/
+                            - paragraph [ref=e1145]: Gestiona tu cuenta y la privacidad
+                          - paragraph [ref=e1146]: Accede a tu Configuración.
+                    - listitem [ref=e1147]:
+                      - generic [ref=e1148]:
+                        - img [ref=e1149]
+                        - generic [ref=e1151]:
+                          - link "Transparencia de las recomendaciones" [ref=e1152] [cursor=pointer]:
+                            - /url: https://www.linkedin.com/help/linkedin/answer/a1339724/
+                            - paragraph [ref=e1153]: Transparencia de las recomendaciones
+                          - paragraph [ref=e1154]: Más información sobre el contenido recomendado.
+                  - generic [ref=e1156]:
+                    - paragraph [ref=e1158]: Seleccionar idioma
+                    - generic [ref=e1159]:
+                      - combobox "Seleccionar idioma" [ref=e1160] [cursor=pointer]:
+                        - option "العربية (árabe)"
+                        - option "বাংলা (bengalí)"
+                        - option "Čeština (checo)"
+                        - option "Dansk (danés)"
+                        - option "Deutsch (alemán)"
+                        - option "Ελληνικά (griego)"
+                        - option "English (inglés)"
+                        - option "Español" [selected]
+                        - option "لاررل (persa)"
+                        - option "Suomi (finlandés)"
+                        - option "Français (francés)"
+                        - option "हिंदी (hindi)"
+                        - option "Magyar (húngaro)"
+                        - option "Bahasa Indonesia (indonesio)"
+                        - option "Italiano (italiano)"
+                        - option "עברית (hebreo)"
+                        - option "日本語 (japonés)"
+                        - option "한국어 (coreano)"
+                        - option "मराठी (marati)"
+                        - option "Bahasa Malaysia (malayo)"
+                        - option "Nederlands (neerlandés)"
+                        - option "Norsk (noruego)"
+                        - option "ਪੰਜਾਬੀ (punyabí)"
+                        - option "Polski (polaco)"
+                        - option "Português (portugués)"
+                        - option "Română (rumano)"
+                        - option "Русский (ruso)"
+                        - option "Svenska (sueco)"
+                        - option "తెలుగు (telugu)"
+                        - option "ภาษาไทย (tailandés)"
+                        - option "Tagalog (tagalo)"
+                        - option "Türkçe (turco)"
+                        - option "Українська (ucraniano)"
+                        - option "Tiếng Việt (vietnamita)"
+                        - option "简体中文 (chino simplificado)"
+                        - option "正體中文 (chino tradicional)"
+                      - img
+  - generic:
+    - generic:
+      - generic:
+        - generic:
+          - complementary:
+            - generic [ref=e1162]:
+              - generic [ref=e1164] [cursor=pointer]:
+                - img "gerard ramonlol3" [ref=e1166]
+                - button "Estás en la superposición de mensajería. Pulsa Intro para abrir la lista de conversaciones." [ref=e1167]:
+                  - generic [ref=e1168]:
+                    - generic [ref=e1169]: Mensajes
+                    - generic [ref=e1170]: Estás en la superposición de mensajería. Pulsa Intro para abrir la lista de conversaciones.
+              - generic [ref=e1171]:
+                - button "Abrir menú despegable de la mensajería" [ref=e1173] [cursor=pointer]:
+                  - img "Abrir menú despegable de la mensajería" [ref=e1174]
+                - button "Redactar mensaje" [ref=e1177] [cursor=pointer]:
+                  - img [ref=e1178]
+                  - generic [ref=e1180]: Redactar mensaje
+                - button "Estás en la superposición de mensajería. Pulsa Intro para abrir la lista de conversaciones." [ref=e1181] [cursor=pointer]:
+                  - img [ref=e1182]
+                  - generic [ref=e1184]: Estás en la superposición de mensajería. Pulsa Intro para abrir la lista de conversaciones.
+          - complementary "Asistente de IA que te ayuda con tu desarrollo profesional, empleos, etc."
+  - iframe [ref=e1185]:
+    - generic [active] [ref=f20e1]:
+      - generic:
+        - region "Mensaje del sistema":
+          - heading "0 notificaciones en total" [level=2] [ref=f20e3]
+          - alert
+      - region [ref=f20e4]
+      - generic [ref=f20e7]:
+        - img [ref=f20e9]
+        - generic [ref=f20e11]:
+          - heading "LinkedIn respeta tu privacidad" [level=1] [ref=f20e12]
+          - generic [ref=f20e13]:
+            - paragraph [ref=f20e14]:
+              - text: LinkedIn y terceros utilizan cookies imprescindibles y opcionales para ofrecer, proteger, analizar y mejorar nuestros servicios, y para mostrarte publicidad relevante (incluidos anuncios profesionales y de empleo) dentro y fuera de LinkedIn. Consulta más información en nuestra
+              - link "Política de cookies" [ref=f20e15] [cursor=pointer]:
+                - /url: https://www.linkedin.com/legal/cookie-policy
+              - text: .
+            - paragraph [ref=f20e16]:
+              - text: Selecciona Aceptar para consentir o Rechazar para denegar las cookies no imprescindibles para este uso. Puedes actualizar tus preferencias en cualquier momento en tus
+              - link "ajustes" [ref=f20e17] [cursor=pointer]:
+                - /url: https://www.linkedin.com/settings/member-cookies
+              - text: .
+          - generic [ref=f20e18]:
+            - button "Aceptar" [ref=f20e19] [cursor=pointer]:
+              - generic [ref=f20e20]: Aceptar
+            - button "Rechazar" [ref=f20e21] [cursor=pointer]:
+              - generic [ref=f20e22]: Rechazar
+      - generic [ref=f20e23]:
+        - generic [ref=f20e25]:
+          - button "Pasar a la búsqueda" [ref=f20e26] [cursor=pointer]:
+            - generic [ref=f20e27]: Pasar a la búsqueda
+          - button "Pasar al contenido principal" [ref=f20e28] [cursor=pointer]:
+            - generic [ref=f20e29]: Pasar al contenido principal
+          - button "Atajos de teclado" [ref=f20e30] [cursor=pointer]:
+            - generic [ref=f20e31]: Atajos de teclado
+          - button "Cerrar menú de saltar" [ref=f20e32] [cursor=pointer]:
+            - img [ref=f20e33]
+            - generic [ref=f20e35]: Cerrar menú de saltar
+        - banner "Navegación global" [ref=f20e36]:
+          - generic [ref=f20e37]:
+            - generic [ref=f20e38]:
+              - link "LinkedIn" [ref=f20e39] [cursor=pointer]:
+                - /url: https://www.linkedin.com/feed/
+                - img "LinkedIn" [ref=f20e42]:
+                  - img [ref=f20e43]
+              - generic [ref=f20e47]:
+                - combobox "Buscar" [ref=f20e48]
+                - generic:
+                  - img
+            - navigation "Navegación principal" [ref=f20e49]:
+              - list [ref=f20e50]:
+                - listitem [ref=f20e51]:
+                  - link "actualizaciones del feed notificaciones nuevas Inicio" [ref=f20e52] [cursor=pointer]:
+                    - /url: https://www.linkedin.com/feed/
+                    - generic [ref=f20e53]:
+                      - generic [ref=f20e56]: actualizaciones del feed notificaciones nuevas
+                      - img [ref=f20e60]
+                    - generic "Inicio" [ref=f20e62]
+                - listitem [ref=f20e63]:
+                  - link "Mi red" [ref=f20e64] [cursor=pointer]:
+                    - /url: https://www.linkedin.com/mynetwork/?
+                    - img [ref=f20e68]
+                    - generic "Mi red" [ref=f20e70]
+                - listitem [ref=f20e71]:
+                  - link "Empleos" [ref=f20e72] [cursor=pointer]:
+                    - /url: https://www.linkedin.com/jobs/?
+                    - img [ref=f20e76]
+                    - generic "Empleos" [ref=f20e78]
+                - listitem [ref=f20e79]:
+                  - link "Mensajes" [ref=f20e80] [cursor=pointer]:
+                    - /url: https://www.linkedin.com/messaging/?
+                    - img [ref=f20e84]
+                    - generic "Mensajes" [ref=f20e86]
+                - listitem [ref=f20e87]:
+                  - link "2 notificaciones nuevas Notificaciones" [ref=f20e88] [cursor=pointer]:
+                    - /url: https://www.linkedin.com/notifications/?
+                    - generic [ref=f20e89]:
+                      - generic [ref=f20e90]:
+                        - generic [ref=f20e91]: "2"
+                        - generic [ref=f20e92]: 2 notificaciones nuevas
+                      - img [ref=f20e96]
+                    - generic "Notificaciones" [ref=f20e98]
+                - listitem [ref=f20e99]:
+                  - button "Más" [ref=f20e101] [cursor=pointer]:
+                    - img [ref=f20e102]
+                    - generic [ref=f20e104]:
+                      - text: Más
+                      - img [ref=f20e105]
+            - navigation [ref=f20e107]:
+              - list [ref=f20e108]:
+                - button "gerard ramonlol3 Yo" [ref=f20e110] [cursor=pointer]:
+                  - img "gerard ramonlol3" [ref=f20e111]
+                  - generic [ref=f20e112]:
+                    - text: Yo
+                    - img [ref=f20e113]
+                - separator [ref=f20e115]
+                - button "Para negocios" [ref=f20e117] [cursor=pointer]:
+                  - img [ref=f20e121]
+                  - generic "Para negocios" [ref=f20e123]:
+                    - text: Para negocios
+                    - img [ref=f20e124]
+                - listitem [ref=f20e126]:
+                  - link "Probar Premium por 0 €" [ref=f20e128] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                    - generic [ref=f20e130]: Probar Premium por 0 €

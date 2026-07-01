@@ -1,0 +1,261 @@
+- generic [active] [ref=e1]:
+  - generic:
+    - region "Toast message":
+      - heading "0 notifications total" [level=2] [ref=e3]
+      - alert
+  - generic [ref=e4]:
+    - generic [ref=e6]:
+      - button "Skip to search" [ref=e7] [cursor=pointer]:
+        - generic [ref=e8]: Skip to search
+      - button "Skip to main content" [ref=e9] [cursor=pointer]:
+        - generic [ref=e10]: Skip to main content
+      - button "Keyboard shortcuts" [ref=e11] [cursor=pointer]:
+        - generic [ref=e12]: Keyboard shortcuts
+      - button "Close jump menu" [ref=e13] [cursor=pointer]:
+        - img [ref=e14]
+        - generic [ref=e16]: Close jump menu
+    - banner "Global Navigation" [ref=e17]:
+      - generic [ref=e18]:
+        - link "LinkedIn" [ref=e19] [cursor=pointer]:
+          - /url: https://www.linkedin.com/feed/?nis=true
+          - img "LinkedIn" [ref=e22]:
+            - img [ref=e23]
+        - generic [ref=e27]:
+          - generic [ref=e30]:
+            - generic [ref=e31]:
+              - generic [ref=e32]: Search by title, skill, or company
+              - img [ref=e33]
+            - combobox "Search by title, skill, or company" [ref=e35]: Ingeniero QA
+            - textbox [disabled]
+          - generic [ref=e38]:
+            - generic [ref=e39]:
+              - generic [ref=e40]: City, state, or zip code
+              - img [ref=e41]
+            - combobox "City, state, or zip code" [ref=e43]: Spain
+            - textbox [disabled]
+          - button "Search" [ref=e44] [cursor=pointer]
+        - navigation "Primary Navigation" [ref=e45]:
+          - list [ref=e46]:
+            - listitem [ref=e47]:
+              - link "new feed updates notifications Home" [ref=e48] [cursor=pointer]:
+                - /url: https://www.linkedin.com/feed/?nis=true&
+                - generic [ref=e49]:
+                  - generic [ref=e52]: new feed updates notifications
+                  - img [ref=e56]
+                - generic "Home" [ref=e58]
+            - listitem [ref=e59]:
+              - link "My Network" [ref=e60] [cursor=pointer]:
+                - /url: https://www.linkedin.com/mynetwork/?
+                - img [ref=e64]
+                - generic "My Network" [ref=e66]
+            - listitem [ref=e67]:
+              - link "Jobs" [ref=e68] [cursor=pointer]:
+                - /url: https://www.linkedin.com/jobs/?
+                - img [ref=e72]
+                - generic "Jobs" [ref=e74]
+            - listitem [ref=e75]:
+              - link "Messaging" [ref=e76] [cursor=pointer]:
+                - /url: https://www.linkedin.com/messaging/?
+                - img [ref=e80]
+                - generic "Messaging" [ref=e82]
+            - listitem [ref=e83]:
+              - link "Notifications" [ref=e84] [cursor=pointer]:
+                - /url: https://www.linkedin.com/notifications/?
+                - img [ref=e88]
+                - generic "Notifications" [ref=e90]
+            - listitem [ref=e91]:
+              - button "Brisa Elvira Lazaro Campos Me" [ref=e93] [cursor=pointer]:
+                - img "Brisa Elvira Lazaro Campos" [ref=e94]
+                - generic [ref=e95]:
+                  - text: Me
+                  - img [ref=e96]
+            - listitem [ref=e98]:
+              - button "For Business" [ref=e100] [cursor=pointer]:
+                - img [ref=e104]
+                - generic "For Business" [ref=e106]:
+                  - text: For Business
+                  - img [ref=e107]
+            - listitem [ref=e109]:
+              - link "Get hired for €0" [ref=e111] [cursor=pointer]:
+                - /url: javascript:void(0)
+                - generic [ref=e112]:
+                  - img [ref=e113]
+                  - generic [ref=e115]: Get hired for €0
+    - generic [ref=e117]:
+      - region "search filters" [ref=e120]:
+        - heading "Jobs search" [level=2] [ref=e121]
+      - main [ref=e132]:
+        - generic [ref=e134]:
+          - generic [ref=e135]:
+            - generic [ref=e136]:
+              - generic [ref=e137]:
+                - generic "Ingeniero QA in Spain" [ref=e138]
+                - generic [ref=e141]: 600+ results
+              - generic [ref=e144] [cursor=pointer]:
+                - generic [ref=e145]: Set alert
+                - generic [ref=e146]: Set job alert for Ingeniero QA in Spain
+                - switch "Set job alert for Ingeniero QA in Spain"
+            - generic [ref=e147]:
+              - button "Jump to active job details":
+                - generic [ref=e148] [cursor=pointer]: Jump to active job details
+              - button "Jump to active search result":
+                - generic [ref=e149] [cursor=pointer]: Jump to active search result
+              - list [ref=e150]:
+                - listitem [ref=e151]:
+                  - generic [ref=e154] [cursor=pointer]:
+                    - generic [ref=e155]:
+                      - img "Exceltic logo" [ref=e159]
+                      - generic [ref=e160]:
+                        - link "Ingeniero/a de Cálculo de Estructuras Ferroviarias with verification" [ref=e162]:
+                          - /url: /jobs/view/4431086921/?trk=flagship3_search_srp_jobs
+                          - generic [ref=e163]:
+                            - strong [ref=e164]: Ingeniero/a de Cálculo de Estructuras Ferroviarias
+                            - img [ref=e166]
+                        - generic [ref=e169]: Exceltic
+                        - list [ref=e171]:
+                          - listitem [ref=e172]:
+                            - generic [ref=e173]: Seville, Andalusia, Spain (Hybrid)
+                    - list [ref=e175]:
+                      - listitem [ref=e176]
+                - listitem [ref=e178]:
+                  - generic [ref=e181] [cursor=pointer]:
+                    - generic [ref=e182]:
+                      - img "Paradigma Digital logo" [ref=e186]
+                      - generic [ref=e187]:
+                        - link "Senior Data Engineer with verification" [ref=e189]:
+                          - /url: /jobs/view/4434495450/?trk=flagship3_search_srp_jobs
+                          - generic [ref=e190]:
+                            - strong [ref=e191]: Senior Data Engineer
+                            - img [ref=e193]
+                        - generic [ref=e196]: Paradigma Digital
+                        - list [ref=e198]:
+                          - listitem [ref=e199]:
+                            - generic [ref=e200]: Spain (Remote)
+                    - list [ref=e202]:
+                      - listitem [ref=e203]
+                - listitem [ref=e205]:
+                  - generic [ref=e208] [cursor=pointer]:
+                    - generic [ref=e209]:
+                      - img "Neotalent Conclusion logo" [ref=e213]
+                      - generic [ref=e214]:
+                        - link "Ingeniero/a Senior de Instrumentación y Control with verification" [ref=e216]:
+                          - /url: /jobs/view/4434488699/?trk=flagship3_search_srp_jobs
+                          - generic [ref=e217]:
+                            - strong [ref=e218]: Ingeniero/a Senior de Instrumentación y Control
+                            - img [ref=e220]
+                        - generic [ref=e223]: Neotalent Conclusion
+                        - list [ref=e225]:
+                          - listitem [ref=e226]:
+                            - generic [ref=e227]: Greater Barcelona Metropolitan Area (On-site)
+                    - list [ref=e229]:
+                      - listitem [ref=e230]
+                - listitem [ref=e232]:
+                  - generic [ref=e235] [cursor=pointer]:
+                    - generic [ref=e236]:
+                      - img "Lognext logo" [ref=e240]
+                      - generic [ref=e241]:
+                        - link "Senior Quality Assurance Automation Engineer with verification" [ref=e243]:
+                          - /url: /jobs/view/4431516271/?trk=flagship3_search_srp_jobs
+                          - generic [ref=e244]:
+                            - strong [ref=e245]: Senior Quality Assurance Automation Engineer
+                            - img [ref=e247]
+                        - generic [ref=e250]: Lognext
+                        - list [ref=e252]:
+                          - listitem [ref=e253]:
+                            - generic [ref=e254]: Madrid, Community of Madrid, Spain (Hybrid)
+                    - list [ref=e256]:
+                      - listitem [ref=e257]
+                - listitem [ref=e259]:
+                  - generic [ref=e262] [cursor=pointer]:
+                    - generic [ref=e263]:
+                      - img "MingYang Electric logo" [ref=e267]
+                      - generic [ref=e268]:
+                        - link "Technical Support Engineer - Europe" [ref=e270]:
+                          - /url: /jobs/view/4434499204/?trk=flagship3_search_srp_jobs
+                          - strong [ref=e272]: Technical Support Engineer - Europe
+                        - generic [ref=e274]: MingYang Electric
+                        - list [ref=e276]:
+                          - listitem [ref=e277]:
+                            - generic [ref=e278]: Spain (Remote)
+                    - list [ref=e280]:
+                      - listitem [ref=e281]
+                - listitem [ref=e283]:
+                  - generic [ref=e286] [cursor=pointer]:
+                    - generic [ref=e287]:
+                      - img "Hasten Group logo" [ref=e291]
+                      - generic [ref=e292]:
+                        - link "Arquitecto/a de Soluciones de IA | Ciberdefensa (Madrid) with verification" [ref=e294]:
+                          - /url: /jobs/view/4431508353/?trk=flagship3_search_srp_jobs
+                          - generic [ref=e295]:
+                            - strong [ref=e296]: Arquitecto/a de Soluciones de IA | Ciberdefensa (Madrid)
+                            - img [ref=e298]
+                        - generic [ref=e301]: Hasten Group
+                        - list [ref=e303]:
+                          - listitem [ref=e304]:
+                            - generic [ref=e305]: Pozuelo de Alarcón, Community of Madrid, Spain (On-site)
+                    - list [ref=e307]:
+                      - listitem [ref=e308]
+                - listitem [ref=e310]:
+                  - generic [ref=e313] [cursor=pointer]:
+                    - generic [ref=e314]:
+                      - img "Nexthink logo" [ref=e318]
+                      - generic [ref=e319]:
+                        - link "Sales Operations (Quality, Audit & Compliance Lead) with verification" [ref=e321]:
+                          - /url: /jobs/view/4434492533/?trk=flagship3_search_srp_jobs
+                          - generic [ref=e322]:
+                            - strong [ref=e323]: Sales Operations (Quality, Audit & Compliance Lead)
+                            - img [ref=e325]
+                        - generic [ref=e328]: Nexthink
+                        - list [ref=e330]:
+                          - listitem [ref=e331]:
+                            - generic [ref=e332]: Madrid, Community of Madrid, Spain (Hybrid)
+                    - list [ref=e334]:
+                      - listitem [ref=e335]
+              - generic [ref=e337]:
+                - generic [ref=e338]:
+                  - button "View previous page" [ref=e339] [cursor=pointer]:
+                    - img [ref=e340]
+                    - generic [ref=e342]: Previous
+                  - list [ref=e343]:
+                    - listitem [ref=e344]:
+                      - button "Page 1" [ref=e345] [cursor=pointer]: "1"
+                - generic "LinkedIn Footer Content" [ref=e347]
+          - generic "Ingeniero/a de Cálculo de Estructuras Ferroviarias" [ref=e351]:
+            - generic [ref=e355]:
+              - generic [ref=e359]:
+                - generic [ref=e362]:
+                  - button "Share" [ref=e365] [cursor=pointer]:
+                    - img [ref=e366]
+                    - generic [ref=e368]: Share
+                  - button "Show more options" [ref=e370] [cursor=pointer]:
+                    - img [ref=e371]
+                    - generic [ref=e373]: Show more options
+                - heading "Ingeniero/a de Cálculo de Estructuras Ferroviarias" [level=1] [ref=e376]:
+                  - link "Ingeniero/a de Cálculo de Estructuras Ferroviarias" [ref=e377] [cursor=pointer]:
+                    - /url: /jobs/view/4431086921/?alternateChannel=search&refId=NotAvailable&trackingId=P4GF%2B53vQkW2AX2oEUtZ6g%3D%3D&trk=d_flagship3_search_srp_jobs
+                - generic:
+                  - list
+              - article [ref=e390]:
+                - heading "About the job" [level=2] [ref=e393]
+              - alert [ref=e428]: Loading job details
+    - generic:
+      - generic:
+        - complementary:
+          - generic [ref=e442]:
+            - generic [ref=e444] [cursor=pointer]:
+              - img "Brisa Elvira Lazaro Campos" [ref=e446]
+              - button "You are on the messaging overlay. Press enter to open the list of conversations." [ref=e447]:
+                - generic [ref=e448]:
+                  - generic [ref=e449]: Messaging
+                  - generic [ref=e450]: You are on the messaging overlay. Press enter to open the list of conversations.
+            - generic [ref=e451]:
+              - button "Open messenger dropdown menu" [ref=e453] [cursor=pointer]:
+                - img "Open messenger dropdown menu" [ref=e454]
+              - button "Compose message" [ref=e457] [cursor=pointer]:
+                - img [ref=e458]
+                - generic [ref=e460]: Compose message
+              - button "You are on the messaging overlay. Press enter to open the list of conversations." [ref=e461] [cursor=pointer]:
+                - img [ref=e462]
+                - generic [ref=e464]: You are on the messaging overlay. Press enter to open the list of conversations.
+        - complementary "AI-powered assistant to get help with your career, jobs etc"
+  - region [ref=e465]
