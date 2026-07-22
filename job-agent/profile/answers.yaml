@@ -12,9 +12,13 @@ workEligibility:
 compensation:
   # Gross annual salary in EUR. Use null if you prefer "negotiable".
   minEurGross: 22000
-  desiredEurGross: 26000
+  desiredEurGross: 23000
   # Shown when a form forces a text answer (e.g. "Negotiable, open to discuss")
   note: ""
+
+languages:
+  # When a form asks specifically for B2 or higher English, answer Yes.
+  englishB2OrHigher: true
 
 availability:
   # Notice period (e.g. "Immediate", "15 days", "1 month")

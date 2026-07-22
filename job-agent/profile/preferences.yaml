@@ -10,8 +10,8 @@ roles:
 location:
   # Countries to search in (e.g. "Spain")
   countries: ["Spain"]
-  # Cities you accept onsite/hybrid (e.g. "Barcelona")
-  cities: ["Barcelona"]
+  # Cities you accept onsite/hybrid (Barcelona metro area)
+  cities: ["Barcelona", "Granollers", "Sant Cugat del Vallès", "Mataró", "Badalona", "Terrassa", "Sabadell"]
   # Accepted work modes: remote | hybrid | onsite
   workModes: ["Remote", "Hybrid"]
   # true if you are open to relocating

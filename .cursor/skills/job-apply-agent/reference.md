@@ -2,20 +2,34 @@
 
 Detailed selectors, field mapping, and platform-specific notes for [SKILL.md](SKILL.md).
 
+## Platform order
+
+1. **LinkedIn** — Barcelona (`geoId=107025191`) and nearby metro (Hybrid/Remote)
+2. **InfoJobs** — `province=Barcelona` (see [platforms/infojobs.md](platforms/infojobs.md))
+
+Daily limit is shared across both platforms (`preferences.application.maxPerDay`).
+
 ## LinkedIn search mode
 
 **Use classic search only — never the AI job search.** LinkedIn may surface a conversational "AI-powered" job search. Do not use it. Always drive the classic results page at `/jobs/search/` by typing a job title and selecting a location, then applying filters.
 
-Classic search via UI:
+Classic search via UI (required — do not skip dropdown selection):
 1. Go to `https://www.linkedin.com/jobs/`.
-2. Type the role into the "Search by title, skill, or company" field.
-3. Type the location into the "City, state, or zip code" field — prefer `Barcelona, Catalonia, Spain` (fallback `Spain`) — and pick the matching dropdown suggestion.
-4. Click **Search**, then set filters (Easy Apply, Date posted = Past week, Sort = Most recent).
+2. Type the role into the "Search by title, skill, or company" field (`slowly: true`).
+3. Type the location into the "City, state, or zip code" field — prefer `Barcelona, Catalonia, Spain` (`slowly: true`) — and **click** the first matching dropdown suggestion. Do not press Enter without selecting.
+4. Confirm the URL contains `geoId=` before applying filters.
+5. Set filters (Easy Apply, Date posted = Past week, Sort = Most recent).
 
-Equivalent classic results URL (loads the classic list, not AI mode):
+Correct results URL (after UI search + filters):
 
 ```
-https://www.linkedin.com/jobs/search/?keywords={role}&location=Barcelona, Catalonia, Spain&f_AL=true&f_TPR=r604800&sortBy=DD
+https://www.linkedin.com/jobs/search/?keywords=QA+Tester&geoId=107025191&f_AL=true&f_TPR=r604800&sortBy=DD
+```
+
+**Wrong** — returns unrelated developer jobs:
+
+```
+https://www.linkedin.com/jobs/search/?keywords=QA+Tester&location=Barcelona, Catalonia, Spain&f_AL=true&f_TPR=r604800&sortBy=DD
 ```
 
 ## LinkedIn search URL parameters
@@ -23,12 +37,18 @@ https://www.linkedin.com/jobs/search/?keywords={role}&location=Barcelona, Catalo
 | Param | Value | Meaning |
 |-------|-------|---------|
 | `keywords` | Role from `preferences.roles.include` | Job title search |
-| `location` | `Barcelona, Catalonia, Spain` (fallback `Spain`) | Location filter |
+| `geoId` | `107025191` (Barcelona from autocomplete) | **Required** location filter — use instead of `location` text |
 | `f_AL` | `true` | Easy Apply only (Phase 1) |
 | `f_TPR` | `r604800` | Posted in last 7 days |
 | `sortBy` | `DD` | Most recent first |
 
-Phase 2 (external): same classic URL without `f_AL=true`, or browse "Apply on company website" results from Phase 1 search.
+**Never use** the `location=` text parameter — LinkedIn does not resolve it the same way as the autocomplete dropdown and returns broad/noisy results.
+
+Phase 1b (LinkedIn external): same classic URL without `f_AL=true`, or browse "Apply on company website" results from Phase 1 search.
+
+## InfoJobs
+
+See [platforms/infojobs.md](platforms/infojobs.md) for search URLs, apply flow (`Inscribirme en esta oferta`), auth, and province filter.
 
 ## LinkedIn UI selectors
 
@@ -82,7 +102,7 @@ Build answers from `cv.json` + `answers.yaml`. Match field labels (case-insensit
 | years of experience, años de experiencia | `cv.yearsOfExperience` (2) |
 | notice period, preaviso | `answers.availability.noticePeriod` (15 days) |
 | earliest start, fecha de inicio | `answers.availability.earliestStartDate` or "ASAP" |
-| salary, salario, compensation | `26000 EUR gross/year` |
+| salary, salario, compensation | `23000 EUR gross/year` |
 | cover letter, carta, message, mensaje | `answers.coverLetter.shortPitch` |
 | driving license, carnet | `answers.extras.drivingLicense` (B) |
 
@@ -96,7 +116,8 @@ Build answers from `cv.json` + `answers.yaml`. Match field labels (case-insensit
 | have you worked at [company] before | No (unless in CV) |
 | do you have [skill from mustHave] | Yes if skill in `cv.json` skills |
 | are you fluent in Spanish | Yes |
-| are you fluent in English | Yes (Intermediate B1 — honest if level asked) |
+| are you fluent in English | Yes |
+| English B2 or higher / nivel de inglés B2 | Yes (from `answers.languages.englishB2OrHigher`) |
 
 ### Open-text questions
 
@@ -155,9 +176,9 @@ score = clamp(base, 0, 100)
 
 Threshold: apply only if `score >= 75`.
 
-## Phase 2: External applications
+## Phase 1b: LinkedIn external applications
 
-Triggered after Phase 1 completes or daily limit hit on Easy Apply jobs.
+Triggered after Easy Apply queue is exhausted (still within Phase 1, before InfoJobs).
 
 1. From search results without `f_AL`, or from saved high-score non-Easy-Apply jobs.
 2. Click Apply → may open new tab or redirect to company ATS (Greenhouse, Lever, Workday, etc.).
@@ -181,13 +202,11 @@ Triggered after Phase 1 completes or daily limit hit on Easy Apply jobs.
 
 ## Future platforms
 
-Structure for adding portals (not implemented yet):
-
 ```
 platforms/
-  linkedin.md   ← this file
-  infojobs.md   ← future
+  infojobs.md   ← implemented (Phase 2)
   indeed.md     ← future
+  tecnoempleo.md ← future
 ```
 
 Each platform doc should define: search URL, auth check, apply flow, field mapping overrides.
