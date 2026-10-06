@@ -129,9 +129,9 @@ Write 2–4 sentences using ONLY facts from:
 Tone: formal (`answers.coverLetter.tone`).
 
 Example patterns:
-- "Why are you interested?" → QA transition story from summary + Bikup testing experience
+- "Why are you interested?" → QA profile summary + Bikup testing collaboration experience
 - "Describe your testing experience" → Manual, exploratory, API testing, Cypress, Postman from skills
-- "Tell us about a bug you found" → Reference Bikup defect validation or Neulygron community project
+- "Tell us about a bug you found" → Reference Neulygron auth bypass / PDF classification defect or Shady Meadows booking failures
 
 **Never invent**: years beyond CV, tools not listed, certifications, languages beyond stated levels.
 

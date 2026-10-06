@@ -1,6 +1,6 @@
 Brisa Lázaro
 Junior QA Engineer
-brisa.lazaroc@gmail.com +34 648 008 592 linkedin.com/in/brisa-lazaro
+brisa.lazaroc@gmail.com +34 648 008 592LinkedIn Profile View QA Portfolio
 SKILLS
 Testing
 ·Manual, Exploratory & Functional
@@ -21,87 +21,97 @@ AI & Modern QA
 ·Risk Analysis with AI
 · AI-Based Edge Case Discovery
 LANGUAGES
-Spanish — Native
-English — Intermediate (B1)
-Catalan — Beginner
+Spanish: Native
+English: Professional working
+proficiency
+Catalan: Beginner
 EDUCATION
 QA Engineer
-Self-Taught
+Ministry of Testing
 Web Developer
 42 Barcelona
 Business Administration
 UPAEP
 PR
 OFILE
-Frontend Developer transitioning into QA with Agile experience
-and hands-on testing across the development cycle.
-My technical background helps me understand how produ
-built and comm
-unicate issues with precision. My growing QA
-focus drives me to identify risks, uncover edge cases, and
-advocate for q
-uality.
-cts are
-Currently exploring AI-assisted workflows for test design,
-exploratory testing, and risk analysis.
-QA LEARNING & CO
-MM
-UNITY PR
-O
-JECTS
-Self-Learning & Hands-On Practice
-2025 – Present
-Software Testing courses, exploratory and risk-based testing, API
-testing.
-Defect reporting, bug investigation, test design and
-docu
-mentation.
-Comm
-unity Project: Neulygron
-Exploratory testing, usability and functionality issues, security
-evaluation.
-Continuous feedback and risk assessment to su
-pport release
-confidence.
-AI-powered workflows for test ideas, edge cases, and req
-uirement
-analysis.
+Junior QA Engineer with hands-on experience in manual,
+exploratory, functional and API testing within Agile software
+teams.
+My software development background helps me understand
+produ
+ct behaviour across the delivery cycle, collaborate closely
+with engineers, and comm
+unicate defects clearly and precisely.
+I also use AI tools to su
+pport test design, uncover edge cases,
+assess risk, and strengthen exploratory testing.
 PR
 OFESSIONAL EXPERIENCE
+QA Tester · Neulygron AI Expense Classifier · 2025 – Present
+Performed exploratory testing during development across PDF
+u
+pload, AI classification, category management, authentication,
+and end-to-end user journeys.
+Identified and docu
+mented important defects, including an
+authentication b
+ypass and a very high-risk issue where non-
+financial PDFs returned incorrect classification results.
+Scored defects with a probability × impact risk matrix and shared
+continuous feedback on security, usability, and functionality to
+strengthen release confidence.
+Used AI-assisted workflows to generate test ideas, surface edge
+cases, and analyse req
+uirements.
+QA Tester · Shady Meadows B&B
+Restful Booker Platform Demo · 2025
+Executed exploratory and risk-based testing across booking flows,
+room reservation, contact form, admin panel, navigation, and
+footer links.
+Logged and docu
+mented 16 defects, ranked b
+y risk using a 5×5
+probability × impact matrix.
+Highlighted critical booking and validation failures that affected
+core user journeys and release confidence.
 Frontend Developer Biku
 p Tech Solutions · 2022 – 2024
-Participated in unit testing, E2E testing, 3 Amigos and ETS
-sessions in Agile teams.
-Used Feature Flags to su
-pport safer releases and redu
-ce
-deployment risks.
-Identified defects and validated functionality throughout
-development.
+Collaborated with QA and engineers in 3 Amigos and ETS sessions
+to clarify acceptance criteria and redu
+ce delivery risk.
+Contributed to unit and E2E testing, validating feature behaviour
+before and during release.
+Validated feature flag rollouts to su
+pport safer releases and lower
+deployment risk.
+Detected defects and verified functionality throughout the
+development cycle in Agile teams.
 Restaurant Manager El Pulpo · 2017 – 2021
 Coordinated teams and resolved operational issues in fast-paced
 environments.
-Built skills in attention to detail, comm
+Built attention to detail, clear comm
 unication, and process
-improvement — now applied to QA.
+discipline now applied in QA work.
 WHAT I BRING
 Quality Mindset
-Question assu
+Challenge assu
 mptions and
-identify risks before they
+surface risks before they
 reach users.
 Technical Background
-Frontend experience to
-collaborate with engineers
-and report issues precisely.
-AI-Augmented Testing
-Using AI tools to improve
-test design, discover
-scenarios, and speed u
-p
-investigation.
-Continuous Learning
-Hands-on practice,
-comm
-unity projects, and
-real-world experimentation.
+Software development
+experience that su
+pports
+engineer collaboration and
+precise defect reporting.
+AI-Assisted Testing
+Apply AI to strengthen test
+design, uncover edge cases,
+and accelerate risk analysis.
+Agile Collaboration
+Partner with QA and
+engineering teams to clarify
+req
+uirements and protect
+release q
+uality.

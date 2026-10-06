@@ -30,7 +30,7 @@ coverLetter:
   # Tone: concise | formal | friendly
   tone: "formal"
   # A short default pitch (2-3 sentences) about why you fit QA roles
-  shortPitch: "Frontend Developer transitioning into QA, with Agile experience and hands-on testing across the development cycle. My technical background helps me understand how products are built and communicate issues with precision, while my QA focus drives me to identify risks and uncover edge cases. I also apply AI-assisted workflows to improve test design, exploratory testing, and risk analysis."
+  shortPitch: "Junior QA Engineer with hands-on experience in manual, exploratory, functional and API testing within Agile software teams. My software development background helps me understand product behaviour across the delivery cycle, collaborate closely with engineers, and communicate defects clearly. I also use AI tools to support test design, uncover edge cases, assess risk, and strengthen exploratory testing."
 
 extras:
   # Optional. Leave blank to skip.

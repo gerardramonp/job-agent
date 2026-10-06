@@ -3,22 +3,23 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Brisa Lázaro — Junior QA Engineer</title>
-  <meta name="description" content="Junior QA Engineer with a frontend background. Manual &amp; exploratory testing, API testing, Cypress, and AI-assisted workflows. Portfolio of projects and bugs found.">
+  <title>Brisa Lázaro | Junior QA Engineer</title>
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <meta name="description" content="Junior QA Engineer with hands-on manual, exploratory, functional, and API testing experience. Bug reporting, UX validation, risk-based testing, and AI-assisted workflows. Portfolio of projects and bugs found.">
   <link rel="canonical" href="https://gerardramonp.github.io/job-agent/">
 
   <!-- Open Graph -->
   <meta property="og:type" content="website">
-  <meta property="og:title" content="Brisa Lázaro — Junior QA Engineer">
-  <meta property="og:description" content="Junior QA Engineer with a frontend background. Portfolio of projects and bugs found.">
+  <meta property="og:title" content="Brisa Lázaro | Junior QA Engineer">
+  <meta property="og:description" content="Junior QA Engineer with hands-on testing experience. Portfolio of projects and bugs found.">
   <meta property="og:url" content="https://gerardramonp.github.io/job-agent/">
   <meta property="og:image" content="https://gerardramonp.github.io/job-agent/og-image.png">
   <meta property="og:locale" content="en_US">
 
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Brisa Lázaro — Junior QA Engineer">
-  <meta name="twitter:description" content="Junior QA Engineer with a frontend background. Portfolio of projects and bugs found.">
+  <meta name="twitter:title" content="Brisa Lázaro | Junior QA Engineer">
+  <meta name="twitter:description" content="Junior QA Engineer with hands-on testing experience. Portfolio of projects and bugs found.">
   <meta name="twitter:image" content="https://gerardramonp.github.io/job-agent/og-image.png">
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -254,16 +255,64 @@
       display: inline-flex;
       align-items: center;
       gap: 0.5rem;
-      font-size: 0.85rem;
+      font-size: 0.82rem;
       font-weight: 600;
       color: var(--text);
       background: var(--card);
       border: 1px solid var(--border);
       border-radius: 999px;
-      padding: 0.4rem 0.9rem;
-      margin-bottom: 1.5rem;
+      padding: calc(0.2rem + 0.4rem) 0.9rem;
+      margin-bottom: 0;
       box-shadow: var(--shadow);
+      line-height: 1.25;
     }
+
+    .hero-meta {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 0.75rem;
+      margin-bottom: 1.5rem;
+    }
+
+    /* QA toggle */
+    .qa-toggle-wrap {
+      position: relative;
+      display: inline-flex;
+    }
+    .qa-invite {
+      display: none;
+      position: absolute;
+      bottom: calc(100% + 0.5rem);
+      left: 0;
+      white-space: nowrap;
+      z-index: 2;
+      font-family: "SF Mono", "Fira Code", "Consolas", monospace;
+      font-size: 0.66rem;
+      font-weight: 700;
+      letter-spacing: 0.02em;
+      color: var(--danger);
+      background: var(--danger-bg);
+      border: 1px solid #f6cdcd;
+      border-radius: 999px;
+      padding: 0.28rem 0.65rem;
+      box-shadow: var(--shadow);
+      animation: qa-invite-float 2.4s ease-in-out infinite;
+    }
+    .qa-invite::after {
+      content: "";
+      position: absolute;
+      top: 100%;
+      left: 1.15rem;
+      margin-top: 1px;
+      border: 5px solid transparent;
+      border-top-color: #f6cdcd;
+    }
+    @keyframes qa-invite-float {
+      0%, 100% { transform: translateY(0); }
+      50% { transform: translateY(-3px); }
+    }
+    .hero--after .qa-invite { display: inline-block; }
 
     .status-pill .live-dot {
       position: relative;
@@ -399,15 +448,13 @@
     .hero--before .pitch { color: #c2c2c8; }
     .hero--before h1 { letter-spacing: 0.04em; }
 
-    /* QA toggle */
     .qa-toggle {
       display: inline-flex;
       border: 1px solid var(--border);
       border-radius: 999px;
-      overflow: hidden;
+      overflow: visible;
       background: var(--card);
       box-shadow: var(--shadow);
-      margin-bottom: 1.5rem;
       padding: 0.2rem;
       gap: 0.2rem;
     }
@@ -422,7 +469,8 @@
       background: transparent;
       cursor: pointer;
       color: var(--text-muted);
-      transition: background 0.2s, color 0.2s;
+      line-height: 1.25;
+      transition: background 0.2s, color 0.2s, transform 0.15s ease, box-shadow 0.2s ease, border-color 0.2s ease;
     }
 
     .qa-toggle button.active { background: var(--text); color: #fff; }
@@ -443,7 +491,7 @@
     .hero--before .bug-banner--error { display: block; }
     .hero--after .bug-banner--success { display: block; }
 
-    /* Overlap element — sits on top of the placeholder pitch text */
+    /* Overlap element - sits on top of the placeholder pitch text */
     .hero-overlap {
       position: absolute; left: -0.4rem; top: 50%;
       transform: translateY(-50%) rotate(-4deg);
@@ -537,20 +585,55 @@
     }
     .rm-cell:hover, .rm-cell:focus-within { transform: scale(1.08); box-shadow: var(--shadow-md); z-index: 20; }
 
-    /* Numbered bug markers — only in Before QA mode */
+    /* Numbered bug markers - only in Before QA mode */
     .rm-bug {
-      position: absolute; top: 3px; right: 3px;
-      width: 1.05rem; height: 1.05rem; border-radius: 50%;
-      background: var(--text); color: #fff;
+      position: absolute; top: 2px; right: 2px;
+      min-width: 1.45rem; height: 1.3rem; padding: 0 0.28rem;
+      border-radius: 999px;
+      background: var(--danger); color: #fff;
       border: 2px solid var(--card);
       display: none; align-items: center; justify-content: center;
-      font-size: 0.6rem; font-weight: 800; line-height: 1;
+      font-size: 0.62rem; font-weight: 800; line-height: 1;
       font-family: "SF Mono", "Fira Code", "Consolas", monospace;
       cursor: help; z-index: 4;
-      box-shadow: 0 2px 6px rgba(24, 24, 27, 0.3);
+      box-shadow: 0 2px 8px rgba(214, 51, 108, 0.45);
+      opacity: 0; transform: scale(0);
+    }
+    .rm-bug::after {
+      content: "";
+      position: absolute; inset: -4px;
+      border-radius: 999px;
+      background: var(--danger);
+      opacity: 0.35;
+      z-index: -1;
+      animation: rm-bug-pulse 2s ease-out infinite;
+    }
+    @keyframes rm-bug-pulse {
+      0% { transform: scale(0.65); opacity: 0.45; }
+      100% { transform: scale(1.7); opacity: 0; }
+    }
+    @keyframes rm-bug-in {
+      0% { opacity: 0; transform: scale(0) rotate(-10deg); }
+      65% { opacity: 1; transform: scale(1.14) rotate(2deg); }
+      100% { opacity: 1; transform: scale(1) rotate(0); }
     }
     .hero--before .rm-bug { display: inline-flex; }
-    .rm-bug:hover, .rm-bug:focus-visible { transform: scale(1.15); outline: none; }
+    .hero--before.rm-bugs-animate .rm-bug { animation: rm-bug-in 0.38s cubic-bezier(0.34, 1.56, 0.64, 1) forwards; }
+    .hero--before.rm-bugs-animate .rm-bug[data-bug="1"] { animation-delay: 0ms; }
+    .hero--before.rm-bugs-animate .rm-bug[data-bug="2"] { animation-delay: 90ms; }
+    .hero--before.rm-bugs-animate .rm-bug[data-bug="3"] { animation-delay: 180ms; }
+    .hero--before.rm-bugs-animate .rm-bug[data-bug="4"] { animation-delay: 270ms; }
+    .hero--before.rm-bugs-animate .rm-bug[data-bug="5"] { animation-delay: 360ms; }
+    .hero--before.rm-bugs-animate .rm-bug[data-bug="6"] { animation-delay: 450ms; }
+    .hero--before.rm-bugs-animate .rm-bug[data-bug="1"]::after { animation-delay: 0.45s; }
+    .hero--before.rm-bugs-animate .rm-bug[data-bug="2"]::after { animation-delay: 0.54s; }
+    .hero--before.rm-bugs-animate .rm-bug[data-bug="3"]::after { animation-delay: 0.63s; }
+    .hero--before.rm-bugs-animate .rm-bug[data-bug="4"]::after { animation-delay: 0.72s; }
+    .hero--before.rm-bugs-animate .rm-bug[data-bug="5"]::after { animation-delay: 0.81s; }
+    .hero--before.rm-bugs-animate .rm-bug[data-bug="6"]::after { animation-delay: 0.9s; }
+    .rm-bug:hover, .rm-bug:focus-visible { transform: scale(1.12); outline: none; }
+    .rm-cell:has(.rm-bug--hint) { z-index: 22; }
+    .rm-bug.rm-bug--hint { z-index: 25; }
 
     .rm-tip {
       position: absolute; bottom: calc(100% + 9px); left: 50%;
@@ -567,6 +650,7 @@
       content: ""; position: absolute; top: 100%; left: 50%; transform: translateX(-50%);
       border: 5px solid transparent; border-top-color: var(--text);
     }
+    .rm-bug.rm-bug--hint .rm-tip,
     .rm-bug:hover .rm-tip, .rm-bug:focus .rm-tip { opacity: 1; transform: translateX(-50%) translateY(0); }
 
     .rm--vlow    { background: #4fae6b; }
@@ -700,6 +784,8 @@
     }
 
     .project-card {
+      position: relative;
+      cursor: pointer;
       background: var(--card);
       border: 1px solid var(--border);
       border-radius: var(--radius);
@@ -722,6 +808,38 @@
 
     .project-link { font-size: 0.85rem; text-decoration: none; font-weight: 600; }
     .project-link:hover { text-decoration: underline; }
+
+    /* Secondary links (e.g. Live site) stay clickable above the stretched-link overlay */
+    .project-link--external { position: relative; z-index: 2; }
+
+    /* Primary "View full report" acts as a highlightable button and stretches over the whole card */
+    .project-link--primary {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.4rem;
+      padding: 0.55rem 1.1rem;
+      border-radius: 999px;
+      border: 1px solid var(--border);
+      background: var(--card-alt);
+      color: var(--text);
+      transition: background 0.2s, color 0.2s, border-color 0.2s, box-shadow 0.2s;
+    }
+    .project-link--primary .arrow { transition: transform 0.2s; }
+    .project-card:hover .project-link--primary {
+      background: var(--text);
+      color: #fff;
+      border-color: var(--text);
+      box-shadow: 0 6px 18px rgba(24, 24, 27, 0.18);
+    }
+    .project-card:hover .project-link--primary { text-decoration: none; }
+    .project-card:hover .project-link--primary .arrow { transform: translateX(3px); }
+    .project-link--primary::after {
+      content: "";
+      position: absolute;
+      inset: 0;
+      z-index: 1;
+      border-radius: var(--radius);
+    }
 
     .bugs-title {
       font-size: 0.72rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.06em;
@@ -778,10 +896,12 @@
       display: flex; justify-content: center; flex-wrap: wrap; gap: 0.6rem; margin-bottom: 1.25rem;
     }
     .footer-contacts a {
+      display: inline-flex; align-items: center; gap: 0.4rem;
       text-decoration: none; font-weight: 500; color: var(--text-muted);
       background: var(--card); border: 1px solid var(--border); border-radius: 999px; padding: 0.35rem 0.85rem;
     }
     .footer-contacts a:hover { color: var(--text); border-color: var(--text-soft); }
+    .hero-contacts a svg, .footer-contacts a svg { flex-shrink: 0; }
 
     .footer-actions { display: flex; justify-content: center; gap: 0.75rem; margin-bottom: 1.5rem; flex-wrap: wrap; }
 
@@ -805,7 +925,7 @@
 
   <header class="nav" id="nav" role="banner">
     <div class="container">
-      <a href="#" class="nav-logo" aria-label="Brisa Lázaro — home"><span class="dot"></span>Brisa Lázaro</a>
+      <a href="#" class="nav-logo" aria-label="Brisa Lázaro home"><span class="dot"></span>Brisa Lázaro</a>
       <button class="nav-toggle" id="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
       <ul class="nav-links" id="nav-links" role="navigation" aria-label="Main navigation">
         <li><a href="#about">About</a></li>
@@ -827,11 +947,16 @@
 
           <div class="hero-main">
 
-          <span class="status-pill"><span class="live-dot"></span> Open to work</span>
+          <div class="hero-meta">
+            <span class="status-pill"><span class="live-dot"></span> Open to work</span>
 
-          <div class="qa-toggle" role="group" aria-label="Before and after QA toggle">
-            <button type="button" data-mode="before" aria-pressed="false">🐛 Before QA</button>
-            <button type="button" data-mode="after" class="active" aria-pressed="true">✅ After QA</button>
+            <div class="qa-toggle-wrap">
+              <span class="qa-invite" aria-hidden="true">6 bugs to find: try it</span>
+              <div class="qa-toggle" role="group" aria-label="Before and after QA toggle">
+                <button type="button" data-mode="before" aria-pressed="false">🐛 Before QA</button>
+                <button type="button" data-mode="after" class="active" aria-pressed="true">✅ After QA</button>
+              </div>
+            </div>
           </div>
 
           <div class="bug-banner bug-banner--error" role="status">⚠ Console: 3 bugs detected in hero section</div>
@@ -842,8 +967,7 @@
           <p class="pitch"><span class="typo-text"></span><span class="hero-overlap">ERROR: element overlap</span></p>
 
           <div class="hero-contacts">
-            <a href="mailto:brisa.lazaroc@gmail.com">✉ brisa.lazaroc@gmail.com</a>
-            <a href="tel:+34648008592">📞 +34 648 008 592</a>
+            <a href="mailto:brisa.lazaroc@gmail.com"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m2 7 10 6 10-6"/></svg>brisa.lazaroc@gmail.com</a>
             <a href="https://www.linkedin.com/in/brisa-lazaro/" target="_blank" rel="noopener noreferrer">in LinkedIn</a>
           </div>
 
@@ -865,35 +989,35 @@
                 <div class="rm-axis-x">Impact →</div>
                 <div class="rm-axis-y">Probability →</div>
                 <div class="rm-grid" role="img" aria-label="5 by 5 probability and impact risk matrix">
-                  <div class="rm-cell rm--med"     title="Almost Certain × Insignificant — Medium">5</div>
-                  <div class="rm-cell rm--high">10<span class="rm-bug" tabindex="0">3<span class="rm-tip">Placeholder copy shipped (“lorem ipsun”)</span></span></div>
-                  <div class="rm-cell rm--vhigh">15<span class="rm-bug" tabindex="0">2<span class="rm-tip">Profile photo fails to load</span></span></div>
-                  <div class="rm-cell rm--extreme" title="Almost Certain × Major — Extreme">20</div>
-                  <div class="rm-cell rm--extreme" title="Almost Certain × Severe — Extreme">25</div>
+                  <div class="rm-cell rm--med"     title="Almost Certain × Insignificant: Medium">5</div>
+                  <div class="rm-cell rm--high">10<span class="rm-bug" data-bug="3" tabindex="0" aria-label="Bug 3: Placeholder copy shipped">#3<span class="rm-tip">Placeholder copy shipped (“lorem ipsun”)</span></span></div>
+                  <div class="rm-cell rm--vhigh">15<span class="rm-bug" data-bug="2" tabindex="0" aria-label="Bug 2: Profile photo fails to load">#2<span class="rm-tip">Profile photo fails to load</span></span></div>
+                  <div class="rm-cell rm--extreme" title="Almost Certain × Major: Extreme">20</div>
+                  <div class="rm-cell rm--extreme" title="Almost Certain × Severe: Extreme">25</div>
 
-                  <div class="rm-cell rm--med"     title="Likely × Insignificant — Medium">4</div>
-                  <div class="rm-cell rm--med"     title="Likely × Minor — Medium">8</div>
-                  <div class="rm-cell rm--high"    title="Likely × Significant — High">12</div>
-                  <div class="rm-cell rm--vhigh"   title="Likely × Major — Very high">16</div>
-                  <div class="rm-cell rm--extreme">20<span class="rm-bug" tabindex="0">1<span class="rm-tip">Console: 3 unhandled errors</span></span></div>
+                  <div class="rm-cell rm--med"     title="Likely × Insignificant: Medium">4</div>
+                  <div class="rm-cell rm--med"     title="Likely × Minor: Medium">8</div>
+                  <div class="rm-cell rm--high"    title="Likely × Significant: High">12</div>
+                  <div class="rm-cell rm--vhigh"   title="Likely × Major: Very high">16</div>
+                  <div class="rm-cell rm--extreme">20<span class="rm-bug" data-bug="1" tabindex="0" aria-label="Bug 1: Console errors">#1<span class="rm-tip">Console: 3 unhandled errors</span></span></div>
 
-                  <div class="rm-cell rm--low"     title="Moderate × Insignificant — Low">3</div>
-                  <div class="rm-cell rm--med"     title="Moderate × Minor — Medium">6</div>
-                  <div class="rm-cell rm--med">9<span class="rm-bug" tabindex="0">4<span class="rm-tip">Overlapping elements in hero</span></span></div>
-                  <div class="rm-cell rm--high"    title="Moderate × Major — High">12</div>
-                  <div class="rm-cell rm--vhigh"   title="Moderate × Severe — Very high">15</div>
+                  <div class="rm-cell rm--low"     title="Moderate × Insignificant: Low">3</div>
+                  <div class="rm-cell rm--med"     title="Moderate × Minor: Medium">6</div>
+                  <div class="rm-cell rm--med">9<span class="rm-bug" data-bug="4" tabindex="0" aria-label="Bug 4: Overlapping elements in hero">#4<span class="rm-tip">Overlapping elements in hero</span></span></div>
+                  <div class="rm-cell rm--high"    title="Moderate × Major: High">12</div>
+                  <div class="rm-cell rm--vhigh"   title="Moderate × Severe: Very high">15</div>
 
-                  <div class="rm-cell rm--vlow"    title="Unlikely × Insignificant — Very low">2</div>
-                  <div class="rm-cell rm--low">4<span class="rm-bug" tabindex="0">6<span class="rm-tip">CTA button misaligned</span></span></div>
-                  <div class="rm-cell rm--med">6<span class="rm-bug" tabindex="0">5<span class="rm-tip">Contact links fail color contrast</span></span></div>
-                  <div class="rm-cell rm--med"     title="Unlikely × Major — Medium">8</div>
-                  <div class="rm-cell rm--high"    title="Unlikely × Severe — High">10</div>
+                  <div class="rm-cell rm--vlow"    title="Unlikely × Insignificant: Very low">2</div>
+                  <div class="rm-cell rm--low">4<span class="rm-bug" data-bug="6" tabindex="0" aria-label="Bug 6: CTA button misaligned">#6<span class="rm-tip">CTA button misaligned</span></span></div>
+                  <div class="rm-cell rm--med">6<span class="rm-bug" data-bug="5" tabindex="0" aria-label="Bug 5: Contact links fail color contrast">#5<span class="rm-tip">Contact links fail color contrast</span></span></div>
+                  <div class="rm-cell rm--med"     title="Unlikely × Major: Medium">8</div>
+                  <div class="rm-cell rm--high"    title="Unlikely × Severe: High">10</div>
 
-                  <div class="rm-cell rm--vlow"    title="Rare × Insignificant — Very low">1</div>
-                  <div class="rm-cell rm--vlow"    title="Rare × Minor — Very low">2</div>
-                  <div class="rm-cell rm--low"     title="Rare × Significant — Low">3</div>
-                  <div class="rm-cell rm--med"     title="Rare × Major — Medium">4</div>
-                  <div class="rm-cell rm--med"     title="Rare × Severe — Medium">5</div>
+                  <div class="rm-cell rm--vlow"    title="Rare × Insignificant: Very low">1</div>
+                  <div class="rm-cell rm--vlow"    title="Rare × Minor: Very low">2</div>
+                  <div class="rm-cell rm--low"     title="Rare × Significant: Low">3</div>
+                  <div class="rm-cell rm--med"     title="Rare × Major: Medium">4</div>
+                  <div class="rm-cell rm--med"     title="Rare × Severe: Medium">5</div>
                 </div>
               </div>
               <div class="risk-card__foot">
@@ -916,9 +1040,9 @@
         <p class="section-heading">A little about me</p>
         <div class="card" style="padding: 2rem;">
           <div class="about-text">
-            <p><strong>Frontend Developer transitioning into QA</strong> with Agile experience and hands-on testing across the development cycle.</p>
-            <p>My technical background helps me understand how products are built and communicate issues with precision. My growing QA focus drives me to identify risks, uncover edge cases, and advocate for quality.</p>
-            <p>Currently exploring AI-assisted workflows for test design, exploratory testing, and risk analysis.</p>
+            <p><strong>Junior QA Engineer</strong> with hands-on experience in manual, exploratory, functional and API testing within Agile software teams.</p>
+            <p>My software development background helps me understand product behaviour across the delivery cycle, collaborate closely with engineers, and communicate defects clearly and precisely.</p>
+            <p>I also use AI tools to support test design, uncover edge cases, assess risk, and strengthen exploratory testing.</p>
           </div>
         </div>
       </div>
@@ -991,26 +1115,38 @@
     <section id="experience" aria-labelledby="experience-heading">
       <div class="container reveal">
         <h2 class="section-title" id="experience-heading">Experience</h2>
-        <p class="section-heading">Where I've been</p>
+        <p class="section-heading">Professional experience</p>
         <div class="bento">
           <div class="card col-4">
-            <p class="card-label">Work &amp; Learning</p>
+            <p class="card-label">Work</p>
             <ul class="timeline">
               <li class="timeline-item">
-                <h3>Self-Learning &amp; Hands-On Practice</h3>
-                <p class="timeline-meta">2025 – Present</p>
+                <h3>QA Tester · Neulygron</h3>
+                <p class="timeline-meta">AI Expense Classifier · 2025 – Present</p>
                 <ul>
-                  <li>Software Testing courses, exploratory and risk-based testing, API testing.</li>
-                  <li>Defect reporting, bug investigation, test design and documentation.</li>
+                  <li>Performed exploratory testing during development across PDF upload, AI classification, category management, authentication, and end-to-end user journeys.</li>
+                  <li>Identified and documented important defects, including an authentication bypass and a very high-risk issue where non-financial PDFs returned incorrect classification results.</li>
+                  <li>Scored defects with a probability × impact risk matrix and shared continuous feedback on security, usability, and functionality to strengthen release confidence.</li>
+                  <li>Used AI-assisted workflows to generate test ideas, surface edge cases, and analyse requirements.</li>
+                </ul>
+              </li>
+              <li class="timeline-item">
+                <h3>QA Tester · Shady Meadows B&amp;B</h3>
+                <p class="timeline-meta">Restful Booker Platform Demo · 2025</p>
+                <ul>
+                  <li>Executed exploratory and risk-based testing across booking flows, room reservation, contact form, admin panel, navigation, and footer links.</li>
+                  <li>Logged and documented 16 defects, ranked by risk using a 5×5 probability × impact matrix.</li>
+                  <li>Highlighted critical booking and validation failures that affected core user journeys and release confidence.</li>
                 </ul>
               </li>
               <li class="timeline-item">
                 <h3>Frontend Developer</h3>
                 <p class="timeline-meta">Bikup Tech Solutions · 2022 – 2024</p>
                 <ul>
-                  <li>Participated in unit testing, E2E testing, 3 Amigos and ETS sessions in Agile teams.</li>
-                  <li>Used Feature Flags to support safer releases and reduce deployment risks.</li>
-                  <li>Identified defects and validated functionality throughout development.</li>
+                  <li>Collaborated with QA and engineers in 3 Amigos and ETS sessions to clarify acceptance criteria and reduce delivery risk.</li>
+                  <li>Contributed to unit and E2E testing, validating feature behaviour before and during release.</li>
+                  <li>Validated feature flag rollouts to support safer releases and lower deployment risk.</li>
+                  <li>Detected defects and verified functionality throughout the development cycle in Agile teams.</li>
                 </ul>
               </li>
               <li class="timeline-item">
@@ -1018,7 +1154,7 @@
                 <p class="timeline-meta">El Pulpo · 2017 – 2021</p>
                 <ul>
                   <li>Coordinated teams and resolved operational issues in fast-paced environments.</li>
-                  <li>Built skills in attention to detail, communication, and process improvement — now applied to QA.</li>
+                  <li>Built attention to detail, clear communication, and process discipline now applied in QA work.</li>
                 </ul>
               </li>
             </ul>
@@ -1027,7 +1163,7 @@
           <div class="card col-2">
             <p class="card-label">Education</p>
             <ul class="edu-list">
-              <li><strong>QA Engineer</strong><span>Self-Taught</span></li>
+              <li><strong>QA Engineer</strong><span>Ministry of Testing</span></li>
               <li><strong>Web Developer</strong><span>42 Barcelona</span></li>
               <li><strong>Business Admin</strong><span>UPAEP</span></li>
             </ul>
@@ -1035,7 +1171,7 @@
             <p class="card-label" style="margin-top: 1.75rem;">Languages</p>
             <ul class="lang-list">
               <li><strong>Spanish</strong><span>Native</span></li>
-              <li><strong>English</strong><span>Intermediate (B1)</span></li>
+              <li><strong>English</strong><span>Professional working proficiency</span></li>
               <li><strong>Catalan</strong><span>Beginner</span></li>
             </ul>
           </div>
@@ -1051,73 +1187,61 @@
 
         <div class="portfolio-grid">
 
-          <!-- Neulygron (filled example) -->
+          <!-- Neulygron -->
           <article class="project-card">
             <h3>Neulygron</h3>
-            <p class="project-role">QA Tester · Community Project</p>
+            <p class="project-role">QA Tester · AI expense classifier</p>
             <ul class="project-stack">
               <li>Exploratory Testing</li>
-              <li>Usability</li>
               <li>Security</li>
+              <li>AI / LLM</li>
+              <li>Risk-Based Testing</li>
             </ul>
-            <p class="project-summary">Community project where I performed exploratory testing, usability and functionality evaluation, security checks, and continuous feedback to support release confidence.</p>
-            <a href="#" class="project-link" aria-label="Neulygron project link (add URL)">View project →</a>
+            <p class="project-summary">AI tool that classifies bank expense PDFs into user-defined categories. Executed exploratory testing to uncover usability, functionality, and security-related issues. Provided continuous feedback and risk assessment, and used AI-assisted workflows to generate test ideas and surface edge cases. Found an auth bypass and a high-risk flaw where non-financial PDFs were classified with random results.</p>
+            <a href="neulygron.html" class="project-link project-link--primary">View full report <span class="arrow">→</span></a>
+            <a href="https://neulygron.vercel.app/" class="project-link project-link--external" target="_blank" rel="noopener noreferrer" style="margin-left: 1rem;">Live site ↗</a>
             <p class="bugs-title">Bugs found</p>
             <ul class="bug-list">
               <li class="bug-item">
+                <span class="severity severity--critical">Very high</span>
+                <span><strong>Non-financial PDF classified</strong>: Any PDF (e.g. a book) could be uploaded and classified, returning random, incorrect expense results.</span>
+              </li>
+              <li class="bug-item">
                 <span class="severity severity--high">High</span>
-                <span><strong>Session not invalidated on logout</strong> — User could access protected routes after logging out via browser back button.</span>
+                <span><strong>Logged-in screens without auth</strong>: Protected routes accessible without logging in.</span>
               </li>
               <li class="bug-item">
                 <span class="severity severity--medium">Medium</span>
-                <span><strong>Form accepts empty required fields</strong> — Submit button enabled without client-side validation on registration form.</span>
-              </li>
-              <li class="bug-item">
-                <span class="severity severity--low">Low</span>
-                <span><strong>Button label truncated on mobile</strong> — CTA text cut off on screens narrower than 360px.</span>
+                <span><strong>No upload progress feedback</strong>: No loading state during PDF upload or AI classification.</span>
               </li>
             </ul>
           </article>
 
-          <!-- Placeholder project 1 -->
+          <!-- Shady Meadows B&B -->
           <article class="project-card">
-            <h3>Project Name</h3>
-            <p class="project-role">QA Tester · [Company / Type]</p>
+            <h3>Shady Meadows B&amp;B</h3>
+            <p class="project-role">QA Tester · restful-booker-platform demo</p>
             <ul class="project-stack">
-              <li>Cypress</li>
-              <li>API Testing</li>
-              <li>Jira</li>
+              <li>Exploratory Testing</li>
+              <li>Playwright</li>
+              <li>Risk-Based Testing</li>
             </ul>
-            <p class="project-summary">Short description of the project and your QA role. Replace this text with a real summary.</p>
-            <a href="#" class="project-link">View project →</a>
+            <p class="project-summary">Exploratory and risk-based testing on the Restful Booker Platform demo. Booking flows, contact forms, admin panel, navigation, and footer. Sixteen defects logged with a probability × impact risk matrix.</p>
+            <a href="shady-meadows.html" class="project-link project-link--primary">View full report <span class="arrow">→</span></a>
+            <a href="https://automationintesting.online/" class="project-link project-link--external" target="_blank" rel="noopener noreferrer" style="margin-left: 1rem;">Live site ↗</a>
             <p class="bugs-title">Bugs found</p>
             <ul class="bug-list">
               <li class="bug-item">
                 <span class="severity severity--critical">Critical</span>
-                <span><strong>Bug title here</strong> — One-line description of the bug and its impact.</span>
+                <span><strong>Room calendar ignores single clicks</strong>: Date range selection only works via drag; single clicks are a silent no-op.</span>
               </li>
-              <li class="bug-item">
-                <span class="severity severity--medium">Medium</span>
-                <span><strong>Another bug title</strong> — Brief description of what went wrong.</span>
-              </li>
-            </ul>
-          </article>
-
-          <!-- Placeholder project 2 -->
-          <article class="project-card">
-            <h3>Another Project</h3>
-            <p class="project-role">QA Tester · [Company / Type]</p>
-            <ul class="project-stack">
-              <li>Postman</li>
-              <li>Manual Testing</li>
-            </ul>
-            <p class="project-summary">Another placeholder card. Copy this block to add more projects to your portfolio.</p>
-            <a href="#" class="project-link">View project →</a>
-            <p class="bugs-title">Bugs found</p>
-            <ul class="bug-list">
               <li class="bug-item">
                 <span class="severity severity--high">High</span>
-                <span><strong>Bug title here</strong> — One-line description.</span>
+                <span><strong>Check-in accepts past dates</strong>: No minimum date validation; users can book stays in the past.</span>
+              </li>
+              <li class="bug-item">
+                <span class="severity severity--high">High</span>
+                <span><strong>Contact submit enabled when empty</strong>: Submit fires a server request with no client-side guard.</span>
               </li>
             </ul>
           </article>
@@ -1137,7 +1261,7 @@
             <ul class="bug-list">
               <li class="bug-item">
                 <span class="severity severity--critical">Critical</span>
-                <span><strong>Bug title</strong> — Description.</span>
+                <span><strong>Bug title</strong>: Description.</span>
               </li>
             </ul>
           </article>
@@ -1159,22 +1283,22 @@
           <div class="strength-card">
             <span class="icon" aria-hidden="true">🧠</span>
             <h3>Quality Mindset</h3>
-            <p>Question assumptions and identify risks before they reach users.</p>
+            <p>Challenge assumptions and surface risks before they reach users.</p>
           </div>
           <div class="strength-card">
             <span class="icon" aria-hidden="true">⚙️</span>
             <h3>Technical Background</h3>
-            <p>Frontend experience to collaborate with engineers and report issues precisely.</p>
+            <p>Software development experience that supports engineer collaboration and precise defect reporting.</p>
           </div>
           <div class="strength-card">
             <span class="icon" aria-hidden="true">🤖</span>
-            <h3>AI-Augmented Testing</h3>
-            <p>Using AI tools to improve test design, discover scenarios, and speed up investigation.</p>
+            <h3>AI-Assisted Testing</h3>
+            <p>Apply AI to strengthen test design, uncover edge cases, and accelerate risk analysis.</p>
           </div>
           <div class="strength-card">
-            <span class="icon" aria-hidden="true">🌱</span>
-            <h3>Continuous Learning</h3>
-            <p>Hands-on practice, community projects, and real-world experimentation.</p>
+            <span class="icon" aria-hidden="true">🤝</span>
+            <h3>Agile Collaboration</h3>
+            <p>Partner with QA and engineering teams to clarify requirements and protect release quality.</p>
           </div>
         </div>
       </div>
@@ -1186,7 +1310,7 @@
     <div class="container">
       <div class="card footer-cta">
         <h2>Let's build something reliable</h2>
-        <p>Open to QA roles. Feel free to explore my work and reach out — I'd love to connect!</p>
+        <p>Open to QA roles. Feel free to explore my work and reach out, I'd love to connect!</p>
         <div class="footer-actions">
           <a href="mailto:brisa.lazaroc@gmail.com" class="btn btn-accent">Get in touch</a>
           <a href="cv.html" class="btn btn-outline">View / Download CV</a>
@@ -1194,10 +1318,9 @@
       </div>
 
       <div class="footer-contacts">
-        <a href="mailto:brisa.lazaroc@gmail.com">✉ brisa.lazaroc@gmail.com</a>
-        <a href="tel:+34648008592">📞 +34 648 008 592</a>
+        <a href="mailto:brisa.lazaroc@gmail.com"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m2 7 10 6 10-6"/></svg>brisa.lazaroc@gmail.com</a>
         <a href="https://www.linkedin.com/in/brisa-lazaro/" target="_blank" rel="noopener noreferrer">in LinkedIn</a>
-        <a href="mailto:brisa.lazaroc@gmail.com?subject=Bug%20Report%20—%20Portfolio%20Site&amp;body=Steps%20to%20reproduce%3A%0A1.%20%0A%0AExpected%20result%3A%0A%0AActual%20result%3A%0A%0ASeverity%3A%20%5BLow%20%2F%20Medium%20%2F%20High%20%2F%20Critical%5D%0AEnvironment%3A%20%5Bbrowser%20%2B%20OS%5D" class="btn btn-bug" style="padding: 0.35rem 0.85rem;">🐛 Report a bug</a>
+        <a href="mailto:brisa.lazaroc@gmail.com?subject=Bug%20Report%20-%20Portfolio%20Site&amp;body=Steps%20to%20reproduce%3A%0A1.%20%0A%0AExpected%20result%3A%0A%0AActual%20result%3A%0A%0ASeverity%3A%20%5BLow%20%2F%20Medium%20%2F%20High%20%2F%20Critical%5D%0AEnvironment%3A%20%5Bbrowser%20%2B%20OS%5D" class="btn btn-bug" style="padding: 0.35rem 0.85rem;">🐛 Report a bug</a>
       </div>
       <p>&copy; 2026 Brisa Lázaro. Built with HTML, CSS, and a healthy distrust of &ldquo;it works on my machine.&rdquo;</p>
     </div>
@@ -1247,6 +1370,39 @@
     // ── Hero Before/After QA toggle ──
     const heroInner = document.getElementById('hero-inner');
     const qaButtons = document.querySelectorAll('.qa-toggle button');
+    const qaInvite = document.querySelector('.qa-invite');
+
+    let bugHintShowTimer;
+    let bugHintHideTimer;
+
+    function clearBugHint() {
+      clearTimeout(bugHintShowTimer);
+      clearTimeout(bugHintHideTimer);
+      document.querySelector('.rm-bug[data-bug="2"]')?.classList.remove('rm-bug--hint');
+    }
+
+    function scheduleBugHint() {
+      clearBugHint();
+      const hintBug = document.querySelector('.rm-bug[data-bug="2"]');
+      if (!hintBug) return;
+
+      // Show after #2 finishes its staggered pop-in (90ms delay + 380ms animation)
+      bugHintShowTimer = setTimeout(() => {
+        hintBug.classList.add('rm-bug--hint');
+        bugHintHideTimer = setTimeout(() => hintBug.classList.remove('rm-bug--hint'), 6000);
+      }, 500);
+    }
+
+    function animateRiskBugs() {
+      heroInner.classList.remove('rm-bugs-animate');
+      void heroInner.offsetWidth;
+      heroInner.classList.add('rm-bugs-animate');
+    }
+
+    document.querySelectorAll('.rm-bug').forEach(bug => {
+      bug.addEventListener('mouseenter', clearBugHint);
+      bug.addEventListener('focus', clearBugHint);
+    });
 
     qaButtons.forEach(btn => {
       btn.addEventListener('click', () => {
@@ -1257,6 +1413,13 @@
           b.classList.toggle('active', active);
           b.setAttribute('aria-pressed', active);
         });
+        if (mode === 'before') {
+          qaInvite?.style.setProperty('display', 'none');
+          animateRiskBugs();
+          scheduleBugHint();
+        } else {
+          clearBugHint();
+        }
       });
     });
 
@@ -1266,7 +1429,7 @@
       'color: #d6336c; font-size: 14px; font-weight: bold;'
     );
     console.log(
-      '%cYou opened DevTools — spoken like a true tester. Nothing to see here… except maybe a few bugs in "Before QA" mode. 😉',
+      '%cYou opened DevTools, spoken like a true tester. Nothing to see here… except maybe a few bugs in "Before QA" mode. 😉',
       'color: #6b6b72; font-size: 12px;'
     );
   </script>

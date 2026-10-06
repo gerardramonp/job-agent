@@ -3,7 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Brisa Lázaro — CV</title>
+  <title>Brisa Lázaro | Junior QA Engineer CV</title>
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
   <style>
     :root {
       --text: #1a1a1a;
@@ -112,12 +113,36 @@
     }
 
     .contact a {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.3rem;
       color: var(--accent);
       text-decoration: none;
     }
 
+    .contact a svg {
+      width: 0.9em;
+      height: 0.9em;
+      fill: currentColor;
+      flex-shrink: 0;
+    }
+
     .contact a:hover {
       text-decoration: underline;
+    }
+
+    .contact a.portfolio-cta {
+      padding: 0.45rem 0.75rem;
+      color: #fff;
+      background: var(--accent);
+      border-radius: 6px;
+      font-weight: 600;
+      text-decoration: none;
+      transition: background 0.15s;
+    }
+
+    .contact a.portfolio-cta:hover {
+      background: #1e3a5f;
     }
 
     /* Section headings */
@@ -359,7 +384,7 @@
       }
     }
 
-    /* Print / PDF — keeps the same layout and typography as on screen */
+    /* Print / PDF - keeps the same layout and typography as on screen */
     @media print {
       @page {
         size: A4;
@@ -426,9 +451,22 @@
       <h1>Brisa Lázaro</h1>
       <p class="title">Junior QA Engineer</p>
       <div class="contact">
-        <a href="mailto:brisa.lazaroc@gmail.com">brisa.lazaroc@gmail.com</a>
-        <a href="tel:+34648008592">+34 648 008 592</a>
-        <a href="https://www.linkedin.com/in/brisa-lazaro/">linkedin.com/in/brisa-lazaro</a>
+        <a href="mailto:brisa.lazaroc@gmail.com">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 4h16a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2Zm0 2v.5l8 5 8-5V6H4Zm16 3.2-7.5 4.7a1 1 0 0 1-1 0L4 9.2V18h16V9.2Z"/></svg>
+          brisa.lazaroc@gmail.com
+        </a>
+        <a href="tel:+34648008592">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6.6 10.8a15.5 15.5 0 0 0 6.6 6.6l2.2-2.2a1 1 0 0 1 1-.24 11.4 11.4 0 0 0 3.6.58 1 1 0 0 1 1 1V20a1 1 0 0 1-1 1A17 17 0 0 1 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1 11.4 11.4 0 0 0 .58 3.6 1 1 0 0 1-.24 1l-2.24 2.2Z"/></svg>
+          +34 648 008 592
+        </a>
+        <a href="https://www.linkedin.com/in/brisa-lazaro/">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4.98 3.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5ZM3 9h4v12H3V9Zm6 0h3.8v1.64h.05A4.17 4.17 0 0 1 16.6 8.7c4.02 0 4.76 2.65 4.76 6.09V21h-4v-5.4c0-1.29-.02-2.95-1.8-2.95-1.8 0-2.08 1.4-2.08 2.85V21H9V9Z"/></svg>
+          LinkedIn Profile
+        </a>
+        <a class="portfolio-cta" href="https://brislazaro.github.io/portfolio/" aria-label="View QA Portfolio with test cases, bug reports, and QA projects">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm6.9 6h-2.95a15.7 15.7 0 0 0-1.38-3.56A8.03 8.03 0 0 1 18.9 8ZM12 4.04c.83 1.2 1.48 2.53 1.91 3.96h-3.82c.43-1.43 1.08-2.76 1.91-3.96ZM4.26 14a7.96 7.96 0 0 1 0-4h3.38a16.5 16.5 0 0 0 0 4H4.26Zm.84 2h2.95c.34 1.28.8 2.48 1.38 3.56A8.03 8.03 0 0 1 5.1 16Zm2.95-8H5.1a8.03 8.03 0 0 1 4.33-3.56A15.7 15.7 0 0 0 8.05 8ZM12 19.96c-.83-1.2-1.48-2.53-1.91-3.96h3.82c-.43 1.43-1.08 2.76-1.91 3.96ZM9.66 14a14.6 14.6 0 0 1 0-4h4.68a14.6 14.6 0 0 1 0 4H9.66Zm4.9 5.56c.58-1.08 1.04-2.28 1.38-3.56h2.95a8.03 8.03 0 0 1-4.33 3.56ZM16.36 14a16.5 16.5 0 0 0 0-4h3.38a7.96 7.96 0 0 1 0 4h-3.38Z"/></svg>
+          View QA Portfolio
+        </a>
       </div>
     </header>
 
@@ -470,9 +508,9 @@
         <section class="subsection">
           <h2 class="section-title">Languages</h2>
           <ul class="lang-list">
-            <li>Spanish — Native</li>
-            <li>English — Intermediate (B1)</li>
-            <li>Catalan — Beginner</li>
+            <li>Spanish: Native</li>
+            <li>English: Professional working proficiency</li>
+            <li>Catalan: Beginner</li>
           </ul>
         </section>
 
@@ -480,7 +518,7 @@
           <h2 class="section-title">Education</h2>
           <div class="edu-item">
             <h4>QA Engineer</h4>
-            <div class="institution">Self-Taught</div>
+            <div class="institution">Ministry of Testing</div>
           </div>
           <div class="edu-item">
             <h4>Web Developer</h4>
@@ -498,31 +536,9 @@
         <section class="main-section">
           <h2 class="section-title">Profile</h2>
           <div class="profile">
-            <p>Frontend Developer transitioning into QA with Agile experience and hands-on testing across the development cycle.</p>
-            <p>My technical background helps me understand how products are built and communicate issues with precision. My growing QA focus drives me to identify risks, uncover edge cases, and advocate for quality.</p>
-            <p>Currently exploring AI-assisted workflows for test design, exploratory testing, and risk analysis.</p>
-          </div>
-        </section>
-
-        <section class="main-section">
-          <h2 class="section-title">QA Learning &amp; Community Projects</h2>
-
-          <div class="qa-block">
-            <h3>Self-Learning &amp; Hands-On Practice</h3>
-            <p class="period">2025 – Present</p>
-            <ul>
-              <li>Software Testing courses, exploratory and risk-based testing, API testing.</li>
-              <li>Defect reporting, bug investigation, test design and documentation.</li>
-            </ul>
-          </div>
-
-          <div class="qa-block">
-            <h3>Community Project: Neulygron</h3>
-            <ul>
-              <li>Exploratory testing, usability and functionality issues, security evaluation.</li>
-              <li>Continuous feedback and risk assessment to support release confidence.</li>
-              <li>AI-powered workflows for test ideas, edge cases, and requirement analysis.</li>
-            </ul>
+            <p>Junior QA Engineer with hands-on experience in manual, exploratory, functional and API testing within Agile software teams.</p>
+            <p>My software development background helps me understand product behaviour across the delivery cycle, collaborate closely with engineers, and communicate defects clearly and precisely.</p>
+            <p>I also use AI tools to support test design, uncover edge cases, assess risk, and strengthen exploratory testing.</p>
           </div>
         </section>
 
@@ -531,13 +547,39 @@
 
           <article class="job">
             <div class="job-header">
+              <h3>QA Tester · Neulygron</h3>
+              <span class="meta"><strong>AI Expense Classifier</strong> · 2025 – Present</span>
+            </div>
+            <ul>
+              <li>Performed exploratory testing during development across PDF upload, AI classification, category management, authentication, and end-to-end user journeys.</li>
+              <li>Identified and documented important defects, including an authentication bypass and a very high-risk issue where non-financial PDFs returned incorrect classification results.</li>
+              <li>Scored defects with a probability × impact risk matrix and shared continuous feedback on security, usability, and functionality to strengthen release confidence.</li>
+              <li>Used AI-assisted workflows to generate test ideas, surface edge cases, and analyse requirements.</li>
+            </ul>
+          </article>
+
+          <article class="job">
+            <div class="job-header">
+              <h3>QA Tester · Shady Meadows B&amp;B</h3>
+              <span class="meta"><strong>Restful Booker Platform Demo</strong> · 2025</span>
+            </div>
+            <ul>
+              <li>Executed exploratory and risk-based testing across booking flows, room reservation, contact form, admin panel, navigation, and footer links.</li>
+              <li>Logged and documented 16 defects, ranked by risk using a 5×5 probability × impact matrix.</li>
+              <li>Highlighted critical booking and validation failures that affected core user journeys and release confidence.</li>
+            </ul>
+          </article>
+
+          <article class="job">
+            <div class="job-header">
               <h3>Frontend Developer</h3>
               <span class="meta"><strong>Bikup Tech Solutions</strong> · 2022 – 2024</span>
             </div>
             <ul>
-              <li>Participated in unit testing, E2E testing, 3 Amigos and ETS sessions in Agile teams.</li>
-              <li>Used Feature Flags to support safer releases and reduce deployment risks.</li>
-              <li>Identified defects and validated functionality throughout development.</li>
+              <li>Collaborated with QA and engineers in 3 Amigos and ETS sessions to clarify acceptance criteria and reduce delivery risk.</li>
+              <li>Contributed to unit and E2E testing, validating feature behaviour before and during release.</li>
+              <li>Validated feature flag rollouts to support safer releases and lower deployment risk.</li>
+              <li>Detected defects and verified functionality throughout the development cycle in Agile teams.</li>
             </ul>
           </article>
 
@@ -548,7 +590,7 @@
             </div>
             <ul>
               <li>Coordinated teams and resolved operational issues in fast-paced environments.</li>
-              <li>Built skills in attention to detail, communication, and process improvement — now applied to QA.</li>
+              <li>Built attention to detail, clear communication, and process discipline now applied in QA work.</li>
             </ul>
           </article>
         </section>
@@ -560,19 +602,19 @@
       <h2 class="section-title" style="grid-column: 1 / -1; margin-bottom: 0.35rem;">What I Bring</h2>
       <div class="strength">
         <h3>Quality Mindset</h3>
-        <p>Question assumptions and identify risks before they reach users.</p>
+        <p>Challenge assumptions and surface risks before they reach users.</p>
       </div>
       <div class="strength">
         <h3>Technical Background</h3>
-        <p>Frontend experience to collaborate with engineers and report issues precisely.</p>
+        <p>Software development experience that supports engineer collaboration and precise defect reporting.</p>
       </div>
       <div class="strength">
-        <h3>AI-Augmented Testing</h3>
-        <p>Using AI tools to improve test design, discover scenarios, and speed up investigation.</p>
+        <h3>AI-Assisted Testing</h3>
+        <p>Apply AI to strengthen test design, uncover edge cases, and accelerate risk analysis.</p>
       </div>
       <div class="strength">
-        <h3>Continuous Learning</h3>
-        <p>Hands-on practice, community projects, and real-world experimentation.</p>
+        <h3>Agile Collaboration</h3>
+        <p>Partner with QA and engineering teams to clarify requirements and protect release quality.</p>
       </div>
     </section>
 
@@ -586,7 +628,7 @@
     });
 
     window.addEventListener('beforeprint', () => {
-      document.title = ' ';
+      document.title = 'cv-brisa';
     });
 
     window.addEventListener('afterprint', () => {

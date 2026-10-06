@@ -1,7 +1,7 @@
 {
   "name": "Brisa Lázaro",
   "title": "Junior QA Engineer",
-  "summary": "Frontend Developer transitioning into QA with Agile experience and hands-on testing across the development cycle. My technical background helps me understand how products are built and communicate issues with precision. My growing QA focus drives me to identify risks, uncover edge cases, and advocate for quality. Currently exploring AI-assisted workflows for test design, exploratory testing, and risk analysis.",
+  "summary": "Junior QA Engineer with hands-on experience in manual, exploratory, functional and API testing within Agile software teams. My software development background helps me understand product behaviour across the delivery cycle, collaborate closely with engineers, and communicate defects clearly and precisely. I also use AI tools to support test design, uncover edge cases, assess risk, and strengthen exploratory testing.",
   "contact": {
     "email": "brisa.lazaroc@gmail.com",
     "phone": "+34 648 008 592",
@@ -44,15 +44,52 @@
   },
   "experience": [
     {
+      "role": "QA Tester",
+      "company": "Neulygron",
+      "startYear": "2025",
+      "endYear": "Present",
+      "location": "",
+      "highlights": [
+        "Performed exploratory testing during development across PDF upload, AI classification, category management, authentication, and end-to-end user journeys.",
+        "Identified and documented important defects, including an authentication bypass and a very high-risk issue where non-financial PDFs returned incorrect classification results.",
+        "Scored defects with a probability × impact risk matrix and shared continuous feedback on security, usability, and functionality to strengthen release confidence.",
+        "Used AI-assisted workflows to generate test ideas, surface edge cases, and analyse requirements."
+      ],
+      "technologies": [
+        "Exploratory Testing",
+        "Risk-Based Testing",
+        "AI / LLM",
+        "Security Testing"
+      ]
+    },
+    {
+      "role": "QA Tester",
+      "company": "Shady Meadows B&B",
+      "startYear": "2025",
+      "endYear": "2025",
+      "location": "",
+      "highlights": [
+        "Executed exploratory and risk-based testing across booking flows, room reservation, contact form, admin panel, navigation, and footer links.",
+        "Logged and documented 16 defects, ranked by risk using a 5×5 probability × impact matrix.",
+        "Highlighted critical booking and validation failures that affected core user journeys and release confidence."
+      ],
+      "technologies": [
+        "Exploratory Testing",
+        "Playwright",
+        "Risk-Based Testing"
+      ]
+    },
+    {
       "role": "Frontend Developer",
       "company": "Bikup Tech Solutions",
       "startYear": "2022",
       "endYear": "2024",
       "location": "",
       "highlights": [
-        "Participated in unit testing, E2E testing, 3 Amigos and ETS sessions in Agile teams.",
-        "Used Feature Flags to support safer releases and reduce deployment risks.",
-        "Identified defects and validated functionality throughout development."
+        "Collaborated with QA and engineers in 3 Amigos and ETS sessions to clarify acceptance criteria and reduce delivery risk.",
+        "Contributed to unit and E2E testing, validating feature behaviour before and during release.",
+        "Validated feature flag rollouts to support safer releases and lower deployment risk.",
+        "Detected defects and verified functionality throughout the development cycle in Agile teams."
       ],
       "technologies": [
         "React",
@@ -72,7 +109,7 @@
       "location": "",
       "highlights": [
         "Coordinated teams and resolved operational issues in fast-paced environments.",
-        "Built skills in attention to detail, communication, and process improvement — now applied to QA."
+        "Built attention to detail, clear communication, and process discipline now applied in QA work."
       ],
       "technologies": []
     }
@@ -80,8 +117,8 @@
   "education": [
     {
       "title": "QA Engineer",
-      "institution": "Self-Taught",
-      "year": "2025 – Present",
+      "institution": "Ministry of Testing",
+      "year": "",
       "notes": "Focused on software testing, quality assurance practices, test design, risk analysis, and modern QA methodologies."
     },
     {
@@ -104,7 +141,7 @@
     },
     {
       "language": "English",
-      "level": "Intermediate (B1)"
+      "level": "Professional working proficiency"
     },
     {
       "language": "Catalan",
@@ -113,20 +150,21 @@
   ],
   "projects": [
     {
-      "name": "Self-Learning & Hands-On Practice",
-      "description": "Actively building QA expertise through practical projects, testing communities, and continuous learning (2025 – Present).",
+      "name": "Neulygron — AI Expense Classifier",
+      "description": "QA Tester on an AI tool that classifies bank expense PDFs into user-defined categories (2025 – Present).",
       "highlights": [
-        "Software Testing courses, exploratory and risk-based testing, API testing.",
-        "Defect reporting, bug investigation, test design and documentation."
+        "Exploratory testing across PDF upload, AI classification, category management, authentication, and end-to-end journeys.",
+        "Found an authentication bypass and a very high-risk issue where non-financial PDFs returned incorrect classification results.",
+        "Used AI-assisted workflows for test ideas, edge cases, and requirement analysis."
       ]
     },
     {
-      "name": "Community Project: Neulygron",
-      "description": "Contributed from a QA perspective to improve product quality and release confidence.",
+      "name": "Shady Meadows B&B — Restful Booker Platform Demo",
+      "description": "QA Tester performing exploratory and risk-based testing on the Restful Booker Platform demo (2025).",
       "highlights": [
-        "Exploratory testing, usability and functionality issues, security evaluation.",
-        "Continuous feedback and risk assessment to support release confidence.",
-        "AI-powered workflows for test ideas, edge cases, and requirement analysis."
+        "Covered booking flows, room reservation, contact form, admin panel, navigation, and footer links.",
+        "Logged and documented 16 defects, ranked by risk using a 5×5 probability × impact matrix.",
+        "Highlighted critical booking and validation failures affecting core user journeys."
       ]
     }
   ]
